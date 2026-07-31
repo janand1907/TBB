@@ -49,7 +49,7 @@
 	.x_slider_bottom_box_wrapper h3{
 		padding-left:0;
 		width:100%;
-		padding-top:30px;
+		padding-top:32px;
 	}
 	.x_book_logo_heading_wrapper:after{
 		left:-50px;
@@ -61,7 +61,7 @@
 		margin-left:0;
 	}
 	.x_footer_top_title_box_icon_cont{
-		margin-left:30px;
+		margin-left:32px;
 	}
 	.x_car_offer_starts_list_img{
 	float:left;
@@ -71,7 +71,7 @@
 	.x_car_offer_starts_list_img_cont{
 		float:left;
 		width:calc(100% - 200px);
-		padding-top:38px;
+		padding-top:40px;
 	}
 	.x_car_offer_img_list img{
 		width:100%;
@@ -111,16 +111,16 @@
 			font-size:14px;
 	}
 	.slider-area .carousel-inner .carousel-item .carousel-captions .content{
-		padding-top:130px;/*180*/
-		padding-bottom:115px;
+		padding-top:128px;/*180*/
+		padding-bottom:116px;
 	}
 	.slider-area .carousel-inner .carousel-item .caption-1,.slider-area .carousel-inner .carousel-item .caption-2,.slider-area .carousel-inner .carousel-item .caption-3{
 		min-height:650px;
 	}
 	.x_slider_form_main_wrapper{
 		    box-shadow: 0px 0 8px rgba(0, 0, 0, 0.1);
-			margin-top:30px;
-			margin-bottom:30px;
+			margin-top:32px;
+			margin-bottom:32px;
 	}
 	.x_slider_bottom_box_wrapper{
 		width:50%;
@@ -168,10 +168,10 @@
 		width:100%;
 	}
 	.x_title_inner_num_wrapper{
-		padding:30px;
+		padding:32px;
 	}
 	.x_title_num_main_box_wrapper{
-		margin-top:30px;
+		margin-top:32px;
 	}
 	.x_carbooking_right_section_wrapper{
 		margin-top:60px;
@@ -193,11 +193,11 @@
 	}
 	.admin_cont_wrapper{
 		width:100%;
-		padding-left:30px;
+		padding-left:32px;
 		margin-left:0;
 		float:left;
-		padding-top:30px;
-		padding-right:30px;
+		padding-top:32px;
+		padding-right:32px;
 	}
 	.admin_img_wrapper{
 		margin-top:0;
@@ -209,13 +209,13 @@
 		margin-top:0;
 	}
 	.x_responsive_form_wrapper2{
-		margin-top:30px;
+		margin-top:32px;
 	}
 	.x_service_inner_main_box{
 		padding-left:20px;
 	}
 	.x_car_offer_starts_list_img_cont{
-		padding-top:22px;
+		padding-top:24px;
 	}
 	.carlisting-inner-wrap {
 	    gap: 8px;
@@ -224,7 +224,7 @@
 	    font-size: 15px;
 	}
 	.carlisting-book a {
-	    padding: 10px 7px;    
+	    padding: 8px 8px;    
 	    font-size: 14px;
 	}
 	.carlisting-book a i {
@@ -240,7 +240,7 @@
 	}
 	.x_top_header_left_side_wrapper:before {    left: /*-490px*/-323px; width: 680px;}
 	.x_top_header_all_select_box_wrapper li:last-child{
-		margin-right:15px;
+		margin-right:16px;
 	}
 	.x_top_header_left_side_wrapper p{
 		padding-left:1px;
@@ -256,20 +256,20 @@
 		height:auto;
 	}
 	.x_book_logo_heading_wrapper,.x_book_logo_btn {
-		margin-top:30px;
+		margin-top:32px;
 	}
 	.x_title_inner_num_wrapper {
 		display:none;
 	}
 	.x_car_book_left_siderbar_wrapper {
-		padding-top:70px;
+		padding-top:72px;
 	}
 	.x_carbook_right_tabs_box_wrapper p{
 		display:none;
 	}
 	.x_carbook_right_tabs_box_wrapper .nav-tabs{
 		float:left;
-		margin-top:30px;
+		margin-top:32px;
 	}
 	.x_carbook_right_tabs_box_wrapper .nav-tabs .nav-item:first-child{
 		margin-left:0;
@@ -291,10 +291,10 @@
 	}
 	.pagination > li:first-child > a{
 		width:50px;
-		margin-right:5px;
+		margin-right:4px;
 	}
 	.pagination > li > a{
-		margin-right:5px;
+		margin-right:4px;
 	}
 	.pagination > li:last-child > a{
 		margin-left:0;
@@ -320,8 +320,8 @@
 		width:100%;
 		padding-top:0;
 		text-align:left;
-		padding-left:30px;
-		padding-bottom:10px;
+		padding-left:32px;
+		padding-bottom:8px;
 	}
 	.x_car_access_right_price_main_box_wrapper{
 		padding-bottom:20px;
@@ -332,12 +332,12 @@
 	.checkout_login_btn{
 		float:left;
 		    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 32px;
 	}
 	.checkout_login_btn p{
 		width:100%;
 		float:left;
-		padding-top:10px;
+		padding-top:8px;
 	}
 	.checkout_login_btn ul{
 		width:100%;
@@ -350,7 +350,7 @@
 		padding-top:0;
 	}
 	.hs_logo{
-		padding-top:23px;
+		padding-top:24px;
 	}
 	.x_car_offer_starts_list_img_cont{
 		padding-top:0;
@@ -364,7 +364,7 @@
     .x_css_skills_form_wrapper{
     	width:100%;
     	padding-left:0;
-    	padding-top:10px;
+    	padding-top:8px;
     }
     .x_top_header_wrapper {
         background: #ff9900; 
@@ -383,7 +383,7 @@
         height: 100vh;
     }
     .carlisting-wrap {
-        padding: 15px;
+        padding: 16px;
     }    
     .carlisting-inner-wrap {
         gap: 0;
@@ -393,28 +393,28 @@
         width: 48%;
         float: left;
         margin-right: 2%;        
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
     .carlisting-name {
         width: 50%;
         float: right;        
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
     .carlisting-notes {
         width: 100%;
         clear: both;
-        margin-bottom: 15px;
+        margin-bottom: 16px;
     }
     .carlisting-pricing {
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 16px;
     }
     .carlisting-book {
         width: 100%;
     }
     .carlisting-book a {
         display: block;
-        padding: 10px 10px;
+        padding: 8px 8px;
         font-size: 15px;
     }
 
@@ -521,17 +521,17 @@ h1.TTDtitle {
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
-    margin-bottom: 23px;
+    margin-bottom: 24px;
 }
 .content {
-    padding-top: 85px;
-    padding-bottom: 90px;
+    padding-top: 84px;
+    padding-bottom: 88px;
 }
 }
 @media (max-width: 480px){
     .hs_logo{
-		padding-top:30px;
-		padding-bottom:30px;
+		padding-top:32px;
+		padding-bottom:32px;
 	}
 	.mobail_menu .hs_logo img{
 		    width: 260px;
@@ -542,7 +542,7 @@ h1.TTDtitle {
         font-size: 1.3rem;
     }
     .carlisting-wrap {
-        padding: 10px;
+        padding: 8px;
     }
 }
 @media (max-width: 320px){
