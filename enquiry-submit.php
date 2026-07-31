@@ -1,6 +1,6 @@
 <?php
-require 'PHPMailer-master/PHPMailerAutoload.php';
-require 'mail-config.php';
+require 'includes/mail/phpmailer/PHPMailerAutoload.php';
+require 'includes/mail/mail-config.php';
 session_start();
 
 header('Content-Type: application/json');
