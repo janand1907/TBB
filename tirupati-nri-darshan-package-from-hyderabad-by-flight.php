@@ -21,15 +21,15 @@ $extraHeadLinks = <<<'HTML'
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/css/intlTelInput.css">
 
   <!-- Bootstrap Icon CSS -->
-  <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/modern/bootstrap-icons.css" rel="stylesheet">
  
   <!--  Style CSS  -->
-  <link rel="stylesheet" href="assets/css/style.css?ver=2.4">
+  <link rel="stylesheet" href="assets/css/modern/style.css?ver=2.4">
   
 
  
 
-  <link rel="stylesheet" href="css/shared-enquiry-form.css">
+  <link rel="stylesheet" href="assets/css/legacy/shared-enquiry-form.css">
 
 <script type="application/ld+json">
 {

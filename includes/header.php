@@ -65,22 +65,22 @@ $includeDefaultSchema = $includeDefaultSchema ?? true;
     <meta name="twitter:image" content="<?= htmlspecialchars($pageOgImage, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>" />
     <?= $extraHeadLinks ?>
     <!--Template style -->
-    <link rel="stylesheet" type="text/css" href="css/animate.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="css/flaticon.css" />
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="css/select2.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/nice-select.css" />
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
-    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css" />
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/legacy/animate.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/legacy/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/legacy/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/legacy/flaticon.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/legacy/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/legacy/select2.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/legacy/nice-select.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/legacy/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/legacy/owl.theme.default.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/legacy/magnific-popup.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/legacy/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/legacy/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/legacy/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/legacy/custom.css" />
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-    <link rel="stylesheet" href="css/shared-topbar.css">
+    <link rel="stylesheet" href="assets/css/legacy/shared-topbar.css">
     <!--favicon-->
     <link rel="shortcut icon" type="image/png" href="images/tirupati_package.png" />
 

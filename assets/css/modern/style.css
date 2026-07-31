@@ -33,7 +33,7 @@ html {
     position: relative;
     width: 100%;
     min-height: 75vh;
-    background: url('../srivani-image/landing-page/hero.webp') center center/cover no-repeat;
+    background: url('/assets/srivani-image/landing-page/hero.webp') center center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
