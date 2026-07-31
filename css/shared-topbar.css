@@ -1,0 +1,47 @@
+/* Extracted from the identical inline <style> block previously duplicated
+   across header.php, srivani-header.php, shirdi-header.php, and 13 pages. */
+.ui-datepicker .ui-state-default,
+        .ui-datepicker .ui-state-highlight {
+            color: #ffe991 !important;
+            background: green !important;
+        }
+
+        .ui-datepicker .ui-state-disabled {
+            opacity: 0.8 !important;
+        }
+
+        .ui-datepicker .ui-state-disabled .ui-state-default {
+            background: #f52b33 !important;
+            color: #fff !important;
+        }
+
+        img,
+        .img-responsive,
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .dropdown-wrapper .drop-menu {
+            width: 270px !important;
+        }
+
+
+        @media (min-width: 992px) {
+            :root {
+                --topbar-height: 48px;
+            }
+
+            body {
+                padding-top: var(--topbar-height);
+            }
+
+            .x_top_header_wrapper {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                z-index: 1200;
+            }
+        }
