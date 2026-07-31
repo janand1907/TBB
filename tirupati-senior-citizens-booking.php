@@ -2,7 +2,7 @@
 $pageTitle = "Tirupati Darshan Package for Senior Citizens | Comfortable Travel";
 $pageDescription = "Book a comfortable Tirupati darshan package for senior citizens with private car travel, assistance and complete trip planning support.";
 $activeMenu = null;
-include './header.php';
+include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
     <div class="slider-area float_left">
@@ -376,4 +376,4 @@ include './header.php';
             </div>
         </div>
     </div>
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

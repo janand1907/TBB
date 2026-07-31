@@ -2,7 +2,7 @@
 $pageTitle = "Tirumala Darshan Timings | Temple Timings & Seva Schedule";
 $pageDescription = "Check Tirumala temple darshan timings, general temple hours and seva schedules to help plan your Tirupati pilgrimage visit.";
 $activeMenu = null;
-include './header.php';
+include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
     <div class="slider-area float_left">
@@ -379,4 +379,4 @@ include './header.php';
         </div>
     </div>
 
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

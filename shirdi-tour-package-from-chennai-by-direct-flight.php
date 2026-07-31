@@ -2,9 +2,9 @@
 $pageTitle = 'Shirdi Tour Package from Chennai by Direct Flight | VIP Darshan';
 $pageDescription = 'Book Shirdi tour package from Chennai by direct flight. Includes VIP Darshan, hotel stay, meals & airport transfers. Call now for best price.';
 $activeMenu = 'services';
-include 'header.php';
+include 'includes/header.php';
 ?>
-<?php include 'script.php'; ?>
+<?php include 'includes/script.php'; ?>
 <?php $answer = $_SESSION["answer"] ?? ''; ?>
 <link rel="stylesheet" type="text/css" href="css/shirdi.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -1037,4 +1037,4 @@ include 'header.php';
     // window.addEventListener('load', calculatePackage);
 </script>
 
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

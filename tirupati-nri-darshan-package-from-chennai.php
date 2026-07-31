@@ -4,7 +4,7 @@ ob_start();
 // log_errors=On): warnings are captured server-side in logs/php-errors.log
 // instead of being silently discarded or shown to visitors.
 error_reporting(E_ALL);
-require_once __DIR__ . '/error-log-config.php';
+require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Tirupati NRI Package from Chennai by Car | Airport Pickup';
 $pageDescription = 'Tirupati NRI travel package from Chennai by car with airport pickup, travel support and passport help for Malaysia, Singapore, Sri Lanka and UK visitors.';
 $pageCanonical = 'https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-chennai.php';
@@ -176,9 +176,9 @@ $extraHeadLinks = <<<'HTML'
 }
 </script>
 HTML;
-include 'header.php';
+include 'includes/header.php';
 ?>
-<?php include 'script.php'; ?>
+<?php include 'includes/script.php'; ?>
    <!-- Banner Section -->
 <section class="srivani-hero-wrapper-unique" style="background: url('assets/srivani-image/srivani-tirupati-for-nri/hero.webp') center/cover no-repeat;">
 
@@ -988,7 +988,7 @@ include 'header.php';
 
 
   <?php 
-  include 'footer.php'; 
+  include 'includes/footer.php'; 
   ?>
 
 

@@ -4,7 +4,7 @@ ob_start();
 // log_errors=On): warnings are captured server-side in logs/php-errors.log
 // instead of being silently discarded or shown to visitors.
 error_reporting(E_ALL);
-require_once __DIR__ . '/error-log-config.php';
+require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Tirupati Temple Tour Packages & Travel Guide | Chennai & Hyderabad';
 $pageDescription = 'Private Tirupati temple tour packages with pickup, travel, hotel stay and trip planning from Chennai and Hyderabad. Independent travel company.';
 $pageCanonical = 'https://www.tirupatibalajibooking.com/tirupati-darshan-booking-guide.php';
@@ -977,9 +977,9 @@ $extraHeadLinks = <<<'HTML'
 
    <!-- MICROSOFT CLEARITY USER SESSION RECORDING SCRIPT ADDED BY RAJ ON 14-04-2026 -->
 HTML;
-include 'header.php';
+include 'includes/header.php';
 ?>
-<?php include 'script.php'; ?>
+<?php include 'includes/script.php'; ?>
 
 
 <section class="zxvra-darshan-guide-8821">
@@ -1866,6 +1866,6 @@ include 'header.php';
 
 
   <?php 
-  include 'footer.php'; 
+  include 'includes/footer.php'; 
   ?>
 

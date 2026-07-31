@@ -2,7 +2,7 @@
 $pageTitle = "Privacy & Cookies Policy | Divine Balaji Travels";
 $pageDescription = "Read the privacy and cookies policy for tirupatibalajibooking.com, operated by Divine Balaji Travels, covering data use and website cookies.";
 $activeMenu = null;
-include './header.php';
+include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
     <div class="slider-area float_left">
@@ -403,4 +403,4 @@ include './header.php';
 
     </div>
 
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

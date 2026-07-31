@@ -4,7 +4,7 @@ ob_start();
 // log_errors=On): warnings are captured server-side in logs/php-errors.log
 // instead of being silently discarded or shown to visitors.
 error_reporting(E_ALL);
-require_once __DIR__ . '/error-log-config.php';
+require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Tirupati Balaji VIP Darshan Tour Packages from Chennai';
 $pageDescription = 'Tirupati Balaji VIP Darshan tour packages from Chennai with private car travel, pickup, hotel stay options and smooth pilgrimage trip support for devotees.';
 $pageCanonical = 'https://www.tirupatibalajibooking.com/tirupati-balaji-vip-darshan-tour-packages-from-chennai.php';
@@ -66,9 +66,9 @@ $extraHeadLinks = <<<'HTML'
 
   
 HTML;
-include 'header.php';
+include 'includes/header.php';
 ?>
-<?php include 'script.php'; ?>
+<?php include 'includes/script.php'; ?>
 
 
 
@@ -1703,5 +1703,5 @@ Chennai To Tirupati dharshan packages">
             </div>
         </div>
     </section>-->
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>
 </html>

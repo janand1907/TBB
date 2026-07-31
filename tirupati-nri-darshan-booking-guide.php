@@ -4,7 +4,7 @@ ob_start();
 // log_errors=On): warnings are captured server-side in logs/php-errors.log
 // instead of being silently discarded or shown to visitors.
 error_reporting(E_ALL);
-require_once __DIR__ . '/error-log-config.php';
+require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Tirupati NRI Visit Guide | Eligibility, Documents & Travel Info';
 $pageDescription = 'Tirupati NRI visit guide covering eligibility, documents, travel information, entry procedures and planning tips for foreign passport holders.';
 $pageCanonical = 'https://www.tirupatibalajibooking.com/tirupati-nri-darshan-booking-guide.php';
@@ -168,9 +168,9 @@ $extraHeadLinks = <<<'HTML'
 
   
 HTML;
-include 'header.php';
+include 'includes/header.php';
 ?>
-<?php include 'script.php'; ?>
+<?php include 'includes/script.php'; ?>
 
 
 
@@ -611,6 +611,6 @@ document.querySelectorAll(".zyqentra-faq-question-8801").forEach((btn) => {
 
 
   <?php 
-  include 'footer.php'; 
+  include 'includes/footer.php'; 
   ?>
 

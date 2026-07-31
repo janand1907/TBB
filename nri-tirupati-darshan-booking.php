@@ -2,7 +2,7 @@
 $pageTitle = "NRI Tirupati Darshan Booking | Special Entry for NRI Devotees";
 $pageDescription = "Book Tirupati darshan for NRI devotees with special entry assistance, airport pickup, hotel stay and complete travel support.";
 $activeMenu = 'services';
-include './header.php';
+include './includes/header.php';
 ?>
 <!-- hs Slider Start -->
 <div class="slider-area float_left">
@@ -1160,4 +1160,4 @@ experience for NRIs visiting Tirumala. Our services include:</p>
         </div>
     </div>
 </div>
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

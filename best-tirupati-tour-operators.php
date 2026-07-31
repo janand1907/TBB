@@ -2,7 +2,7 @@
 $pageTitle = "Best Tirupati Tour Operators from Chennai | Trusted Travel Packages";
 $pageDescription = "Compare trusted Tirupati tour operators offering private car travel, hotel stay and complete darshan package support from Chennai.";
 $activeMenu = null;
-include './header.php';
+include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
     <div class="slider-area float_left">
@@ -385,4 +385,4 @@ include './header.php';
 
     </div>
 
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

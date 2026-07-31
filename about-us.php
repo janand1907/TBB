@@ -4,7 +4,7 @@ ob_start();
 // log_errors=On): warnings are captured server-side in logs/php-errors.log
 // instead of being silently discarded or shown to visitors.
 error_reporting(E_ALL);
-require_once __DIR__ . '/error-log-config.php';
+require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'About Divine Balaji Travels | Tirupati Tour Packages from Chennai';
 $pageDescription = 'Learn about Divine Balaji Travels, offering Tirupati tour packages from Chennai with private travel, hotel stay and pilgrimage support services.';
 $pageCanonical = 'https://www.tirupatibalajibooking.com/about-us.php';
@@ -106,9 +106,9 @@ $extraHeadLinks = <<<'HTML'
 
     
 HTML;
-include 'header.php';
+include 'includes/header.php';
 ?>
-<?php include 'script.php'; ?>
+<?php include 'includes/script.php'; ?>
 
 
 
@@ -618,5 +618,5 @@ include 'header.php';
 
 
   <?php 
-  include 'footer.php'; 
+  include 'includes/footer.php'; 
   ?>

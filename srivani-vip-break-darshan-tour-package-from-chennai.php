@@ -2,9 +2,9 @@
 $pageTitle = 'Srivani Break Darshan Booking | Tirupati VIP Darshan Package from Chennai';
 $pageDescription = 'Book Srivani Break Darshan Booking with Tirupati VIP Darshan Package from Chennai. Same-day darshan, AC transport, and complete assistance included.';
 $activeMenu = null;
-include 'header.php';
+include 'includes/header.php';
 ?>
-<?php include 'script.php'; ?>
+<?php include 'includes/script.php'; ?>
 <?php $answer = $_SESSION["answer"] ?? ''; ?>
 <link rel="stylesheet" type="text/css" href="css/srivani.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -1153,4 +1153,4 @@ line-height:1.8;
     // }
     // window.addEventListener('load', calculatePackage);
 </script>
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

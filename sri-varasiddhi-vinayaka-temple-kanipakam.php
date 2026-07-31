@@ -2,7 +2,7 @@
 $pageTitle = "Sri Varasiddhi Vinayaka Temple, Kanipakam | Darshan Package";
 $pageDescription = "Visit Sri Varasiddhi Vinayaka Temple in Kanipakam with a private darshan tour package including car travel and trip planning support.";
 $activeMenu = 'temples';
-include './header.php';
+include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
     <div class="slider-area float_left">
@@ -384,4 +384,4 @@ include './header.php';
         </div>
     </div>
 
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

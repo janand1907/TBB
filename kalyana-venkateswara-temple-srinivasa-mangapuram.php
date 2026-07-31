@@ -2,7 +2,7 @@
 $pageTitle = "Kalyana Venkateswara Temple, Srinivasa Mangapuram | Darshan Package";
 $pageDescription = "Plan a visit to Kalyana Venkateswara Temple in Srinivasa Mangapuram with private car travel and complete darshan package support.";
 $activeMenu = 'temples';
-include './header.php';
+include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
     <div class="slider-area float_left">
@@ -383,4 +383,4 @@ include './header.php';
         </div>
     </div>
 
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

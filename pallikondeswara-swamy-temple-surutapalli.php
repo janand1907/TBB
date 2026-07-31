@@ -2,7 +2,7 @@
 $pageTitle = "Pallikondeswara Swamy Temple, Surutapalli | Darshan Package";
 $pageDescription = "Visit Pallikondeswara Swamy Temple in Surutapalli with a private darshan tour package including car travel and trip planning.";
 $activeMenu = 'temples';
-include './header.php';
+include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
     <div class="slider-area float_left">
@@ -388,4 +388,4 @@ include './header.php';
         </div>
     </div>
 
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

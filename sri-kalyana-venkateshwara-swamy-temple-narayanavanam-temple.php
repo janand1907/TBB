@@ -2,7 +2,7 @@
 $pageTitle = "Sri Kalyana Venkateshwara Swamy Temple, Narayanavanam | Darshan Package";
 $pageDescription = "Plan a visit to Sri Kalyana Venkateshwara Swamy Temple in Narayanavanam with private car travel and darshan package support.";
 $activeMenu = 'temples';
-include './header.php';
+include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
     <div class="slider-area float_left">
@@ -391,4 +391,4 @@ include './header.php';
         </div>
     </div>
 
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

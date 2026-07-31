@@ -4,7 +4,7 @@ ob_start();
 // log_errors=On): warnings are captured server-side in logs/php-errors.log
 // instead of being silently discarded or shown to visitors.
 error_reporting(E_ALL);
-require_once __DIR__ . '/error-log-config.php';
+require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Chennai to Tirupati Car Package for Devotees | Private Travel Assistance';
 $pageDescription = 'Book Chennai to Tirupati car package with private cab travel, pickup, hotel stay options and complete trip assistance for devotees.';
 $pageCanonical = 'https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-chennai.php';
@@ -315,9 +315,9 @@ $extraHeadLinks = <<<'HTML'
 }
 </script>
 HTML;
-include 'header.php';
+include 'includes/header.php';
 ?>
-<?php include 'script.php'; ?>
+<?php include 'includes/script.php'; ?>
 
   <section class="srivani-hero-wrapper-unique">
 
@@ -1360,5 +1360,5 @@ include 'header.php';
 
 
 
-<?php include 'footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
 

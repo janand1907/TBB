@@ -2,7 +2,7 @@
 $pageTitle = "Tirupati Local Tour Packages | Sightseeing & Temple Tours";
 $pageDescription = "Explore Tirupati local tour packages covering nearby temples and sightseeing with private car travel and complete trip planning.";
 $activeMenu = null;
-include './header.php';
+include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
     <div class="slider-area float_left">
@@ -350,4 +350,4 @@ include './header.php';
 
     </div>
 
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

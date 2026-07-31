@@ -2,7 +2,7 @@
 $pageTitle = "ISKCON Temple Tirupati | Temple Guide & Darshan Package";
 $pageDescription = "Visit ISKCON Temple Tirupati with a private darshan tour package including car travel, pickup and complete trip planning support.";
 $activeMenu = 'temples';
-include './header.php';
+include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
     <div class="slider-area float_left">
@@ -398,4 +398,4 @@ include './header.php';
         </div>
     </div>
 
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

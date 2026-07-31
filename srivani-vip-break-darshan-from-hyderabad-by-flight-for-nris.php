@@ -4,7 +4,7 @@ ob_start();
 // log_errors=On): warnings are captured server-side in logs/php-errors.log
 // instead of being silently discarded or shown to visitors.
 error_reporting(E_ALL);
-require_once __DIR__ . '/error-log-config.php';
+require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Tirupati Package from Hyderabad by Flight for NRI Travellers';
 $pageDescription = 'Tirupati package from Hyderabad by flight for NRI travellers with airport pickup, hotel stay, travel support and itinerary planning.';
 $pageCanonical = 'https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-hyderabad-by-flight-for-nris.php';
@@ -245,9 +245,9 @@ $extraHeadLinks = <<<'HTML'
 }
 </script>
 HTML;
-include 'header.php';
+include 'includes/header.php';
 ?>
-<?php include 'script.php'; ?>
+<?php include 'includes/script.php'; ?>
   <!-- Banner Section -->
 <section class="srivani-hero-wrapper-unique" style="background: url('assets/srivani-image/hyderabad-by-flight-nris/hero.webp') center/cover no-repeat;">
 
@@ -1132,7 +1132,7 @@ include 'header.php';
 
 
   <?php 
-  include 'footer.php'; 
+  include 'includes/footer.php'; 
   ?>
 
 

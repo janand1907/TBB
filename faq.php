@@ -2,7 +2,7 @@
 $pageTitle = "Tirupati Darshan Booking FAQs | Tickets, NRI & Package Questions";
 $pageDescription = "Answers to common questions about Tirupati darshan ticket booking, NRI darshan, Srivani tickets, infant darshan and tour package planning.";
 $activeMenu = null;
-include './header.php';
+include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
     <div class="slider-area float_left">
@@ -851,4 +851,4 @@ include './header.php';
         </div>
     </div>
 
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

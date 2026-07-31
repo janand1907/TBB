@@ -22,7 +22,7 @@ $extraHeadLinks = <<<'HTML'
     }
 </style>
 HTML;
-include 'header.php';
+include 'includes/header.php';
 ?>
     <section class="thanks">
         <div class="container">
@@ -33,4 +33,4 @@ include 'header.php';
     </section>
 
 
-    <?php include 'footer.php'; ?>
+    <?php include 'includes/footer.php'; ?>

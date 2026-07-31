@@ -4,7 +4,7 @@ ob_start();
 // log_errors=On): warnings are captured server-side in logs/php-errors.log
 // instead of being silently discarded or shown to visitors.
 error_reporting(E_ALL);
-require_once __DIR__ . '/error-log-config.php';
+require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Tirupati Package from Malaysia via Chennai | Car & Hotel';
 $pageDescription = 'Tirupati package from Malaysia via Chennai with airport pickup, private car, hotel stay, trip planning and return support.';
 $pageCanonical = 'https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-chennai.php';
@@ -399,9 +399,9 @@ $extraHeadLinks = <<<'HTML'
 
   
 HTML;
-include 'header.php';
+include 'includes/header.php';
 ?>
-<?php include 'script.php'; ?>
+<?php include 'includes/script.php'; ?>
 
 
 
@@ -1653,7 +1653,7 @@ include 'header.php';
 
 
   <?php 
-  include 'footer.php'; 
+  include 'includes/footer.php'; 
   ?>
 
 

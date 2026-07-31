@@ -2,7 +2,7 @@
 $pageTitle = "Tirupati Special Darshan Tickets Online | Booking Assistance";
 $pageDescription = "Book Tirupati special entry darshan tickets online with our private darshan tour package including car travel and trip planning support.";
 $activeMenu = null;
-include './header.php';
+include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
     <div class="slider-area float_left">
@@ -450,4 +450,4 @@ include './header.php';
         </div>
     </div>
 
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

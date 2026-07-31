@@ -2,7 +2,7 @@
 $pageTitle = "Famous Temples Near Tirupati | Temple Tour Guide";
 $pageDescription = "Explore famous temples near Tirupati including Sri Padmavathi, Govindaraja Swamy, ISKCON and more, with private car travel and darshan planning support.";
 $activeMenu = 'temples';
-include './header.php';
+include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
     <div class="slider-area float_left">
@@ -657,4 +657,4 @@ include './header.php';
             </div>
         </div>
     </div>
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

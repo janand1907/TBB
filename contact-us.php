@@ -2,7 +2,7 @@
 $pageTitle = "Contact Us | Divine Balaji Travels - Tirupati Tour Packages";
 $pageDescription = "Get in touch with Divine Balaji Travels for Tirupati darshan packages, bookings and enquiries. Call +91-99947-51079 or send us a message.";
 $activeMenu = 'contact';
-include './header.php';
+include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
     <div class="slider-area float_left">
@@ -617,4 +617,4 @@ function openCity(evt, cityName) {
 }
 </script>
 
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

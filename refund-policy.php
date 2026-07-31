@@ -2,7 +2,7 @@
 $pageTitle = "Refund Policy | Divine Balaji Travels";
 $pageDescription = "Read the refund and cancellation policy for Tirupati darshan tour packages booked through Divine Balaji Travels.";
 $activeMenu = null;
-include './header.php';
+include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
     <div class="slider-area float_left">
@@ -386,4 +386,4 @@ include './header.php';
 
     </div>
 
-<?php include './footer.php'; ?>
+<?php include './includes/footer.php'; ?>

@@ -4,7 +4,7 @@ ob_start();
 // log_errors=On): warnings are captured server-side in logs/php-errors.log
 // instead of being silently discarded or shown to visitors.
 error_reporting(E_ALL);
-require_once __DIR__ . '/error-log-config.php';
+require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Hyderabad to Tirupati Package by Flight for Malaysia Travellers';
 $pageDescription = 'Hyderabad to Tirupati package by flight for Malaysia travellers with airport pickup, transfers, stay options and itinerary support. Enquire now.';
 $pageCanonical = 'https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php';
@@ -180,9 +180,9 @@ href="https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysi
 }
 </script>
 HTML;
-include 'header.php';
+include 'includes/header.php';
 ?>
-<?php include 'script.php'; ?>
+<?php include 'includes/script.php'; ?>
 
 
 <!-- Banner Section -->
@@ -1378,7 +1378,7 @@ include 'header.php';
 
 
   <?php 
-  include 'footer.php'; 
+  include 'includes/footer.php'; 
   ?>
 
 
