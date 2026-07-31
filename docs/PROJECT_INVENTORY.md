@@ -1,6 +1,6 @@
 # Project File Inventory
 
-A categorized listing of every file/folder in the project root as of Phase 12. Counts were taken directly from the filesystem, not estimated.
+A categorized listing of every file/folder in the project as of Phase 13B (post-restructuring). Counts were taken directly from the filesystem, not estimated. See `RESTRUCTURE_PLAN.md` for the migration record if you need the pre-13B (flat root) layout.
 
 ## PHP — Pages (40)
 
@@ -29,38 +29,40 @@ tirupati-srivani-vip-darshan-malaysia-chennai.php                   tirupati-sri
 tirupati-tour-packages-from-tirupati.php                            vakula-matha-temple.php
 ```
 
-## PHP — Includes / shared partials (2)
+## PHP — Includes / shared partials (2), in `includes/`
 
 | File | Role |
 |---|---|
-| `header.php` | Opening `<head>`/`<body>` chrome, per-page metadata defaults, navigation, default schema.org block. Included at the top of every page. |
-| `footer.php` | Footer markup, all vendor `<script>` tags, GA/Ads/Statcounter/Artibot embeds. Included at the bottom of every page. |
+| `includes/header.php` | Opening `<head>`/`<body>` chrome, per-page metadata defaults, navigation, default schema.org block. Included at the top of every page. |
+| `includes/footer.php` | Footer markup, all vendor `<script>` tags, GA/Ads/Statcounter/Artibot embeds. Included at the bottom of every page. |
 
 ## PHP — Mail / form-handling (4)
 
 | File | Role |
 |---|---|
-| `con_enq.php` | Submission endpoint for the "legacy" booking widget and the modern `.hero-form`/`.enquiry-form`/`.mhc-form` on most pages |
-| `enquiry-submit.php` | Submission endpoint used by exactly one page (`srivani-vip-break-darshan-from-chennai.php`) — has its own honeypot and a shorter field set |
-| `mail-config.php` | Shared SMTP config + validation/HTML-building/send helpers used by both endpoints above |
-| `PHPMailer-master/` | Vendored third-party mail library (see `DEPENDENCIES.md`) |
+| `con_enq.php` (project root) | Submission endpoint for the "legacy" booking widget and the modern `.hero-form`/`.enquiry-form`/`.mhc-form` on most pages. Stays at the root — see `ARCHITECTURE.md` for why. |
+| `enquiry-submit.php` (project root) | Submission endpoint used by exactly one page (`srivani-vip-break-darshan-from-chennai.php`) — has its own honeypot and a shorter field set. Stays at the root. |
+| `includes/mail/mail-config.php` | Shared SMTP config + validation/HTML-building/send helpers used by both endpoints above |
+| `includes/mail/phpmailer/` | Vendored third-party mail library, renamed from `PHPMailer-master/` in Phase 13B (see `DEPENDENCIES.md`) |
 
-## PHP — Config / utility (2)
+## PHP — Config / utility (2), in `includes/`
 
 | File | Role |
 |---|---|
-| `error-log-config.php` | Shared error-logging setup, included by 13 pages |
-| `script.php` | Not a page — a bare Microsoft Clarity `<script>` snippet, `include`-d by 15 pages |
+| `includes/error-log-config.php` | Shared error-logging setup, included by 13 pages |
+| `includes/script.php` | Not a page — a bare Microsoft Clarity `<script>` snippet, `include`-d by 15 pages |
 
-## CSS (20 files)
+## CSS (20 files, under `assets/css/`)
 
-**`css/`** (18 files) — the "legacy" template's stylesheet chain, loaded by every page via `header.php`:
+**`assets/css/legacy/`** (18 files) — the original template's stylesheet chain, loaded by every page via `includes/header.php`:
 `animate.css`, `bootstrap.min.css`, `custom.css`, `flaticon.css`, `font-awesome.css`, `fonts.css`, `magnific-popup.css`, `nice-select.css`, `owl.carousel.css`, `owl.theme.default.css`, `reset.css`, `responsive.css`, `select2.min.css`, `shared-enquiry-form.css`, `shared-topbar.css`, `shirdi.css`, `srivani.css`, `style.css`
 
-**`assets/css/`** (2 files + a `fonts/` subfolder) — the newer "modern" template stylesheet used by pages with a `.hero-form`/`.enquiry-form`:
+**`assets/css/modern/`** (2 files) — the newer stylesheet used by pages with a `.hero-form`/`.enquiry-form`:
 `bootstrap-icons.css`, `style.css`
 
-## JavaScript (13 files, all in `js/`)
+(Phase 13B also removed `assets/css/fonts/` — 5 files that turned out to be Apache 403-error-page HTML mistakenly saved with a `.html` extension, not actual fonts; zero references anywhere, confirmed before deletion.)
+
+## JavaScript (13 files, all in `assets/js/`)
 
 Vendor (8): `bootstrap.min.js`, `jquery-3.3.1.min.js`, `jquery-ui.js`, `jquery.bxslider.min.js`, `jquery.magnific-popup.js`, `jquery.menu-aim.js`, `jquery.nice-select.min.js`, `modernizr.js`, `owl.carousel.js`, `select2.min.js`
 
@@ -68,18 +70,22 @@ Project-authored (3): `xpedia.js` (site-wide behavior — sliders, sticky header
 
 ## Images
 
-- `images/` — 133 files, including `images/logo/`, `images/choose-icons/`, `images/hero-icons/` subfolders
-- `Images/` — same directory as `images/` on this (case-insensitive) macOS filesystem; **will be two separate directories on the production Linux server**. Only one broken reference to `Images/hero.png` was found (Phase 11 — the file doesn't exist under any casing) and no other case mismatches were found project-wide. Worth keeping in mind if adding new image references locally: what looks fine on a Mac may 404 in production if the casing doesn't match exactly.
+- `assets/images/` — 133 files, including `logo/`, `choose-icons/`, `hero-icons/` subfolders. Moved from the project-root `images/` in Phase 13B.
+- `assets/srivani-image/` — 11 webp files (hero backgrounds for the modern template's Srivani-related pages), a separate pre-existing folder, referenced only from `assets/css/modern/style.css`. Not part of the `images/` → `assets/images/` move; confirmed still resolving correctly after the CSS file that references it moved in Batch 3.
+- The pre-migration `images/`/`Images/` case-sensitivity concern (same directory on macOS, would have been two on Linux) no longer applies — resolved by the move itself. See `TECHNICAL_DEBT.md` for the "resolved" note.
 
-## Fonts (15 files, `fonts/`)
+## Fonts (23 files, under `assets/fonts/`)
 
-Flaticon and Font Awesome webfont files (`.eot`/`.ttf`/`.woff`/`.woff2`/`.svg`) plus one `.scss` source file for the Flaticon set.
+- **`assets/fonts/legacy/`** (15 files) — Flaticon and Font Awesome webfont files (`.eot`/`.ttf`/`.woff`/`.woff2`/`.svg`) plus one `.scss` source file for the Flaticon set. Moved from the project-root `fonts/` in Phase 13B.
+- **`assets/fonts/modern/`** (8 files) — Bootstrap Icons (`bootstrap-icons0107.woff`/`.woff2` — the only 2 actually referenced by any CSS), `boxicons.*` (5 files, unreferenced), and `Billy Ohio.otf` (unreferenced). This folder already existed pre-Phase-13B; reorganized into this `modern/` subfolder alongside the `legacy/` split above rather than moved from elsewhere. See `TECHNICAL_DEBT.md` item 25 for the unreferenced files.
 
 ## Third-party library (vendored, not authored here)
 
-`PHPMailer-master/` — full PHPMailer 5.x source tree, including `class.phpmailer.php`, `class.smtp.php`, OAuth variants, and a `language/` folder. See `DEPENDENCIES.md`.
+`includes/mail/phpmailer/` — full PHPMailer 5.x source tree, including `class.phpmailer.php`, `class.smtp.php`, OAuth variants, and a `language/` folder. Renamed from `PHPMailer-master/` and moved in Phase 13B. See `DEPENDENCIES.md`.
 
 ## Root-level config / misc files
+
+Deliberately unchanged by Phase 13B — see `ARCHITECTURE.md`/`RESTRUCTURE_PLAN.md` for why these specific files stay at the document root:
 
 | File | Purpose |
 |---|---|
@@ -89,7 +95,9 @@ Flaticon and Font Awesome webfont files (`.eot`/`.ttf`/`.woff`/`.woff2`/`.svg`) 
 | `googledac465f9fa585a7f.html`, `i3s1ni8OEgD61Gg4JYkc2NlszrwRvWyYogJzsx3RgdA`, `yQ6XR2ReUAlJ-ZLYu08u5Dd289ffjZDdd1g494hh9Xc` | Search-engine site-verification files — do not remove |
 | `.ftpquota` | Hosting-generated FTP quota tracking file, not part of the site |
 | `.DS_Store` | macOS Finder metadata, local-machine artifact only |
-| `logs/` | `php-errors.log` destination + `logs/.htaccess` blocking direct web access |
+| `.well-known/acme-challenge/` | Empty; a pre-existing, untracked SSL-certificate (ACME/Let's Encrypt) domain-validation artifact. Must stay at the document root by protocol requirement if ever used again — noted here for completeness, not touched by any phase. |
+| `logs/` | `php-errors.log` destination + `logs/.htaccess` blocking direct web access. Deliberately kept outside `assets/` and outside `includes/` — it's not a web asset and isn't meant to be reachable at all. |
+| `.git/`, `.gitignore` | New in Phase 13B — the project's first version control. See `docs/DEPLOYMENT_GUIDE.md`. |
 
 ## Not part of the live site
 

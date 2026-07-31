@@ -1,6 +1,23 @@
-# Folder Restructuring Plan (Final — Phase 13A)
+# Folder Restructuring Plan (Executed — Phase 13B)
 
-**Nothing in this document has been executed.** Phase 13A is planning-only: no files moved, no files renamed, no include paths modified, no URLs changed. This document is what Phase 13B will execute, batch by batch, once approved.
+**STATUS: EXECUTED.** All 6 batches below were carried out in Phase 13B and are now live in the working tree (6 git commits, `git log --oneline` from the `Baseline` commit forward has the full record). The plan text below is left as originally written (Phase 13A) for the historical record of what was proposed and why; see the **Execution Summary** immediately below for what actually happened, including two deviations from the original plan discovered mid-execution. For the *current* folder structure, see `README.md`, `ARCHITECTURE.md`, and `PROJECT_INVENTORY.md` — those reflect reality as of Phase 13B, not this planning document's proposal.
+
+## Execution summary (Phase 13B)
+
+All 6 batches executed in order, each `php -l`-checked, Playwright render/console-swept (10 representative pages × 2 viewports per batch, plus a final 40-page × 2-viewport sweep), and pixel-diffed against the prior batch's screenshots. Every batch committed to git separately (git was initialized fresh in Phase 13B — the project had no version control before). A full filesystem backup was also taken before Batch 1, in addition to git, per instruction.
+
+- **Batch 1** (includes): `header.php`, `footer.php`, `error-log-config.php`, `script.php` → `includes/`. 40+40+13+15 include/require paths updated.
+- **Batch 2** (mail library): `mail-config.php`, `PHPMailer-master/` → `includes/mail/` (PHPMailer renamed `phpmailer/`). `con_enq.php`/`enquiry-submit.php` stayed at root as planned. Verified with a real POST to both endpoints (intercepted before send) proving the new require paths resolve.
+- **Batch 3** (CSS): `css/` → `assets/css/legacy/`, `assets/css/` → `assets/css/modern/`. Converted relative `url(../fonts/..., ../images/...)` references to root-relative absolute paths, per the coupling risk this plan identified. Removed the one confirmed-broken reference (12 dead `reset.css` rules referencing a nonexistent `img/` folder on a class never used in any page). **Deviation from plan**: this plan's other flagged "broken reference" (`srivani-image/landing-page/hero.webp`) turned out to be a false positive — a directory-depth mistake made while writing this plan, not a real bug; the file exists at `assets/srivani-image/landing-page/hero.webp` and was never broken. Also found and removed mid-batch: `assets/css/fonts/` (5 files) turned out to be Apache 403-error-page HTML mistakenly saved with a `.html` extension, not fonts — deleted as basic hygiene.
+- **Batch 4** (fonts): root `fonts/` → `assets/fonts/legacy/`. **Deviation from plan**: this plan didn't know `assets/fonts/` already existed (8 files for the modern template) — reconciled by moving that pre-existing content into `assets/fonts/modern/`, keeping the legacy/modern split established in Batch 3.
+- **Batch 5** (images): `images/` → `assets/images/`. Updated every relative and absolute image reference site-wide, including every Open Graph/Twitter/schema.org image URL, per instruction. All 52 distinct image references site-wide confirmed 200 OK post-move.
+- **Batch 6** (JavaScript): `js/` → `assets/js/`. Updated `includes/footer.php`'s 12 script tags and 9 pages' individual `enquiry-forms.js` reference. Functional-tested (not just `php -l`): both shared form-validation scripts and 3 jQuery plugins confirmed working from the new path.
+
+Two more pre-existing, unrelated broken references were found during Batch 3 but **not** fixed (out of approved scope — neither references anything the restructuring moved): `assets/css/legacy/style.css`'s `.captcha-input` rule (points at a nonexistent `captchaImageSource.php`, class never used anywhere) and a second occurrence of the Phase-11-era broken `Images/hero.png` schema reference, on a page Phase 11 didn't catch. Both added to `docs/TECHNICAL_DEBT.md`.
+
+All documentation in `docs/` was updated after execution to reference the new paths — this file's own body text below was intentionally left describing the pre-execution proposal, since it's now a historical record rather than a live instruction set.
+
+---
 
 ## Revision note (Phase 13A)
 

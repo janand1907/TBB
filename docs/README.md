@@ -13,8 +13,9 @@ There is no database, no CMS, no user accounts, and no admin panel. Every page i
 ## Requirements
 
 - **PHP 8.1** — confirmed as the production version via the cPanel-generated handler in `.htaccess` (`AddHandler application/x-httpd-ea-php81`). Use 8.1 locally too, to avoid surprises; nothing in the codebase requires a newer version, but nothing has been tested against one either.
-- No Composer, npm, or any package manager is used. `PHPMailer-master/` is a vendored copy of PHPMailer 5.2.22, committed directly into the project.
+- No Composer, npm, or any package manager is used. `includes/mail/phpmailer/` is a vendored copy of PHPMailer 5.2.22, committed directly into the project.
 - No database.
+- **Git**: the project became a git repository in Phase 13B (it had none before). Every phase's work up to Phase 13A had to rely on manual file backups instead — see `docs/DEPLOYMENT_GUIDE.md`'s Rollback Strategy.
 
 ## Local setup
 
@@ -29,23 +30,29 @@ That's it — there's no install/build step. Every `.css`/`.js`/image asset is a
 
 ### Things that won't work locally
 
-- **Outgoing email.** Submitting a form locally will attempt a real SMTP connection to Gmail using the credentials in `mail-config.php`. If you don't want to actually send an email while testing, don't complete a full valid form submission — client-side validation (see `ARCHITECTURE.md`) blocks incomplete submissions before they reach the server, which is usually enough to test the UI without triggering a send.
+- **Outgoing email.** Submitting a form locally will attempt a real SMTP connection to Gmail using the credentials in `includes/mail/mail-config.php`. If you don't want to actually send an email while testing, don't complete a full valid form submission — client-side validation (see `ARCHITECTURE.md`) blocks incomplete submissions before they reach the server, which is usually enough to test the UI without triggering a send.
 - **HTTP/2.** PHP's built-in dev server only ever speaks HTTP/1.1. Don't use it to test anything protocol-level (see `DEPLOYMENT_GUIDE.md`).
 - **The `.htaccess` HTTPS/www redirect.** PHP's built-in server doesn't process `.htaccess` at all, so the forced-HTTPS/forced-`www` behavior that's live in production won't happen locally.
 - **Geo-IP phone country detection.** The `.hero-form`/`.enquiry-form` fields call out to `https://ipapi.co/json/` for a default country code. From `127.0.0.1` this reliably fails with a CORS error in the console — this is expected, pre-existing, and doesn't happen on the real domain.
 
 ## Important folders
 
+Restructured in Phase 13B (see `RESTRUCTURE_PLAN.md` for the full migration record):
+
 | Path | What's in it |
 |---|---|
-| `*.php` (project root) | All 40 pages, plus `header.php`/`footer.php` and the mail-handling files — everything currently lives flat in the root. See `RESTRUCTURE_PLAN.md` for the proposed future layout. |
-| `css/` | The "legacy" template's stylesheets — loaded on every page |
-| `assets/css/` | A second, newer stylesheet used only by pages with the modern hero-form layout |
-| `js/` | All JavaScript — vendor libraries plus 3 project-authored files (`xpedia.js`, `enquiry-forms.js`, `legacy-enquiry-forms.js`) |
-| `images/` | Site images (note: `Images/` is the *same* folder as `images/` on macOS but will be a *different*, likely-empty folder on the real Linux production server — see `TECHNICAL_DEBT.md`) |
-| `PHPMailer-master/` | Vendored third-party mail library |
+| `*.php` (project root) | All 40 pages, plus `con_enq.php`/`enquiry-submit.php` (the two form POST targets) — these stay at the root deliberately, since they're URLs a browser/form directly requests. See `ARCHITECTURE.md`. |
+| `includes/` | `header.php`, `footer.php`, `error-log-config.php`, `script.php` — never directly requested by a browser, only `include`/`require`d by pages. |
+| `includes/mail/` | `mail-config.php` and `phpmailer/` (the vendored PHPMailer 5.2.22 library) |
+| `assets/css/legacy/` | The original template's stylesheets — loaded on every page |
+| `assets/css/modern/` | The newer stylesheet used only by pages with the modern hero-form layout |
+| `assets/js/` | All JavaScript — vendor libraries plus 3 project-authored files (`xpedia.js`, `enquiry-forms.js`, `legacy-enquiry-forms.js`) |
+| `assets/images/` | Site images (note: `Images/`, capital I, was the *same* folder as `images/` on macOS pre-migration but would have been a *different*, empty folder on Linux production — resolved by the move, see `TECHNICAL_DEBT.md` item 20) |
+| `assets/fonts/legacy/` | Font Awesome, Flaticon, glyphicons — used by the original template |
+| `assets/fonts/modern/` | Bootstrap Icons, boxicons, Billy Ohio — used by the modern template (partially unreferenced, see `TECHNICAL_DEBT.md`) |
+| `assets/srivani-image/` | webp hero-background images for the modern template's Srivani-related pages (pre-existing, unchanged by the restructuring) |
 | `docs/` | This documentation set |
-| `logs/` | PHP error log destination (only used by the 13 pages that opt into it — see `MAINTENANCE_GUIDE.md`) |
+| `logs/` | PHP error log destination (only used by the 13 pages that opt into it — see `MAINTENANCE_GUIDE.md`); deliberately stays outside `assets/` and at the project root, not web-exposed |
 
 ## Where to go next
 
