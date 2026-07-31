@@ -230,18 +230,18 @@ whatsapp</a>
 
     // });
 </script>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/modernizr.js"></script>
-<script src="js/select2.min.js"></script>
-<script src="js/jquery.menu-aim.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/jquery.nice-select.min.js"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="js/jquery.bxslider.min.js"></script>
-<script src="js/jquery.magnific-popup.js"></script>
-<script src="js/xpedia.js"></script>
-<script src="js/legacy-enquiry-forms.js"></script>
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/modernizr.js"></script>
+<script src="assets/js/select2.min.js"></script>
+<script src="assets/js/jquery.menu-aim.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/jquery.nice-select.min.js"></script>
+<script src="assets/js/owl.carousel.js"></script>
+<script src="assets/js/jquery.bxslider.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.js"></script>
+<script src="assets/js/xpedia.js"></script>
+<script src="assets/js/legacy-enquiry-forms.js"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <!-- custom js-->
 <!--<script>

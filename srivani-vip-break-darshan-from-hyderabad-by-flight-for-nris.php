@@ -1126,7 +1126,7 @@ include 'includes/header.php';
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/intlTelInput.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/utils.min.js"></script>
-  <script src="js/enquiry-forms.js"></script>
+  <script src="assets/js/enquiry-forms.js"></script>
 
 
 
