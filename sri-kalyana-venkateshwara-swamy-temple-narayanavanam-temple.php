@@ -330,7 +330,7 @@ include './includes/header.php';
                 </div>
                 <div class="col-md-6 mt-4">
                     <div class="">
-                        <img src="images/narayanavanam-temple.png"
+                        <img src="assets/images/narayanavanam-temple.png"
                             alt="best Tirumala Tirupati tour operators from Chennai " style="width: 100%;">
                     </div>
                 </div>

@@ -40,7 +40,7 @@ include 'includes/header.php';
     /* New hero banner (from index (3).html) */
     .hero-banner {
         position: relative;
-        background: linear-gradient(135deg, rgba(10, 25, 50, 0.78), rgba(14, 36, 68, 0.72)), url('images/slider1.jpg');
+        background: linear-gradient(135deg, rgba(10, 25, 50, 0.78), rgba(14, 36, 68, 0.72)), url('assets/images/slider1.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -465,19 +465,19 @@ line-height:1.8;
 
             <div class="feature-grid">
                 <div class="feature-item">
-                    <img src="images/hero-icons/transport.svg" alt="Individual AC Transport">
+                    <img src="assets/images/hero-icons/transport.svg" alt="Individual AC Transport">
                     <p>Individual AC Transport</p>
                 </div>
                 <div class="feature-item">
-                    <img src="images/hero-icons/hotel.svg" alt="Refreshment Hotel at Tirupati">
+                    <img src="assets/images/hero-icons/hotel.svg" alt="Refreshment Hotel at Tirupati">
                     <p>Refreshment Hotel at Tirupati</p>
                 </div>
                 <div class="feature-item">
-                    <img src="images/hero-icons/meals.svg" alt="Pure Veg Breakfast & Lunch">
+                    <img src="assets/images/hero-icons/meals.svg" alt="Pure Veg Breakfast & Lunch">
                     <p>Pure Veg Breakfast & Lunch</p>
                 </div>
                 <div class="feature-item">
-                    <img src="images/hero-icons/guidelines.svg" alt="Booking Guidelines">
+                    <img src="assets/images/hero-icons/guidelines.svg" alt="Booking Guidelines">
                     <p>Booking Guidelines</p>
                 </div>
             </div>
@@ -495,7 +495,7 @@ line-height:1.8;
                         Call Now
                     </a>
                     <a class="cta-btn wa" target="_blank" href="//web.whatsapp.com/send?phone=+919994751079&text=�">
-                        <img src="images/whats.png" style="width: 16px;" alt="WhatsApp btn">
+                        <img src="assets/images/whats.png" style="width: 16px;" alt="WhatsApp btn">
                         Enquire Now
                     </a>
                 </div>
@@ -504,7 +504,7 @@ line-height:1.8;
                         <i class="flaticon-phone-call"></i>
                         Call Now
                     </a>
-                    <a class="cta-btn wa" target="_blank" href="https://wa.me/919994751079"> <img src="images/whats.png"
+                    <a class="cta-btn wa" target="_blank" href="https://wa.me/919994751079"> <img src="assets/images/whats.png"
                             style="width: 16px;" alt="WhatsApp">Enquire Now</a>
                 </div>
             </div>
@@ -650,33 +650,33 @@ line-height:1.8;
         <div class="choose-grid">
             <div class="choose-card">
                 <div class="choose-icon-wrap">
-                    <img src="images/choose-icons/travel.png" alt="Chennai to Tirupati Travel Service"
+                    <img src="assets/images/choose-icons/travel.png" alt="Chennai to Tirupati Travel Service"
                         class="choose-icon-img">
                 </div>
                 <p class="choose-text">Chennai to Tirupati Travel Service</p>
             </div>
             <div class="choose-card">
                 <div class="choose-icon-wrap">
-                    <img src="images/choose-icons/location.png" alt="Private AC Transport" class="choose-icon-img">
+                    <img src="assets/images/choose-icons/location.png" alt="Private AC Transport" class="choose-icon-img">
                 </div>
                 <p class="choose-text">Private AC Transport (Safe & Family Friendly)</p>
             </div>
             <div class="choose-card">
                 <div class="choose-icon-wrap">
-                    <img src="images/choose-icons/medal.png" alt="Lord Balaji and Padmavathi Darshan Assistance"
+                    <img src="assets/images/choose-icons/medal.png" alt="Lord Balaji and Padmavathi Darshan Assistance"
                         class="choose-icon-img">
                 </div>
                 <p class="choose-text">Lord Balaji & Padmavathi Darshan Assistance</p>
             </div>
             <div class="choose-card">
                 <div class="choose-icon-wrap">
-                    <img src="images/choose-icons/star.png" alt="Hotel Booking Options" class="choose-icon-img">
+                    <img src="assets/images/choose-icons/star.png" alt="Hotel Booking Options" class="choose-icon-img">
                 </div>
                 <p class="choose-text">Hotel Booking - 3, 4, 5 Star Options</p>
             </div>
             <div class="choose-card">
                 <div class="choose-icon-wrap">
-                    <img src="images/choose-icons/crown.png" alt="VVIP Darshan Assistance" class="choose-icon-img">
+                    <img src="assets/images/choose-icons/crown.png" alt="VVIP Darshan Assistance" class="choose-icon-img">
                 </div>
                 <p class="choose-text">VVIP Darshan Assistance & Guidance</p>
             </div>
@@ -782,11 +782,11 @@ line-height:1.8;
                 <div class="card-lite__pill">Temple Guidelines</div>
             </div>
             <div class="card-lite__body">
-                <p><img src="images/men.png" alt="Men icon"
+                <p><img src="assets/images/men.png" alt="Men icon"
                         style="width: 28px; height: 28px; object-fit: contain; margin-right: 8px; vertical-align: middle;">
                     <b>Men :</b> Dhoti or Pyjamas with Upper Cloth.
                 </p>
-                <p><img src="images/wen.png" alt="Women icon"
+                <p><img src="assets/images/wen.png" alt="Women icon"
                         style="width: 28px; height: 28px; object-fit: contain; margin-right: 8px; vertical-align: middle;">
                     <b>Women :</b> Saree, Half Saree, or Churidar with Pyjama and Upper Cloth.
                 </p>

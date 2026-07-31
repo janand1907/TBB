@@ -37,7 +37,7 @@ $extraHeadLinks = <<<'HTML'
   "@type": "TravelAgency",
   "name": "Divine Balaji Travels",
   "url": "https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-chennai.php",
-  "logo": "https://www.tirupatibalajibooking.com/images/logo/logo.jpg",
+  "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
   "description": "Chennai to Tirupati travel package with airport pickup, private car travel, itinerary support and assistance for travellers from Malaysia, Singapore, Sri Lanka and the United Kingdom.",
   "telephone": "+919994751079",
   "areaServed": [
@@ -65,7 +65,7 @@ $extraHeadLinks = <<<'HTML'
     "@type": "Organization",
     "name": "Divine Balaji Travels",
     "url": "https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-chennai.php",
-    "logo": "https://www.tirupatibalajibooking.com/images/logo/logo.jpg"
+    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
   },
   "itinerary": {
     "@type": "ItemList",

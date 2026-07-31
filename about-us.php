@@ -37,8 +37,8 @@ $extraHeadLinks = <<<'HTML'
   "@type": "TravelAgency",
   "name": "Divine Balaji Travels",
   "url": "https://www.tirupatibalajibooking.com/",
-  "logo": "https://www.tirupatibalajibooking.com/images/logo/logo.jpg",
-  "image": "https://www.tirupatibalajibooking.com/images/logo/logo.jpg",
+  "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
+  "image": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
   "telephone": "+91-99947-51079",
   "email": "ttdpackages@gmail.com",
   "address": {

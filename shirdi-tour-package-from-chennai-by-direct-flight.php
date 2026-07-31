@@ -40,7 +40,7 @@ include 'includes/header.php';
     /* Hero banner (copied from Srivani page) */
     .hero-banner {
         position: relative;
-        background: linear-gradient(135deg, rgba(10, 25, 50, 0.78), rgba(14, 36, 68, 0.72)), url('images/sai.jpg');
+        background: linear-gradient(135deg, rgba(10, 25, 50, 0.78), rgba(14, 36, 68, 0.72)), url('assets/images/sai.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -157,7 +157,7 @@ include 'includes/header.php';
                     </a>
                     <a class="cta-btn wa" target="_blank"
                         href="//web.whatsapp.com/send?phone=+919994751079&text=A_A¨A«">
-                        <img src="images/whats.png" style="width: 16px;" alt="WhatsApp">
+                        <img src="assets/images/whats.png" style="width: 16px;" alt="WhatsApp">
                         WhatsApp Us
                     </a>
                 </div>
@@ -166,7 +166,7 @@ include 'includes/header.php';
                         <i class="flaticon-phone-call"></i>
                         Call Now
                     </a>
-                    <a class="cta-btn wa" target="_blank" href="https://wa.me/919994751079"> <img src="images/whats.png"
+                    <a class="cta-btn wa" target="_blank" href="https://wa.me/919994751079"> <img src="assets/images/whats.png"
                             style="width: 16px;" alt="WhatsApp">WhatsApp Us</a>
                 </div>
             </div>
@@ -706,10 +706,10 @@ include 'includes/header.php';
                 <div class="card-lite__pill">Temple Guidelines</div>
             </div>
             <div class="card-lite__body">
-                <p><img src="images/men.png" alt="Men icon"
+                <p><img src="assets/images/men.png" alt="Men icon"
                         style="width: 28px; height: 28px; object-fit: contain; margin-right: 8px; vertical-align: middle;"><b>Men
                         :</b> Dhoti or Pyjamas with Upper Cloth.</p>
-                <p><img src="images/wen.png" alt="Women icon"
+                <p><img src="assets/images/wen.png" alt="Women icon"
                         style="width: 28px; height: 28px; object-fit: contain; margin-right: 8px; vertical-align: middle;"><b>Women
                         :</b> Saree, Half Saree, or Churidar with Pyjama and Upper Cloth.</p>
             </div>

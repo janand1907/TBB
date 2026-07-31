@@ -129,7 +129,7 @@ href="https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysi
     "@type": "Organization",
     "name": "Divine Balaji Travels",
     "url": "https://tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php",
-    "logo": "https://www.tirupatibalajibooking.com/images/logo/logo.jpg"
+    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
   },
   "itinerary": {
     "@type": "ItemList",

@@ -28,7 +28,7 @@ $captcha_question = "Captcha: {$first_num} {$operator} {$second_num} = ?";
 $pageTitle = $pageTitle ?? 'Tirupati Balaji Travels | Tirupati Darshan Package';
 $pageDescription = $pageDescription ?? 'Divine Balaji Travels offers Tirupati tour packages from Chennai and Hyderabad with private car travel, hotel stay and complete trip assistance.';
 $pageCanonical = $pageCanonical ?? ('https://www.tirupatibalajibooking.com/' . basename($_SERVER['PHP_SELF']));
-$pageOgImage = $pageOgImage ?? 'https://www.tirupatibalajibooking.com/images/logo/logo_main.png';
+$pageOgImage = $pageOgImage ?? 'https://www.tirupatibalajibooking.com/assets/images/logo/logo_main.png';
 $activeMenu = $activeMenu ?? null;
 $extraHeadLinks = $extraHeadLinks ?? '';
 $includeDefaultSchema = $includeDefaultSchema ?? true;
@@ -82,7 +82,7 @@ $includeDefaultSchema = $includeDefaultSchema ?? true;
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="assets/css/legacy/shared-topbar.css">
     <!--favicon-->
-    <link rel="shortcut icon" type="image/png" href="images/tirupati_package.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/images/tirupati_package.png" />
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -104,7 +104,7 @@ $includeDefaultSchema = $includeDefaultSchema ?? true;
             "@context": "https://schema.org",
             "@type": "TravelAgency",
             "name": "Tirupati Balaji Travels",
-            "image": "https://tirupatibalajibooking.com/images/logo/logo_main.png",
+            "image": "https://tirupatibalajibooking.com/assets/images/logo/logo_main.png",
             "@id": "https://tirupatibalajibooking.com",
             "url": "https://tirupatibalajibooking.com/",
             "telephone": "+91-99947-51079",
@@ -201,7 +201,7 @@ $includeDefaultSchema = $includeDefaultSchema ?? true;
                 <div class=" col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
                     <div class="hs_logo_wrapper d-none d-sm-none d-xs-none d-md-block">
                         <a href="./">
-                            <img src="images/logo/logo_main.png" class="img-responsive" alt="Tirupati Balaji Booking Logo" title="Tirupati Balaji Booking" />
+                            <img src="assets/images/logo/logo_main.png" class="img-responsive" alt="Tirupati Balaji Booking Logo" title="Tirupati Balaji Booking" />
                         </a>
                     </div>
                 </div>
@@ -277,7 +277,7 @@ $includeDefaultSchema = $includeDefaultSchema ?? true;
                                 <div class="col-xs-10 col-sm-10 col-10 pl-0">
                                     <div class="hs_logo">
                                         <a href="./">
-                                            <img src="images/logo/logo_main.png" alt="Tirupati Balaji Booking Logo" title="Tirupati Balaji Booking">
+                                            <img src="assets/images/logo/logo_main.png" alt="Tirupati Balaji Booking Logo" title="Tirupati Balaji Booking">
                                         </a>
                                     </div>
                                 </div>

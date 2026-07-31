@@ -333,7 +333,7 @@ include './includes/header.php';
                 </div>
                 <div class="col-md-6 mt-4">
                     <div class="">
-                        <img src="images/04.png" alt="best Tirumala Tirupati tour operators from Chennai "
+                        <img src="assets/images/04.png" alt="best Tirumala Tirupati tour operators from Chennai "
                             style="width: 100%;">
                     </div>
                 </div>

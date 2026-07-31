@@ -66,7 +66,7 @@ $extraHeadLinks = <<<'HTML'
     "@type": "Organization",
     "name": "Divine Balaji Travels",
     "url": "https://www.tirupatibalajibooking.com/",
-    "logo": "https://www.tirupatibalajibooking.com/images/logo/logo.jpg"
+    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
   }
 }
 </script>
@@ -113,7 +113,7 @@ $extraHeadLinks = <<<'HTML'
     "@type": "Organization",
     "name": "Divine Balaji Travels",
     "url": "https://www.tirupatibalajibooking.com/",
-    "logo": "https://www.tirupatibalajibooking.com/images/logo/logo.jpg"
+    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
   }
 }
 </script>

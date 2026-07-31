@@ -34,7 +34,7 @@ $extraHeadLinks = <<<'HTML'
   "@type": "TravelAgency",
   "name": "Divine Balaji Travels",
   "url": "https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-hyderabad.php",
-  "logo": "https://www.tirupatibalajibooking.com/images/logo/logo.jpg",
+  "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
   "description": "Tirupati travel package from Hyderabad with pickup support, hotel stay options, private transport and trip planning for Indian and international travellers.",
   "areaServed": [
     {
@@ -125,7 +125,7 @@ $extraHeadLinks = <<<'HTML'
     "@type": "TravelAgency",
     "name": "Divine Balaji Travels",
     "url": "https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-hyderabad.php",
-    "logo": "https://www.tirupatibalajibooking.com/images/logo/logo.jpg"
+    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
   },
   "areaServed": [
     {

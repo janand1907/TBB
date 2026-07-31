@@ -332,7 +332,7 @@ include './includes/header.php';
                 </div>
                 <div class="col-md-6 mt-4">
                     <div class="" style="padding-top: 20px;">
-                        <img src="images/sri-prasanna-venkateswara-temple.png"
+                        <img src="assets/images/sri-prasanna-venkateswara-temple.png"
                             alt="best Tirumala Tirupati tour operators from Chennai " style="width: 100%;">
                     </div>
                 </div>

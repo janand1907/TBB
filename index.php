@@ -37,7 +37,7 @@ $extraHeadLinks = <<<'HTML'
   "@type": "TravelAgency",
   "name": "Divine Balaji Travels",
   "url": "https://www.tirupatibalajibooking.com/",
-  "logo": "https://www.tirupatibalajibooking.com/images/logo/logo.jpg",
+  "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
    "description": "Tirupati tour packages from Chennai and Hyderabad with private travel, hotel stay options, pickup, trip planning and return drop support for devotees.",
   "telephone": "+91-9994751079",
   "areaServed": [
@@ -89,7 +89,7 @@ $extraHeadLinks = <<<'HTML'
     "@type": "TravelAgency",
     "name": "Divine Balaji Travels",
     "url": "https://www.tirupatibalajibooking.com/",
-    "logo": "https://www.tirupatibalajibooking.com/images/logo/logo.jpg"
+    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
   },
   "itinerary": {
     "@type": "ItemList",

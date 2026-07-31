@@ -83,7 +83,7 @@ $extraHeadLinks = <<<'HTML'
     "@type": "Organization",
     "name": "Divine Balaji Travels",
     "url": "https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php",
-    "logo": "https://www.tirupatibalajibooking.com/images/logo/logo.jpg"
+    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
   },
   "itinerary": {
     "@type": "ItemList",

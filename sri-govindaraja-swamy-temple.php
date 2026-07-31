@@ -327,7 +327,7 @@ include './includes/header.php';
                 </div>
                 <div class="col-md-6 mt-4">
                     <div class="">
-                        <img src="images/sri-govindaraja-swamy-temple.png"
+                        <img src="assets/images/sri-govindaraja-swamy-temple.png"
                             alt="best Tirumala Tirupati tour operators from Chennai " style="width: 100%;">
                     </div>
                 </div>

@@ -132,9 +132,9 @@ whatsapp</a>
         <ul class="action">
             <li class="access">
                 <a href="tel:+919994751079">
-                    <img src="images/ph-call.png" alt="Call Now"> Call Now</a>
+                    <img src="assets/images/ph-call.png" alt="Call Now"> Call Now</a>
             </li>
-            <li style="background: #06b31b;"><a href="http://wa.me/919994751079"> <img src="images/whats-app.png"
+            <li style="background: #06b31b;"><a href="http://wa.me/919994751079"> <img src="assets/images/whats-app.png"
                         alt="Whatsapp"> Whatsapp</a>
             </li>
 
@@ -145,24 +145,24 @@ whatsapp</a>
         <li class="access bw" style="background: #0f2f5c !important; border-right: 1px solid #fff;">
             <a href="tel:9994751079" class="black" style="color: #fff !important;
     font-weight: 400;">
-                <img src="images/phone.webp" alt="Call Now" style="width: 25px; margin-bottom: 5px;"><br />Call Now</a>
+                <img src="assets/images/phone.webp" alt="Call Now" style="width: 25px; margin-bottom: 5px;"><br />Call Now</a>
         </li>
         <li class="access bw" style="background: green !important; border-right: 1px solid #fff;">
             <a href="https://api.whatsapp.com/send?phone=+919994751079&text=I%20am%20interested" target="_blank"
                 class="black" style="color: #fff !important;
     font-weight: 400;">
-                <img src="images/whatsapp.webp" alt="Call Now"
+                <img src="assets/images/whatsapp.webp" alt="Call Now"
                     style="width: 25px; margin-bottom: 5px;"><br />Whatsapp</a>
         </li>
         <!-- <li class="access bw" style="background: #ff9900 !important;">
             <a class="black" style="color: #fff !important;
     font-weight: 400;">
-                <img src="images/book-cal.png" alt="Call Now" style="width: 25px; margin-bottom: 5px;"><br />Book
+                <img src="assets/images/book-cal.png" alt="Call Now" style="width: 25px; margin-bottom: 5px;"><br />Book
                 Pkg</a>
         </li> -->
         <!-- <li class="access bw">
             <a class="house_toggle black">
-                <img src="images/menu.png" alt="Call Now"><br />Menu</a>
+                <img src="assets/images/menu.png" alt="Call Now"><br />Menu</a>
         </li> -->
 
 

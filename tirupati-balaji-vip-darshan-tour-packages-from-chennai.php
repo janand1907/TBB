@@ -35,7 +35,7 @@ $extraHeadLinks = <<<'HTML'
             "@context": "https://schema.org",
             "@type": "TravelAgency",
             "name": "Tirupati Balaji Travels",
-            "image": "https://tirupatibalajibooking.com/images/logo/logo.jpg",
+            "image": "https://tirupatibalajibooking.com/assets/images/logo/logo.jpg",
             "@id": "https://tirupatibalajibooking.com",
             "url": "https://tirupatibalajibooking.com/tirupati-balaji-vip-darshan-tour-packages-from-chennai.php",
             "telephone": "+91-99947-51079",
@@ -699,7 +699,7 @@ your desired destination</h2>
                                         <i class="fa fa-star"></i>
                                     </div>
                                     <div class="x_car_offer_img float_left">
-                                        <img src="images/c1.png" alt=" Car Bookings From Chennai to tirupati">
+                                        <img src="assets/images/c1.png" alt=" Car Bookings From Chennai to tirupati">
                                     </div>
                                     <div class="x_car_offer_price float_left">
                                         <div class="x_car_offer_price_inner">
@@ -733,7 +733,7 @@ your desired destination</h2>
                                         <i class="fa fa-star"></i>
                                     </div>
                                     <div class="x_car_offer_img float_left">
-                                        <img src="images/c1.png" alt="Rs.300/- Special Segara Darshan Guidance ">
+                                        <img src="assets/images/c1.png" alt="Rs.300/- Special Segara Darshan Guidance ">
                                     </div>
                                     <div class="x_car_offer_price float_left">
                                         <div class="x_car_offer_price_inner">
@@ -764,7 +764,7 @@ your desired destination</h2>
                                         <i class="fa fa-star"></i>
                                     </div>
                                     <div class="x_car_offer_img float_left">
-                                        <img src="images/c1.png" alt="One Day Trip from Chennai to Tirupati packages">
+                                        <img src="assets/images/c1.png" alt="One Day Trip from Chennai to Tirupati packages">
                                     </div>
                                     <div class="x_car_offer_price float_left">
                                         <div class="x_car_offer_price_inner">
@@ -816,7 +816,7 @@ your desired destination</h2>
                                         <i class="fa fa-star"></i>
                                     </div>
                                     <div class="x_car_offer_img float_left">
-                                        <img src="images/c1.png" alt="Tirumala tirupati Packages">
+                                        <img src="assets/images/c1.png" alt="Tirumala tirupati Packages">
                                     </div>
                                     <div class="x_car_offer_price float_left">
                                         <div class="x_car_offer_price_inner">
@@ -872,7 +872,7 @@ your desired destination</h2>
                                         <i class="fa fa-star"></i>
                                     </div>
                                     <div class="x_car_offer_img float_left">
-                                        <img src="images/c2.png" alt="Rs.300 Special Entry Dharshan Guidance">
+                                        <img src="assets/images/c2.png" alt="Rs.300 Special Entry Dharshan Guidance">
                                     </div>
                                     <div class="x_car_offer_price float_left">
                                         <div class="x_car_offer_price_inner">
@@ -926,7 +926,7 @@ your desired destination</h2>
                                         <i class="fa fa-star"></i>
                                     </div>
                                     <div class="x_car_offer_img float_left">
-                                        <img src="images/c2.png" alt="TIRUPATI BALAJI DARSHAN PACKAGES FROM CHENNAI">
+                                        <img src="assets/images/c2.png" alt="TIRUPATI BALAJI DARSHAN PACKAGES FROM CHENNAI">
                                     </div>
                                     <div class="x_car_offer_price float_left">
                                         <div class="x_car_offer_price_inner">
@@ -979,7 +979,7 @@ your desired destination</h2>
                                         <i class="fa fa-star"></i>
                                     </div>
                                     <div class="x_car_offer_img float_left">
-                                        <img src="images/c2.png" alt="
+                                        <img src="assets/images/c2.png" alt="
 Chennai To Tirupati Package
 ">
                                     </div>
@@ -1033,7 +1033,7 @@ Chennai To Tirupati Package
                                         <i class="fa fa-star"></i>
                                     </div>
                                     <div class="x_car_offer_img float_left">
-                                        <img src="images/c4.png" alt="
+                                        <img src="assets/images/c4.png" alt="
 Chennai To Tirupati dharshan packages">
                                     </div>
                                     <div class="x_car_offer_price float_left">
@@ -1091,7 +1091,7 @@ Chennai To Tirupati dharshan packages">
                                         <i class="fa fa-star"></i>
                                     </div>
                                     <div class="x_car_offer_img float_left">
-                                        <img src="images/c4.png" alt="One Day Tirupati Tour Package From Chennai">
+                                        <img src="assets/images/c4.png" alt="One Day Tirupati Tour Package From Chennai">
                                     </div>
                                     <div class="x_car_offer_price float_left">
                                         <div class="x_car_offer_price_inner">
@@ -1124,7 +1124,7 @@ Chennai To Tirupati dharshan packages">
                                         <i class="fa fa-star"></i>
                                     </div>
                                     <div class="x_car_offer_img float_left">
-                                        <img src="images/c4.png" alt="Best Chennai to tirupati packages">
+                                        <img src="assets/images/c4.png" alt="Best Chennai to tirupati packages">
                                     </div>
                                     <div class="x_car_offer_price float_left">
                                         <div class="x_car_offer_price_inner">
@@ -1177,7 +1177,7 @@ Chennai To Tirupati dharshan packages">
                                         <i class="fa fa-star"></i>
                                     </div>
                                     <div class="x_car_offer_img float_left">
-                                        <img src="images/c4.png" alt="Tirumala Tirupati tour operators from Chennai">
+                                        <img src="assets/images/c4.png" alt="Tirumala Tirupati tour operators from Chennai">
                                     </div>
                                     <div class="x_car_offer_price float_left">
                                         <div class="x_car_offer_price_inner">
@@ -1229,7 +1229,7 @@ Chennai To Tirupati dharshan packages">
                                         <i class="fa fa-star"></i>
                                     </div>
                                     <div class="x_car_offer_img float_left">
-                                        <img src="images/c4.png" alt="Tirupati packages from Chennai">
+                                        <img src="assets/images/c4.png" alt="Tirupati packages from Chennai">
                                     </div>
                                     <div class="x_car_offer_price float_left">
                                         <div class="x_car_offer_price_inner">
@@ -1300,7 +1300,7 @@ Chennai To Tirupati dharshan packages">
                     <div class="item">
                         <div class="btc_team_slider_cont_main_wrapper">
                             <div class="btc_team_img_wrapper">
-                                <img src="images/t1.jpg" alt="book a Tirupati darshan packages from Chennai ">
+                                <img src="assets/images/t1.jpg" alt="book a Tirupati darshan packages from Chennai ">
                                 <div class="x_team_label_wrapper">
                                     <p>Exclusive</p>
                                 </div>
@@ -1313,7 +1313,7 @@ Chennai To Tirupati dharshan packages">
                     <div class="item">
                         <div class="btc_team_slider_cont_main_wrapper">
                             <div class="btc_team_img_wrapper">
-                                <img src="images/t2.jpg" alt="team_img1">
+                                <img src="assets/images/t2.jpg" alt="team_img1">
                                 <div class="x_team_label_wrapper">
                                     <p>Exclusive</p>
                                 </div>
@@ -1326,7 +1326,7 @@ Chennai To Tirupati dharshan packages">
                     <div class="item">
                         <div class="btc_team_slider_cont_main_wrapper">
                             <div class="btc_team_img_wrapper">
-                                <img src="images/t3.jpg" alt="booking Chennai to tirupati packages">
+                                <img src="assets/images/t3.jpg" alt="booking Chennai to tirupati packages">
                                 <div class="x_team_label_wrapper">
                                     <p>Exclusive</p>
                                 </div>
@@ -1339,7 +1339,7 @@ Chennai To Tirupati dharshan packages">
                     <div class="item">
                         <div class="btc_team_slider_cont_main_wrapper">
                             <div class="btc_team_img_wrapper">
-                                <img src="images/t4.jpg" alt="one day Chennai to Tirupati package">
+                                <img src="assets/images/t4.jpg" alt="one day Chennai to Tirupati package">
                                 <div class="x_team_label_wrapper">
                                     <p>Exclusive</p>
                                 </div>
@@ -1411,7 +1411,7 @@ Chennai To Tirupati dharshan packages">
             <div class="row">
                 <div class="col-md-3">
                     <div class="x_book_logo_wrapper float_left">
-                        <img src="images/white_logo.png" alt="logo">
+                        <img src="assets/images/white_logo.png" alt="logo">
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -1451,7 +1451,7 @@ Chennai To Tirupati dharshan packages">
                             <div class="card  valign-wrapper">
                                 <!-- Client's image -->
                                 <!-- <div class="card-image">
-                                        <img src="images/client_1.jpg" alt="img">
+                                        <img src="assets/images/client_1.jpg" alt="img">
                                     </div> -->
                                 <!-- /Client's image -->
                                 <div class="card-content center-align valign">
@@ -1477,7 +1477,7 @@ Chennai To Tirupati dharshan packages">
                             <div class="card  valign-wrapper">
                                 <!-- Client's image -->
                                 <!-- <div class="card-image">
-                                        <img src="images/client_2.jpg" alt="img">
+                                        <img src="assets/images/client_2.jpg" alt="img">
                                     </div> -->
                                 <!-- /Client's image -->
                                 <div class="card-content center-align valign">
@@ -1505,7 +1505,7 @@ Chennai To Tirupati dharshan packages">
                             <div class="card  valign-wrapper">
                                 <!-- Client's image -->
                                 <!-- <div class="card-image">
-                                        <img src="images/client_3.jpg" alt="img">
+                                        <img src="assets/images/client_3.jpg" alt="img">
                                     </div> -->
                                 <!-- /Client's image -->
                                 <div class="card-content center-align valign">
@@ -1531,7 +1531,7 @@ Chennai To Tirupati dharshan packages">
                             <div class="card  valign-wrapper">
                                 <!-- Client's image -->
                                 <!-- <div class="card-image">
-                                        <img src="images/client_4.jpg" alt="img">
+                                        <img src="assets/images/client_4.jpg" alt="img">
                                     </div> -->
                                 <!-- /Client's image -->
                                 <div class="card-content center-align valign">
@@ -1564,7 +1564,7 @@ Chennai To Tirupati dharshan packages">
     <div class="x_why_img_overlay"></div>
     <div class="container">
         <div class="x_why_left_main_wrapper">
-            <img src="images/w1.png" alt="best Tirumala Tirupati tour operators from Chennai ">
+            <img src="assets/images/w1.png" alt="best Tirumala Tirupati tour operators from Chennai ">
         </div>
         <div class="x_why_right_main_wrapper">
             <h3> Why Choose Our Chennai to Tirupati Travel Package?</h3>

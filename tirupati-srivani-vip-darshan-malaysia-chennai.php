@@ -367,7 +367,7 @@ $extraHeadLinks = <<<'HTML'
     "@type": "Organization",
     "name": "Divine Balaji Travels",
     "url": "https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-chennai.php",
-    "logo": "https://www.tirupatibalajibooking.com/images/logo/logo.jpg"
+    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
   }
   
 }

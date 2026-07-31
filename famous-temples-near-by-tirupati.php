@@ -307,7 +307,7 @@ include './includes/header.php';
                             <a data-fancybox="gallery1" data-caption="Sri Padmavathi Amman Temple"
                                 href="sri-padmavathi-amman-temple.php"
                                 class="d-block image-overlay-block position-relative">
-                                <img src="images/padmavathi-amman-temple-1.png" class="w-100"
+                                <img src="assets/images/padmavathi-amman-temple-1.png" class="w-100"
                                     alt="Sri Padmavathi Amman Temple" style="height: 220px;">
                             </a>
                         </div>
@@ -329,7 +329,7 @@ include './includes/header.php';
                             <a data-fancybox="gallery1" data-caption="Sri Padmavathi Amman Temple"
                                 href="sri-govindaraja-swamy-temple.php"
                                 class="d-block image-overlay-block position-relative">
-                                <img src="images/sri-govindaraja-swamy-temple.png" class="w-100"
+                                <img src="assets/images/sri-govindaraja-swamy-temple.png" class="w-100"
                                     alt="Sri Padmavathi Amman Temple" style="height: 220px;">
                             </a>
                         </div>
@@ -351,7 +351,7 @@ include './includes/header.php';
                             <a data-fancybox="gallery1" data-caption="Sri Padmavathi Amman Temple"
                                 href="kalyana-venkateswara-temple-srinivasa-mangapuram.php"
                                 class="d-block image-overlay-block position-relative">
-                                <img src="images/kalyana-venkateswara-temple.png" class="w-100"
+                                <img src="assets/images/kalyana-venkateswara-temple.png" class="w-100"
                                     alt="Sri Padmavathi Amman Temple" style="height: 220px;">
                             </a>
                         </div>
@@ -377,7 +377,7 @@ include './includes/header.php';
                         <div class="img-wrap ">
                             <a data-fancybox="gallery1" data-caption="Sri Padmavathi Amman Temple"
                                 href="iskon-temple.php" class="d-block image-overlay-block position-relative">
-                                <img src="images/iskcon-temple.png" class="w-100" alt="Sri Padmavathi Amman Temple"
+                                <img src="assets/images/iskcon-temple.png" class="w-100" alt="Sri Padmavathi Amman Temple"
                                     style="height: 220px;">
                             </a>
                         </div>
@@ -399,7 +399,7 @@ include './includes/header.php';
                             <a data-fancybox="gallery1" data-caption="Sri Padmavathi Amman Temple"
                                 href="sri-kapileswara-swamy-temple.php"
                                 class="d-block image-overlay-block position-relative">
-                                <img src="images/sri-kapileswara-swamy-temple.png" class="w-100"
+                                <img src="assets/images/sri-kapileswara-swamy-temple.png" class="w-100"
                                     alt="Sri Padmavathi Amman Temple" style="height: 220px;">
                             </a>
                         </div>
@@ -421,7 +421,7 @@ include './includes/header.php';
                             <a data-fancybox="gallery1" data-caption="Sri Padmavathi Amman Temple"
                                 href="sri-kalyana-venkateshwara-swamy-temple-narayanavanam-temple.php"
                                 class="d-block image-overlay-block position-relative">
-                                <img src="images/narayanavanam-temple.png" class="w-100"
+                                <img src="assets/images/narayanavanam-temple.png" class="w-100"
                                     alt="Sri Padmavathi Amman Temple" style="height: 220px;">
                             </a>
                         </div>
@@ -448,7 +448,7 @@ include './includes/header.php';
                             <a data-fancybox="gallery1" data-caption="Sri Padmavathi Amman Temple"
                                 href="sri-prasanna-venkateswara-temple.php"
                                 class="d-block image-overlay-block position-relative">
-                                <img src="images/sri-prasanna-venkateswara-temple.png" class="w-100"
+                                <img src="assets/images/sri-prasanna-venkateswara-temple.png" class="w-100"
                                     alt="Sri Padmavathi Amman Temple" style="height: 220px;">
                             </a>
                         </div>
@@ -470,7 +470,7 @@ include './includes/header.php';
                             <a data-fancybox="gallery1" data-caption="Sri Padmavathi Amman Temple"
                                 href="sri-varasiddhi-vinayaka-temple-kanipakam.php"
                                 class="d-block image-overlay-block position-relative">
-                                <img src="images/sri-varasiddhi-vinayaka-temple.png" class="w-100"
+                                <img src="assets/images/sri-varasiddhi-vinayaka-temple.png" class="w-100"
                                     alt="Sri Padmavathi Amman Temple" style="height: 220px;">
                             </a>
                         </div>
@@ -492,7 +492,7 @@ include './includes/header.php';
                             <a data-fancybox="gallery1" data-caption="Sri Padmavathi Amman Temple"
                                 href="sri-vedanarayana-temple-nagalapuram.php"
                                 class="d-block image-overlay-block position-relative">
-                                <img src="images/sri-vedanarayana-temple.png" class="w-100"
+                                <img src="assets/images/sri-vedanarayana-temple.png" class="w-100"
                                     alt="Sri Padmavathi Amman Temple" style="height: 220px;">
                             </a>
                         </div>
@@ -518,7 +518,7 @@ include './includes/header.php';
                         <div class="img-wrap ">
                             <a data-fancybox="gallery1" data-caption="Sri Padmavathi Amman Temple"
                                 href="vakula-matha-temple.php" class="d-block image-overlay-block position-relative">
-                                <img src="images/vakula-matha-temple.png" class="w-100"
+                                <img src="assets/images/vakula-matha-temple.png" class="w-100"
                                     alt="Sri Padmavathi Amman Temple" style="height: 220px;">
                             </a>
                         </div>
@@ -540,7 +540,7 @@ include './includes/header.php';
                             <a data-fancybox="gallery1" data-caption="Sri Padmavathi Amman Temple"
                                 href="pallikondeswara-swamy-temple-surutapalli.php"
                                 class="d-block image-overlay-block position-relative">
-                                <img src="images/pallikondeswara-swamy-temple-surutapalli.png" class="w-100"
+                                <img src="assets/images/pallikondeswara-swamy-temple-surutapalli.png" class="w-100"
                                     alt="Sri Padmavathi Amman Temple" style="height: 220px;">
                             </a>
                         </div>
