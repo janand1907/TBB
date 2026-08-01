@@ -298,14 +298,14 @@ include './includes/header.php';
                     <div class="x_offer_car_heading_wrapper float_left">
 
                         <div class="tab">
-                            <button class="tablinks w-25 w-100 active" onclick="openCity(event, 'Request Form')">Request
+                            <button class="tablinks w-25 active" onclick="openCity(event, 'Request Form')">Request
                                 Form</button>
-                            <button class="tablinks w-25 w-100" onclick="openCity(event, 'Refund Request')">Refund
+                            <button class="tablinks w-25" onclick="openCity(event, 'Refund Request')">Refund
                                 Request</button>
-                            <button class="tablinks w-25 w-100"
+                            <button class="tablinks w-25"
                                 onclick="openCity(event, 'Feedback and Suggestion')">Feedback and
                                 Suggestion</button>
-                            <button class="tablinks w-25 w-100"
+                            <button class="tablinks w-25"
                                 onclick="openCity(event, 'Complaints')">Complaints</button>
                         </div>
 
