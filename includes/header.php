@@ -82,7 +82,8 @@ $includeDefaultSchema = $includeDefaultSchema ?? true;
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="assets/css/legacy/shared-topbar.css">
     <!--favicon-->
-    <link rel="shortcut icon" type="image/png" href="assets/images/tirupati_package.png" />
+    <!-- <link rel="shortcut icon" type="image/png" href="assets/images/tirupati_package.png" /> -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -182,8 +183,8 @@ $includeDefaultSchema = $includeDefaultSchema ?? true;
                 </div>
                 <div class="x_top_header_all_select_box_wrapper">
                     <ul>
-                        <li class="login"> <a href="mailto:ttdpackages@gmail.com"><i class="fa fa-envelope"></i>
-                                &nbsp;&nbsp;ttdpackages@gmail.com</a>
+                        <li class="login"> <a href="mailto:divinebalajitravels@gmail.com"><i class="fa fa-envelope"></i>
+                                &nbsp;&nbsp;divinebalajitravels@gmail.com</a>
                         </li>
                         <li class="register"> <a href="tel:9994751079"><i class="fa fa-whatsapp"></i>
                                 &nbsp;&nbsp;+919994751079</a>

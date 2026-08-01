@@ -17,7 +17,7 @@
   padding: 24px;
 }
 
-.tab button.active {
+.tablinks.active {
   background-color: #e07728;
   color: #fff;
 }
@@ -85,12 +85,6 @@
   border-left: 0;
 }
 
-.tab button {
-  border-radius: 24px;
-  padding: 8px 8px !important;
-  margin-right: 8px;
-}
-
 .tab1 {
   padding: 8px;
   border-radius: 48px;
@@ -100,20 +94,25 @@
   border: none !important;
 }
 
+/* Tab row: flexbox instead of float + fixed-percentage width utility classes,
+   so buttons share space evenly with no additive-margin overflow and wrap
+   cleanly on narrow viewports without a separate media query. */
 .tab {
-  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
 }
 
-/* Style the buttons inside the tab */
-.tab button {
+.tablinks {
+  flex: 1 1 200px;
   background-color: inherit;
-  float: left;
   border: none;
   outline: none;
+  border-radius: 24px;
+  padding: 8px 8px;
   cursor: pointer;
-  padding: 16px 16px;
   transition: 0.3s;
   font-size: 17px;
 }
@@ -130,7 +129,7 @@
   padding: 0;
 }
 
-.tab button:hover {
+.tablinks:hover {
   background-color: #ff9900;
   color: #fff;
 }
@@ -187,6 +186,29 @@ a {
 .hs_navigation_header_wrapper {
   position: relative;
   z-index: 9999;
+}
+
+/* Sticky nav: desktop-only (>=992px), matching the ad bar's existing
+   desktop-only fixed scope (assets/css/legacy/shared-topbar.css). Sits
+   directly under the fixed ad bar via --topbar-height; body's padding-top
+   is extended (shared-topbar.css) to reserve space for both bars stacked.
+   Uses `position: fixed` rather than `sticky`: body/html have
+   `overflow-x: hidden` with no matching overflow-y (style.css), which per
+   the CSS Overflow spec forces overflow-y to compute as `auto` - making
+   body/html scroll containers that break `position: sticky` on
+   descendants. `fixed` is immune to this (it's already how the ad bar
+   itself works), so it's the safe choice here. Mobile/tablet keep
+   scrolling normally, unchanged. */
+@media (min-width: 992px) {
+  .hs_navigation_header_wrapper {
+    float: none;
+    position: fixed;
+    top: var(--topbar-height, 48px);
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #ffffff;
+  }
 }
 
 .dropdown-wrapper .drop-menu {

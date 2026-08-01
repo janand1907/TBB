@@ -21,12 +21,6 @@ include 'includes/header.php';
         z-index: 1;
     }
 
-    @media (min-width: 1200px) {
-        .container {
-            max-width: 1200px !important;
-        }
-    }
-
     /* .hs_navigation_header_wrapper {
         margin-bottom: 30px !important;
     } */

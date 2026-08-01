@@ -93,7 +93,7 @@
                         </div>
                         <div class="x_footer_bottom_icon_cont">
                             <h4>Email Us</h4>
-                            <p><a href="mailto:ttdpackages@gmail.com">ttdpackages@gmail.com</a>
+                            <p><a href="mailto:divinebalajitravels@gmail.com">divinebalajitravels@gmail.com</a>
                             </p>
                         </div>
                     </div>

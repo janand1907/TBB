@@ -13,7 +13,7 @@ const MAIL_SMTP_USERNAME = 'mailtoemk@gmail.com';
 const MAIL_SMTP_PASSWORD = 'mcnlwxwjjtvqamdt';
 const MAIL_FROM_ADDRESS = 'mailtoemk@gmail.com';
 const MAIL_FROM_NAME = 'TTD Travels Enquiry';
-const MAIL_TO_ADDRESS = 'ttdpackages@gmail.com';
+const MAIL_TO_ADDRESS = 'divinebalajitravels@gmail.com';
 
 /**
  * Reads a $_POST value as a plain string. A malformed/spoofed submission

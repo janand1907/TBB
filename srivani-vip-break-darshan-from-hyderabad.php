@@ -63,7 +63,7 @@ $extraHeadLinks = <<<'HTML'
     "Tamil"
   ],
   "telephone": "+91-99947-51079",
-  "email": "ttdpackages@gmail.com",
+  "email": "divinebalajitravels@gmail.com",
   "address": {
     "@type": "PostalAddress",
     "addressCountry": "IN"
@@ -936,9 +936,9 @@ include 'includes/header.php';
           <span class="imt-contact-text">WhatsApp: +91-99947-51079</span>
         </a>
 
-        <a href="mailto:ttdpackages@gmail.com" class="imt-contact-item">
+        <a href="mailto:divinebalajitravels@gmail.com" class="imt-contact-item">
           <i class="imt-contact-icon fas fa-envelope"></i>
-          <span class="imt-contact-text">Email: ttdpackages@gmail.com</span>
+          <span class="imt-contact-text">Email: divinebalajitravels@gmail.com</span>
         </a>
 
       </div>

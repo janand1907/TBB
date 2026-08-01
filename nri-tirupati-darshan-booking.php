@@ -1020,55 +1020,96 @@ experience for NRIs visiting Tirumala. Our services include:</p>
                     <h3>Frequently Asked Questions (FAQ's)</h3>
                     <br />
 
-                    <button class="accordion active">1. Who is eligible for NRI darshan at Tirumala?</button>
-                    <div class="panel" style="display: block;">
-                        <p>Only Non-Resident Indians (NRIs) and OCI cardholders are eligible for NRI darshan. Valid
-                            documents like a passport, visa, and OCI card must be presented.</p>
-                    </div>
+                    <div class="nri-faq-accordion">
+                        <div class="nri-faq-item is-open">
+                            <h4><button type="button" class="nri-faq-trigger" aria-expanded="true" aria-controls="nri-faq-panel-1" id="nri-faq-header-1">1. Who is eligible for NRI darshan at Tirumala?</button></h4>
+                            <div id="nri-faq-panel-1" class="nri-faq-panel" role="region" aria-labelledby="nri-faq-header-1">
+                                <p>Only Non-Resident Indians (NRIs) and OCI cardholders are eligible for NRI darshan. Valid
+                                    documents like a passport, visa, and OCI card must be presented.</p>
+                            </div>
+                        </div>
 
-                    <button class="accordion" style="margin-top: 20px;">2. Is prior booking required for NRI
-                        Darshan?</button>
-                    <div class="panel">
-                        <p>No, prior booking is not required. Tickets can be purchased on the spot at the Supadam
-                            entry counter after verification.</p>
-                    </div>
+                        <div class="nri-faq-item">
+                            <h4><button type="button" class="nri-faq-trigger" aria-expanded="false" aria-controls="nri-faq-panel-2" id="nri-faq-header-2">2. Is prior booking required for NRI
+                                Darshan?</button></h4>
+                            <div id="nri-faq-panel-2" class="nri-faq-panel" role="region" aria-labelledby="nri-faq-header-2" aria-hidden="true">
+                                <p>No, prior booking is not required. Tickets can be purchased on the spot at the Supadam
+                                    entry counter after verification.</p>
+                            </div>
+                        </div>
 
-                    <button class="accordion" style="margin-top: 20px;">What is the cost of the NRI Darshan
-                        ticket?</button>
-                    <div class="panel">
-                        <p>The ticket costs INR 300 per person.</p>
-                    </div>
+                        <div class="nri-faq-item">
+                            <h4><button type="button" class="nri-faq-trigger" aria-expanded="false" aria-controls="nri-faq-panel-3" id="nri-faq-header-3">What is the cost of the NRI Darshan
+                                ticket?</button></h4>
+                            <div id="nri-faq-panel-3" class="nri-faq-panel" role="region" aria-labelledby="nri-faq-header-3" aria-hidden="true">
+                                <p>The ticket costs INR 300 per person.</p>
+                            </div>
+                        </div>
 
-                    <button class="accordion" style="margin-top: 20px;">4. Can friends or family accompany NRIs for
-                        the darshan?</button>
-                    <div class="panel">
-                        <p>No, the facility is strictly for NRIs. Friends or relatives residing in India are not
-                            permitted.</p>
-                    </div>
+                        <div class="nri-faq-item">
+                            <h4><button type="button" class="nri-faq-trigger" aria-expanded="false" aria-controls="nri-faq-panel-4" id="nri-faq-header-4">4. Can friends or family accompany NRIs for
+                                the darshan?</button></h4>
+                            <div id="nri-faq-panel-4" class="nri-faq-panel" role="region" aria-labelledby="nri-faq-header-4" aria-hidden="true">
+                                <p>No, the facility is strictly for NRIs. Friends or relatives residing in India are not
+                                    permitted.</p>
+                            </div>
+                        </div>
 
-                    <button class="accordion" style="margin-top: 20px;">5. What are the NRI darshan
-                        timings?</button>
-                    <div class="panel">
-                        <p>NRI Darshan via Supadam Entry is available daily from 12:00 PM to 6:00 PM.</p>
-                    </div>
+                        <div class="nri-faq-item">
+                            <h4><button type="button" class="nri-faq-trigger" aria-expanded="false" aria-controls="nri-faq-panel-5" id="nri-faq-header-5">5. What are the NRI darshan
+                                timings?</button></h4>
+                            <div id="nri-faq-panel-5" class="nri-faq-panel" role="region" aria-labelledby="nri-faq-header-5" aria-hidden="true">
+                                <p>NRI Darshan via Supadam Entry is available daily from 12:00 PM to 6:00 PM.</p>
+                            </div>
+                        </div>
 
-                    <button class="accordion" style="margin-top: 20px;">6. Are children allowed for NRI
-                        darshan?</button>
-                    <div class="panel">
-                        <p>Yes, children below 12 years of age are exempt from ticket requirements.</p>
-                    </div>
+                        <div class="nri-faq-item">
+                            <h4><button type="button" class="nri-faq-trigger" aria-expanded="false" aria-controls="nri-faq-panel-6" id="nri-faq-header-6">6. Are children allowed for NRI
+                                darshan?</button></h4>
+                            <div id="nri-faq-panel-6" class="nri-faq-panel" role="region" aria-labelledby="nri-faq-header-6" aria-hidden="true">
+                                <p>Yes, children below 12 years of age are exempt from ticket requirements.</p>
+                            </div>
+                        </div>
 
-                    <button class="accordion" style="margin-top: 20px;">7. What documents are required for the
-                        darshan?</button>
-                    <div class="panel">
-                        <p>NRIs must carry a valid passport, visa, and OCI card (if applicable). Additional ID
-                            proofs are recommended for verification.</p>
+                        <div class="nri-faq-item">
+                            <h4><button type="button" class="nri-faq-trigger" aria-expanded="false" aria-controls="nri-faq-panel-7" id="nri-faq-header-7">7. What documents are required for the
+                                darshan?</button></h4>
+                            <div id="nri-faq-panel-7" class="nri-faq-panel" role="region" aria-labelledby="nri-faq-header-7" aria-hidden="true">
+                                <p>NRIs must carry a valid passport, visa, and OCI card (if applicable). Additional ID
+                                    proofs are recommended for verification.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var items = document.querySelectorAll('.nri-faq-item');
+    items.forEach(function (item) {
+        var btn = item.querySelector('.nri-faq-trigger');
+        var panel = document.getElementById(btn.getAttribute('aria-controls'));
+        btn.addEventListener('click', function () {
+            var expanded = btn.getAttribute('aria-expanded') === 'true';
+            items.forEach(function (other) {
+                var otherBtn = other.querySelector('.nri-faq-trigger');
+                var otherPanel = document.getElementById(otherBtn.getAttribute('aria-controls'));
+                other.classList.remove('is-open');
+                otherBtn.setAttribute('aria-expanded', 'false');
+                otherPanel.setAttribute('aria-hidden', 'true');
+            });
+            if (!expanded) {
+                item.classList.add('is-open');
+                btn.setAttribute('aria-expanded', 'true');
+                panel.setAttribute('aria-hidden', 'false');
+            }
+        });
+    });
+});
+</script>
 
 <div class="x_offer_car_main_wrapper float_left" style="padding-bottom: 40px;">
     <div class="container">

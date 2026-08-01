@@ -298,14 +298,14 @@ include './includes/header.php';
                     <div class="x_offer_car_heading_wrapper float_left">
 
                         <div class="tab">
-                            <button class="tablinks w-25 active" onclick="openCity(event, 'Request Form')">Request
+                            <button class="tablinks active" onclick="openCity(event, 'Request Form')">Request
                                 Form</button>
-                            <button class="tablinks w-25" onclick="openCity(event, 'Refund Request')">Refund
+                            <button class="tablinks" onclick="openCity(event, 'Refund Request')">Refund
                                 Request</button>
-                            <button class="tablinks w-25"
+                            <button class="tablinks"
                                 onclick="openCity(event, 'Feedback and Suggestion')">Feedback and
                                 Suggestion</button>
-                            <button class="tablinks w-25"
+                            <button class="tablinks"
                                 onclick="openCity(event, 'Complaints')">Complaints</button>
                         </div>
 
@@ -363,7 +363,7 @@ include './includes/header.php';
                                 <div class="row box-shadow">
                                     <div class="col-md-12" style="padding: 20px 0;">
                                         <h4 class="h4-mail">
-  <a href="mailto:ttdpackages@gmail.com">Email : ttdpackages@gmail.com</a>
+  <a href="mailto:divinebalajitravels@gmail.com">Email : divinebalajitravels@gmail.com</a>
 </h4>
                                         <h4 class="h4-reg">Address : Core 1, 2nd Floor, Pacifica Tech Park,<br>
     Rajiv Gandhi Salai, Navalur,<br>
@@ -432,7 +432,7 @@ include './includes/header.php';
                                 <div class="row box-shadow">
                                     <div class="col-md-12" style="padding: 20px 0;">
                                         <h4 class="h4-mail">
-  <a href="mailto:ttdpackages@gmail.com">Email : ttdpackages@gmail.com</a>
+  <a href="mailto:divinebalajitravels@gmail.com">Email : divinebalajitravels@gmail.com</a>
 </h4>
                                         <h4 class="h4-reg">Register Address : No.2, MainRoad, Sitharkadu, Mayiladuthurai
                                             - 609003.</h4>
@@ -487,7 +487,7 @@ include './includes/header.php';
                                 <div class="row box-shadow">
                                     <div class="col-md-12" style="padding: 20px 0;">
                                        <h4 class="h4-mail">
-  <a href="mailto:ttdpackages@gmail.com">Email : ttdpackages@gmail.com</a>
+  <a href="mailto:divinebalajitravels@gmail.com">Email : divinebalajitravels@gmail.com</a>
 </h4>
                                         <h4 class="h4-reg">Register Address : No.2, MainRoad, Sitharkadu, Mayiladuthurai
                                             - 609003.</h4>
@@ -556,7 +556,7 @@ include './includes/header.php';
                                 <div class="row box-shadow">
                                     <div class="col-md-12" style="padding: 20px 0;">
                                         <h4 class="h4-mail">
-  <a href="mailto:ttdpackages@gmail.com">Email : ttdpackages@gmail.com</a>
+  <a href="mailto:divinebalajitravels@gmail.com">Email : divinebalajitravels@gmail.com</a>
 </h4>
 
 

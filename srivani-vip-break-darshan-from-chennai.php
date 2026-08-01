@@ -81,7 +81,7 @@ $extraHeadLinks = <<<'HTML'
   "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
   "description": "Independent private travel agency offering Chennai to Tirupati car travel packages, pickup, hotel coordination and trip guidance for devotees visiting Tirupati. We are not affiliated with TTD or any government authority.",
   "telephone": "+91-99947-51079",
-  "email": "ttdpackages@gmail.com",
+  "email": "divinebalajitravels@gmail.com",
   "areaServed": [
     {
       "@type": "Country",

@@ -45,7 +45,10 @@ jQuery(document).ready(function($) {
 
   function updateScrollState() {
     var scrollTop = $window.scrollTop();
-    var shouldFixHeader = scrollTop > 160;
+    // Nav is CSS `position: sticky` at >=992px (see custom.css); this
+    // scroll-triggered class toggle is only needed below that breakpoint,
+    // where the nav bar isn't sticky and the ad bar isn't fixed either.
+    var shouldFixHeader = window.innerWidth < 992 && scrollTop > 160;
     var shouldShowReturnTop = scrollTop >= 100;
 
     if (fixedHeaderEnabled && $fixedHeader.length && shouldFixHeader !== isHeaderFixed) {

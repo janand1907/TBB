@@ -37,11 +37,6 @@ body {
     /* padding-bottom: 80px; */
 }
 
-.hs_navigation_header_wrapper {
-    position: relative;
-    z-index: 2000;
-}
-
 .hs_navigation_header_wrapper .drop-menu {
     z-index: 2001;
     width: 270px;
@@ -877,7 +872,7 @@ body {
 
 /* Layout */
 .container-v2 {
-    max-width: 1200px;
+    max-width: var(--site-container-max-v2, 1200px);
     margin: 0 auto;
     padding: 0 20px;
     display: grid;

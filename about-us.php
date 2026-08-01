@@ -40,7 +40,7 @@ $extraHeadLinks = <<<'HTML'
   "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
   "image": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
   "telephone": "+91-99947-51079",
-  "email": "ttdpackages@gmail.com",
+  "email": "divinebalajitravels@gmail.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Core 1, 2nd Floor, Pacifica Tech Park, Rajiv Gandhi Salai, Navalur",
@@ -444,8 +444,8 @@ include 'includes/header.php';
 
       <div class="dbt-contact-item">
         <i class="dbt-icon-mail"></i>
-        <a href="mailto:ttdpackages@gmail.com" class="dbt-contact-link">
-          ttdpackages@gmail.com
+        <a href="mailto:divinebalajitravels@gmail.com" class="dbt-contact-link">
+          divinebalajitravels@gmail.com
         </a>
       </div>
 

@@ -30,10 +30,15 @@
         @media (min-width: 992px) {
             :root {
                 --topbar-height: 48px;
+                /* Rendered height of .hs_navigation_header_wrapper (logo +
+                   menu row), which also becomes fixed at this breakpoint -
+                   see assets/css/legacy/custom.css. Reserved here so body's
+                   padding-top accounts for both fixed bars stacked. */
+                --navbar-height: 58px;
             }
 
             body {
-                padding-top: var(--topbar-height);
+                padding-top: calc(var(--topbar-height) + var(--navbar-height));
             }
 
             .x_top_header_wrapper {

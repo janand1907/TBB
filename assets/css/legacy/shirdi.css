@@ -36,11 +36,6 @@
      /* padding-bottom: 80px; */
  }
 
- .hs_navigation_header_wrapper {
-     position: relative;
-     z-index: 2000;
- }
-
  .hs_navigation_header_wrapper .drop-menu {
      z-index: 2001;
      width: 270px;
@@ -105,10 +100,11 @@
 
  .hero-banner .hero-inner {
      width: 100%;
-     max-width: 1400px;
+     max-width: var(--site-container-max-v2, 1200px);
      margin: 0 auto;
+     padding: 0 20px;
      display: grid;
-     grid-template-columns: 70% 30%;
+     grid-template-columns: 7fr 3fr;
      gap: 32px;
      align-items: center;
      min-height: 80vh;
@@ -836,12 +832,27 @@
 
  /* Layout */
  .container-v2 {
-     max-width: 1200px;
+     max-width: var(--site-container-max-v2, 1200px);
      margin: 0 auto;
      padding: 0 20px;
      display: grid;
-     /* grid-template-columns: 2fr 1fr;
-        gap: 32px; */
+     grid-template-columns: 1fr;
+     gap: 20px;
+ }
+
+ @media (min-width: 992px) {
+     .container-v2 {
+         grid-template-columns: 2fr 1fr;
+         gap: 32px;
+     }
+
+     /* .container-v2 is a 2fr/1fr main+sidebar grid, but this page uses it
+        for a single-child full-width 3-card strip (.sidebar.sidebar-grid) -
+        without this, that lone child auto-places into just the 2fr track,
+        leaving the 1fr track empty and squeezing the cards to 2/3 width. */
+     .container-v2 > .sidebar.sidebar-grid {
+         grid-column: 1 / -1;
+     }
  }
 
  .highlights-grid {
@@ -1517,10 +1528,6 @@
          grid-template-columns: 1fr 1fr;
      }
 
-     .container-v2 {
-         grid-template-columns: 1fr;
-     }
-
      .mobile-actions {
          display: flex;
      }
@@ -1629,6 +1636,15 @@
 @media (max-width: 767px) {
     .hero-banner {
         display: none !important;
+    }
+}
+
+/* Mobile hero card is mobile-only; without this it stacks on top of
+   .hero-banner at >=768px since .hero-banner has no upper-bound hide rule. */
+@media (min-width: 768px) {
+    .mobile-hero-card,
+    .mobile-highlights-card {
+        display: none;
     }
 }
 
