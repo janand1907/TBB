@@ -82,8 +82,6 @@ Redirect 301 /tirupati-300-darshan-package-from-chennai.php /srivani-vip-break-d
   </FilesMatch>
 </IfModule>
 
-KeepAlive On
-
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php81” package as the default “PHP” programming language.
 <IfModule mime_module>

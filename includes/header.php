@@ -28,6 +28,11 @@ $captcha_question = "Captcha: {$first_num} {$operator} {$second_num} = ?";
 //   $showLeadPopup    (optional, default true) set false on pages that must
 //                                 not show the global lead popup (includes/lead-popup.php),
 //                                 e.g. thanks.php, privacy-and-cookies-policy.php, refund-policy.php.
+//   $loadLegacyWidgets (optional, default true) set false on pages that use
+//                                 none of: jquery-ui datepicker, select2, owl.carousel,
+//                                 bxSlider, magnific-popup, nice-select - skips their
+//                                 CSS/JS entirely (currently the modern hero-form pages
+//                                 that don't have the legacy widget's datepicker field).
 $pageTitle = $pageTitle ?? 'Tirupati Balaji Travels | Tirupati Darshan Package';
 $pageDescription = $pageDescription ?? 'Divine Balaji Travels offers Tirupati tour packages from Chennai and Hyderabad with private car travel, hotel stay and complete trip assistance.';
 $pageCanonical = $pageCanonical ?? ('https://www.tirupatibalajibooking.com/' . basename($_SERVER['PHP_SELF']));
@@ -36,6 +41,7 @@ $activeMenu = $activeMenu ?? null;
 $extraHeadLinks = $extraHeadLinks ?? '';
 $includeDefaultSchema = $includeDefaultSchema ?? true;
 $showLeadPopup = $showLeadPopup ?? true;
+$loadLegacyWidgets = $loadLegacyWidgets ?? true;
 ?>
 <!DOCTYPE html>
 
@@ -55,6 +61,14 @@ $showLeadPopup = $showLeadPopup ?? true;
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <!-- Lighthouse "Network dependency tree": top 2 preconnect candidates by
+         est. savings (chat widget + ad conversion pixel). Capped at 5 total
+         preconnects (Lighthouse's own "no more than 4-5" guidance) - the
+         other 2 candidates get the cheaper dns-prefetch-only hint instead. -->
+    <link rel="preconnect" href="https://api.artibot.ai" crossorigin>
+    <link rel="preconnect" href="https://googleads.g.doubleclick.net" crossorigin>
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://stats.g.doubleclick.net">
     <title><?= htmlspecialchars($pageTitle, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?= htmlspecialchars($pageDescription, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>" />
@@ -77,22 +91,31 @@ $showLeadPopup = $showLeadPopup ?? true;
     <meta name="twitter:image" content="<?= htmlspecialchars($pageOgImage, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>" />
     <?= $extraHeadLinks ?>
     <!--Template style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/legacy/animate.css" />
+    <!-- Performance: animate.css only supplies the scroll-triggered sticky-nav
+         "fadeInDown" class (xpedia.js) - not needed for first paint, so it's
+         fetched via preload and swapped to a real stylesheet once loaded
+         instead of blocking render. -->
+    <link rel="preload" href="assets/css/legacy/animate.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" type="text/css" href="assets/css/legacy/animate.css" /></noscript>
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/fonts.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/flaticon.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/font-awesome.css" />
+    <?php if ($loadLegacyWidgets): ?>
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/select2.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/nice-select.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/owl.carousel.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/owl.theme.default.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/magnific-popup.css" />
+    <?php endif; ?>
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/reset.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/style.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/responsive.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/custom.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/lead-popup.css" />
+    <?php if ($loadLegacyWidgets): ?>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <?php endif; ?>
     <link rel="stylesheet" href="assets/css/legacy/shared-topbar.css">
     <!--favicon-->
     <!-- <link rel="shortcut icon" type="image/png" href="assets/images/tirupati_package.png" /> -->

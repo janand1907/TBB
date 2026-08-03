@@ -145,13 +145,13 @@ whatsapp</a>
         <li class="access bw" style="background: #0f2f5c !important; border-right: 1px solid #fff;">
             <a href="tel:9994751079" class="black" style="color: #fff !important;
     font-weight: 400;">
-                <img width="348" height="348" decoding="async" src="assets/images/phone.webp" alt="Call Now" style="width: 25px; margin-bottom: 5px;"><br />Call Now</a>
+                <img width="64" height="64" decoding="async" src="assets/images/phone.webp" alt="Call Now" style="width: 25px; margin-bottom: 5px;"><br />Call Now</a>
         </li>
         <li class="access bw" style="background: green !important; border-right: 1px solid #fff;">
             <a href="https://api.whatsapp.com/send?phone=+919994751079&text=I%20am%20interested" target="_blank"
                 class="black" style="color: #fff !important;
     font-weight: 400;">
-                <img width="900" height="900" decoding="async" src="assets/images/whatsapp.webp" alt="Call Now"
+                <img width="64" height="64" decoding="async" src="assets/images/whatsapp.webp" alt="Call Now"
                     style="width: 25px; margin-bottom: 5px;"><br />Whatsapp</a>
         </li>
         <!-- <li class="access bw" style="background: #ff9900 !important;">
@@ -218,19 +218,21 @@ whatsapp</a>
     padding-left:4px;
 }
 </style>
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/modernizr.js"></script>
-<script src="assets/js/select2.min.js"></script>
-<script src="assets/js/jquery.menu-aim.js"></script>
-<script src="assets/js/jquery-ui.js"></script>
-<script src="assets/js/jquery.nice-select.min.js"></script>
-<script src="assets/js/owl.carousel.js"></script>
-<script src="assets/js/jquery.bxslider.min.js"></script>
-<script src="assets/js/jquery.magnific-popup.js"></script>
-<script src="assets/js/xpedia.js"></script>
-<script src="assets/js/legacy-enquiry-forms.js"></script>
-<script src="assets/js/lead-popup.js"></script>
+<script src="assets/js/jquery-3.3.1.min.js" defer></script>
+<script src="assets/js/bootstrap.min.js" defer></script>
+<script src="assets/js/modernizr.js" defer></script>
+<?php if ($loadLegacyWidgets): ?>
+<script src="assets/js/select2.min.js" defer></script>
+<script src="assets/js/jquery-ui.js" defer></script>
+<script src="assets/js/jquery.nice-select.min.js" defer></script>
+<script src="assets/js/owl.carousel.js" defer></script>
+<script src="assets/js/jquery.bxslider.min.js" defer></script>
+<script src="assets/js/jquery.magnific-popup.js" defer></script>
+<?php endif; ?>
+<script src="assets/js/xpedia.js" defer></script>
+<script src="assets/js/legacy-enquiry-forms.js" defer></script>
+<?php $leadPopupJsVersion = @filemtime(__DIR__ . '/../assets/js/lead-popup.js') ?: time(); ?>
+<script src="assets/js/lead-popup.js?v=<?php echo $leadPopupJsVersion; ?>"></script>
 <!-- custom js-->
 <!--<script>
     $( document ).ready(function() {
@@ -242,28 +244,44 @@ whatsapp</a>
 
 
 <script>
-    ! function (t, e) {
-        t.artibotApi = {
-            l: [],
-            t: [],
-            on: function () {
-                this.l.push(arguments)
-            },
-            trigger: function () {
-                this.t.push(arguments)
+    // Chat widget isn't needed for the page to be usable at load time, so its
+    // loader is deferred to the load event (+ idle time where supported)
+    // instead of competing with the critical path for bandwidth/main thread.
+    function __loadArtibot() {
+        ! function (t, e) {
+            t.artibotApi = {
+                l: [],
+                t: [],
+                on: function () {
+                    this.l.push(arguments)
+                },
+                trigger: function () {
+                    this.t.push(arguments)
+                }
+            };
+            var a = !1,
+                i = e.createElement("script");
+            i.async = !0, i.type = "text/javascript", i.src = "https://app.artibot.ai/loader.js", e.getElementsByTagName("head").item(0).appendChild(i), i.onreadystatechange = i.onload = function () {
+                if (!(a || this.readyState && "loaded" != this.readyState && "complete" != this.readyState)) {
+                    new window.ArtiBot({
+                        i: "c56dadfb-24c2-4168-bff8-265c1c34dd87"
+                    });
+                    a = !0
+                }
             }
-        };
-        var a = !1,
-            i = e.createElement("script");
-        i.async = !0, i.type = "text/javascript", i.src = "https://app.artibot.ai/loader.js", e.getElementsByTagName("head").item(0).appendChild(i), i.onreadystatechange = i.onload = function () {
-            if (!(a || this.readyState && "loaded" != this.readyState && "complete" != this.readyState)) {
-                new window.ArtiBot({
-                    i: "c56dadfb-24c2-4168-bff8-265c1c34dd87"
-                });
-                a = !0
+        }(window, document);
+    }
+    if (document.readyState === "complete") {
+        __loadArtibot();
+    } else {
+        window.addEventListener("load", function () {
+            if ("requestIdleCallback" in window) {
+                requestIdleCallback(__loadArtibot, { timeout: 3000 });
+            } else {
+                __loadArtibot();
             }
-        }
-    }(window, document);
+        });
+    }
 </script>
 <!-- Google Ads phone-conversion label (AW-437360014): the gtag.js library
      itself + base 'AW-437360014' config are already loaded once in
@@ -280,8 +298,27 @@ http://www.tirupatibalajibooking.com -->
     var sc_project = 13063434;
     var sc_invisible = 1;
     var sc_security = "6753fe53";
+    // Visit-counter beacon isn't needed for the page to be usable at load
+    // time, so it's deferred the same way as the chat widget above.
+    function __loadStatcounter() {
+        var sc = document.createElement("script");
+        sc.type = "text/javascript";
+        sc.src = "https://www.statcounter.com/counter/counter.js";
+        sc.async = true;
+        document.head.appendChild(sc);
+    }
+    if (document.readyState === "complete") {
+        __loadStatcounter();
+    } else {
+        window.addEventListener("load", function () {
+            if ("requestIdleCallback" in window) {
+                requestIdleCallback(__loadStatcounter, { timeout: 3000 });
+            } else {
+                __loadStatcounter();
+            }
+        });
+    }
 </script>
-<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
 <noscript>
     <div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img
                 class="statcounter" src="https://c.statcounter.com/13063434/0/6753fe53/1/" alt="Web Analytics"

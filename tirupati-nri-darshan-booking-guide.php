@@ -12,15 +12,16 @@ $activeMenu = null;
 $includeDefaultSchema = false;
 $extraHeadLinks = <<<'HTML'
      <!-- ✅ Google Font  -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"></noscript>
 
   <!-- ✅ Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/modern/fa6-subset.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/css/intlTelInput.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/css/intlTelInput.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/css/intlTelInput.css"></noscript>
 
   <!-- Bootstrap Icon CSS -->
-  <link href="assets/css/modern/bootstrap-icons.css" rel="stylesheet">
  
   <!--  Style CSS  -->
   <link rel="stylesheet" href="assets/css/modern/style.css?ver=2.5">
@@ -168,6 +169,7 @@ $extraHeadLinks = <<<'HTML'
 
   
 HTML;
+$loadLegacyWidgets = false; // no datepicker/select2/owl/bxslider/magnific-popup on this page
 include 'includes/header.php';
 ?>
 <?php include 'includes/script.php'; ?>

@@ -41,7 +41,7 @@
             <a href="tel:9994751079" class="lead-popup__btn lead-popup__btn--call" data-lead-popup-cta>
                 <i class="fa fa-phone" aria-hidden="true"></i> Speak to a Consultant
             </a>
-            <a href="https://wa.me/919994751079?text=I%20am%20interested%20in%20a%20Tirupati%20Darshan%20package"
+            <a href="https://wa.me/919994751079" id="lead-popup-whatsapp"
                 target="_blank" rel="noopener" class="lead-popup__btn lead-popup__btn--whatsapp" data-lead-popup-cta>
                 <i class="fa fa-whatsapp" aria-hidden="true"></i> Connect Instantly on WhatsApp
             </a>
