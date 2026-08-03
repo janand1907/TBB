@@ -709,7 +709,7 @@ style="background: url('assets/srivani-image/nri-hyderabad-by-fligh/hero.webp') 
         <div class="vqxz-nriassist-right-74821">
 
             <div class="vqxz-nriassist-imgbox-74821">
-                <img src="assets/srivani-image/home/NRIAssistance.webp"
+                <img loading="lazy" width="1536" height="1024" decoding="async" src="assets/srivani-image/home/NRIAssistance.webp"
                      alt="Tirupati travel support for NRI and international devotees from Malaysia Singapore Sri Lanka UK">
             </div>
 

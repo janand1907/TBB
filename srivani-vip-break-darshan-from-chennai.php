@@ -5,7 +5,7 @@ ob_start();
 // instead of being silently discarded or shown to visitors.
 error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
-$pageTitle = 'Chennai to Tirupati Car Package for Devotees | Private Travel Assistance';
+$pageTitle = 'Srivani Vip Break Darshan from Chennai';
 $pageDescription = 'Book Chennai to Tirupati car package with private cab travel, pickup, hotel stay options and complete trip assistance for devotees.';
 $pageCanonical = 'https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-chennai.php';
 $activeMenu = 'services';

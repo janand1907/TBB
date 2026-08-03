@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Sri Kalyana Venkateshwara Swamy Temple, Narayanavanam | Darshan Package";
+$pageTitle = "Kalyana Venkateshwara Temple Narayanavanam Guide";
 $pageDescription = "Plan a visit to Sri Kalyana Venkateshwara Swamy Temple in Narayanavanam with private car travel and darshan package support.";
 $activeMenu = 'temples';
 include './includes/header.php';
@@ -330,8 +330,8 @@ include './includes/header.php';
                 </div>
                 <div class="col-md-6 mt-4">
                     <div class="">
-                        <img src="assets/images/narayanavanam-temple.png"
-                            alt="best Tirumala Tirupati tour operators from Chennai " style="width: 100%;">
+                        <picture><source srcset="assets/images/narayanavanam-temple.webp" type="image/webp"><img loading="lazy" width="330" height="220" decoding="async" src="assets/images/narayanavanam-temple.png"
+                            alt="best Tirumala Tirupati tour operators from Chennai " style="width: 100%;"></picture>
                     </div>
                 </div>
 

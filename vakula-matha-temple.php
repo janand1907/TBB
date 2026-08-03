@@ -329,8 +329,8 @@ include './includes/header.php';
                 </div>
                 <div class="col-md-6 mt-4">
                     <div class="">
-                        <img src="assets/images/vakula-matha-temple.png"
-                            alt="best Tirumala Tirupati tour operators from Chennai " style="width: 100%;">
+                        <picture><source srcset="assets/images/vakula-matha-temple.webp" type="image/webp"><img loading="lazy" width="330" height="220" decoding="async" src="assets/images/vakula-matha-temple.png"
+                            alt="best Tirumala Tirupati tour operators from Chennai " style="width: 100%;"></picture>
                     </div>
                 </div>
                 <div class="col-md-12 mt-4">

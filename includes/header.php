@@ -25,6 +25,9 @@ $captcha_question = "Captcha: {$first_num} {$operator} {$second_num} = ?";
 //                                 provide their own schema.org JSON-LD via
 //                                 $extraHeadLinks, to avoid emitting two
 //                                 conflicting TravelAgency blocks.
+//   $showLeadPopup    (optional, default true) set false on pages that must
+//                                 not show the global lead popup (includes/lead-popup.php),
+//                                 e.g. thanks.php, privacy-and-cookies-policy.php, refund-policy.php.
 $pageTitle = $pageTitle ?? 'Tirupati Balaji Travels | Tirupati Darshan Package';
 $pageDescription = $pageDescription ?? 'Divine Balaji Travels offers Tirupati tour packages from Chennai and Hyderabad with private car travel, hotel stay and complete trip assistance.';
 $pageCanonical = $pageCanonical ?? ('https://www.tirupatibalajibooking.com/' . basename($_SERVER['PHP_SELF']));
@@ -32,6 +35,7 @@ $pageOgImage = $pageOgImage ?? 'https://www.tirupatibalajibooking.com/assets/ima
 $activeMenu = $activeMenu ?? null;
 $extraHeadLinks = $extraHeadLinks ?? '';
 $includeDefaultSchema = $includeDefaultSchema ?? true;
+$showLeadPopup = $showLeadPopup ?? true;
 ?>
 <!DOCTYPE html>
 
@@ -43,6 +47,14 @@ $includeDefaultSchema = $includeDefaultSchema ?? true;
 
 <head>
     <meta charset="utf-8" />
+    <!-- Performance: warm up connections to domains used site-wide (fonts,
+         CDN icon/JS libraries) and by individual pages' $extraHeadLinks. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
     <title><?= htmlspecialchars($pageTitle, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?= htmlspecialchars($pageDescription, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>" />
@@ -79,14 +91,18 @@ $includeDefaultSchema = $includeDefaultSchema ?? true;
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/style.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/responsive.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/custom.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/lead-popup.css" />
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="assets/css/legacy/shared-topbar.css">
     <!--favicon-->
     <!-- <link rel="shortcut icon" type="image/png" href="assets/images/tirupati_package.png" /> -->
-    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
+    <link rel="icon" type="image/png" href="assets/images/favicon-32.png" />
+    <link rel="apple-touch-icon" href="assets/images/favicon-180.png" />
 
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics + Google Ads (consolidated,
+         one library load covers both properties; see includes/footer.php for
+         the phone-conversion config call, which depends on this shim). -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188854373-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -97,6 +113,7 @@ $includeDefaultSchema = $includeDefaultSchema ?? true;
         gtag('js', new Date());
 
         gtag('config', 'UA-188854373-1');
+        gtag('config', 'AW-437360014');
     </script>
 
     <?php if ($includeDefaultSchema): ?>
@@ -202,7 +219,10 @@ $includeDefaultSchema = $includeDefaultSchema ?? true;
                 <div class=" col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
                     <div class="hs_logo_wrapper d-none d-sm-none d-xs-none d-md-block">
                         <a href="./">
-                            <img src="assets/images/logo/logo_main.png" class="img-responsive" alt="Tirupati Balaji Booking Logo" title="Tirupati Balaji Booking" />
+                            <picture>
+                                <source srcset="assets/images/logo/logo_main.webp" type="image/webp">
+                                <img src="assets/images/logo/logo_main.png" class="img-responsive" alt="Tirupati Balaji Booking Logo" title="Tirupati Balaji Booking" width="2137" height="384" decoding="async" />
+                            </picture>
                         </a>
                     </div>
                 </div>
@@ -278,7 +298,10 @@ $includeDefaultSchema = $includeDefaultSchema ?? true;
                                 <div class="col-xs-10 col-sm-10 col-10 pl-0">
                                     <div class="hs_logo">
                                         <a href="./">
-                                            <img src="assets/images/logo/logo_main.png" alt="Tirupati Balaji Booking Logo" title="Tirupati Balaji Booking">
+                                            <picture>
+                                                <source srcset="assets/images/logo/logo_main.webp" type="image/webp">
+                                                <img src="assets/images/logo/logo_main.png" alt="Tirupati Balaji Booking Logo" title="Tirupati Balaji Booking" width="2137" height="384" decoding="async">
+                                            </picture>
                                         </a>
                                     </div>
                                 </div>

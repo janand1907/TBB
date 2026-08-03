@@ -5,7 +5,7 @@ ob_start();
 // instead of being silently discarded or shown to visitors.
 error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
-$pageTitle = 'Tirupati Temple Tour Packages & Travel Guide | Chennai & Hyderabad';
+$pageTitle = 'Tirupati Tour Packages | Chennai & Hyderabad Guide';
 $pageDescription = 'Private Tirupati temple tour packages with pickup, travel, hotel stay and trip planning from Chennai and Hyderabad. Independent travel company.';
 $pageCanonical = 'https://www.tirupatibalajibooking.com/tirupati-darshan-booking-guide.php';
 $activeMenu = null;

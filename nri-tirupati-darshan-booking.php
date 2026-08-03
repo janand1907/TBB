@@ -311,7 +311,7 @@ include './includes/header.php';
                 <div class="carlisting-wrap">
                     <div class="carlisting-inner-wrap">
                         <div class="carlisting-photo">
-                            <img class="img-fluid" src="assets/images/c1.png" alt="one day Chennai to Tirupati package">
+                            <img loading="lazy" width="190" height="100" decoding="async" class="img-fluid" src="assets/images/c1.png" alt="one day Chennai to Tirupati package">
                         </div>
                         <div class="carlisting-name">
                             <h4>ETIOS</h4>
@@ -337,7 +337,7 @@ include './includes/header.php';
                 <div class="carlisting-wrap">
                     <div class="carlisting-inner-wrap">
                         <div class="carlisting-photo">
-                            <img class="img-fluid" src="assets/images/c2.png" alt="one day Chennai to Tirupati package">
+                            <img loading="lazy" width="190" height="100" decoding="async" class="img-fluid" src="assets/images/c2.png" alt="one day Chennai to Tirupati package">
                         </div>
                         <div class="carlisting-name">
                             <h4>INNOVA</h4>
@@ -363,7 +363,7 @@ include './includes/header.php';
                 <div class="carlisting-wrap">
                     <div class="carlisting-inner-wrap">
                         <div class="carlisting-photo">
-                            <img class="img-fluid" src="assets/images/c2.png" alt="one day Chennai to Tirupati package">
+                            <img loading="lazy" width="190" height="100" decoding="async" class="img-fluid" src="assets/images/c2.png" alt="one day Chennai to Tirupati package">
                         </div>
                         <div class="carlisting-name">
                             <h4>INNOVA CRYSTA</h4>
@@ -389,7 +389,7 @@ include './includes/header.php';
                 <div class="carlisting-wrap">
                     <div class="carlisting-inner-wrap">
                         <div class="carlisting-photo">
-                            <img class="img-fluid" src="assets/images/c4.png" alt="one day Chennai to Tirupati package">
+                            <img loading="lazy" width="190" height="100" decoding="async" class="img-fluid" src="assets/images/c4.png" alt="one day Chennai to Tirupati package">
                         </div>
                         <div class="carlisting-name">
                             <h4>TEMPO AC</h4>
@@ -415,7 +415,7 @@ include './includes/header.php';
                 <div class="carlisting-wrap">
                     <div class="carlisting-inner-wrap">
                         <div class="carlisting-photo">
-                            <img class="img-fluid" src="assets/images/c4.png" alt="one day Chennai to Tirupati package">
+                            <img loading="lazy" width="190" height="100" decoding="async" class="img-fluid" src="assets/images/c4.png" alt="one day Chennai to Tirupati package">
                         </div>
                         <div class="carlisting-name">
                             <h4>URBANIA</h4>
@@ -445,7 +445,7 @@ include './includes/header.php';
                     <div class="item">
                         <div class="btc_team_slider_cont_main_wrapper" style="padding: 10px; margin-top: 0px;">
                             <div class="btc_team_img_wrapper" style="padding-bottom: 20px;">
-                                <img class="w-100" src="assets/images/etios.png" alt="one day Chennai to Tirupati package">
+                                <img loading="lazy" width="330" height="220" decoding="async" class="w-100" src="assets/images/etios.png" alt="one day Chennai to Tirupati package">
                                 <div class="x_team_label_wrapper">
                                     <p>ETIOS</p>
                                 </div>
@@ -466,7 +466,7 @@ include './includes/header.php';
                     <div class="item">
                         <div class="btc_team_slider_cont_main_wrapper" style="padding: 10px; margin-top: 0px;">
                             <div class="btc_team_img_wrapper" style="padding-bottom: 20px;">
-                                <img class="w-100" src="assets/images/innova.jpg" alt="one day Chennai to Tirupati package">
+                                <picture><source srcset="assets/images/innova.webp" type="image/webp"><img loading="lazy" width="700" height="467" decoding="async" class="w-100" src="assets/images/innova.jpg" alt="one day Chennai to Tirupati package"></picture>
                                 <div class="x_team_label_wrapper">
                                     <p>Innova</p>
                                 </div>
@@ -487,7 +487,7 @@ include './includes/header.php';
                     <div class="item">
                         <div class="btc_team_slider_cont_main_wrapper" style="padding: 10px; margin-top: 0px;">
                             <div class="btc_team_img_wrapper" style="padding-bottom: 20px;">
-                                <img class="w-100" src="assets/images/innova.jpg" alt="one day Chennai to Tirupati package">
+                                <picture><source srcset="assets/images/innova.webp" type="image/webp"><img loading="lazy" width="700" height="467" decoding="async" class="w-100" src="assets/images/innova.jpg" alt="one day Chennai to Tirupati package"></picture>
                                 <div class="x_team_label_wrapper">
                                     <p>Innova Crysta</p>
                                 </div>
@@ -512,7 +512,7 @@ include './includes/header.php';
                     <div class="item">
                         <div class="btc_team_slider_cont_main_wrapper" style="padding: 10px; margin-top: 0px;">
                             <div class="btc_team_img_wrapper" style="padding-bottom: 20px;">
-                                <img class="w-100" src="assets/images/tempo.png" alt="one day Chennai to Tirupati package">
+                                <picture><source srcset="assets/images/tempo.webp" type="image/webp"><img loading="lazy" width="330" height="220" decoding="async" class="w-100" src="assets/images/tempo.png" alt="one day Chennai to Tirupati package"></picture>
                                 <div class="x_team_label_wrapper">
                                     <p>Tempo AC</p>
                                 </div>
@@ -533,7 +533,7 @@ include './includes/header.php';
                     <div class="item">
                         <div class="btc_team_slider_cont_main_wrapper" style="padding: 10px; margin-top: 0px;">
                             <div class="btc_team_img_wrapper" style="padding-bottom: 20px;">
-                                <img class="w-100" src="assets/images/urbania.png" alt="one day Chennai to Tirupati package">
+                                <img loading="lazy" width="330" height="220" decoding="async" class="w-100" src="assets/images/urbania.png" alt="one day Chennai to Tirupati package">
                                 <div class="x_team_label_wrapper">
                                     <p>Urbania</p>
                                 </div>
@@ -570,7 +570,7 @@ include './includes/header.php';
                 <div class="carlisting-wrap">
                     <div class="carlisting-inner-wrap">
                         <div class="carlisting-photo">
-                            <img class="img-fluid" src="assets/images/c1.png" alt="one day Chennai to Tirupati package">
+                            <img loading="lazy" width="190" height="100" decoding="async" class="img-fluid" src="assets/images/c1.png" alt="one day Chennai to Tirupati package">
                         </div>
                         <div class="carlisting-name">
                             <h4>ETIOS</h4>
@@ -596,7 +596,7 @@ include './includes/header.php';
                 <div class="carlisting-wrap">
                     <div class="carlisting-inner-wrap">
                         <div class="carlisting-photo">
-                            <img class="img-fluid" src="assets/images/c2.png" alt="one day Chennai to Tirupati package">
+                            <img loading="lazy" width="190" height="100" decoding="async" class="img-fluid" src="assets/images/c2.png" alt="one day Chennai to Tirupati package">
                         </div>
                         <div class="carlisting-name">
                             <h4>INNOVA</h4>
@@ -622,7 +622,7 @@ include './includes/header.php';
                 <div class="carlisting-wrap">
                     <div class="carlisting-inner-wrap">
                         <div class="carlisting-photo">
-                            <img class="img-fluid" src="assets/images/c2.png" alt="one day Chennai to Tirupati package">
+                            <img loading="lazy" width="190" height="100" decoding="async" class="img-fluid" src="assets/images/c2.png" alt="one day Chennai to Tirupati package">
                         </div>
                         <div class="carlisting-name">
                             <h4>INNOVA CRYSTA</h4>
@@ -648,7 +648,7 @@ include './includes/header.php';
                 <div class="carlisting-wrap">
                     <div class="carlisting-inner-wrap">
                         <div class="carlisting-photo">
-                            <img class="img-fluid" src="assets/images/c4.png" alt="one day Chennai to Tirupati package">
+                            <img loading="lazy" width="190" height="100" decoding="async" class="img-fluid" src="assets/images/c4.png" alt="one day Chennai to Tirupati package">
                         </div>
                         <div class="carlisting-name">
                             <h4>TEMPO AC</h4>
@@ -674,7 +674,7 @@ include './includes/header.php';
                 <div class="carlisting-wrap">
                     <div class="carlisting-inner-wrap">
                         <div class="carlisting-photo">
-                            <img class="img-fluid" src="assets/images/c4.png" alt="one day Chennai to Tirupati package">
+                            <img loading="lazy" width="190" height="100" decoding="async" class="img-fluid" src="assets/images/c4.png" alt="one day Chennai to Tirupati package">
                         </div>
                         <div class="carlisting-name">
                             <h4>URBANIA</h4>
@@ -704,7 +704,7 @@ include './includes/header.php';
                     <div class="item">
                         <div class="btc_team_slider_cont_main_wrapper" style="padding: 10px; margin-top: 0px;">
                             <div class="btc_team_img_wrapper" style="padding-bottom: 20px;">
-                                <img class="w-100" src="assets/images/etios.png" alt="one day Chennai to Tirupati package">
+                                <img loading="lazy" width="330" height="220" decoding="async" class="w-100" src="assets/images/etios.png" alt="one day Chennai to Tirupati package">
                                 <div class="x_team_label_wrapper">
                                     <p>ETIOS</p>
                                 </div>
@@ -725,7 +725,7 @@ include './includes/header.php';
                     <div class="item">
                         <div class="btc_team_slider_cont_main_wrapper" style="padding: 10px; margin-top: 0px;">
                             <div class="btc_team_img_wrapper" style="padding-bottom: 20px;">
-                                <img class="w-100" src="assets/images/innova.jpg" alt="one day Chennai to Tirupati package">
+                                <picture><source srcset="assets/images/innova.webp" type="image/webp"><img loading="lazy" width="700" height="467" decoding="async" class="w-100" src="assets/images/innova.jpg" alt="one day Chennai to Tirupati package"></picture>
                                 <div class="x_team_label_wrapper">
                                     <p>Innova</p>
                                 </div>
@@ -746,7 +746,7 @@ include './includes/header.php';
                     <div class="item">
                         <div class="btc_team_slider_cont_main_wrapper" style="padding: 10px; margin-top: 0px;">
                             <div class="btc_team_img_wrapper" style="padding-bottom: 20px;">
-                                <img class="w-100" src="assets/images/innova.jpg" alt="one day Chennai to Tirupati package">
+                                <picture><source srcset="assets/images/innova.webp" type="image/webp"><img loading="lazy" width="700" height="467" decoding="async" class="w-100" src="assets/images/innova.jpg" alt="one day Chennai to Tirupati package"></picture>
                                 <div class="x_team_label_wrapper">
                                     <p>Innova Crysta</p>
                                 </div>
@@ -771,7 +771,7 @@ include './includes/header.php';
                     <div class="item">
                         <div class="btc_team_slider_cont_main_wrapper" style="padding: 10px; margin-top: 0px;">
                             <div class="btc_team_img_wrapper" style="padding-bottom: 20px;">
-                                <img class="w-100" src="assets/images/tempo.png" alt="one day Chennai to Tirupati package">
+                                <picture><source srcset="assets/images/tempo.webp" type="image/webp"><img loading="lazy" width="330" height="220" decoding="async" class="w-100" src="assets/images/tempo.png" alt="one day Chennai to Tirupati package"></picture>
                                 <div class="x_team_label_wrapper">
                                     <p>Tempo AC</p>
                                 </div>
@@ -792,7 +792,7 @@ include './includes/header.php';
                     <div class="item">
                         <div class="btc_team_slider_cont_main_wrapper" style="padding: 10px; margin-top: 0px;">
                             <div class="btc_team_img_wrapper" style="padding-bottom: 20px;">
-                                <img class="w-100" src="assets/images/urbania.png" alt="one day Chennai to Tirupati package">
+                                <img loading="lazy" width="330" height="220" decoding="async" class="w-100" src="assets/images/urbania.png" alt="one day Chennai to Tirupati package">
                                 <div class="x_team_label_wrapper">
                                     <p>Urbania</p>
                                 </div>

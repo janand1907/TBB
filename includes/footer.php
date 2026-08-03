@@ -58,7 +58,7 @@
                 <div class="x_footer_bottom_box_wrapper_second float_left">
                     <h3>Customer Support</h3>
                     <ul>
-                        <li><a href="faq.php"><i class="fa fa-long-arrow-right"></i> &nbsp; FAQ</a>
+                        <li><a href="tirupati-tour-faq.php"><i class="fa fa-long-arrow-right"></i> &nbsp; FAQ</a>
                         </li>
                         <li><a href="refund-policy.php"><i class="fa fa-long-arrow-right"></i> &nbsp; Payment
                                 Option</a>
@@ -132,9 +132,9 @@ whatsapp</a>
         <ul class="action">
             <li class="access">
                 <a href="tel:+919994751079">
-                    <img src="assets/images/ph-call.png" alt="Call Now"> Call Now</a>
+                    <img loading="lazy" width="1024" height="1024" decoding="async" src="assets/images/ph-call.png" alt="Call Now"> Call Now</a>
             </li>
-            <li style="background: #06b31b;"><a href="http://wa.me/919994751079"> <img src="assets/images/whats-app.png"
+            <li style="background: #06b31b;"><a href="http://wa.me/919994751079"> <img loading="lazy" width="640" height="640" decoding="async" src="assets/images/whats-app.png"
                         alt="Whatsapp"> Whatsapp</a>
             </li>
 
@@ -145,29 +145,32 @@ whatsapp</a>
         <li class="access bw" style="background: #0f2f5c !important; border-right: 1px solid #fff;">
             <a href="tel:9994751079" class="black" style="color: #fff !important;
     font-weight: 400;">
-                <img src="assets/images/phone.webp" alt="Call Now" style="width: 25px; margin-bottom: 5px;"><br />Call Now</a>
+                <img width="348" height="348" decoding="async" src="assets/images/phone.webp" alt="Call Now" style="width: 25px; margin-bottom: 5px;"><br />Call Now</a>
         </li>
         <li class="access bw" style="background: green !important; border-right: 1px solid #fff;">
             <a href="https://api.whatsapp.com/send?phone=+919994751079&text=I%20am%20interested" target="_blank"
                 class="black" style="color: #fff !important;
     font-weight: 400;">
-                <img src="assets/images/whatsapp.webp" alt="Call Now"
+                <img width="900" height="900" decoding="async" src="assets/images/whatsapp.webp" alt="Call Now"
                     style="width: 25px; margin-bottom: 5px;"><br />Whatsapp</a>
         </li>
         <!-- <li class="access bw" style="background: #ff9900 !important;">
             <a class="black" style="color: #fff !important;
     font-weight: 400;">
-                <img src="assets/images/book-cal.png" alt="Call Now" style="width: 25px; margin-bottom: 5px;"><br />Book
+                <img loading="lazy" width="27" height="29" decoding="async" src="assets/images/book-cal.png" alt="Call Now" style="width: 25px; margin-bottom: 5px;"><br />Book
                 Pkg</a>
         </li> -->
         <!-- <li class="access bw">
             <a class="house_toggle black">
-                <img src="assets/images/menu.png" alt="Call Now"><br />Menu</a>
+                <img loading="lazy" width="512" height="512" decoding="async" src="assets/images/menu.png" alt="Call Now"><br />Menu</a>
         </li> -->
 
 
     </ul>
 </div>
+<?php if ($showLeadPopup): ?>
+<?php include 'includes/lead-popup.php'; ?>
+<?php endif; ?>
 <style>
     .artibot-wrapper--3PaNf .artibot-launcher--dBP9o.artibot-launcher-bottom-right--2_XHM {
         bottom: 30px !important;
@@ -215,21 +218,6 @@ whatsapp</a>
     padding-left:4px;
 }
 </style>
-<script>
-    // document.getElementById("my_captcha_form").addEventListener("submit", function (evt) {
-
-    //     var response = grecaptcha.getResponse();
-    //     if (response.length == 0) {
-    //         //reCaptcha not verified
-    //         alert("please verify you are humann!");
-    //         evt.preventDefault();
-    //         return false;
-    //     }
-    //     //captcha verified
-    //     //do the rest of your validations here
-
-    // });
-</script>
 <script src="assets/js/jquery-3.3.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/modernizr.js"></script>
@@ -242,7 +230,7 @@ whatsapp</a>
 <script src="assets/js/jquery.magnific-popup.js"></script>
 <script src="assets/js/xpedia.js"></script>
 <script src="assets/js/legacy-enquiry-forms.js"></script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="assets/js/lead-popup.js"></script>
 <!-- custom js-->
 <!--<script>
     $( document ).ready(function() {
@@ -277,19 +265,9 @@ whatsapp</a>
         }
     }(window, document);
 </script>
-<!-- Global site tag (gtag.js) - Google Ads: 437360014 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-437360014"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-437360014');
-</script>
-
+<!-- Google Ads phone-conversion label (AW-437360014): the gtag.js library
+     itself + base 'AW-437360014' config are already loaded once in
+     includes/header.php - this just registers the extra conversion label. -->
 <script>
     gtag('config', 'AW-437360014/yCZWCJDr1_QBEI6rxtAB', {
         'phone_conversion_number': '+91-99947-51079'

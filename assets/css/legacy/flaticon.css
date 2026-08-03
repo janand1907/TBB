@@ -4,6 +4,7 @@
   	*/
 
 @font-face {
+  font-display: swap;
   font-family: "Flaticon";
   src: url("/assets/fonts/legacy/Flaticon.eot");
   src: url("/assets/fonts/legacy/Flaticon.eot?#iefix") format("embedded-opentype"),
@@ -16,6 +17,7 @@
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
+  font-display: swap;
     font-family: "Flaticon";
     src: url("./Flaticon.svg#Flaticon") format("svg");
   }

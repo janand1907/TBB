@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Best Tirupati Tour Operators from Chennai | Trusted Travel Packages";
+$pageTitle = "Tirupati Tour Operators from Chennai | Book Now";
 $pageDescription = "Compare trusted Tirupati tour operators offering private car travel, hotel stay and complete darshan package support from Chennai.";
 $activeMenu = null;
 include './includes/header.php';

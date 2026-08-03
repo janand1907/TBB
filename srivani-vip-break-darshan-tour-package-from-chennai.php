@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Srivani Break Darshan Booking | Tirupati VIP Darshan Package from Chennai';
+$pageTitle = 'Srivani Break Darshan Package from Chennai';
 $pageDescription = 'Book Srivani Break Darshan Booking with Tirupati VIP Darshan Package from Chennai. Same-day darshan, AC transport, and complete assistance included.';
 $activeMenu = null;
 include 'includes/header.php';
@@ -495,7 +495,7 @@ line-height:1.8;
                         Call Now
                     </a>
                     <a class="cta-btn wa" target="_blank" href="//web.whatsapp.com/send?phone=+919994751079&text=�">
-                        <img src="assets/images/whats.png" style="width: 16px;" alt="WhatsApp btn">
+                        <img loading="lazy" width="205" height="203" decoding="async" src="assets/images/whats.png" style="width: 16px;" alt="WhatsApp btn">
                         Enquire Now
                     </a>
                 </div>
@@ -504,7 +504,7 @@ line-height:1.8;
                         <i class="flaticon-phone-call"></i>
                         Call Now
                     </a>
-                    <a class="cta-btn wa" target="_blank" href="https://wa.me/919994751079"> <img src="assets/images/whats.png"
+                    <a class="cta-btn wa" target="_blank" href="https://wa.me/919994751079"> <img loading="lazy" width="205" height="203" decoding="async" src="assets/images/whats.png"
                             style="width: 16px;" alt="WhatsApp">Enquire Now</a>
                 </div>
             </div>
@@ -650,33 +650,33 @@ line-height:1.8;
         <div class="choose-grid">
             <div class="choose-card">
                 <div class="choose-icon-wrap">
-                    <img src="assets/images/choose-icons/travel.png" alt="Chennai to Tirupati Travel Service"
+                    <img loading="lazy" width="400" height="400" decoding="async" src="assets/images/choose-icons/travel.png" alt="Chennai to Tirupati Travel Service"
                         class="choose-icon-img">
                 </div>
                 <p class="choose-text">Chennai to Tirupati Travel Service</p>
             </div>
             <div class="choose-card">
                 <div class="choose-icon-wrap">
-                    <img src="assets/images/choose-icons/location.png" alt="Private AC Transport" class="choose-icon-img">
+                    <img loading="lazy" width="400" height="400" decoding="async" src="assets/images/choose-icons/location.png" alt="Private AC Transport" class="choose-icon-img">
                 </div>
                 <p class="choose-text">Private AC Transport (Safe & Family Friendly)</p>
             </div>
             <div class="choose-card">
                 <div class="choose-icon-wrap">
-                    <img src="assets/images/choose-icons/medal.png" alt="Lord Balaji and Padmavathi Darshan Assistance"
+                    <img loading="lazy" width="400" height="400" decoding="async" src="assets/images/choose-icons/medal.png" alt="Lord Balaji and Padmavathi Darshan Assistance"
                         class="choose-icon-img">
                 </div>
                 <p class="choose-text">Lord Balaji & Padmavathi Darshan Assistance</p>
             </div>
             <div class="choose-card">
                 <div class="choose-icon-wrap">
-                    <img src="assets/images/choose-icons/star.png" alt="Hotel Booking Options" class="choose-icon-img">
+                    <img loading="lazy" width="400" height="400" decoding="async" src="assets/images/choose-icons/star.png" alt="Hotel Booking Options" class="choose-icon-img">
                 </div>
                 <p class="choose-text">Hotel Booking - 3, 4, 5 Star Options</p>
             </div>
             <div class="choose-card">
                 <div class="choose-icon-wrap">
-                    <img src="assets/images/choose-icons/crown.png" alt="VVIP Darshan Assistance" class="choose-icon-img">
+                    <img loading="lazy" width="400" height="400" decoding="async" src="assets/images/choose-icons/crown.png" alt="VVIP Darshan Assistance" class="choose-icon-img">
                 </div>
                 <p class="choose-text">VVIP Darshan Assistance & Guidance</p>
             </div>
@@ -782,11 +782,11 @@ line-height:1.8;
                 <div class="card-lite__pill">Temple Guidelines</div>
             </div>
             <div class="card-lite__body">
-                <p><img src="assets/images/men.png" alt="Men icon"
+                <p><img loading="lazy" width="360" height="360" decoding="async" src="assets/images/men.png" alt="Men icon"
                         style="width: 28px; height: 28px; object-fit: contain; margin-right: 8px; vertical-align: middle;">
                     <b>Men :</b> Dhoti or Pyjamas with Upper Cloth.
                 </p>
-                <p><img src="assets/images/wen.png" alt="Women icon"
+                <p><img loading="lazy" width="200" height="252" decoding="async" src="assets/images/wen.png" alt="Women icon"
                         style="width: 28px; height: 28px; object-fit: contain; margin-right: 8px; vertical-align: middle;">
                     <b>Women :</b> Saree, Half Saree, or Churidar with Pyjama and Upper Cloth.
                 </p>

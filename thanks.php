@@ -22,6 +22,7 @@ $extraHeadLinks = <<<'HTML'
     }
 </style>
 HTML;
+$showLeadPopup = false;
 include 'includes/header.php';
 ?>
     <section class="thanks">

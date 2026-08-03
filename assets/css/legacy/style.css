@@ -1111,7 +1111,7 @@ span.ttd-color {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background: url(/assets/images/slider1.jpg) 50% 0 repeat-y;
+  background: url(/assets/images/slider1.webp) 50% 0 repeat-y;
   position: relative;
   min-height: 800px;
 }
@@ -1122,7 +1122,7 @@ span.ttd-color {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background: url(/assets/images/slider2.jpg);
+  background: url(/assets/images/slider2.webp);
   position: relative;
   min-height: 800px;
 }
@@ -2777,7 +2777,7 @@ span.ttd-color {
   width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
-  background: url("/assets/images/counto_img.jpg") 50% 0 repeat-y;
+  background: url("/assets/images/counto_img.webp") 50% 0 repeat-y;
   background-position: center 0;
   background-size: cover;
   position: relative;

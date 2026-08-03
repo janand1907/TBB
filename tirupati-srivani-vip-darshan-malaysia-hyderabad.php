@@ -501,7 +501,7 @@ include 'includes/header.php';
 
     <!-- RIGHT IMAGE -->
     <div class="mh-transit-right-unique">
-      <img src="assets/srivani-image/malaysia/temple.webp"
+      <img loading="lazy" width="1536" height="1024" decoding="async" src="assets/srivani-image/malaysia/temple.webp"
            alt="Malaysia travellers planning Hyderabad to Tirupati travel package">
     </div>
 
@@ -600,7 +600,7 @@ include 'includes/header.php';
 
     <!-- LEFT IMAGE -->
     <div class="mhx-srivani-left">
-      <img src="assets/srivani-image/malaysia/darshan.webp"
+      <img loading="lazy" width="1536" height="1024" decoding="async" src="assets/srivani-image/malaysia/darshan.webp"
            alt="Malaysia travellers planning Tirupati temple visit from Hyderabad">
     </div>
 
@@ -856,7 +856,7 @@ include 'includes/header.php';
 
       <!-- Image -->
       <div class="mhz-itinerary-image">
-        <img src="assets/srivani-image/malaysia/travel.webp"
+        <img loading="lazy" width="1536" height="1024" decoding="async" src="assets/srivani-image/malaysia/travel.webp"
              alt="Hyderabad to Tirupati travel itinerary for Malaysia travellers">
       </div>
 

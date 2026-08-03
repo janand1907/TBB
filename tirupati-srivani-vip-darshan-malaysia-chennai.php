@@ -615,12 +615,12 @@ include 'includes/header.php';
 
     </div>
 
-    <p class="mxr-footer">
+    <!-- <p class="mxr-footer">
       Need a Hyderabad travel option?
       <a href="https://www.tirupatibalajibooking.com/tirupati-package-from-hyderabad.php" target="_blank">
         View Hyderabad Tirupati Package
       </a>
-    </p>
+    </p> -->
 
     <p style="font-size:13px; color:#666; margin-top:15px;">
       Travel duration may vary based on traffic, route conditions and selected package plan.
@@ -1393,14 +1393,14 @@ include 'includes/header.php';
     </div>
 
     <!-- Compare Link -->
-    <div class="zxq-compare-box">
+    <!-- <div class="zxq-compare-box">
       <p>
         Compare travel options:
         <a href="https://www.tirupatibalajibooking.com/tirupati-package-from-hyderabad.php" target="_blank">
           Chennai Route vs Hyderabad Route
         </a>
       </p>
-    </div>
+    </div> -->
 
   </div>
 </section>
@@ -1494,7 +1494,7 @@ include 'includes/header.php';
       Get Tirupati Package Details from Malaysia
     </a>
 
-    <p class="bttrp-alt-link-wrap-unique">
+    <!-- <p class="bttrp-alt-link-wrap-unique">
       Looking for another route option?
 
       <a href="https://www.tirupatibalajibooking.com/tirupati-package-from-hyderabad.php"
@@ -1503,7 +1503,7 @@ include 'includes/header.php';
 
         Hyderabad Tirupati Travel Package
       </a>
-    </p>
+    </p> -->
 
     <p style="font-size:13px; color:#666; margin-top:14px;">
       Temple schedules, tickets and eligibility are managed only through official authorities.

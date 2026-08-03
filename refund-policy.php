@@ -2,6 +2,7 @@
 $pageTitle = "Refund Policy | Divine Balaji Travels";
 $pageDescription = "Read the refund and cancellation policy for Tirupati darshan tour packages booked through Divine Balaji Travels.";
 $activeMenu = null;
+$showLeadPopup = false;
 include './includes/header.php';
 ?>
     <!-- hs Slider Start -->
