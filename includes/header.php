@@ -53,6 +53,18 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
 
 <head>
     <meta charset="utf-8" />
+    <!-- Performance: critical-path CSS, inlined so first paint doesn't wait on
+         any stylesheet request. Generated from real CSS coverage captured
+         across both page archetypes (legacy widget pages + modern hero-form
+         pages) at a 360x640 mobile viewport, 1s after DOMContentLoaded (long
+         enough to include the auto-opening lead popup). Covers: fa6-subset.css,
+         modern/style.css, bootstrap.min.css, font-awesome.css, reset.css and
+         style.css (critical subset only - the full files still load, deferred,
+         below); shared-enquiry-form.css, fonts.css, flaticon.css, custom.css,
+         lead-popup.css and shared-topbar.css (small enough to inline in full,
+         so their separate <link> tags are removed entirely, not deferred).
+         Regenerate assets/css/critical.css if any of those files change. -->
+    <style><?php echo file_get_contents(__DIR__ . '/../assets/css/critical.css'); ?></style>
     <!-- Performance: warm up connections to domains used site-wide (fonts,
          CDN icon/JS libraries) and by individual pages' $extraHeadLinks. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -97,10 +109,23 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
          instead of blocking render. -->
     <link rel="preload" href="assets/css/legacy/animate.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" type="text/css" href="assets/css/legacy/animate.css" /></noscript>
-    <link rel="stylesheet" type="text/css" href="assets/css/legacy/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/legacy/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/legacy/flaticon.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/legacy/font-awesome.css" />
+    <!-- All 10 of these are inlined above (bootstrap/font-awesome/reset/style
+         as a critical subset; fonts/flaticon/custom/lead-popup/shared-topbar
+         in full) - they're deferred here too, in their ORIGINAL relative
+         order, purely so the final cascade once everything loads is
+         byte-for-byte identical to before. Skipping the reload for the
+         fully-inlined ones would leave their rules permanently "stuck" ahead
+         of files that load later (e.g. style.css), which inverts an
+         intentional override (custom.css's desktop-fixed nav rule depends on
+         loading after style.css) - confirmed by testing, not theoretical. -->
+    <link rel="preload" href="assets/css/legacy/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" type="text/css" href="assets/css/legacy/bootstrap.min.css" /></noscript>
+    <link rel="preload" href="assets/css/legacy/fonts.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" type="text/css" href="assets/css/legacy/fonts.css" /></noscript>
+    <link rel="preload" href="assets/css/legacy/flaticon.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" type="text/css" href="assets/css/legacy/flaticon.css" /></noscript>
+    <link rel="preload" href="assets/css/legacy/font-awesome.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" type="text/css" href="assets/css/legacy/font-awesome.css" /></noscript>
     <?php if ($loadLegacyWidgets): ?>
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/select2.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/nice-select.css" />
@@ -108,15 +133,21 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/owl.theme.default.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/legacy/magnific-popup.css" />
     <?php endif; ?>
-    <link rel="stylesheet" type="text/css" href="assets/css/legacy/reset.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/legacy/style.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/legacy/responsive.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/legacy/custom.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/lead-popup.css" />
+    <link rel="preload" href="assets/css/legacy/reset.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" type="text/css" href="assets/css/legacy/reset.css" /></noscript>
+    <link rel="preload" href="assets/css/legacy/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" type="text/css" href="assets/css/legacy/style.css" /></noscript>
+    <link rel="preload" href="assets/css/legacy/responsive.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" type="text/css" href="assets/css/legacy/responsive.css" /></noscript>
+    <link rel="preload" href="assets/css/legacy/custom.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" type="text/css" href="assets/css/legacy/custom.css" /></noscript>
+    <link rel="preload" href="assets/css/lead-popup.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" type="text/css" href="assets/css/lead-popup.css" /></noscript>
     <?php if ($loadLegacyWidgets): ?>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <?php endif; ?>
-    <link rel="stylesheet" href="assets/css/legacy/shared-topbar.css">
+    <link rel="preload" href="assets/css/legacy/shared-topbar.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/legacy/shared-topbar.css"></noscript>
     <!--favicon-->
     <!-- <link rel="shortcut icon" type="image/png" href="assets/images/tirupati_package.png" /> -->
     <link rel="icon" type="image/png" href="assets/images/favicon-32.png" />

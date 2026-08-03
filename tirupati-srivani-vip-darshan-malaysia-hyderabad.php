@@ -27,18 +27,23 @@ href="https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysi
   <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"></noscript>
 
   <!-- ✅ Font Awesome -->
-  <link rel="stylesheet" href="assets/css/modern/fa6-subset.css">
+  <!-- fa6-subset.css: critical subset already inlined in header.php -->
+  <link rel="preload" href="assets/css/modern/fa6-subset.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="assets/css/modern/fa6-subset.css"></noscript>
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/css/intlTelInput.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/css/intlTelInput.css"></noscript>
   
   <!-- Bootstrap Icon CSS -->
  
   <!--  Style CSS  -->
-  <link rel="stylesheet" href="assets/css/modern/style.css?ver=2.3">
+  <!-- modern/style.css: critical subset already inlined in header.php -->
+  <link rel="preload" href="assets/css/modern/style.css?ver=2.3" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="assets/css/modern/style.css?ver=2.3"></noscript>
   
 
   
-  <link rel="stylesheet" href="assets/css/legacy/shared-enquiry-form.css">
+<link rel="preload" href="assets/css/legacy/shared-enquiry-form.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/css/legacy/shared-enquiry-form.css"></noscript>
 
   <script type="application/ld+json">
 {
