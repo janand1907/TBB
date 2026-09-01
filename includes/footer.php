@@ -227,6 +227,7 @@ whatsapp</a>
 <script src="assets/js/jquery.magnific-popup.js" defer></script>
 <?php endif; ?>
 <script src="assets/js/xpedia.js" defer></script>
+<script src="assets/js/mobile-menu.js" defer></script>
 <script src="assets/js/legacy-enquiry-forms.js?v=20260901" defer></script>
 <?php $leadPopupJsVersion = @filemtime(__DIR__ . '/../assets/js/lead-popup.js') ?: time(); ?>
 <script src="assets/js/lead-popup.js?v=<?php echo $leadPopupJsVersion; ?>"></script>

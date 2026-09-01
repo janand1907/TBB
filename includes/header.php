@@ -346,7 +346,7 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                                 </div>
                                 <div class="col-xs-2 col-sm-2 col-2 pr-0">
                                     <div class="cd-dropdown-wrapper">
-                                        <a class="house_toggle" href="#0">
+                                        <a class="house_toggle" href="#0" role="button" aria-label="Open navigation menu" aria-controls="mobile-navigation" aria-expanded="false">
                                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                 width="511.63px" height="511.631px" viewBox="0 0 511.63 511.631"
@@ -390,7 +390,7 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                                         </a>
                                         <!-- .cd-dropdown -->
                                     </div>
-                                    <nav class="cd-dropdown">
+                                    <nav class="cd-dropdown" id="mobile-navigation" aria-label="Mobile navigation">
 
                                         <a href="#0" class="cd-close">Close</a>
                                         <ul class="cd-dropdown-content">
