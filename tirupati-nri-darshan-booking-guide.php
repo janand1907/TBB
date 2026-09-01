@@ -593,12 +593,12 @@ document.querySelectorAll(".zyqentra-faq-question-8801").forEach((btn) => {
     <!-- Buttons -->
     <div class="xenrova-nri-loc-btn-wrap-8812">
 
-      <a href="https://www.tirupatibalajibooking.com//tirupati-nri-darshan-package-from-chennai.php" target="_blank" class="xenrova-nri-btn-8812">
+      <a href="https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-chennai.php" target="_blank" class="xenrova-nri-btn-8812">
         <i class="fa-solid fa-plane-departure"></i>
         Tirupati NRI Darshan Package from Chennai
       </a>
 
-      <a href="https://www.tirupatibalajibooking.com//tirupati-nri-darshan-package-from-hyderabad-by-flight.php" target="_blank" class="xenrova-nri-btn-8812">
+      <a href="https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php" target="_blank" class="xenrova-nri-btn-8812">
         <i class="fa-solid fa-route"></i>
         Tirupati NRI Darshan Package from Hyderabad
       </a>

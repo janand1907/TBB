@@ -491,7 +491,7 @@ style="background: url('assets/srivani-image/nri-hyderabad-by-fligh/hero.webp') 
                     Best for families and devotees travelling from Chennai
                 </p>
 
-                <a href="https://www.tirupatibalajibooking.com//srivani-vip-break-darshan-from-chennai.php"
+                <a href="https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-chennai.php"
                    class="aurixa-btn"
                    target="_blank">
                    👉 View Chennai Package
@@ -499,7 +499,7 @@ style="background: url('assets/srivani-image/nri-hyderabad-by-fligh/hero.webp') 
 
                 <p class="aurixa-link">
                     International traveller?
-                    <a href="https://www.tirupatibalajibooking.com//tirupati-nri-darshan-package-from-chennai.php" target="_blank">
+                    <a href="https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-chennai.php" target="_blank">
                         View NRI Chennai Package
                     </a>
                 </p>
@@ -535,7 +535,7 @@ style="background: url('assets/srivani-image/nri-hyderabad-by-fligh/hero.webp') 
 
                 <p class="aurixa-link">
                     International traveller?
-                    <a href="https://www.tirupatibalajibooking.com//tirupati-nri-darshan-package-from-hyderabad-by-flight.php" target="_blank">
+                    <a href="https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php" target="_blank">
                         View NRI Hyderabad Package
                     </a>
                 </p>

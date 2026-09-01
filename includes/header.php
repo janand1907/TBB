@@ -286,54 +286,54 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                         <ul>
                             <li>
                                 <div class="dropdown-wrapper menu-button"> <a class="menu-button<?= $activeMenu === 'home' ? ' is-active' : '' ?>"
-                                        href="./">Home</a>
+                                        href="/">Home</a>
 
                                 </div>
                             </li>
 
-                            <li> <a class="menu-button single_menu<?= $activeMenu === 'about' ? ' is-active' : '' ?>" href="about-us.php">About</a>
+                            <li> <a class="menu-button single_menu<?= $activeMenu === 'about' ? ' is-active' : '' ?>" href="/about-us.php">About</a>
                             </li>
 
                             <li>
                                 <div class="dropdown-wrapper menu-button">
                                     <a class="menu-button<?= $activeMenu === 'services' ? ' is-active' : '' ?>" href="javascript:void(0);">Services</a>
                                     <div class="drop-menu">
-                                        <a class="menu-button" href="nri-tirupati-darshan-booking.php">NRI Darshan</a>
+                                        <a class="menu-button" href="/nri-tirupati-darshan-booking.php">NRI Darshan</a>
                                         <a class="menu-button"
-                                            href="srivani-vip-break-darshan-from-chennai.php">Srivani VIP Darshan Package</a>
+                                            href="/srivani-vip-break-darshan-from-chennai.php">Srivani VIP Darshan Package</a>
                                         <a class="menu-button"
-                                            href="shirdi-tour-package-from-chennai-by-direct-flight.php">Shirdi Darshan Package</a>
+                                            href="/shirdi-tour-package-from-chennai-by-direct-flight.php">Shirdi Darshan Package</a>
                                     </div>
 
                                 </div>
                             </li>
                             <li>
                                 <div class="dropdown-wrapper menu-button">
-                                    <a class="menu-button<?= $activeMenu === 'temples' ? ' is-active' : '' ?>" href="famous-temples-near-by-tirupati.php">Near me Tirupati
+                                    <a class="menu-button<?= $activeMenu === 'temples' ? ' is-active' : '' ?>" href="/famous-temples-near-by-tirupati.php">Near me Tirupati
                                         Temple</a>
                                     <div class="drop-menu drop-menu-1">
-                                        <a class="menu-button" href="sri-padmavathi-amman-temple.php">Sri Padmavathi
+                                        <a class="menu-button" href="/sri-padmavathi-amman-temple.php">Sri Padmavathi
                                             Amman Temple</a>
-                                        <a class="menu-button" href="sri-govindaraja-swamy-temple.php">Sri Govindaraja
+                                        <a class="menu-button" href="/sri-govindaraja-swamy-temple.php">Sri Govindaraja
                                             Swamy Temple</a>
                                         <a class="menu-button"
-                                            href="kalyana-venkateswara-temple-srinivasa-mangapuram.php">Kalyana
+                                            href="/kalyana-venkateswara-temple-srinivasa-mangapuram.php">Kalyana
                                             Venkateswara Temple</a>
-                                        <a class="menu-button" href="iskon-temple.php">ISKCON Temple</a>
-                                        <a class="menu-button" href="sri-kapileswara-swamy-temple.php">Sri Kapileswara
+                                        <a class="menu-button" href="/iskon-temple.php">ISKCON Temple</a>
+                                        <a class="menu-button" href="/sri-kapileswara-swamy-temple.php">Sri Kapileswara
                                             Swamy Temple</a>
                                         <a class="menu-button"
-                                            href="sri-kalyana-venkateshwara-swamy-temple-narayanavanam-temple.php">Sri
+                                            href="/sri-kalyana-venkateshwara-swamy-temple-narayanavanam-temple.php">Sri
                                             Kalyana Venkateshwara Swamy </a>
-                                        <a class="menu-button" href="sri-prasanna-venkateswara-temple.php">Sri Prasanna
+                                        <a class="menu-button" href="/sri-prasanna-venkateswara-temple.php">Sri Prasanna
                                             Venkateswara Temple</a>
-                                        <a class="menu-button" href="sri-varasiddhi-vinayaka-temple-kanipakam.php">Sri
+                                        <a class="menu-button" href="/sri-varasiddhi-vinayaka-temple-kanipakam.php">Sri
                                             Varasiddhi Vinayaka Temple</a>
-                                        <a class="menu-button" href="sri-vedanarayana-temple-nagalapuram.php">Sri
+                                        <a class="menu-button" href="/sri-vedanarayana-temple-nagalapuram.php">Sri
                                             Vedanarayana Temple</a>
-                                        <a class="menu-button" href="vakula-matha-temple.php">Vakula Matha Temple</a>
+                                        <a class="menu-button" href="/vakula-matha-temple.php">Vakula Matha Temple</a>
                                         <a class="menu-button"
-                                            href="pallikondeswara-swamy-temple-surutapalli.php">Pallikondeswara Swamy
+                                            href="/pallikondeswara-swamy-temple-surutapalli.php">Pallikondeswara Swamy
                                             Temple</a>
                                     </div>
 
@@ -342,7 +342,7 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
 
 
 
-                            <li> <a class="menu-button single_menu<?= $activeMenu === 'contact' ? ' is-active' : '' ?>" href="contact-us.php">Contact </a>
+                            <li> <a class="menu-button single_menu<?= $activeMenu === 'contact' ? ' is-active' : '' ?>" href="/contact-us.php">Contact </a>
                             </li>
                         </ul>
                     </nav>
@@ -410,9 +410,9 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                                         <a href="#0" class="cd-close">Close</a>
                                         <ul class="cd-dropdown-content">
 
-                                            <li> <a href="./">Home</a></li>
+                                            <li> <a href="/">Home</a></li>
 
-                                            <li> <a href="about-us.php">About</a>
+                                            <li> <a href="/about-us.php">About</a>
                                             </li>
 
                                             <li class="has-children">
@@ -422,16 +422,16 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                                                         <a href="#0">Menu</a>
                                                     </li>
                                                     <li>
-                                                        <a href="nri-tirupati-darshan-booking.php">NRI Darshan</a>
-                                                        <a href="srivani-vip-break-darshan-from-chennai.php">Srivani VIP Darshan Package</a>
-                                                        <a href="shirdi-tour-package-from-chennai-by-direct-flight.php">Shirdi Darshan Package</a>
+                                                        <a href="/nri-tirupati-darshan-booking.php">NRI Darshan</a>
+                                                        <a href="/srivani-vip-break-darshan-from-chennai.php">Srivani VIP Darshan Package</a>
+                                                        <a href="/shirdi-tour-package-from-chennai-by-direct-flight.php">Shirdi Darshan Package</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li> <a href="famous-temples-near-by-tirupati.php">Near me Tirupati
+                                            <li> <a href="/famous-temples-near-by-tirupati.php">Near me Tirupati
                                                     Temple</a>
                                             </li>
-                                            <li> <a href="contact-us.php">Contact</a>
+                                            <li> <a href="/contact-us.php">Contact</a>
                                             </li>
 
                                         </ul>

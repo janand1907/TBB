@@ -16,7 +16,7 @@
     </p>
 
   
-    <span><a href="index.php">Reach us &nbsp;<i class="fa fa-angle-double-right"></i></a></span>
+    <span><a href="/index.php">Reach us &nbsp;<i class="fa fa-angle-double-right"></i></a></span>
                     <!-- <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a>
                             </li>
@@ -31,24 +31,24 @@
                 <div class="x_footer_bottom_box_wrapper_second float_left">
                     <h3>Information</h3>
                     <ul>
-                        <li><a href="tirupati-special-darshan-tickets-online.php"><i class="fa fa-long-arrow-right"></i>
+                        <li><a href="/tirupati-special-darshan-tickets-online.php"><i class="fa fa-long-arrow-right"></i>
                                 &nbsp; Special Darshan Tickets</a>
                         </li>
-                        <li><a href="tirupati-seva-darshan-tickets-booking-online.php"><i
+                        <li><a href="/tirupati-seva-darshan-tickets-booking-online.php"><i
                                     class="fa fa-long-arrow-right"></i> &nbsp; Seva Darshan Tickets</a>
                         </li>
-                        <li><a href="tirupati-hotel-accommodation-services-booking-online.php"><i
+                        <li><a href="/tirupati-hotel-accommodation-services-booking-online.php"><i
                                     class="fa fa-long-arrow-right"></i> &nbsp; Accommodation Services</a>
                         </li>
-                        <li><a href="tirumala-darshan-timings.php"><i class="fa fa-long-arrow-right"></i> &nbsp;
+                        <li><a href="/tirumala-darshan-timings.php"><i class="fa fa-long-arrow-right"></i> &nbsp;
                                 Tirumala Darshan Timings</a>
                         </li>
-                        <li><a href="tirupati-senior-citizens-booking.php"><i class="fa fa-long-arrow-right"></i>
+                        <li><a href="/tirupati-senior-citizens-booking.php"><i class="fa fa-long-arrow-right"></i>
                                 &nbsp; Senior Citizens Booking</a>
-                        <li><a href="famous-temples-near-by-tirupati.php"><i class="fa fa-long-arrow-right"></i>
+                        <li><a href="/famous-temples-near-by-tirupati.php"><i class="fa fa-long-arrow-right"></i>
                                 &nbsp; Tirupati Temples</a>
                         </li>
-                        <li><a href="privacy-and-cookies-policy.php"><i class="fa fa-long-arrow-right"></i> &nbsp;
+                        <li><a href="/privacy-and-cookies-policy.php"><i class="fa fa-long-arrow-right"></i> &nbsp;
                                 Privacy & Cookies Policy</a>
                         </li>
                     </ul>
@@ -60,19 +60,19 @@
                     <ul>
                         <li><a href="tirupati-tour-faq.php"><i class="fa fa-long-arrow-right"></i> &nbsp; FAQ</a>
                         </li>
-                        <li><a href="refund-policy.php"><i class="fa fa-long-arrow-right"></i> &nbsp; Payment
+                        <li><a href="/refund-policy.php"><i class="fa fa-long-arrow-right"></i> &nbsp; Payment
                                 Option</a>
                         </li>
-                        <li><a href="tirupati-tour-packages-from-tirupati.php"><i class="fa fa-long-arrow-right"></i>
+                        <li><a href="/tirupati-tour-packages-from-tirupati.php"><i class="fa fa-long-arrow-right"></i>
                                 &nbsp; Booking Tips</a>
                         </li>
-                        <li><a href="best-tirupati-tour-operators.php"><i class="fa fa-long-arrow-right"></i> &nbsp;
+                        <li><a href="/best-tirupati-tour-operators.php"><i class="fa fa-long-arrow-right"></i> &nbsp;
                                 How it Works?</a>
                         </li>
-                        <!-- <li><a href="Famous-temples-Near-by-Tirupati.php"><i class="fa fa-long-arrow-right"></i>
+                        <!-- <li><a href="/Famous-temples-Near-by-Tirupati.php"><i class="fa fa-long-arrow-right"></i>
                                 &nbsp; Tirupati Temples</a>
                         </li> -->
-                        <li><a href="contact-us.php"><i class="fa fa-long-arrow-right"></i> &nbsp; Contact Us</a>
+                        <li><a href="/contact-us.php"><i class="fa fa-long-arrow-right"></i> &nbsp; Contact Us</a>
                         </li>
                     </ul>
                 </div>
