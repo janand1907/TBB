@@ -301,7 +301,7 @@ include './includes/header.php';
                         <h3>Payment Options</h3>
                         <br />
                         <p>1. How to Get Refund ?</p>
-                        <p>The refund policy for tirupatibalajibooking.com is authorise company name : Divine Balaji Travels, specializing in Tirupati tours and South India. Our standardized and can vary
+                        <p>The refund policy for divinebalajitravels.com is authorise company name : Divine Balaji Travels, specializing in Tirupati tours and South India. Our standardized and can vary
                             significantly from one company to another. It is absolutely essential to read and understand
                             the specific terms and conditions provided by the operator before you make any payment.
                         </p>

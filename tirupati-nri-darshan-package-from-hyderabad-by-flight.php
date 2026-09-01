@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Hyderabad to Tirupati Travel Package by Flight for NRIs';
 $pageDescription = 'Hyderabad to Tirupati NRI travel package by flight with itinerary support, travel assistance and guidance for foreign passport holders and international travellers.';
-$pageCanonical = 'https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php';
+$pageCanonical = 'https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php';
 $activeMenu = null;
 $includeDefaultSchema = false;
 $extraHeadLinks = <<<'HTML'
@@ -46,7 +46,7 @@ $extraHeadLinks = <<<'HTML'
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "Hyderabad to Tirupati Travel Assistance by Flight",
-  "url": "https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php",
+  "url": "https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php",
   "description": "Hyderabad to Tirupati travel assistance by flight with itinerary guidance, airport coordination, travel support and help for international travellers and passport holders.",
   "areaServed": [
     {
@@ -92,8 +92,8 @@ $extraHeadLinks = <<<'HTML'
   "provider": {
     "@type": "Organization",
     "name": "Divine Balaji Travels",
-    "url": "https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php",
-    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
+    "url": "https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php",
+    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
   },
   "itinerary": {
     "@type": "ItemList",
@@ -200,19 +200,19 @@ $extraHeadLinks = <<<'HTML'
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Tirupati Travel Packages",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Hyderabad to Tirupati Travel Package by Flight",
-      "item": "https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php"
+      "item": "https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php"
     }
   ]
 }
@@ -1114,7 +1114,7 @@ include 'includes/header.php';
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/intlTelInput.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/utils.min.js"></script>
-  <script src="assets/js/enquiry-forms.js"></script>
+  <script src="assets/js/enquiry-forms.js?v=20260901"></script>
 
 
 

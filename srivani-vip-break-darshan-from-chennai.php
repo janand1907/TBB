@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Srivani Vip Break Darshan from Chennai';
 $pageDescription = 'Book Chennai to Tirupati car package with private cab travel, pickup, hotel stay options and complete trip assistance for devotees.';
-$pageCanonical = 'https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-chennai.php';
+$pageCanonical = 'https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-chennai.php';
 $activeMenu = 'services';
 $includeDefaultSchema = false;
 $extraHeadLinks = <<<'HTML'
@@ -85,10 +85,10 @@ $extraHeadLinks = <<<'HTML'
 {
   "@context": "https://schema.org",
   "@type": "TravelAgency",
-  "@id": "https://www.tirupatibalajibooking.com/#travelagency",
+  "@id": "https://www.divinebalajitravels.com/#travelagency",
   "name": "Divine Balaji Travels",
-  "url": "https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-chennai.php",
-  "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
+  "url": "https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-chennai.php",
+  "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg",
   "description": "Independent private travel agency offering Chennai to Tirupati car travel packages, pickup, hotel coordination and trip guidance for devotees visiting Tirupati. We are not affiliated with TTD or any government authority.",
   "telephone": "+91-99947-51079",
   "email": "divinebalajitravels@gmail.com",
@@ -129,14 +129,14 @@ $extraHeadLinks = <<<'HTML'
 {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
-  "@id": "https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-chennai.php#trip",
+  "@id": "https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-chennai.php#trip",
   "name": "Chennai to Tirupati Private Car Travel Package",
   "description": "Private Chennai to Tirupati travel package by AC car with pickup, hotel stay options, local temple visit assistance and trip guidance for devotees. We are an independent private travel service provider and not affiliated with TTD or any government authority.",
   "provider": {
     "@type": "TravelAgency",
     "name": "Divine Balaji Travels",
-    "url": "https://www.tirupatibalajibooking.com/",
-    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
+    "url": "https://www.divinebalajitravels.com/",
+    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
   },
   "touristType": [
     "Families",
@@ -179,7 +179,7 @@ $extraHeadLinks = <<<'HTML'
       }
     ]
   },
-  "url": "https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-chennai.php"
+  "url": "https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-chennai.php"
 }
 </script>
 
@@ -187,13 +187,13 @@ $extraHeadLinks = <<<'HTML'
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": "https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-chennai.php#service",
+  "@id": "https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-chennai.php#service",
   "name": "Chennai to Tirupati Private Car Travel Assistance",
   "provider": {
     "@type": "TravelAgency",
     "name": "Divine Balaji Travels",
-    "url": "https://www.tirupatibalajibooking.com/",
-    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
+    "url": "https://www.divinebalajitravels.com/",
+    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
   },
   "areaServed": [
     {
@@ -219,7 +219,7 @@ $extraHeadLinks = <<<'HTML'
   ],
   "serviceType": "Private Chennai to Tirupati Car Travel Package",
   "description": "Independent private travel assistance service offering Chennai to Tirupati AC car transport, hotel coordination, pickup and trip guidance for devotees visiting Tirupati. We are not affiliated with TTD or any government authority.",
-  "url": "https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-chennai.php"
+  "url": "https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-chennai.php"
 }
 </script>
 
@@ -228,7 +228,7 @@ $extraHeadLinks = <<<'HTML'
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": "https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-chennai.php#faq",
+  "@id": "https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-chennai.php#faq",
   "mainEntity": [
 
     {
@@ -307,19 +307,19 @@ $extraHeadLinks = <<<'HTML'
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Tirupati Packages",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Chennai to Tirupati Car Package",
-      "item": "https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-chennai.php"
+      "item": "https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-chennai.php"
     }
   ]
 }

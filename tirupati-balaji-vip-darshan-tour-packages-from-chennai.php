@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Tirupati Balaji VIP Darshan Tour Packages from Chennai';
 $pageDescription = 'Tirupati Balaji VIP Darshan tour packages from Chennai with private car travel, pickup, hotel stay options and smooth pilgrimage trip support for devotees.';
-$pageCanonical = 'https://www.tirupatibalajibooking.com/tirupati-balaji-vip-darshan-tour-packages-from-chennai.php';
+$pageCanonical = 'https://www.divinebalajitravels.com/tirupati-balaji-vip-darshan-tour-packages-from-chennai.php';
 $activeMenu = null;
 $includeDefaultSchema = false;
 $extraHeadLinks = <<<'HTML'
@@ -41,9 +41,9 @@ $extraHeadLinks = <<<'HTML'
             "@context": "https://schema.org",
             "@type": "TravelAgency",
             "name": "Tirupati Balaji Travels",
-            "image": "https://tirupatibalajibooking.com/assets/images/logo/logo.jpg",
-            "@id": "https://tirupatibalajibooking.com",
-            "url": "https://tirupatibalajibooking.com/tirupati-balaji-vip-darshan-tour-packages-from-chennai.php",
+            "image": "https://divinebalajitravels.com/assets/images/logo/logo.jpg",
+            "@id": "https://divinebalajitravels.com",
+            "url": "https://divinebalajitravels.com/tirupati-balaji-vip-darshan-tour-packages-from-chennai.php",
             "telephone": "+91-99947-51079",
             "priceRange": "5000",
             "address": {
@@ -342,6 +342,15 @@ your desired destination</h2>
                                                             </div>
 
                                                             <div class="col-md-12">
+                                                                <div class="form-sec-header">
+                                                                    <label>
+                                                                        <?php echo $first_num . " " . $operator . " " . $second_num . " ="; ?>
+                                                                        <input aria-label="Captcha answer" type="number" name="answer" required>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-md-12">
                                                                 <div class="col-md-12">
 <div class="form-error" role="alert" aria-live="polite"></div>
 </div>
@@ -604,15 +613,15 @@ your desired destination</h2>
                     We Operate Daily Balaji Assured <strong> One Day Chennai To Tirupati Packages</strong>. Our
                     Special Individual Packages are given below</p>
                 <ul class="listss">
-                    <li><a href="https://tirupatibalajibooking.com"><strong>1. Early Morning Around 5.00 to 5.30 Am
+                    <li><a href="https://divinebalajitravels.com"><strong>1. Early Morning Around 5.00 to 5.30 Am
                                 Door Step Boarding Point At Chennai Circle</strong></a></li>
-                    <li><a href="https://tirupatibalajibooking.com"><strong>2. Rs.300/- Special Segara Darshan
+                    <li><a href="https://divinebalajitravels.com"><strong>2. Rs.300/- Special Segara Darshan
                                 Guidance</strong></a></li>
-                    <li><a href="https://tirupatibalajibooking.com"><strong>3. Complementary Breakfast &
+                    <li><a href="https://divinebalajitravels.com"><strong>3. Complementary Breakfast &
                                 Lunch</strong></a></li>
-                    <li><a href="https://tirupatibalajibooking.com"><strong>4. Tirupati Balaji Darshan & Padmavathy
+                    <li><a href="https://divinebalajitravels.com"><strong>4. Tirupati Balaji Darshan & Padmavathy
                                 Temple Darshan</strong></a></li>
-                    <li><a href="https://tirupatibalajibooking.com"><strong>5. After Complete Blessing Darshan Tours
+                    <li><a href="https://divinebalajitravels.com"><strong>5. After Complete Blessing Darshan Tours
                                 Ends With Balaji One Day Darshan Package From Chennai</strong></a></li>
                 </ul>
             </div>
@@ -723,7 +732,7 @@ your desired destination</h2>
                                     </div>
                                     <div class="x_car_offer_bottom_btn float_left">
                                         <ul>
-                                            <li><a href="https://tirupatibalajibooking.com/">Book now</a>
+                                            <li><a href="https://divinebalajitravels.com/">Book now</a>
                                             </li>
 
                                         </ul>
@@ -754,7 +763,7 @@ your desired destination</h2>
 
                                     <div class="x_car_offer_bottom_btn float_left">
                                         <ul>
-                                            <li><a href="https://tirupatibalajibooking.com/">Book now</a>
+                                            <li><a href="https://divinebalajitravels.com/">Book now</a>
                                             </li>
 
                                         </ul>
@@ -806,7 +815,7 @@ your desired destination</h2>
                                         </div>-->
                                     <div class="x_car_offer_bottom_btn float_left">
                                         <ul>
-                                            <li><a href="https://tirupatibalajibooking.com/">Book now</a>
+                                            <li><a href="https://divinebalajitravels.com/">Book now</a>
                                             </li>
 
                                         </ul>
@@ -858,7 +867,7 @@ your desired destination</h2>
                                         </div>-->
                                     <div class="x_car_offer_bottom_btn float_left">
                                         <ul>
-                                            <li><a href="https://tirupatibalajibooking.com/">Book now</a>
+                                            <li><a href="https://divinebalajitravels.com/">Book now</a>
                                             </li>
                                             <!--<li><a href="#">Details</a>
                                                 </li>-->
@@ -915,7 +924,7 @@ your desired destination</h2>
                                     </div>
                                     <div class="x_car_offer_bottom_btn float_left">
                                         <ul>
-                                            <li><a href="https://tirupatibalajibooking.com/">Book now</a>
+                                            <li><a href="https://divinebalajitravels.com/">Book now</a>
                                             </li>
                                             <!--<li><a href="#">Details</a>
                                                 </li>-->
@@ -968,7 +977,7 @@ your desired destination</h2>
                                         </div>-->
                                     <div class="x_car_offer_bottom_btn float_left">
                                         <ul>
-                                            <li><a href="https://tirupatibalajibooking.com/">Book now</a>
+                                            <li><a href="https://divinebalajitravels.com/">Book now</a>
                                             </li>
                                             <!--<li><a href="#">Details</a>
                                                 </li>-->
@@ -1023,7 +1032,7 @@ Chennai To Tirupati Package
                                         </div>-->
                                     <div class="x_car_offer_bottom_btn float_left">
                                         <ul>
-                                            <li><a href="https://tirupatibalajibooking.com/">Book now</a>
+                                            <li><a href="https://divinebalajitravels.com/">Book now</a>
                                             </li>
 
                                         </ul>
@@ -1077,7 +1086,7 @@ Chennai To Tirupati dharshan packages">
                                         </div>-->
                                     <div class="x_car_offer_bottom_btn float_left">
                                         <ul>
-                                            <li><a href="https://tirupatibalajibooking.com/">Book now</a>
+                                            <li><a href="https://divinebalajitravels.com/">Book now</a>
                                             </li>
                                             <!--<li><a href="#">Details</a>
                                                 </li>-->
@@ -1113,7 +1122,7 @@ Chennai To Tirupati dharshan packages">
 
                                     <div class="x_car_offer_bottom_btn float_left">
                                         <ul>
-                                            <li><a href="https://tirupatibalajibooking.com/">Book now</a>
+                                            <li><a href="https://divinebalajitravels.com/">Book now</a>
                                             </li>
                                             <!--<li><a href="#">Details</a>
                                                 </li>-->
@@ -1166,7 +1175,7 @@ Chennai To Tirupati dharshan packages">
                                         </div>-->
                                     <div class="x_car_offer_bottom_btn float_left">
                                         <ul>
-                                            <li><a href="https://tirupatibalajibooking.com/">Book now</a>
+                                            <li><a href="https://divinebalajitravels.com/">Book now</a>
                                             </li>
                                             <!--<li><a href="#">Details</a>
                                                 </li>-->
@@ -1219,7 +1228,7 @@ Chennai To Tirupati dharshan packages">
                                         </div>-->
                                     <div class="x_car_offer_bottom_btn float_left">
                                         <ul>
-                                            <li><a href="https://tirupatibalajibooking.com/">Book now</a>
+                                            <li><a href="https://divinebalajitravels.com/">Book now</a>
                                             </li>
 
                                         </ul>
@@ -1272,7 +1281,7 @@ Chennai To Tirupati dharshan packages">
                                         </div>-->
                                     <div class="x_car_offer_bottom_btn float_left">
                                         <ul>
-                                            <li><a href="https://tirupatibalajibooking.com/">Book now</a>
+                                            <li><a href="https://divinebalajitravels.com/">Book now</a>
                                             </li>
                                             <!--<li><a href="#">Details</a>
                                                 </li>-->

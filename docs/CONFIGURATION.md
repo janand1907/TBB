@@ -4,19 +4,21 @@ Every configurable value in the project, where it lives, and how many places ref
 
 ## 1. SMTP / Mail sending
 
-Single source of truth: **`includes/mail/mail-config.php`**
+Configuration loader: **`includes/mail/mail-config.php`**. It reads values from
+`MAIL_*` environment variables or a private `tbb-mail-config.php` file outside
+the document root; see `HOSTINGER_DEPLOYMENT.md`.
 
 | Constant | Value | Notes |
 |---|---|---|
-| `MAIL_SMTP_HOST` | `smtp.gmail.com` | |
-| `MAIL_SMTP_PORT` | `465` | SSL |
-| `MAIL_SMTP_SECURE` | `ssl` | |
-| `MAIL_SMTP_AUTH` | `true` | |
-| `MAIL_SMTP_USERNAME` | `mailtoemk@gmail.com` | Gmail account used to send |
-| `MAIL_SMTP_PASSWORD` | (Gmail App Password, in plaintext in this file) | See `TECHNICAL_DEBT.md` — this is a real secret sitting in a `.php` file in the web root |
-| `MAIL_FROM_ADDRESS` | `mailtoemk@gmail.com` | |
-| `MAIL_FROM_NAME` | `TTD Travels Enquiry` | Inconsistent with the business name used everywhere else — see §5 below |
-| `MAIL_TO_ADDRESS` | `ttdpackages@gmail.com` | Where every enquiry form's lead lands |
+| `MAIL_SMTP_HOST` | provider-specific | e.g. `smtp.hostinger.com` |
+| `MAIL_SMTP_PORT` | provider-specific | commonly `465` with SSL |
+| `MAIL_SMTP_SECURE` | provider-specific | `ssl`, `tls`, or empty |
+| `MAIL_SMTP_AUTH` | provider-specific | normally `true` |
+| `MAIL_SMTP_USERNAME` | private | Mailbox/account used to send |
+| `MAIL_SMTP_PASSWORD` | private | Never commit this value |
+| `MAIL_FROM_ADDRESS` | private | Usually matches the sending mailbox |
+| `MAIL_FROM_NAME` | private | Sender name shown on enquiry emails |
+| `MAIL_TO_ADDRESS` | private | Where every enquiry form lead lands |
 
 Consumed by `con_enq.php` and `enquiry-submit.php` (the two form-submission endpoints — see `ARCHITECTURE.md`).
 
@@ -98,6 +100,6 @@ Three verification files sit in the project root (do not remove):
 
 ## 13. Hosting / server
 
-- cPanel hosting, confirmed via the auto-generated block in `.htaccess`: `AddHandler application/x-httpd-ea-php81 .php .php8 .phtml` → **production PHP version is 8.1** (EasyApache).
-- `.htaccess` also contains one legacy redirect: `/tirupati-300-darshan-package-from-chennai.php` → `/srivani-vip-break-darshan-from-chennai.php` (a renamed/retired page — preserve this if the folder restructure in Phase 13 touches `.htaccess`).
+- Hostinger-ready deployment is documented in `HOSTINGER_DEPLOYMENT.md`; start with **PHP 8.1** selected in hPanel.
+- `.htaccess` contains one legacy redirect: `/tirupati-300-darshan-package-from-chennai.php` → `/srivani-vip-break-darshan-from-chennai.php` (a renamed/retired page — preserve it).
 - Error logging: `includes/error-log-config.php` writes to `logs/php-errors.log`, blocked from direct web access by `logs/.htaccess`. Only 13 of 47 pages currently include it (see `TECHNICAL_DEBT.md`).

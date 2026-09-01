@@ -93,10 +93,10 @@ Browser (form submit)
                      └── send_enquiry_mail()  (configures + calls PHPMailer)
                               │
                               ▼
-                     includes/mail/phpmailer/ (SMTP via smtp.gmail.com)
+                     includes/mail/phpmailer/ (SMTP via configured provider)
                               │
                               ▼
-                     ttdpackages@gmail.com receives the lead
+                     configured recipient receives the lead
 ```
 
 **Why two endpoints instead of one:** `con_enq.php` is the general-purpose handler — it accepts the "legacy" booking widget (24 pages), the modern `.hero-form`/`.enquiry-form` (11 pages via `assets/js/enquiry-forms.js`), and the `.mhc-form` mini-form, distinguishing between them via which POST fields are present (a `form_source=mhc` hidden field switches off date/peoples/captcha validation). `enquiry-submit.php` is a separate, simpler, JSON-only endpoint used by exactly one page, with its own honeypot field and shorter field set — it was never merged into `con_enq.php` because its validation bounds and response shape are intentionally different (see `mail-config.php`'s shared `validate_mobile()` being called with different min/max arguments from each endpoint).

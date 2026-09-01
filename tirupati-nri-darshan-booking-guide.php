@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Tirupati NRI Visit Guide | Eligibility, Documents & Travel Info';
 $pageDescription = 'Tirupati NRI visit guide covering eligibility, documents, travel information, entry procedures and planning tips for foreign passport holders.';
-$pageCanonical = 'https://www.tirupatibalajibooking.com/tirupati-nri-darshan-booking-guide.php';
+$pageCanonical = 'https://www.divinebalajitravels.com/tirupati-nri-darshan-booking-guide.php';
 $activeMenu = null;
 $includeDefaultSchema = false;
 $extraHeadLinks = <<<'HTML'
@@ -41,8 +41,8 @@ $extraHeadLinks = <<<'HTML'
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Divine Balaji Travels",
-        "url": "https://www.tirupatibalajibooking.com/",
-        "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
+        "url": "https://www.divinebalajitravels.com/",
+        "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg",
         "sameAs": [
         "https://wa.me/919994751079"
         ]
@@ -136,7 +136,7 @@ $extraHeadLinks = <<<'HTML'
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Tirupati NRI Visit Guide for Overseas Travellers",
-  "url": "https://www.tirupatibalajibooking.com/tirupati-nri-darshan-booking-guide.php",
+  "url": "https://www.divinebalajitravels.com/tirupati-nri-darshan-booking-guide.php",
   "description": "Informational guide for overseas travellers visiting Tirupati covering travel planning, documents, visitor procedures and general temple visit information.",
   "inLanguage": "en",
   "about": {
@@ -146,7 +146,7 @@ $extraHeadLinks = <<<'HTML'
   "publisher": {
     "@type": "Organization",
     "name": "Divine Balaji Travels",
-    "url": "https://www.tirupatibalajibooking.com/"
+    "url": "https://www.divinebalajitravels.com/"
   }
 }
 </script>
@@ -160,13 +160,13 @@ $extraHeadLinks = <<<'HTML'
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Tirupati Travel Guides",
-      "item": "https://www.tirupatibalajibooking.com/tirupati-nri-darshan-booking-guide.php"
+      "item": "https://www.divinebalajitravels.com/tirupati-nri-darshan-booking-guide.php"
     }
   ]
 }
@@ -593,12 +593,12 @@ document.querySelectorAll(".zyqentra-faq-question-8801").forEach((btn) => {
     <!-- Buttons -->
     <div class="xenrova-nri-loc-btn-wrap-8812">
 
-      <a href="https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-chennai.php" target="_blank" class="xenrova-nri-btn-8812">
+      <a href="https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-chennai.php" target="_blank" class="xenrova-nri-btn-8812">
         <i class="fa-solid fa-plane-departure"></i>
         Tirupati NRI Darshan Package from Chennai
       </a>
 
-      <a href="https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php" target="_blank" class="xenrova-nri-btn-8812">
+      <a href="https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php" target="_blank" class="xenrova-nri-btn-8812">
         <i class="fa-solid fa-route"></i>
         Tirupati NRI Darshan Package from Hyderabad
       </a>

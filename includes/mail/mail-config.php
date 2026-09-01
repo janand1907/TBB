@@ -1,19 +1,75 @@
 <?php
 /**
  * Shared mail configuration and helpers for the enquiry form handlers
- * (con_enq.php, enquiry-submit.php). Requires PHPMailer-master/PHPMailerAutoload.php
- * to already be loaded by the including script before send_enquiry_mail() is called.
+ * (con_enq.php, enquiry-submit.php). Requires PHPMailerAutoload.php to
+ * already be loaded by the including script before send_enquiry_mail() is
+ * called.
+ *
+ * Configuration is deliberately kept outside version-controlled web files.
+ * Values are read, in order, from PHP environment variables or an external
+ * PHP configuration file. On Hostinger's usual layout, that file is:
+ *   /home/u123456789/domains/example.com/tbb-mail-config.php
+ * (one directory above public_html). See docs/HOSTINGER_DEPLOYMENT.md.
  */
 
-const MAIL_SMTP_HOST = 'smtp.gmail.com';
-const MAIL_SMTP_PORT = 465;
-const MAIL_SMTP_SECURE = 'ssl';
-const MAIL_SMTP_AUTH = true;
-const MAIL_SMTP_USERNAME = 'mailtoemk@gmail.com';
-const MAIL_SMTP_PASSWORD = 'mcnlwxwjjtvqamdt';
-const MAIL_FROM_ADDRESS = 'mailtoemk@gmail.com';
-const MAIL_FROM_NAME = 'TTD Travels Enquiry';
-const MAIL_TO_ADDRESS = 'divinebalajitravels@gmail.com';
+/** @var array<string, mixed> $tbbMailPrivateConfig */
+$tbbMailPrivateConfig = [];
+
+// TBB_MAIL_CONFIG_PATH is useful on hosts with a custom private-config path.
+$tbbMailConfigPath = getenv('TBB_MAIL_CONFIG_PATH');
+if (!is_string($tbbMailConfigPath) || $tbbMailConfigPath === '') {
+    // __DIR__ is public_html/includes/mail; this resolves one level above
+    // public_html when the site is deployed in the domain's document root.
+    $tbbMailConfigPath = dirname(__DIR__, 3) . '/tbb-mail-config.php';
+}
+
+if (is_file($tbbMailConfigPath)) {
+    $loadedMailConfig = require $tbbMailConfigPath;
+    if (is_array($loadedMailConfig)) {
+        $tbbMailPrivateConfig = $loadedMailConfig;
+    }
+}
+
+/**
+ * Gets a mail setting from an environment variable, then the private config.
+ * Empty values are treated as missing so a partly configured mailer cannot
+ * accidentally attempt a send with invalid credentials.
+ */
+function mail_config_value(string $key, string $default = ''): string
+{
+    global $tbbMailPrivateConfig;
+
+    $environmentValue = getenv($key);
+    if (is_string($environmentValue) && trim($environmentValue) !== '') {
+        return trim($environmentValue);
+    }
+
+    $fileValue = $tbbMailPrivateConfig[$key] ?? null;
+    if (is_string($fileValue) && trim($fileValue) !== '') {
+        return trim($fileValue);
+    }
+
+    return $default;
+}
+
+define('MAIL_SMTP_HOST', mail_config_value('MAIL_SMTP_HOST'));
+define('MAIL_SMTP_PORT', (int) mail_config_value('MAIL_SMTP_PORT', '465'));
+define('MAIL_SMTP_SECURE', mail_config_value('MAIL_SMTP_SECURE', 'ssl'));
+define('MAIL_SMTP_AUTH', filter_var(mail_config_value('MAIL_SMTP_AUTH', 'true'), FILTER_VALIDATE_BOOLEAN));
+define('MAIL_SMTP_USERNAME', mail_config_value('MAIL_SMTP_USERNAME'));
+define('MAIL_SMTP_PASSWORD', mail_config_value('MAIL_SMTP_PASSWORD'));
+define('MAIL_FROM_ADDRESS', mail_config_value('MAIL_FROM_ADDRESS'));
+define('MAIL_FROM_NAME', mail_config_value('MAIL_FROM_NAME', 'Divine Balaji Travels Enquiry'));
+define('MAIL_TO_ADDRESS', mail_config_value('MAIL_TO_ADDRESS'));
+
+function mail_is_configured(): bool
+{
+    return MAIL_SMTP_HOST !== ''
+        && MAIL_SMTP_PORT > 0
+        && (!MAIL_SMTP_AUTH || (MAIL_SMTP_USERNAME !== '' && MAIL_SMTP_PASSWORD !== ''))
+        && filter_var(MAIL_FROM_ADDRESS, FILTER_VALIDATE_EMAIL) !== false
+        && filter_var(MAIL_TO_ADDRESS, FILTER_VALIDATE_EMAIL) !== false;
+}
 
 /**
  * Reads a $_POST value as a plain string. A malformed/spoofed submission
@@ -99,6 +155,11 @@ function build_enquiry_email_html(string $title, array $rows): string
  */
 function send_enquiry_mail(string $subject, string $htmlBody, ?string $replyToEmail = null): bool
 {
+    if (!mail_is_configured()) {
+        error_log('Enquiry mail is not configured. Set the required MAIL_* settings.');
+        return false;
+    }
+
     $mail = new PHPMailer;
     $mail->SMTPDebug = 0;
     $mail->isSMTP();
@@ -121,5 +182,12 @@ function send_enquiry_mail(string $subject, string $htmlBody, ?string $replyToEm
     $mail->isHTML(true);
     $mail->CharSet = 'UTF-8';
 
-    return $mail->send();
+    $sent = $mail->send();
+    if (!$sent) {
+        // Keep the visitor-facing response generic, but record the provider's
+        // diagnostic in the server log for troubleshooting.
+        error_log('Enquiry mail delivery failed: ' . $mail->ErrorInfo);
+    }
+
+    return $sent;
 }

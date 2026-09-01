@@ -299,7 +299,7 @@ include './includes/header.php';
                         <h4>How It works?</h4>
                         <h3>How to Book Private Tirupati Private Operator Booking Process ?</h3>
                         <br />
-                        <p>Booking a Tirupati tour package with a tirupatibalajibooking.com is private operator is a
+                        <p>Booking a Tirupati tour package with a divinebalajitravels.com is private operator is a
                             popular and convenient choice, as it often provides a more personalized experience compared
                             to government-run services. The booking process is generally straightforward and can be done
                             through a few simple steps.</p>

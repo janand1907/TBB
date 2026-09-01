@@ -52,25 +52,27 @@ This will surface the top bar (`includes/header.php`), the footer, the Google Ad
 
 ## Change the email address
 
-Same "no single source of truth" caveat as the phone number — see `docs/CONFIGURATION.md` §3 for the three different addresses currently in use and what each one is for. To change the address enquiries are delivered to, edit `MAIL_TO_ADDRESS` in `includes/mail/mail-config.php` — that's the one value both form endpoints actually use to decide where a lead goes. Addresses shown as visible contact info on pages are separate, hardcoded strings and need to be changed individually.
+To change where enquiries are delivered, update `MAIL_TO_ADDRESS` in the private mail configuration file or environment variables described in `HOSTINGER_DEPLOYMENT.md`. Both form endpoints use that one value. Addresses shown as visible contact info on pages are separate, hardcoded strings and need to be changed individually.
 
 ## Change SMTP settings
 
-All SMTP configuration is centralized in `includes/mail/mail-config.php` (Phase 7 consolidated this from two separate copies into one; Phase 13B moved it from the project root into `includes/mail/`):
+`includes/mail/mail-config.php` loads SMTP configuration from `MAIL_*` environment variables or a private `tbb-mail-config.php` file outside the document root. Use `docs/tbb-mail-config.example.php` as the template; do not put credentials in this repository.
 
 ```php
-const MAIL_SMTP_HOST = 'smtp.gmail.com';
-const MAIL_SMTP_PORT = 465;
-const MAIL_SMTP_SECURE = 'ssl';
-const MAIL_SMTP_AUTH = true;
-const MAIL_SMTP_USERNAME = 'mailtoemk@gmail.com';
-const MAIL_SMTP_PASSWORD = '...';
-const MAIL_FROM_ADDRESS = 'mailtoemk@gmail.com';
-const MAIL_FROM_NAME = 'TTD Travels Enquiry';
-const MAIL_TO_ADDRESS = 'ttdpackages@gmail.com';
+return [
+    'MAIL_SMTP_HOST' => 'smtp.hostinger.com',
+    'MAIL_SMTP_PORT' => '465',
+    'MAIL_SMTP_SECURE' => 'ssl',
+    'MAIL_SMTP_AUTH' => 'true',
+    'MAIL_SMTP_USERNAME' => 'enquiries@example.com',
+    'MAIL_SMTP_PASSWORD' => 'replace-with-mailbox-password',
+    'MAIL_FROM_ADDRESS' => 'enquiries@example.com',
+    'MAIL_FROM_NAME' => 'Divine Balaji Travels Enquiry',
+    'MAIL_TO_ADDRESS' => 'owner@example.com',
+];
 ```
 
-Both `con_enq.php` and `enquiry-submit.php` (project root) read these via `require 'includes/mail/mail-config.php'` — changing them here changes both endpoints at once. After changing, test with a real (or the mailer-stub-style) submission before trusting it in production; an SMTP misconfiguration fails silently from the visitor's point of view unless you check `send_enquiry_mail()`'s return value (both endpoints already do this and show an error message on failure).
+Both `con_enq.php` and `enquiry-submit.php` (project root) read these through `require 'includes/mail/mail-config.php'`. After changing, test with a real submission before trusting it in production; both endpoints return a visitor-safe error when delivery fails.
 
 ## Update the sitemap
 

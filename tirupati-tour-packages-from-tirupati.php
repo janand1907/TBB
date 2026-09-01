@@ -299,7 +299,7 @@ include './includes/header.php';
 
                         <h3>11, If We Booking Other Temples Packages ?</h3>
                         <br />
-                        <p>Yes, tirupatibalajibooking.com offer packages that combine a visit to Tirupati with other
+                        <p>Yes, divinebalajitravels.com offer packages that combine a visit to Tirupati with other
                             famous temples in the region. This is a great way to maximize your pilgrimage and visit
                             multiple sacred sites in one trip. The availability and itinerary of these packages depend
                             on the operator and the duration of the tour.</p>

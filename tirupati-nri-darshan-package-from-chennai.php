@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Tirupati NRI Package from Chennai by Car | Airport Pickup';
 $pageDescription = 'Tirupati NRI travel package from Chennai by car with airport pickup, travel support and passport help for Malaysia, Singapore, Sri Lanka and UK visitors.';
-$pageCanonical = 'https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-chennai.php';
+$pageCanonical = 'https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-chennai.php';
 $activeMenu = null;
 $includeDefaultSchema = false;
 $extraHeadLinks = <<<'HTML'
@@ -46,8 +46,8 @@ $extraHeadLinks = <<<'HTML'
   "@context": "https://schema.org",
   "@type": "TravelAgency",
   "name": "Divine Balaji Travels",
-  "url": "https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-chennai.php",
-  "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
+  "url": "https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-chennai.php",
+  "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg",
   "description": "Chennai to Tirupati travel package with airport pickup, private car travel, itinerary support and assistance for travellers from Malaysia, Singapore, Sri Lanka and the United Kingdom.",
   "telephone": "+919994751079",
   "areaServed": [
@@ -74,8 +74,8 @@ $extraHeadLinks = <<<'HTML'
   "provider": {
     "@type": "Organization",
     "name": "Divine Balaji Travels",
-    "url": "https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-chennai.php",
-    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
+    "url": "https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-chennai.php",
+    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
   },
   "itinerary": {
     "@type": "ItemList",
@@ -168,19 +168,19 @@ $extraHeadLinks = <<<'HTML'
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Tirupati Travel Packages",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Chennai to Tirupati Travel Package by Car",
-      "item": "https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-chennai.php"
+      "item": "https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-chennai.php"
     }
   ]
 }
@@ -993,7 +993,7 @@ include 'includes/header.php';
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/intlTelInput.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/utils.min.js"></script>
-  <script src="assets/js/enquiry-forms.js"></script>
+  <script src="assets/js/enquiry-forms.js?v=20260901"></script>
 
 
 

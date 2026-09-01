@@ -2,4 +2,4 @@ User-agent: *
 Disallow: 
 
 
-Sitemap: https://www.tirupatibalajibooking.com/sitemap.xml
+Sitemap: https://www.divinebalajitravels.com/sitemap.xml

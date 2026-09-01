@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Tirupati Package from Malaysia via Chennai | Car & Hotel';
 $pageDescription = 'Tirupati package from Malaysia via Chennai with airport pickup, private car, hotel stay, trip planning and return support.';
-$pageCanonical = 'https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-chennai.php';
+$pageCanonical = 'https://www.divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-chennai.php';
 $activeMenu = null;
 $includeDefaultSchema = false;
 $extraHeadLinks = <<<'HTML'
@@ -16,10 +16,10 @@ $extraHeadLinks = <<<'HTML'
          so the LCP image fetch starts immediately instead of after ~19 stylesheets. -->
     <link rel="preload" as="image" href="assets/srivani-image/landing-page/hero.webp" fetchpriority="high">
     <link rel="alternate" hreflang="en-my"
-    href="https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-chennai.php" />
+    href="https://www.divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-chennai.php" />
 
     <link rel="alternate" hreflang="x-default"
-    href="https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-chennai.php" />
+    href="https://www.divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-chennai.php" />
   
     <meta name="geo.region" content="IN-TN">
     <meta name="geo.placename" content="Chennai">
@@ -376,8 +376,8 @@ $extraHeadLinks = <<<'HTML'
   "provider": {
     "@type": "Organization",
     "name": "Divine Balaji Travels",
-    "url": "https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-chennai.php",
-    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
+    "url": "https://www.divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-chennai.php",
+    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
   }
   
 }
@@ -393,14 +393,14 @@ $extraHeadLinks = <<<'HTML'
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
 
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Tirupati Package from Malaysia via Chennai",
-      "item": "https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-chennai.php"
+      "item": "https://www.divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-chennai.php"
     }
 
   ]
@@ -628,7 +628,7 @@ include 'includes/header.php';
 
     <!-- <p class="mxr-footer">
       Need a Hyderabad travel option?
-      <a href="https://www.tirupatibalajibooking.com/tirupati-package-from-hyderabad.php" target="_blank">
+      <a href="https://www.divinebalajitravels.com/tirupati-package-from-hyderabad.php" target="_blank">
         View Hyderabad Tirupati Package
       </a>
     </p> -->
@@ -1407,7 +1407,7 @@ include 'includes/header.php';
     <!-- <div class="zxq-compare-box">
       <p>
         Compare travel options:
-        <a href="https://www.tirupatibalajibooking.com/tirupati-package-from-hyderabad.php" target="_blank">
+        <a href="https://www.divinebalajitravels.com/tirupati-package-from-hyderabad.php" target="_blank">
           Chennai Route vs Hyderabad Route
         </a>
       </p>
@@ -1508,7 +1508,7 @@ include 'includes/header.php';
     <!-- <p class="bttrp-alt-link-wrap-unique">
       Looking for another route option?
 
-      <a href="https://www.tirupatibalajibooking.com/tirupati-package-from-hyderabad.php"
+      <a href="https://www.divinebalajitravels.com/tirupati-package-from-hyderabad.php"
          class="bttrp-alt-link-unique"
          target="_blank">
 
@@ -1653,7 +1653,7 @@ include 'includes/header.php';
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/intlTelInput.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/utils.min.js"></script>
-  <script src="assets/js/enquiry-forms.js"></script>
+  <script src="assets/js/enquiry-forms.js?v=20260901"></script>
 
 
 

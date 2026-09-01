@@ -913,7 +913,7 @@ include 'includes/header.php';
                         data = null;
                     }
                     if (resp.ok) {
-                        window.location.href = 'https://tirupatibalajibooking.com/thanks.php';
+                        window.location.href = 'https://divinebalajitravels.com/thanks.php';
                         return;
                     }
 
@@ -988,7 +988,7 @@ include 'includes/header.php';
                         data = null;
                     }
                     if (resp.ok) {
-                        window.location.href = 'https://tirupatibalajibooking.com/thanks.php';
+                        window.location.href = 'https://divinebalajitravels.com/thanks.php';
                         return;
                     }
 

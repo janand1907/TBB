@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Privacy & Cookies Policy | Divine Balaji Travels";
-$pageDescription = "Read the privacy and cookies policy for tirupatibalajibooking.com, operated by Divine Balaji Travels, covering data use and website cookies.";
+$pageDescription = "Read the privacy and cookies policy for divinebalajitravels.com, operated by Divine Balaji Travels, covering data use and website cookies.";
 $activeMenu = null;
 $showLeadPopup = false;
 include './includes/header.php';

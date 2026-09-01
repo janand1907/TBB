@@ -12,7 +12,7 @@ There is no database, no CMS, no user accounts, and no admin panel. Every page i
 
 ## Requirements
 
-- **PHP 8.1** — confirmed as the production version via the cPanel-generated handler in `.htaccess` (`AddHandler application/x-httpd-ea-php81`). Use 8.1 locally too, to avoid surprises; nothing in the codebase requires a newer version, but nothing has been tested against one either.
+- **PHP 8.1** — use this version for the first Hostinger deployment and form test. Nothing in the codebase requires a newer version, but production mail delivery should be retested before changing it.
 - No Composer, npm, or any package manager is used. `includes/mail/phpmailer/` is a vendored copy of PHPMailer 5.2.22, committed directly into the project.
 - No database.
 - **Git**: the project became a git repository in Phase 13B (it had none before). Every phase's work up to Phase 13A had to rely on manual file backups instead — see `docs/DEPLOYMENT_GUIDE.md`'s Rollback Strategy.

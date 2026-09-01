@@ -24,7 +24,7 @@
  * on the live server.
  */
 
-const TBB_ERROR_LOG_PATH = __DIR__ . '/logs/php-errors.log'; // PENDING: confirm for production
+const TBB_ERROR_LOG_PATH = __DIR__ . '/../logs/php-errors.log';
 
 ini_set('display_errors', '0');
 ini_set('log_errors', '1');

@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Tirupati Package from Hyderabad | NRI & International Travel';
 $pageDescription = 'Tirupati package from Hyderabad for NRI and international travellers with airport pickup, hotel stay, travel support and trip planning.';
-$pageCanonical = 'https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-hyderabad.php';
+$pageCanonical = 'https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-hyderabad.php';
 $activeMenu = null;
 $includeDefaultSchema = false;
 $extraHeadLinks = <<<'HTML'
@@ -43,8 +43,8 @@ $extraHeadLinks = <<<'HTML'
   "@context": "https://schema.org",
   "@type": "TravelAgency",
   "name": "Divine Balaji Travels",
-  "url": "https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-hyderabad.php",
-  "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
+  "url": "https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-hyderabad.php",
+  "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg",
   "description": "Tirupati travel package from Hyderabad with pickup support, hotel stay options, private transport and trip planning for Indian and international travellers.",
   "areaServed": [
     {
@@ -134,8 +134,8 @@ $extraHeadLinks = <<<'HTML'
   "provider": {
     "@type": "TravelAgency",
     "name": "Divine Balaji Travels",
-    "url": "https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-hyderabad.php",
-    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
+    "url": "https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-hyderabad.php",
+    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
   },
   "areaServed": [
     {
@@ -238,19 +238,19 @@ $extraHeadLinks = <<<'HTML'
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Tirupati Packages",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Hyderabad to Tirupati Darshan Package",
-      "item": "https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-hyderabad.php"
+      "item": "https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-hyderabad.php"
     }
   ]
 }
@@ -486,7 +486,7 @@ include 'includes/header.php';
         Also available:
       </p>
 
-      👉 <a href="https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-chennai.php"
+      👉 <a href="https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-chennai.php"
             class="zenith-srivani-orbit-tag"
             target="_blank">
 
@@ -1298,7 +1298,7 @@ include 'includes/header.php';
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/intlTelInput.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/utils.min.js"></script>
-  <script src="assets/js/enquiry-forms.js"></script>
+  <script src="assets/js/enquiry-forms.js?v=20260901"></script>
 
 
 

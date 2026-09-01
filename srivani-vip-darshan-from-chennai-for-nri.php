@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Chennai to Tirupati Tour Package for NRI | Car & Hotel';
 $pageDescription = 'Chennai to Tirupati tour package for NRI devotees with airport pickup, private car, hotel stay, Tirupati travel planning and return drop support.';
-$pageCanonical = 'https://www.tirupatibalajibooking.com/srivani-vip-darshan-from-chennai-for-nri.php';
+$pageCanonical = 'https://www.divinebalajitravels.com/srivani-vip-darshan-from-chennai-for-nri.php';
 $activeMenu = null;
 $includeDefaultSchema = false;
 $extraHeadLinks = <<<'HTML'
@@ -46,7 +46,7 @@ $extraHeadLinks = <<<'HTML'
   "@context": "https://schema.org",
   "@type": "TravelAgency",
   "name": "Divine Balaji Travels",
-  "url": "https://www.tirupatibalajibooking.com/srivani-vip-darshan-from-chennai-for-nri.php",
+  "url": "https://www.divinebalajitravels.com/srivani-vip-darshan-from-chennai-for-nri.php",
   "description": "Chennai to Tirupati travel package for NRI devotees with airport pickup, private car travel, hotel stay options, trip planning and return drop support for international travellers.",
   "areaServed": [
     {
@@ -74,8 +74,8 @@ $extraHeadLinks = <<<'HTML'
   "provider": {
     "@type": "Organization",
     "name": "Divine Balaji Travels",
-    "url": "https://www.tirupatibalajibooking.com",
-    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
+    "url": "https://www.divinebalajitravels.com",
+    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
   }
 }
 </script>
@@ -88,10 +88,10 @@ $extraHeadLinks = <<<'HTML'
   "provider":{
     "@type":"TravelAgency",
     "name":"Divine Balaji Travels",
-    "url":"https://www.tirupatibalajibooking.com/",
-    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
+    "url":"https://www.divinebalajitravels.com/",
+    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
   },
-  "url":"https://www.tirupatibalajibooking.com/srivani-vip-darshan-from-chennai-for-nri.php",
+  "url":"https://www.divinebalajitravels.com/srivani-vip-darshan-from-chennai-for-nri.php",
   "description":"Private Tirupati pilgrimage package for NRI travellers from Chennai with travel support and coordination."
 }
 </script>
@@ -101,7 +101,7 @@ $extraHeadLinks = <<<'HTML'
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": "https://www.tirupatibalajibooking.com/srivani-vip-darshan-from-chennai-for-nri.php#faq",
+  "@id": "https://www.divinebalajitravels.com/srivani-vip-darshan-from-chennai-for-nri.php#faq",
   "mainEntity": [
 
     {
@@ -199,21 +199,21 @@ $extraHeadLinks = <<<'HTML'
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
 
     {
       "@type": "ListItem",
       "position": 2,
       "name": "NRI Travel Packages",
-      "item": "https://www.tirupatibalajibooking.com/nri-travel-packages.php"
+      "item": "https://www.divinebalajitravels.com/nri-travel-packages.php"
     },
 
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Chennai to Tirupati Travel Package for NRI",
-      "item": "https://www.tirupatibalajibooking.com/srivani-vip-darshan-from-chennai-for-nri.php"
+      "item": "https://www.divinebalajitravels.com/srivani-vip-darshan-from-chennai-for-nri.php"
     }
 
   ]
@@ -1410,7 +1410,7 @@ include 'includes/header.php';
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/intlTelInput.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/utils.min.js"></script>
-  <script src="assets/js/enquiry-forms.js"></script>
+  <script src="assets/js/enquiry-forms.js?v=20260901"></script>
 
 
 

@@ -1,7 +1,7 @@
 <?php
 $pageTitle = 'Enquiry Submitted Successfully | Tirupati Balaji Booking';
 $pageDescription = 'Best Tirupati Tour Package from Chennai: Booking Special Rs.300/- Tirupati Balaji & Padamavathi Temple darshan Package From Chennai. One Day Tirupati Tour';
-$pageCanonical = 'https://www.tirupatibalajibooking.com/thanks.php';
+$pageCanonical = 'https://www.divinebalajitravels.com/thanks.php';
 $activeMenu = null;
 $extraHeadLinks = <<<'HTML'
 <style>

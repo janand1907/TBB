@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'About Divine Balaji Travels | Tirupati Tour Packages from Chennai';
 $pageDescription = 'Learn about Divine Balaji Travels, offering Tirupati tour packages from Chennai with private travel, hotel stay and pilgrimage support services.';
-$pageCanonical = 'https://www.tirupatibalajibooking.com/about-us.php';
+$pageCanonical = 'https://www.divinebalajitravels.com/about-us.php';
 $activeMenu = 'about';
 $includeDefaultSchema = false;
 $extraHeadLinks = <<<'HTML'
@@ -42,9 +42,9 @@ $extraHeadLinks = <<<'HTML'
   "@context": "https://schema.org",
   "@type": "TravelAgency",
   "name": "Divine Balaji Travels",
-  "url": "https://www.tirupatibalajibooking.com/",
-  "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
-  "image": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
+  "url": "https://www.divinebalajitravels.com/",
+  "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg",
+  "image": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg",
   "telephone": "+91-99947-51079",
   "email": "divinebalajitravels@gmail.com",
   "address": {
@@ -56,7 +56,7 @@ $extraHeadLinks = <<<'HTML'
     "addressCountry": "IN"
   },
   "sameAs": [
-    "https://www.tirupatibalajibooking.com/"
+    "https://www.divinebalajitravels.com/"
   ]
 }
 </script>
@@ -66,7 +66,7 @@ $extraHeadLinks = <<<'HTML'
   "@context": "https://schema.org",
   "@type": "AboutPage",
   "name": "About Divine Balaji Travels",
-  "url": "https://www.tirupatibalajibooking.com/about-us.php",
+  "url": "https://www.divinebalajitravels.com/about-us.php",
   "description": "Learn about Divine Balaji Travels, offering Tirupati tour packages from Chennai with private travel, hotel stay and pilgrimage support services.",
   "mainEntity": {
     "@type": "TravelAgency",
@@ -80,7 +80,7 @@ $extraHeadLinks = <<<'HTML'
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Tirupati Balaji Booking",
-  "url": "https://www.tirupatibalajibooking.com/",
+  "url": "https://www.divinebalajitravels.com/",
   "publisher": {
     "@type": "Organization",
     "name": "Divine Balaji Travels"
@@ -98,13 +98,13 @@ $extraHeadLinks = <<<'HTML'
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "About Us",
-      "item": "https://www.tirupatibalajibooking.com/about-us.php"
+      "item": "https://www.divinebalajitravels.com/about-us.php"
     }
   ]
 }
@@ -135,7 +135,7 @@ include 'includes/header.php';
     <!-- Content -->
     <div class="zento-about-content">
       <p>
-        Welcome to tirupatibalajibooking.com, proudly owned and operated by Divine Balaji Travels, an independent private travel company dedicated to organizing comfortable, reliable, and well-planned Tirupati pilgrimage tour packages for devotees.
+        Welcome to divinebalajitravels.com, proudly owned and operated by Divine Balaji Travels, an independent private travel company dedicated to organizing comfortable, reliable, and well-planned Tirupati pilgrimage tour packages for devotees.
       </p>
 
       <p>
@@ -364,7 +364,7 @@ include 'includes/header.php';
       </div>
 
       <div class="dbt-disclaimer-text">
-        <p><strong>tirupatibalajibooking.com</strong> is owned and operated by Divine Balaji Travels.</p>
+        <p><strong>divinebalajitravels.com</strong> is owned and operated by Divine Balaji Travels.</p>
 
         <p>We are an independent private travel company and are not affiliated with TTD, Tirumala Tirupati Devasthanams, Tirupati Temple, or any government authority.</p>
 
@@ -619,7 +619,7 @@ include 'includes/header.php';
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/intlTelInput.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/utils.min.js"></script>
-  <script src="assets/js/enquiry-forms.js"></script>
+  <script src="assets/js/enquiry-forms.js?v=20260901"></script>
 
 
 

@@ -824,7 +824,7 @@ include './includes/header.php';
                             package to your needs.</p>
                         <p><b>2. How to Book:</b></p>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i>&nbsp;Online Travel Agencies: Websites like
-                            tirupatibalajibooking.com have a dedicated section for pilgrimage packages, where you can
+                            divinebalajitravels.com have a dedicated section for pilgrimage packages, where you can
                             compare different operators and book online.</p>
 
 

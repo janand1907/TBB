@@ -35,8 +35,8 @@ $captcha_question = "Captcha: {$first_num} {$operator} {$second_num} = ?";
 //                                 that don't have the legacy widget's datepicker field).
 $pageTitle = $pageTitle ?? 'Tirupati Balaji Travels | Tirupati Darshan Package';
 $pageDescription = $pageDescription ?? 'Divine Balaji Travels offers Tirupati tour packages from Chennai and Hyderabad with private car travel, hotel stay and complete trip assistance.';
-$pageCanonical = $pageCanonical ?? ('https://www.tirupatibalajibooking.com/' . basename($_SERVER['PHP_SELF']));
-$pageOgImage = $pageOgImage ?? 'https://www.tirupatibalajibooking.com/assets/images/logo/logo_main.png';
+$pageCanonical = $pageCanonical ?? ('https://www.divinebalajitravels.com/' . basename($_SERVER['PHP_SELF']));
+$pageOgImage = $pageOgImage ?? 'https://www.divinebalajitravels.com/assets/images/logo/logo_main.png';
 $activeMenu = $activeMenu ?? null;
 $extraHeadLinks = $extraHeadLinks ?? '';
 $includeDefaultSchema = $includeDefaultSchema ?? true;
@@ -176,9 +176,9 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
             "@context": "https://schema.org",
             "@type": "TravelAgency",
             "name": "Tirupati Balaji Travels",
-            "image": "https://tirupatibalajibooking.com/assets/images/logo/logo_main.png",
-            "@id": "https://tirupatibalajibooking.com",
-            "url": "https://tirupatibalajibooking.com/",
+            "image": "https://divinebalajitravels.com/assets/images/logo/logo_main.png",
+            "@id": "https://divinebalajitravels.com",
+            "url": "https://divinebalajitravels.com/",
             "telephone": "+91-99947-51079",
             "priceRange": "5000",
             "address": {
@@ -307,41 +307,26 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
 
                                 </div>
                             </li>
+                            <!-- Near me Tirupati Temple menu (temporarily hidden)
                             <li>
                                 <div class="dropdown-wrapper menu-button">
-                                    <a class="menu-button<?= $activeMenu === 'temples' ? ' is-active' : '' ?>" href="/famous-temples-near-by-tirupati.php">Near me Tirupati
-                                        Temple</a>
+                                    <a class="menu-button<?= $activeMenu === 'temples' ? ' is-active' : '' ?>" href="/famous-temples-near-by-tirupati.php">Near me Tirupati Temple</a>
                                     <div class="drop-menu drop-menu-1">
-                                        <a class="menu-button" href="/sri-padmavathi-amman-temple.php">Sri Padmavathi
-                                            Amman Temple</a>
-                                        <a class="menu-button" href="/sri-govindaraja-swamy-temple.php">Sri Govindaraja
-                                            Swamy Temple</a>
-                                        <a class="menu-button"
-                                            href="/kalyana-venkateswara-temple-srinivasa-mangapuram.php">Kalyana
-                                            Venkateswara Temple</a>
+                                        <a class="menu-button" href="/sri-padmavathi-amman-temple.php">Sri Padmavathi Amman Temple</a>
+                                        <a class="menu-button" href="/sri-govindaraja-swamy-temple.php">Sri Govindaraja Swamy Temple</a>
+                                        <a class="menu-button" href="/kalyana-venkateswara-temple-srinivasa-mangapuram.php">Kalyana Venkateswara Temple</a>
                                         <a class="menu-button" href="/iskon-temple.php">ISKCON Temple</a>
-                                        <a class="menu-button" href="/sri-kapileswara-swamy-temple.php">Sri Kapileswara
-                                            Swamy Temple</a>
-                                        <a class="menu-button"
-                                            href="/sri-kalyana-venkateshwara-swamy-temple-narayanavanam-temple.php">Sri
-                                            Kalyana Venkateshwara Swamy </a>
-                                        <a class="menu-button" href="/sri-prasanna-venkateswara-temple.php">Sri Prasanna
-                                            Venkateswara Temple</a>
-                                        <a class="menu-button" href="/sri-varasiddhi-vinayaka-temple-kanipakam.php">Sri
-                                            Varasiddhi Vinayaka Temple</a>
-                                        <a class="menu-button" href="/sri-vedanarayana-temple-nagalapuram.php">Sri
-                                            Vedanarayana Temple</a>
+                                        <a class="menu-button" href="/sri-kapileswara-swamy-temple.php">Sri Kapileswara Swamy Temple</a>
+                                        <a class="menu-button" href="/sri-kalyana-venkateshwara-swamy-temple-narayanavanam-temple.php">Sri Kalyana Venkateshwara Swamy</a>
+                                        <a class="menu-button" href="/sri-prasanna-venkateswara-temple.php">Sri Prasanna Venkateswara Temple</a>
+                                        <a class="menu-button" href="/sri-varasiddhi-vinayaka-temple-kanipakam.php">Sri Varasiddhi Vinayaka Temple</a>
+                                        <a class="menu-button" href="/sri-vedanarayana-temple-nagalapuram.php">Sri Vedanarayana Temple</a>
                                         <a class="menu-button" href="/vakula-matha-temple.php">Vakula Matha Temple</a>
-                                        <a class="menu-button"
-                                            href="/pallikondeswara-swamy-temple-surutapalli.php">Pallikondeswara Swamy
-                                            Temple</a>
+                                        <a class="menu-button" href="/pallikondeswara-swamy-temple-surutapalli.php">Pallikondeswara Swamy Temple</a>
                                     </div>
-
                                 </div>
                             </li>
-
-
-
+                            -->
                             <li> <a class="menu-button single_menu<?= $activeMenu === 'contact' ? ' is-active' : '' ?>" href="/contact-us.php">Contact </a>
                             </li>
                         </ul>
@@ -428,9 +413,7 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li> <a href="/famous-temples-near-by-tirupati.php">Near me Tirupati
-                                                    Temple</a>
-                                            </li>
+                                            <!-- <li><a href="/famous-temples-near-by-tirupati.php">Near me Tirupati Temple</a></li> -->
                                             <li> <a href="/contact-us.php">Contact</a>
                                             </li>
 

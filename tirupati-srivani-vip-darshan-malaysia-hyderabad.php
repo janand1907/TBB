@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Hyderabad to Tirupati Package by Flight for Malaysia Travellers';
 $pageDescription = 'Hyderabad to Tirupati package by flight for Malaysia travellers with airport pickup, transfers, stay options and itinerary support. Enquire now.';
-$pageCanonical = 'https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php';
+$pageCanonical = 'https://www.divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php';
 $activeMenu = null;
 $includeDefaultSchema = false;
 $extraHeadLinks = <<<'HTML'
@@ -16,10 +16,10 @@ $extraHeadLinks = <<<'HTML'
          so the LCP image fetch starts immediately instead of after ~19 stylesheets. -->
     <link rel="preload" as="image" href="assets/srivani-image/landing-page/hero.webp" fetchpriority="high">
     <link rel="alternate" hreflang="en-my"
-href="https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php" />
+href="https://www.divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php" />
 
 <link rel="alternate" hreflang="x-default"
-href="https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php" />
+href="https://www.divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php" />
 
   
    <!-- ✅ Google Font  -->
@@ -51,8 +51,8 @@ href="https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysi
   "@type": "ProfessionalService",
   "name": "Tirupati Travel Assistance",
   "description": "Travel assistance for Malaysia travellers planning Tirupati trips through Hyderabad with pickup support, itinerary guidance and package coordination.",
-  "image": "https://tirupatibalajibooking.com/Images/hero.png",
-  "url": "https://tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php",
+  "image": "https://divinebalajitravels.com/Images/hero.png",
+  "url": "https://divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php",
   "telephone": "+919994751079",
   "address": {
     "@type": "PostalAddress",
@@ -138,8 +138,8 @@ href="https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysi
   "provider": {
     "@type": "Organization",
     "name": "Divine Balaji Travels",
-    "url": "https://tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php",
-    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
+    "url": "https://divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php",
+    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
   },
   "itinerary": {
     "@type": "ItemList",
@@ -178,13 +178,13 @@ href="https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysi
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Malaysia to Tirupati via Hyderabad",
-      "item": "https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php"
+      "item": "https://www.divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php"
     }
   ]
 }
@@ -372,7 +372,7 @@ include 'includes/header.php';
     <!-- Alternate Route Button -->
     <div class="mysg-alt-route-btn-wrap">
 
-      <a href="https://www.tirupatibalajibooking.com/tirupati-srivani-vip-darshan-malaysia-chennai.php"
+      <a href="https://www.divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-chennai.php"
          class="mysg-alt-route-btn"
          target="_blank">
         👉 <span class="btn-text">Prefer road travel? View Chennai to Tirupati package options</span>
@@ -1382,7 +1382,7 @@ include 'includes/header.php';
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/intlTelInput.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/utils.min.js"></script>
-  <script src="assets/js/enquiry-forms.js"></script>
+  <script src="assets/js/enquiry-forms.js?v=20260901"></script>
 
 
 

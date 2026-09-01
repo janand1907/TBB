@@ -5,8 +5,8 @@
                 <div class="x_footer_bottom_box_wrapper float_left">
                     <h3>Disclaimer</h3>
                     <p class="zenvix-footer-text">
-        <strong>tirupatibalajibooking.com</strong> is operated by 
-        <strong>Divine Balaji Travels</strong>, an independent private travel company 
+        <strong>divinebalajitravels.com</strong> is operated by
+        <strong>Divine Balaji Travels</strong>, an independent private travel company
         providing Tirupati tour packages and pilgrimage travel services.
     </p>
 
@@ -45,9 +45,6 @@
                         </li>
                         <li><a href="/tirupati-senior-citizens-booking.php"><i class="fa fa-long-arrow-right"></i>
                                 &nbsp; Senior Citizens Booking</a>
-                        <li><a href="/famous-temples-near-by-tirupati.php"><i class="fa fa-long-arrow-right"></i>
-                                &nbsp; Tirupati Temples</a>
-                        </li>
                         <li><a href="/privacy-and-cookies-policy.php"><i class="fa fa-long-arrow-right"></i> &nbsp;
                                 Privacy & Cookies Policy</a>
                         </li>
@@ -69,7 +66,7 @@
                         <li><a href="/best-tirupati-tour-operators.php"><i class="fa fa-long-arrow-right"></i> &nbsp;
                                 How it Works?</a>
                         </li>
-                        <!-- <li><a href="/Famous-temples-Near-by-Tirupati.php"><i class="fa fa-long-arrow-right"></i>
+                        <!-- <li><a href="/famous-temples-near-by-tirupati.php"><i class="fa fa-long-arrow-right"></i>
                                 &nbsp; Tirupati Temples</a>
                         </li> -->
                         <li><a href="/contact-us.php"><i class="fa fa-long-arrow-right"></i> &nbsp; Contact Us</a>
@@ -112,7 +109,7 @@
 <div class="x_copyr_main_wrapper float_left">
     <a href="javascript:" id="return-to-top"><i class="fa fa-arrow-up"></i></a>
     <div class="container">
-        <p style="color: #fff; font-size: 14px;">© 2025 tirupatibalajibooking.com. Owned & Operated by Divine Balaji Travels. All Rights Reserved.</p>
+        <p style="color: #fff; font-size: 14px;">© 2025 divinebalajitravels.com. Owned & Operated by Divine Balaji Travels. All Rights Reserved.</p>
     </div>
 </div>
 <!--<div id="callAction" class="call-action">  
@@ -230,7 +227,7 @@ whatsapp</a>
 <script src="assets/js/jquery.magnific-popup.js" defer></script>
 <?php endif; ?>
 <script src="assets/js/xpedia.js" defer></script>
-<script src="assets/js/legacy-enquiry-forms.js" defer></script>
+<script src="assets/js/legacy-enquiry-forms.js?v=20260901" defer></script>
 <?php $leadPopupJsVersion = @filemtime(__DIR__ . '/../assets/js/lead-popup.js') ?: time(); ?>
 <script src="assets/js/lead-popup.js?v=<?php echo $leadPopupJsVersion; ?>"></script>
 <!-- custom js-->
@@ -293,7 +290,7 @@ whatsapp</a>
 </script>
 
 <!-- Default Statcounter code for Tirupati Balaji Booking
-http://www.tirupatibalajibooking.com -->
+http://www.divinebalajitravels.com -->
 <script type="text/javascript">
     var sc_project = 13063434;
     var sc_invisible = 1;

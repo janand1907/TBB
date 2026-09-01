@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Tirupati Tour Packages | Chennai & Hyderabad Guide';
 $pageDescription = 'Private Tirupati temple tour packages with pickup, travel, hotel stay and trip planning from Chennai and Hyderabad. Independent travel company.';
-$pageCanonical = 'https://www.tirupatibalajibooking.com/tirupati-darshan-booking-guide.php';
+$pageCanonical = 'https://www.divinebalajitravels.com/tirupati-darshan-booking-guide.php';
 $activeMenu = null;
 $includeDefaultSchema = false;
 $extraHeadLinks = <<<'HTML'
@@ -881,8 +881,8 @@ $extraHeadLinks = <<<'HTML'
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Divine Balaji Travels",
-  "url": "https://www.tirupatibalajibooking.com/",
-  "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
+  "url": "https://www.divinebalajitravels.com/",
+  "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg",
   "telephone": "+91-9994751079",
   "address": {
     "@type": "PostalAddress",
@@ -904,7 +904,7 @@ $extraHeadLinks = <<<'HTML'
   "@context": "https://schema.org",
   "@type": "TravelAgency",
   "name": "Divine Balaji Travels",
-  "url": "https://www.tirupatibalajibooking.com/",
+  "url": "https://www.divinebalajitravels.com/",
   "description": "Independent private travel company offering Tirupati pilgrimage tour packages with transport, pickup, drop, hotel stay arrangements and complete trip coordination.",
   "telephone": "+91-9994751079",
   "address": {
@@ -931,7 +931,7 @@ $extraHeadLinks = <<<'HTML'
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Tirupati Temple Tour Packages & Travel Guide",
-  "url": "https://www.tirupatibalajibooking.com/",
+  "url": "https://www.divinebalajitravels.com/",
   "description": "Private Tirupati temple tour packages with pickup, travel, hotel stay and pilgrimage trip planning from Chennai and Hyderabad.",
   "publisher": {
     "@type": "Organization",
@@ -950,13 +950,13 @@ $extraHeadLinks = <<<'HTML'
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Tirupati Temple Tour Packages",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     }
   ]
 }
@@ -1673,8 +1673,8 @@ include 'includes/header.php';
     <!-- Bottom Text + Link -->
     <div class="velnoxa-btn-wrap-7731">
       <p>👉 Explore package options here:</p>
-      <a href="https://www.tirupatibalajibooking.com/" target="_blank">
-        www.tirupatibalajibooking.com
+      <a href="https://www.divinebalajitravels.com/" target="_blank">
+        www.divinebalajitravels.com
       </a>
     </div>
 

@@ -9,9 +9,10 @@ See `README.md` → Local Setup for the one-line dev server command. A few thing
 
 ## Production hosting
 
-- cPanel-based shared hosting (confirmed via the auto-generated PHP-version handler block in `.htaccess`).
-- Production PHP version: **8.1** (`ea-php81`).
-- Deployment is manual file upload (FTP/SFTP or cPanel's File Manager) — there is no CI/CD pipeline, no `git push`-to-deploy, no build step to run first. What you upload is exactly what serves.
+- This project is ready for manual PHP hosting such as Hostinger. See
+  `HOSTINGER_DEPLOYMENT.md` for the required PHP, SSL, and private SMTP setup.
+- Start with PHP **8.1** and test the forms before changing the PHP version.
+- Deployment is manual file upload (FTP/SFTP or host File Manager) — there is no CI/CD pipeline, no `git push`-to-deploy, no build step to run first. What you upload is exactly what serves.
 
 ## Deployment checklist
 

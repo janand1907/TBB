@@ -12,11 +12,7 @@ Legend: **P1** = actively hurting the business today · **P2** = real risk or re
 - **Impact**: `UA-188854373-1` (in `includes/header.php`, every page) has almost certainly collected zero data since Google shut down UA processing in July 2023. The business may believe it has traffic analytics when it doesn't.
 - **Recommendation**: Create a GA4 property and replace the tag, or confirm analytics is intentionally tracked elsewhere (Clarity/Statcounter) and remove the dead tag. Needs an explicit decision — this is an "analytics" change, called out across Phases 9–11 as something to stop and report rather than change unilaterally.
 
-### 2. SMTP password stored in plaintext in a web-rooted PHP file
-- **Impact**: `includes/mail/mail-config.php`'s `MAIL_SMTP_PASSWORD` constant holds a real Gmail App Password directly in a file served from the document root. If PHP execution ever misconfigures on the host (or the file is ever served as text instead of executed), the credential is exposed.
-- **Recommendation**: Move to an environment variable or a file outside the web root, per standard practice. Not changed in any phase so far because it changes the mail-sending mechanism — flagged for explicit sign-off.
-
-### 3. Two different phone numbers exist in the codebase
+### 2. Two different phone numbers exist in the codebase
 - **Impact**: `includes/footer.php` contains a dead (HTML-commented) call/WhatsApp block referencing `+91 7397489919` instead of the official `+91-99947-51079`. Currently harmless (never rendered) but a real risk if anyone ever uncomments that block without checking the number first.
 - **Recommendation**: Delete the dead block entirely, or correct the number if the block is ever revived.
 

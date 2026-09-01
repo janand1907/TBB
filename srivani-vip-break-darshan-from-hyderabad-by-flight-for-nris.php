@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Tirupati Package from Hyderabad by Flight for NRI Travellers';
 $pageDescription = 'Tirupati package from Hyderabad by flight for NRI travellers with airport pickup, hotel stay, travel support and itinerary planning.';
-$pageCanonical = 'https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-hyderabad-by-flight-for-nris.php';
+$pageCanonical = 'https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-hyderabad-by-flight-for-nris.php';
 $activeMenu = null;
 $includeDefaultSchema = false;
 $extraHeadLinks = <<<'HTML'
@@ -46,7 +46,7 @@ $extraHeadLinks = <<<'HTML'
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "Hyderabad to Tirupati Travel Package for NRI Travellers",
-  "url": "https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-hyderabad-by-flight-for-nris.php",
+  "url": "https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-hyderabad-by-flight-for-nris.php",
   "description": "Travel package assistance for NRI and international travellers planning a Hyderabad to Tirupati trip with transport coordination, stay options and itinerary support.",
   "areaServed": [
     {
@@ -75,8 +75,8 @@ $extraHeadLinks = <<<'HTML'
   "provider": {
     "@type": "Organization",
     "name": "Divine Balaji Travels",
-    "url": "https://www.tirupatibalajibooking.com/",
-    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
+    "url": "https://www.divinebalajitravels.com/",
+    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
   }
 }
 </script>
@@ -87,7 +87,7 @@ $extraHeadLinks = <<<'HTML'
   "@type": "TouristTrip",
   "name": "Hyderabad to Tirupati Travel Package by Flight for NRI Travellers",
   "description": "Travel package for NRI and international travellers planning a Hyderabad to Tirupati trip with flight-based travel, local transfers, stay options and itinerary assistance.",
-  "url": "https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-hyderabad-by-flight-for-nris.php",
+  "url": "https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-hyderabad-by-flight-for-nris.php",
   "touristType": [
     "NRI Travellers",
     "International Travellers",
@@ -122,8 +122,8 @@ $extraHeadLinks = <<<'HTML'
   "provider": {
     "@type": "Organization",
     "name": "Divine Balaji Travels",
-    "url": "https://www.tirupatibalajibooking.com/",
-    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
+    "url": "https://www.divinebalajitravels.com/",
+    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
   }
 }
 </script>
@@ -237,19 +237,19 @@ $extraHeadLinks = <<<'HTML'
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Tirupati Travel Packages",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Hyderabad to Tirupati Package for NRI Travellers",
-      "item": "https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-hyderabad-by-flight-for-nris.php"
+      "item": "https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-hyderabad-by-flight-for-nris.php"
     }
   ]
 }
@@ -1137,7 +1137,7 @@ include 'includes/header.php';
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/intlTelInput.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/utils.min.js"></script>
-  <script src="assets/js/enquiry-forms.js"></script>
+  <script src="assets/js/enquiry-forms.js?v=20260901"></script>
 
 
 

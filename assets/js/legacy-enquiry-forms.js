@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     form.addEventListener('submit', function(e) {
       clearError();
+      e.preventDefault();
 
       var nameField = form.elements['name'];
       var mobileField = form.elements['mobile'];
@@ -62,37 +63,30 @@ document.addEventListener('DOMContentLoaded', function() {
       var answerVal = answerField ? answerField.value.trim() : '';
 
       if (!nameVal) {
-        e.preventDefault();
         showError('Full Name is required.', nameField);
         return;
       }
       if (!mobileDigits) {
-        e.preventDefault();
         showError('WhatsApp number is required.', mobileField);
         return;
       }
       if (mobileDigits.length < 6 || mobileDigits.length > 12) {
-        e.preventDefault();
         showError('Enter a valid WhatsApp number.', mobileField);
         return;
       }
       if (dateField && !dateVal) {
-        e.preventDefault();
         showError('Travel date is required.', dateField);
         return;
       }
       if (peoplesField && !peoplesVal) {
-        e.preventDefault();
         showError('Travellers is required.', peoplesField);
         return;
       }
       if (emailVal && !isValidEmail(emailVal)) {
-        e.preventDefault();
         showError('Enter a valid email address.', emailField);
         return;
       }
       if (answerField && !answerVal) {
-        e.preventDefault();
         showError('Answer is required.', answerField);
         return;
       }
@@ -108,7 +102,41 @@ document.addEventListener('DOMContentLoaded', function() {
           submitBtn.textContent = 'Submitting...';
         }
       }
-      // Valid: let the browser submit the form normally (no preventDefault).
+      var formData = new FormData(form);
+      formData.set('ajax', '1');
+
+      fetch(form.action, { method: 'POST', body: formData })
+        .then(function(response) {
+          return response.json().catch(function() { return null; }).then(function(payload) {
+            return { ok: response.ok, payload: payload };
+          });
+        })
+        .then(function(result) {
+          if (result.ok && result.payload && result.payload.success) {
+            window.location.href = 'thanks.php';
+            return;
+          }
+
+          if (result.payload && result.payload.errors) {
+            var firstField = Object.keys(result.payload.errors)[0];
+            showError(result.payload.errors[firstField], form.elements[firstField]);
+            return;
+          }
+
+          showError('Unable to submit right now. Please try again.', null);
+        })
+        .catch(function() {
+          showError('Unable to submit right now. Please try again.', null);
+        })
+        .finally(function() {
+          if (!submitBtn) return;
+          submitBtn.disabled = false;
+          if (submitBtn.tagName === 'INPUT') {
+            submitBtn.value = submitBtn.dataset.originalText || 'Submit';
+          } else {
+            submitBtn.textContent = submitBtn.dataset.originalText || 'Submit';
+          }
+        });
     });
   });
 });

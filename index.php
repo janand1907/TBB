@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Tirupati Tour Packages from Chennai & Hyderabad | Car & Hotels';
 $pageDescription = 'Tirupati tour packages from Chennai and Hyderabad with private car travel, hotel stay, pickup, trip planning and return drop support for devotees.';
-$pageCanonical = 'https://www.tirupatibalajibooking.com';
+$pageCanonical = 'https://www.divinebalajitravels.com';
 $activeMenu = 'home';
 $includeDefaultSchema = false;
 $extraHeadLinks = <<<'HTML'
@@ -46,8 +46,8 @@ $extraHeadLinks = <<<'HTML'
   "@context": "https://schema.org",
   "@type": "TravelAgency",
   "name": "Divine Balaji Travels",
-  "url": "https://www.tirupatibalajibooking.com/",
-  "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg",
+  "url": "https://www.divinebalajitravels.com/",
+  "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg",
    "description": "Tirupati tour packages from Chennai and Hyderabad with private travel, hotel stay options, pickup, trip planning and return drop support for devotees.",
   "telephone": "+91-9994751079",
   "areaServed": [
@@ -98,8 +98,8 @@ $extraHeadLinks = <<<'HTML'
   "provider": {
     "@type": "TravelAgency",
     "name": "Divine Balaji Travels",
-    "url": "https://www.tirupatibalajibooking.com/",
-    "logo": "https://www.tirupatibalajibooking.com/assets/images/logo/logo.jpg"
+    "url": "https://www.divinebalajitravels.com/",
+    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
   },
   "itinerary": {
     "@type": "ItemList",
@@ -125,7 +125,7 @@ $extraHeadLinks = <<<'HTML'
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": "https://www.tirupatibalajibooking.com/#faq",
+  "@id": "https://www.divinebalajitravels.com/#faq",
   "mainEntity": [
 
     {
@@ -223,14 +223,14 @@ $extraHeadLinks = <<<'HTML'
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     },
 
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Tirupati Tour Packages",
-      "item": "https://www.tirupatibalajibooking.com/"
+      "item": "https://www.divinebalajitravels.com/"
     }
 
   ]
@@ -491,7 +491,7 @@ style="background: url('assets/srivani-image/nri-hyderabad-by-fligh/hero.webp') 
                     Best for families and devotees travelling from Chennai
                 </p>
 
-                <a href="https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-chennai.php"
+                <a href="https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-chennai.php"
                    class="aurixa-btn"
                    target="_blank">
                    👉 View Chennai Package
@@ -499,7 +499,7 @@ style="background: url('assets/srivani-image/nri-hyderabad-by-fligh/hero.webp') 
 
                 <p class="aurixa-link">
                     International traveller?
-                    <a href="https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-chennai.php" target="_blank">
+                    <a href="https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-chennai.php" target="_blank">
                         View NRI Chennai Package
                     </a>
                 </p>
@@ -527,7 +527,7 @@ style="background: url('assets/srivani-image/nri-hyderabad-by-fligh/hero.webp') 
                     Ideal for devotees travelling from Hyderabad
                 </p>
 
-                <a href="https://www.tirupatibalajibooking.com/srivani-vip-break-darshan-from-hyderabad.php"
+                <a href="https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-hyderabad.php"
                    class="aurixa-btn"
                    target="_blank">
                    👉 View Hyderabad Package
@@ -535,7 +535,7 @@ style="background: url('assets/srivani-image/nri-hyderabad-by-fligh/hero.webp') 
 
                 <p class="aurixa-link">
                     International traveller?
-                    <a href="https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php" target="_blank">
+                    <a href="https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php" target="_blank">
                         View NRI Hyderabad Package
                     </a>
                 </p>
@@ -564,7 +564,7 @@ style="background: url('assets/srivani-image/nri-hyderabad-by-fligh/hero.webp') 
                     Includes airport pickup, private vehicle and travel support
                 </strong>
 
-                <a href="https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-chennai.php"
+                <a href="https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-chennai.php"
                    class="aurixa-btn"
                    target="_blank">
                    👉 View NRI Chennai Package
@@ -589,7 +589,7 @@ style="background: url('assets/srivani-image/nri-hyderabad-by-fligh/hero.webp') 
                     Includes pickup, itinerary planning and travel coordination
                 </strong>
 
-                <a href="https://www.tirupatibalajibooking.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php"
+                <a href="https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php"
                    class="aurixa-btn"
                    target="_blank">
                    👉 View NRI Hyderabad Package
@@ -1094,7 +1094,7 @@ style="background: url('assets/srivani-image/nri-hyderabad-by-fligh/hero.webp') 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/intlTelInput.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/utils.min.js"></script>
-  <script src="assets/js/enquiry-forms.js"></script>
+  <script src="assets/js/enquiry-forms.js?v=20260901"></script>
 
 
 

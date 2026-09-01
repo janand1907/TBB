@@ -1,1 +1,134 @@
-document.addEventListener("DOMContentLoaded",function(){const e=(e,t)=>{const a=document.querySelector(`.field-error[data-for="${e}"]`),n=document.getElementById(e);a&&(a.textContent=t||"",a.classList.toggle("show",!!t)),n&&n.classList.toggle("error",!!t)},t=(e,t)=>{e&&(e.dataset.originalText||(e.dataset.originalText=e.textContent.trim()),t?(e.classList.add("is-loading"),e.innerHTML='<span class="btn-loader"></span>Submitting...'):(e.classList.remove("is-loading"),e.textContent=e.dataset.originalText||"Submit"))},a=(a,n)=>{if(!a)return;const s=document.getElementById(n.name),r=document.getElementById(n.phone),l=document.getElementById(n.mobile),i=document.getElementById(n.email),o=document.getElementById(n.travellers),c=document.getElementById(n.date),d=(document.getElementById(n.message),document.getElementById(n.captcha)),u=a.querySelector('button[type="submit"]'),m=(e=>{if(!e||!window.intlTelInput)return null;const t=window.intlTelInput(e,{initialCountry:"auto",separateDialCode:!0,autoPlaceholder:"off",preferredCountries:["in","ae","us","gb","sg","sa","au"],geoIpLookup:function(e){fetch("https://ipapi.co/json/").then(e=>e.json()).then(t=>e(t&&t.country_code?t.country_code.toLowerCase():"")).catch(()=>e("in"))},utilsScript:"https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/utils.min.js"});return e.addEventListener("input",function(){e.value=e.value.replace(/\D/g,"").slice(0,12)}),t})(r),p=r?r.closest(".input-group"):null;if((e=>{if(!e)return;const t=new Date,a=`${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,"0")}-${String(t.getDate()).padStart(2,"0")}`;e.setAttribute("min",a),e.dataset.minDate=a})(c),p&&r){const e=()=>{p.classList.toggle("has-value",!!r.value.trim())};r.addEventListener("focus",()=>p.classList.add("is-focused")),r.addEventListener("blur",()=>p.classList.remove("is-focused")),r.addEventListener("input",e),e()}a.addEventListener("submit",function(p){p.preventDefault(),(e=>{e&&(e.querySelectorAll(".field-error").forEach(e=>e.classList.remove("show")),e.querySelectorAll("input.error, textarea.error").forEach(e=>e.classList.remove("error")))})(a);const h=s?s.value.trim():"",g=i?i.value.trim():"",f=c?c.value.trim():"",v=o?o.value.trim():"",y=d?d.value.trim():"",b=r?r.value.replace(/\D/g,"").slice(0,12):"";r&&(r.value=b);let E=!1;h||(e(n.name,"Full Name is required."),E=!0),b?(b.length<6||b.length>12)&&(e(n.phone,"Enter a valid WhatsApp number."),E=!0):(e(n.phone,"WhatsApp number is required."),E=!0),f?/^\d{4}-\d{2}-\d{2}$/.test(f)?c&&c.dataset.minDate&&f<c.dataset.minDate&&(e(n.date,"Travel date cannot be in the past."),E=!0):(e(n.date,"Enter a valid date."),E=!0):(e(n.date,"Travel date is required."),E=!0);const L=Number(v);if((!v||Number.isNaN(L)||L<1)&&(e(n.travellers,"Travellers is required."),E=!0),g&&!(e=>/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e))(g)&&(e(n.email,"Enter a valid email address."),E=!0),y||(e(n.captcha,"Answer is required."),E=!0),E)return;let w="";if(m&&"function"==typeof m.getSelectedCountryData){const e=m.getSelectedCountryData();e&&e.dialCode&&(w=`+${e.dialCode}`)}l&&(l.value=`${w} ${b}`.trim()),u&&(u.disabled=!0,t(u,!0));const S=new FormData(a);fetch(a.action,{method:"POST",body:S}).then(async t=>{let a=null;try{a=await t.json()}catch(e){a=null}if(t.ok)window.location.href="thanks.php";else if(422===t.status&&a&&a.errors){const t={name:n.name,mobile:n.phone,email:n.email,date:n.date,peoples:n.travellers,message:n.message,answer:n.captcha};Object.keys(a.errors).forEach(n=>{const s=t[n];s&&e(s,a.errors[n])})}else e(n.name,"Unable to submit right now. Please try again.")}).catch(()=>{e(n.name,"Unable to submit right now. Please try again.")}).finally(()=>{u&&(u.disabled=!1,t(u,!1))})})};a(document.querySelector(".hero-form"),{name:"hf-name",phone:"hf-whatsapp",mobile:"hf-mobile",email:"hf-email",travellers:"hf-travellers",date:"hf-date",message:"hf-message",captcha:"hf-captcha",captchaQuestion:"hf-captcha-question"}),a(document.querySelector(".enquiry-form"),{name:"ep-name",phone:"ep-whatsapp",mobile:"ep-mobile",email:"ep-email",travellers:"ep-travellers",date:"ep-date",message:"ep-message",captcha:"ep-captcha",captchaQuestion:"ep-captcha-question"})});
+/* Shared AJAX submission for the modern hero and popup enquiry forms.
+ * Every form receives the same JSON error handling and success redirect.
+ */
+document.addEventListener('DOMContentLoaded', function () {
+  function showFieldError(form, field, message) {
+    var input = field === 'mobile'
+      ? form.querySelector('input[type="tel"]:not([name="mobile"])') || form.elements.mobile
+      : form.elements[field];
+    var id = input && input.id;
+    var slot = id ? form.querySelector('.field-error[data-for="' + id + '"]') : null;
+
+    if (slot) {
+      slot.textContent = message || '';
+      slot.classList.toggle('show', Boolean(message));
+    }
+    if (input) input.classList.toggle('error', Boolean(message));
+  }
+
+  function clearErrors(form) {
+    form.querySelectorAll('.field-error').forEach(function (slot) {
+      slot.textContent = '';
+      slot.classList.remove('show');
+    });
+    form.querySelectorAll('input.error, textarea.error, select.error').forEach(function (input) {
+      input.classList.remove('error');
+    });
+  }
+
+  function setLoading(button, loading) {
+    if (!button) return;
+    if (!button.dataset.originalText) button.dataset.originalText = button.textContent.trim();
+    button.disabled = loading;
+    button.classList.toggle('is-loading', loading);
+    button.textContent = loading ? 'Submitting...' : button.dataset.originalText;
+  }
+
+  function initializePhoneInput(phoneInput) {
+    if (!phoneInput || !window.intlTelInput) return null;
+    var iti = window.intlTelInput(phoneInput, {
+      initialCountry: 'auto',
+      separateDialCode: true,
+      autoPlaceholder: 'off',
+      preferredCountries: ['in', 'ae', 'us', 'gb', 'sg', 'sa', 'au'],
+      geoIpLookup: function (callback) {
+        fetch('https://ipapi.co/json/')
+          .then(function (response) { return response.json(); })
+          .then(function (data) { callback(data && data.country_code ? data.country_code.toLowerCase() : 'in'); })
+          .catch(function () { callback('in'); });
+      },
+      utilsScript: 'https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/js/utils.min.js'
+    });
+    phoneInput.addEventListener('input', function () {
+      phoneInput.value = phoneInput.value.replace(/\D/g, '').slice(0, 12);
+    });
+    return iti;
+  }
+
+  function setupForm(form) {
+    if (form.dataset.enquiryHandlerAttached === 'true') return;
+    form.dataset.enquiryHandlerAttached = 'true';
+
+    var nameInput = form.elements.name;
+    var emailInput = form.elements.email;
+    var dateInput = form.elements.date;
+    var travellersInput = form.elements.peoples;
+    var captchaInput = form.elements.answer;
+    var mobileInput = form.elements.mobile;
+    var phoneInput = form.querySelector('input[type="tel"]:not([name="mobile"])');
+    var button = form.querySelector('button[type="submit"], input[type="submit"]');
+    var iti = initializePhoneInput(phoneInput);
+
+    if (dateInput && dateInput.type === 'date') {
+      var today = new Date();
+      dateInput.min = today.getFullYear() + '-' + String(today.getMonth() + 1).padStart(2, '0') + '-' + String(today.getDate()).padStart(2, '0');
+    }
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      clearErrors(form);
+
+      var phoneDigits = phoneInput ? phoneInput.value.replace(/\D/g, '').slice(0, 12) : (mobileInput ? mobileInput.value.replace(/\D/g, '') : '');
+      if (phoneInput) phoneInput.value = phoneDigits;
+
+      var errors = {};
+      if (!nameInput || !nameInput.value.trim()) errors.name = 'Full Name is required.';
+      if (!phoneDigits) errors.mobile = 'WhatsApp number is required.';
+      else if (phoneDigits.length < 6 || phoneDigits.length > 12) errors.mobile = 'Enter a valid WhatsApp number.';
+      if (dateInput && !dateInput.value.trim()) errors.date = 'Travel date is required.';
+      if (travellersInput && !travellersInput.value.trim()) errors.peoples = 'Travellers is required.';
+      if (emailInput && emailInput.value.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailInput.value.trim())) errors.email = 'Enter a valid email address.';
+      if (captchaInput && !captchaInput.value.trim()) errors.answer = 'Answer is required.';
+
+      if (Object.keys(errors).length) {
+        Object.keys(errors).forEach(function (field) { showFieldError(form, field, errors[field]); });
+        return;
+      }
+
+      if (mobileInput && phoneInput) {
+        var country = iti && iti.getSelectedCountryData ? iti.getSelectedCountryData() : null;
+        mobileInput.value = country && country.dialCode ? '+' + country.dialCode + ' ' + phoneDigits : phoneDigits;
+      }
+
+      var formData = new FormData(form);
+      formData.set('ajax', '1');
+      setLoading(button, true);
+
+      fetch(form.action, { method: 'POST', body: formData })
+        .then(function (response) {
+          return response.json().catch(function () { return null; }).then(function (data) {
+            return { ok: response.ok, data: data };
+          });
+        })
+        .then(function (result) {
+          if (result.ok && result.data && result.data.success) {
+            window.location.href = 'thanks.php';
+            return;
+          }
+          if (result.data && result.data.errors) {
+            Object.keys(result.data.errors).forEach(function (field) {
+              showFieldError(form, field, result.data.errors[field]);
+            });
+            return;
+          }
+          showFieldError(form, 'name', 'Unable to submit right now. Please try again.');
+        })
+        .catch(function () {
+          showFieldError(form, 'name', 'Unable to submit right now. Please try again.');
+        })
+        .finally(function () { setLoading(button, false); });
+    });
+  }
+
+  document.querySelectorAll('form.hero-form, form.enquiry-form').forEach(setupForm);
+});
