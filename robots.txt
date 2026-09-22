@@ -3,3 +3,4 @@ Disallow:
 
 
 Sitemap: https://www.divinebalajitravels.com/sitemap.xml
+Sitemap: https://www.divinebalajitravels.com/blog-sitemap.xml

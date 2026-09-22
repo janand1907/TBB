@@ -6,6 +6,12 @@ RewriteRule ^(.*)$ https://www.divinebalajitravels.com/$1 [L,R=301]
 
 Redirect 301 /tirupati-300-darshan-package-from-chennai.php /srivani-vip-break-darshan-from-chennai.php
 
+# Public blog routes. The single-slug route is resolved in blog.php as either
+# a published post or an active category, keeping both URLs SEO-friendly.
+RewriteRule ^blog-sitemap\.xml$ blog-sitemap.php [L]
+RewriteRule ^blog/?$ blog.php [L,QSA]
+RewriteRule ^blog/([^/]+)/?$ blog.php?slug=$1 [L,QSA]
+
 # # Remove .html extension from URL
 # RewriteCond %{THE_REQUEST} \s/([^.]+)\.html [NC]
 # RewriteRule ^ /%1 [R=301,L]

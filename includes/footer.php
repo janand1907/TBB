@@ -31,6 +31,8 @@
                 <div class="x_footer_bottom_box_wrapper_second float_left">
                     <h3>Information</h3>
                     <ul>
+                        <li><a href="/blog/"><i class="fa fa-long-arrow-right"></i> &nbsp; Blog</a>
+                        </li>
                         <li><a href="/tirupati-special-darshan-tickets-online.php"><i class="fa fa-long-arrow-right"></i>
                                 &nbsp; Special Darshan Tickets</a>
                         </li>

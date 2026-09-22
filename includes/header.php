@@ -37,6 +37,9 @@ $pageTitle = $pageTitle ?? 'Tirupati Balaji Travels | Tirupati Darshan Package';
 $pageDescription = $pageDescription ?? 'Divine Balaji Travels offers Tirupati tour packages from Chennai and Hyderabad with private car travel, hotel stay and complete trip assistance.';
 $pageCanonical = $pageCanonical ?? ('https://www.divinebalajitravels.com/' . basename($_SERVER['PHP_SELF']));
 $pageOgImage = $pageOgImage ?? 'https://www.divinebalajitravels.com/assets/images/logo/logo_main.png';
+$pageRobots = $pageRobots ?? 'index, follow';
+$pageOgTitle = $pageOgTitle ?? $pageTitle;
+$pageOgDescription = $pageOgDescription ?? $pageDescription;
 $activeMenu = $activeMenu ?? null;
 $extraHeadLinks = $extraHeadLinks ?? '';
 $includeDefaultSchema = $includeDefaultSchema ?? true;
@@ -86,15 +89,15 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
     <meta name="description" content="<?= htmlspecialchars($pageDescription, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>" />
     <meta name="keywords"
         content="chennai to tirupati packages, tirupati tour packages from chennai, chennai to tirupati car rental, chennai to tirupati one day package, chennai to tirupati car packages, apsrtc tirupati package from chennai, chennai to tirupati darshan package by car, chennai to tirupati travels, chennai to tirupati one day tour package." />
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="<?= htmlspecialchars($pageRobots, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>">
     <link rel="canonical" href="<?= htmlspecialchars($pageCanonical, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>" />
     <meta name="author" content="" />
     <meta name="MobileOptimized" content="320" />
     <!-- Open Graph / Twitter Card -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Divine Balaji Travels" />
-    <meta property="og:title" content="<?= htmlspecialchars($pageTitle, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>" />
-    <meta property="og:description" content="<?= htmlspecialchars($pageDescription, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>" />
+    <meta property="og:title" content="<?= htmlspecialchars($pageOgTitle, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>" />
+    <meta property="og:description" content="<?= htmlspecialchars($pageOgDescription, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>" />
     <meta property="og:url" content="<?= htmlspecialchars($pageCanonical, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>" />
     <meta property="og:image" content="<?= htmlspecialchars($pageOgImage, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -307,6 +310,8 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
 
                                 </div>
                             </li>
+                            <li> <a class="menu-button single_menu<?= $activeMenu === 'blog' ? ' is-active' : '' ?>" href="/blog/">Blog</a>
+                            </li>
                             <!-- Near me Tirupati Temple menu (temporarily hidden)
                             <li>
                                 <div class="dropdown-wrapper menu-button">
@@ -414,6 +419,7 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                                                 </ul>
                                             </li>
                                             <!-- <li><a href="/famous-temples-near-by-tirupati.php">Near me Tirupati Temple</a></li> -->
+                                            <li> <a href="/blog/">Blog</a></li>
                                             <li> <a href="/contact-us.php">Contact</a>
                                             </li>
 
