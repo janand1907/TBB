@@ -14,7 +14,7 @@ $captcha_question = "Captcha: {$first_num} {$operator} {$second_num} = ?";
 //                                 current request path if not set
 //   $pageOgImage      (optional)  full URL of the Open Graph / Twitter Card
 //                                 image; falls back to the site logo
-//   $activeMenu       (optional)  'home' | 'about' | 'services' | 'temples' | 'contact'
+//   $activeMenu       (optional)  'home' | 'about' | 'services' | 'vip-packages' | 'temples' | 'contact'
 //                                 marks the matching nav item as the current page
 //   $extraHeadLinks   (optional)  raw HTML string of additional <link>/<script>/
 //                                 JSON-LD tags a specific page needs beyond the
@@ -310,17 +310,7 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
 
                                 </div>
                             </li>
-                            <li>
-                                <div class="dropdown-wrapper menu-button">
-                                    <a class="menu-button<?= $activeMenu === 'vip-packages' ? ' is-active' : '' ?>" href="/tirupati-vip-darshan-packages">Tirupati VIP Packages</a>
-                                    <div class="drop-menu">
-                                        <a class="menu-button" href="/tirupati-vip-darshan-packages">Tirupati VIP Darshan Packages</a>
-                                        <a class="menu-button" href="/hyderabad-tirupati-flight-package-two-days">Hyderabad to Tirupati by Flight</a>
-                                        <a class="menu-button" href="/mumbai-tirupati-flight-package-two-days">Mumbai to Tirupati by Flight</a>
-                                        <a class="menu-button" href="/bengaluru-tirupati-flight-package-two-days">Bengaluru to Tirupati by Flight</a>
-                                        <a class="menu-button" href="/delhi-tirupati-flight-package-two-days">Delhi to Tirupati by Flight</a>
-                                    </div>
-                                </div>
+                            <li> <a class="menu-button single_menu<?= $activeMenu === 'vip-packages' ? ' is-active' : '' ?>" href="/tirupati-vip-darshan-packages">Tirupati VIP Packages</a>
                             </li>
                             <li> <a class="menu-button single_menu<?= $activeMenu === 'blog' ? ' is-active' : '' ?>" href="/blog/">Blog</a>
                             </li>
@@ -430,18 +420,7 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li class="has-children">
-                                                <a href="javascript:void(0);">Tirupati VIP Packages</a>
-                                                <ul class="cd-secondary-dropdown is-hidden">
-                                                    <li class="go-back"><a href="#0">Menu</a></li>
-                                                    <li>
-                                                        <a href="/tirupati-vip-darshan-packages">Tirupati VIP Darshan Packages</a>
-                                                        <a href="/hyderabad-tirupati-flight-package-two-days">Hyderabad to Tirupati by Flight</a>
-                                                        <a href="/mumbai-tirupati-flight-package-two-days">Mumbai to Tirupati by Flight</a>
-                                                        <a href="/bengaluru-tirupati-flight-package-two-days">Bengaluru to Tirupati by Flight</a>
-                                                        <a href="/delhi-tirupati-flight-package-two-days">Delhi to Tirupati by Flight</a>
-                                                    </li>
-                                                </ul>
+                                            <li> <a<?= $activeMenu === 'vip-packages' ? ' class="is-active" aria-current="page"' : '' ?> href="/tirupati-vip-darshan-packages">Tirupati VIP Packages</a>
                                             </li>
                                             <!-- <li><a href="/famous-temples-near-by-tirupati.php">Near me Tirupati Temple</a></li> -->
                                             <li> <a href="/blog/">Blog</a></li>
