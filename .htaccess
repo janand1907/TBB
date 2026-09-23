@@ -12,6 +12,13 @@ RewriteRule ^blog-sitemap\.xml$ blog-sitemap.php [L]
 RewriteRule ^blog/?$ blog.php [L,QSA]
 RewriteRule ^blog/([^/]+)/?$ blog.php?slug=$1 [L,QSA]
 
+# Public package landing pages: explicit extensionless routes only.
+RewriteRule ^tirupati-vip-darshan-packages/?$ tirupati-vip-darshan-packages.php [L,QSA]
+RewriteRule ^hyderabad-tirupati-flight-package-two-days/?$ hyderabad-tirupati-flight-package-two-days.php [L,QSA]
+RewriteRule ^mumbai-tirupati-flight-package-two-days/?$ mumbai-tirupati-flight-package-two-days.php [L,QSA]
+RewriteRule ^bengaluru-tirupati-flight-package-two-days/?$ bengaluru-tirupati-flight-package-two-days.php [L,QSA]
+RewriteRule ^delhi-tirupati-flight-package-two-days/?$ delhi-tirupati-flight-package-two-days.php [L,QSA]
+
 # # Remove .html extension from URL
 # RewriteCond %{THE_REQUEST} \s/([^.]+)\.html [NC]
 # RewriteRule ^ /%1 [R=301,L]

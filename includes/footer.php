@@ -33,6 +33,8 @@
                     <ul>
                         <li><a href="/blog/"><i class="fa fa-long-arrow-right"></i> &nbsp; Blog</a>
                         </li>
+                        <li><a href="/tirupati-vip-darshan-packages"><i class="fa fa-long-arrow-right"></i> &nbsp; Tirupati VIP Packages</a>
+                        </li>
                         <li><a href="/tirupati-special-darshan-tickets-online.php"><i class="fa fa-long-arrow-right"></i>
                                 &nbsp; Special Darshan Tickets</a>
                         </li>
@@ -84,7 +86,7 @@
                         </div>
                         <div class="x_footer_bottom_icon_cont">
                             <h4>Feel Free Call us</h4>
-                            <p><a href="tel:9994751079">+91-9994751079</a></p>
+                            <p><a href="tel:+916381960647">+91 63819 60647</a></p>
                         </div>
                     </div>
                     <div class="x_footer_bottom_icon_section x_footer_bottom_icon_section2 float_left">
@@ -116,11 +118,11 @@
 </div>
 <!--<div id="callAction" class="call-action">  
   <div class="phone">
-      <a href="tel:+917397489919"><i class="fa fa-phone" style="color: #1969a9;"></i>Call</a>
+      <a href="tel:+916381960647"><i class="fa fa-phone" style="color: #1969a9;"></i>Call</a>
   </div>
   <div class="whats-app">
     <div class="circle">
-      <a href="https://api.whatsapp.com/send?phone=917397489919" target="_blank"><i class="fa fa-whatsapp"></i>
+      <a href="https://wa.me/916381960647" target="_blank"><i class="fa fa-whatsapp"></i>
 whatsapp</a>
     </div>    
   </div>
@@ -130,10 +132,10 @@ whatsapp</a>
 <!-- <div class="contact_footer_strip_mobile" id="contact_footer_strip_mobile">
         <ul class="action">
             <li class="access">
-                <a href="tel:+919994751079">
+                <a href="tel:+916381960647">
                     <img loading="lazy" width="1024" height="1024" decoding="async" src="assets/images/ph-call.png" alt="Call Now"> Call Now</a>
             </li>
-            <li style="background: #06b31b;"><a href="http://wa.me/919994751079"> <img loading="lazy" width="640" height="640" decoding="async" src="assets/images/whats-app.png"
+            <li style="background: #06b31b;"><a href="https://wa.me/916381960647"> <img loading="lazy" width="640" height="640" decoding="async" src="assets/images/whats-app.png"
                         alt="Whatsapp"> Whatsapp</a>
             </li>
 
@@ -142,12 +144,12 @@ whatsapp</a>
 <div class="contact_footer_strip_mobile" id="contact_footer_strip_mobile" style=" background: orange;;">
     <ul class="action">
         <li class="access bw" style="background: #0f2f5c !important; border-right: 1px solid #fff;">
-            <a href="tel:9994751079" class="black" style="color: #fff !important;
+            <a href="tel:+916381960647" class="black" style="color: #fff !important;
     font-weight: 400;">
                 <img width="64" height="64" decoding="async" src="assets/images/phone.webp" alt="Call Now" style="width: 25px; margin-bottom: 5px;"><br />Call Now</a>
         </li>
         <li class="access bw" style="background: green !important; border-right: 1px solid #fff;">
-            <a href="https://api.whatsapp.com/send?phone=+919994751079&text=I%20am%20interested" target="_blank"
+            <a href="https://wa.me/916381960647?text=I%20am%20interested" target="_blank"
                 class="black" style="color: #fff !important;
     font-weight: 400;">
                 <img width="64" height="64" decoding="async" src="assets/images/whatsapp.webp" alt="Call Now"
@@ -288,7 +290,7 @@ whatsapp</a>
      includes/header.php - this just registers the extra conversion label. -->
 <script>
     gtag('config', 'AW-437360014/yCZWCJDr1_QBEI6rxtAB', {
-        'phone_conversion_number': '+91-99947-51079'
+        'phone_conversion_number': '+91 63819 60647'
     });
 </script>
 

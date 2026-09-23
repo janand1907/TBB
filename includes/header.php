@@ -182,7 +182,7 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
             "image": "https://divinebalajitravels.com/assets/images/logo/logo_main.png",
             "@id": "https://divinebalajitravels.com",
             "url": "https://divinebalajitravels.com/",
-            "telephone": "+91-99947-51079",
+            "telephone": "+916381960647",
             "priceRange": "5000",
             "address": {
                 "@type": "PostalAddress",
@@ -240,7 +240,7 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
     <div class="x_top_header_wrapper float_left">
         <div class="container">
             <div class="x_top_header_left_side_wrapper float_left">
-                <p>Call Us : <a style="color:#fff;font-weight:500;" href="tel:9994751079">+91-99947-51079</a></p>
+                <p>Call Us : <a style="color:#fff;font-weight:500;" href="tel:+916381960647">+91 63819 60647</a></p>
             </div>
             <div class="x_top_header_right_side_wrapper float_left">
                 <div class="x_top_header_social_icon_wrapper">
@@ -260,8 +260,8 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                         <li class="login"> <a href="mailto:divinebalajitravels@gmail.com"><i class="fa fa-envelope"></i>
                                 &nbsp;&nbsp;divinebalajitravels@gmail.com</a>
                         </li>
-                        <li class="register"> <a href="tel:9994751079"><i class="fa fa-whatsapp"></i>
-                                &nbsp;&nbsp;+919994751079</a>
+                        <li class="register"> <a href="https://wa.me/916381960647" target="_blank" rel="noopener"><i class="fa fa-whatsapp"></i>
+                                &nbsp;&nbsp;+91 63819 60647</a>
                         </li>
                     </ul>
                 </div>
@@ -308,6 +308,18 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                                             href="/shirdi-tour-package-from-chennai-by-direct-flight.php">Shirdi Darshan Package</a>
                                     </div>
 
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown-wrapper menu-button">
+                                    <a class="menu-button<?= $activeMenu === 'vip-packages' ? ' is-active' : '' ?>" href="/tirupati-vip-darshan-packages">Tirupati VIP Packages</a>
+                                    <div class="drop-menu">
+                                        <a class="menu-button" href="/tirupati-vip-darshan-packages">Tirupati VIP Darshan Packages</a>
+                                        <a class="menu-button" href="/hyderabad-tirupati-flight-package-two-days">Hyderabad to Tirupati by Flight</a>
+                                        <a class="menu-button" href="/mumbai-tirupati-flight-package-two-days">Mumbai to Tirupati by Flight</a>
+                                        <a class="menu-button" href="/bengaluru-tirupati-flight-package-two-days">Bengaluru to Tirupati by Flight</a>
+                                        <a class="menu-button" href="/delhi-tirupati-flight-package-two-days">Delhi to Tirupati by Flight</a>
+                                    </div>
                                 </div>
                             </li>
                             <li> <a class="menu-button single_menu<?= $activeMenu === 'blog' ? ' is-active' : '' ?>" href="/blog/">Blog</a>
@@ -415,6 +427,19 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                                                         <a href="/nri-tirupati-darshan-booking.php">NRI Darshan</a>
                                                         <a href="/srivani-vip-break-darshan-from-chennai.php">Srivani VIP Darshan Package</a>
                                                         <a href="/shirdi-tour-package-from-chennai-by-direct-flight.php">Shirdi Darshan Package</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-children">
+                                                <a href="javascript:void(0);">Tirupati VIP Packages</a>
+                                                <ul class="cd-secondary-dropdown is-hidden">
+                                                    <li class="go-back"><a href="#0">Menu</a></li>
+                                                    <li>
+                                                        <a href="/tirupati-vip-darshan-packages">Tirupati VIP Darshan Packages</a>
+                                                        <a href="/hyderabad-tirupati-flight-package-two-days">Hyderabad to Tirupati by Flight</a>
+                                                        <a href="/mumbai-tirupati-flight-package-two-days">Mumbai to Tirupati by Flight</a>
+                                                        <a href="/bengaluru-tirupati-flight-package-two-days">Bengaluru to Tirupati by Flight</a>
+                                                        <a href="/delhi-tirupati-flight-package-two-days">Delhi to Tirupati by Flight</a>
                                                     </li>
                                                 </ul>
                                             </li>

@@ -38,10 +38,10 @@
         </div>
 
         <div class="lead-popup__actions">
-            <a href="tel:9994751079" class="lead-popup__btn lead-popup__btn--call" data-lead-popup-cta>
-                <i class="fa fa-phone" aria-hidden="true"></i> Speak to a Consultant
+            <a href="tel:+916381960647" class="lead-popup__btn lead-popup__btn--call" data-lead-popup-cta>
+                <i class="fa fa-phone" aria-hidden="true"></i> Speak to a Consultant: +91 63819 60647
             </a>
-            <a href="https://wa.me/919994751079" id="lead-popup-whatsapp"
+            <a href="https://wa.me/916381960647" id="lead-popup-whatsapp"
                 target="_blank" rel="noopener" class="lead-popup__btn lead-popup__btn--whatsapp" data-lead-popup-cta>
                 <i class="fa fa-whatsapp" aria-hidden="true"></i> Connect Instantly on WhatsApp
             </a>

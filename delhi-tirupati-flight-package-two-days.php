@@ -1,0 +1,11 @@
+<?php
+ob_start(); require_once __DIR__ . '/includes/error-log-config.php';
+$pageTitle='Delhi to Tirupati Flight Package Two Days | Divine Balaji Travels';
+$pageDescription='Delhi to Tirupati flight package for two days. Contact Divine Balaji Travels on WhatsApp for current availability and package pricing.';
+$pageCanonical='https://www.divinebalajitravels.com/delhi-tirupati-flight-package-two-days'; $pageRobots='noindex, follow'; $activeMenu='vip-packages'; $loadLegacyWidgets=false;
+$extraHeadLinks=<<<'HTML'
+<link rel="stylesheet" href="assets/css/modern/vip-package-pages.css"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.divinebalajitravels.com/"},{"@type":"ListItem","position":2,"name":"Tirupati VIP Packages","item":"https://www.divinebalajitravels.com/tirupati-vip-darshan-packages"},{"@type":"ListItem","position":3,"name":"Delhi to Tirupati Flight Package Two Days","item":"https://www.divinebalajitravels.com/delhi-tirupati-flight-package-two-days"}]}</script>
+HTML;
+include 'includes/header.php'; ?>
+<main class="vip-package-page"><section class="vip-package-hero"><div class="vip-package-shell vip-package-placeholder"><div class="vip-package-kicker">Delhi to Tirupati</div><h1>Delhi to Tirupati Flight Package Two Days</h1><p>This package page is being updated. Please contact us on WhatsApp for current package details, availability and pricing.</p><div class="vip-package-actions"><a class="vip-package-button vip-package-button--primary" target="_blank" rel="noopener" href="https://wa.me/916381960647?text=Hi%2C%20I%20am%20interested%20in%20Delhi%20to%20Tirupati%20flight%20package%20for%202%20days.%20Please%20share%20availability%20and%20price.">WhatsApp for Package Details</a><a class="vip-package-button vip-package-button--light" href="/tirupati-vip-darshan-packages">View Tirupati VIP Packages</a></div></div></section></main>
+<?php include 'includes/footer.php'; ?>
