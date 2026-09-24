@@ -310,7 +310,16 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
 
                                 </div>
                             </li>
-                            <li> <a class="menu-button single_menu<?= $activeMenu === 'vip-packages' ? ' is-active' : '' ?>" href="/tirupati-vip-darshan-packages">Tirupati VIP Packages</a>
+                            <li>
+                                <div class="dropdown-wrapper menu-button">
+                                    <a class="menu-button<?= $activeMenu === 'vip-packages' ? ' is-active' : '' ?>"<?= $activeMenu === 'vip-packages' ? ' aria-current="page"' : '' ?> href="/tirupati-vip-darshan-packages">Tirupati VIP Packages</a>
+                                    <div class="drop-menu">
+                                        <a class="menu-button" href="/hyderabad-tirupati-flight-package-two-days">Hyderabad to Tirupati Flight Package</a>
+                                        <a class="menu-button" href="/mumbai-tirupati-flight-package-two-days">Mumbai to Tirupati Flight Package</a>
+                                        <a class="menu-button" href="/bengaluru-tirupati-flight-package-two-days">Bengaluru to Tirupati Flight Package</a>
+                                        <a class="menu-button" href="/delhi-tirupati-flight-package-two-days">Delhi to Tirupati Flight Package</a>
+                                    </div>
+                                </div>
                             </li>
                             <li> <a class="menu-button single_menu<?= $activeMenu === 'blog' ? ' is-active' : '' ?>" href="/blog/">Blog</a>
                             </li>
@@ -420,8 +429,11 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li> <a<?= $activeMenu === 'vip-packages' ? ' class="is-active" aria-current="page"' : '' ?> href="/tirupati-vip-darshan-packages">Tirupati VIP Packages</a>
-                                            </li>
+                                            <li> <a<?= $activeMenu === 'vip-packages' ? ' class="is-active" aria-current="page"' : '' ?> href="/tirupati-vip-darshan-packages">Tirupati VIP Packages</a></li>
+                                            <li><a href="/hyderabad-tirupati-flight-package-two-days">Hyderabad to Tirupati Flight Package</a></li>
+                                            <li><a href="/mumbai-tirupati-flight-package-two-days">Mumbai to Tirupati Flight Package</a></li>
+                                            <li><a href="/bengaluru-tirupati-flight-package-two-days">Bengaluru to Tirupati Flight Package</a></li>
+                                            <li><a href="/delhi-tirupati-flight-package-two-days">Delhi to Tirupati Flight Package</a></li>
                                             <!-- <li><a href="/famous-temples-near-by-tirupati.php">Near me Tirupati Temple</a></li> -->
                                             <li> <a href="/blog/">Blog</a></li>
                                             <li> <a href="/contact-us.php">Contact</a>
