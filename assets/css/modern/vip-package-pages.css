@@ -1,5 +1,12 @@
 /* Scoped layout bridge: content follows DBT homepage sections while preserving VIP page scope. */
 
+/* Route-page hero price cards use a compact price-panel treatment instead of empty card space. */
+html body .vip-manual-page .vip-hero-summary:not(:has(h2)){min-height:280px!important;padding:32px!important;align-content:center!important;background:linear-gradient(180deg,#fff 0%,#f7f9fc 100%)!important}
+html body .vip-manual-page .vip-hero-summary:not(:has(h2))>p:first-child{margin:0 0 10px!important;color:#6b7280!important}
+html body .vip-manual-page .vip-hero-summary:not(:has(h2)) strong{margin:0 0 14px!important;color:#173d66!important;font-size:32px!important}
+html body .vip-manual-page .vip-hero-summary:not(:has(h2))>p:not(:first-child){margin:0 0 22px!important;padding:10px 12px!important;border-left:3px solid #f90!important;background:#f1f5f9!important;color:#263746!important;font-weight:600!important}
+html body .vip-manual-page .vip-hero-summary:not(:has(h2)) a{width:100%!important;margin:0!important;padding:14px!important;color:#fff!important}
+
 /* Closing CTA: give both actions equal visual weight on the brand-orange block. */
 html body .vip-final-cta{padding:44px 0!important;background:linear-gradient(135deg,#f7941d 0%,#ffad33 100%)!important}
 html body .vip-final-cta h2{margin:0 0 18px!important;color:#fff!important;text-shadow:0 1px 1px rgba(15,47,92,.22)!important}
