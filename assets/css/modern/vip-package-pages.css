@@ -1,5 +1,12 @@
 /* Scoped layout bridge: content follows DBT homepage sections while preserving VIP page scope. */
 
+/* Closing CTA: give both actions equal visual weight on the brand-orange block. */
+html body .vip-final-cta{padding:44px 0!important;background:linear-gradient(135deg,#f7941d 0%,#ffad33 100%)!important}
+html body .vip-final-cta h2{margin:0 0 18px!important;color:#fff!important;text-shadow:0 1px 1px rgba(15,47,92,.22)!important}
+html body .vip-final-cta .vip-secondary,html body .vip-final-cta .vip-primary{min-width:190px!important;margin:0 5px!important;padding:14px 20px!important;border-radius:4px!important;text-align:center!important}
+html body .vip-final-cta .vip-secondary{background:#fff!important;color:#173d66!important}
+html body .vip-final-cta .vip-primary{background:#173d66!important;color:#fff!important;box-shadow:0 5px 12px rgba(15,47,92,.2)!important}
+
 /* Final CTA precedence over the earlier compact compatibility rules. */
 html body .vip-manual-page .vip-primary,html body .vip-manual-page .vip-hero-summary a,html body .vip-manual-page .vip-price-card a{color:#fff!important}
 html body .vip-manual-page .vip-hero-summary{min-height:326px!important}
