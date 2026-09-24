@@ -20,11 +20,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
   forms.forEach(function(form) {
     var errorSlot = form.querySelector('.form-error');
-    var submitBtn = form.querySelector('button[type="submit"], input[type="submit"]');
+    var submitBtn = form.querySelector('button:not([type]), button[type="submit"], input[type="submit"]');
+
+    // The hand-built VIP landing-page forms use the shared handler but do not
+    // include a legacy .form-error element in their markup. Add one so
+    // client-side/server validation feedback is visible without changing
+    // their normal POST/AJAX submission contract.
+    if (!errorSlot && form.classList.contains('vip-enquiry-form')) {
+      errorSlot = document.createElement('div');
+      errorSlot.className = 'form-error';
+      errorSlot.setAttribute('role', 'alert');
+      errorSlot.setAttribute('aria-live', 'polite');
+      errorSlot.hidden = true;
+      form.insertBefore(errorSlot, submitBtn);
+    }
 
     var showError = function(message, field) {
       if (errorSlot) {
         errorSlot.textContent = message;
+        errorSlot.hidden = false;
       }
       form.querySelectorAll('.error').forEach(function(el) {
         el.classList.remove('error');
@@ -38,6 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var clearError = function() {
       if (errorSlot) {
         errorSlot.textContent = '';
+        errorSlot.hidden = true;
       }
       form.querySelectorAll('.error').forEach(function(el) {
         el.classList.remove('error');
