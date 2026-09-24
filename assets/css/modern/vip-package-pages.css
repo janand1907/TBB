@@ -1,5 +1,8 @@
 /* Scoped layout bridge: content follows DBT homepage sections while preserving VIP page scope. */
 
+/* Keep the enquiry banner navy while giving only the input panel a clean white surface. */
+html body .vip-manual-page .vip-enquiry-form{background:#fff!important}
+
 /* Enquiry section: let the page background show around the two-panel form. */
 html body .vip-manual-page .vip-enquiry-section{background:transparent!important}
 html body .vip-manual-page .vip-enquiry-layout{box-shadow:none!important}
