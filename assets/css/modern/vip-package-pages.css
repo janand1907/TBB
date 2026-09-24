@@ -1,5 +1,15 @@
 /* Scoped layout bridge: content follows DBT homepage sections while preserving VIP page scope. */
 
+/* Homepage-style highlight card for the VIP hero. */
+body .vip-manual-page .vip-hero-summary{display:grid!important;grid-template-columns:1fr!important;align-content:start!important;gap:0!important;min-height:304px!important;padding:30px!important;border:1px solid rgba(15,47,92,.1)!important;color:#263746!important}
+body .vip-manual-page .vip-hero-summary>p:first-child{margin:0 0 7px!important;color:#6b7280!important;font-size:13px!important;font-weight:600!important;letter-spacing:.02em!important}
+body .vip-manual-page .vip-hero-summary h2{margin:0!important;color:#173d66!important;font-size:25px!important;line-height:1.25!important}
+body .vip-manual-page .vip-hero-summary ul{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px 12px!important;margin:18px 0!important;padding:0!important;list-style:none!important}
+body .vip-manual-page .vip-hero-summary li{min-height:42px!important;padding:9px 10px!important;border-left:3px solid #f90!important;background:#f5f7fa!important;color:#263746!important;font-size:14px!important;font-weight:600!important;line-height:1.35!important}
+body .vip-manual-page .vip-hero-summary strong{margin:0 0 14px!important;color:#173d66!important;font-size:30px!important;line-height:1!important}
+body .vip-manual-page .vip-hero-summary a{margin:0!important;border-radius:3px!important;background:#f90!important;color:#172b4d!important;line-height:1.25!important}
+@media(max-width:480px){body .vip-manual-page .vip-hero-summary ul{grid-template-columns:1fr!important}}
+
 /* Final desktop spacing and alignment pass. Kept above the original compact rules so this file remains backward compatible. */
 body .vip-manual-page .vip-page-hero{min-height:500px!important;padding:58px 0!important}
 body .vip-manual-page .vip-hero-content small{display:block!important;max-width:650px!important;margin-top:18px!important;line-height:1.6!important}
