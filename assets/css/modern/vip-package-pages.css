@@ -1,3 +1,42 @@
+/* Consistent visual rhythm for the two manual VIP package pages. */
+html body main.vip-manual-page.vip-manual-page .vip-section{padding:72px 0!important}
+html body main.vip-manual-page.vip-manual-page .vip-section>.vip-container>.vip-eyebrow{margin:0 0 10px!important}
+html body main.vip-manual-page.vip-manual-page .vip-section>.vip-container>h2{margin:0 0 16px!important}
+html body main.vip-manual-page.vip-manual-page .vip-section>.vip-container>p:not(.vip-eyebrow){margin:0 0 18px!important;line-height:1.75!important}
+html body main.vip-manual-page.vip-manual-page .vip-card-grid{gap:24px!important;margin-top:30px!important;margin-bottom:24px!important}
+html body main.vip-manual-page.vip-manual-page .vip-section:not(.vip-price-section) .vip-card-grid article{padding:26px 24px!important}
+html body main.vip-manual-page.vip-manual-page .vip-section:not(.vip-price-section) .vip-card-grid article h3{margin:0 0 12px!important}
+html body main.vip-manual-page.vip-manual-page .vip-section:not(.vip-price-section) .vip-card-grid article p{line-height:1.7!important}
+html body main.vip-manual-page.vip-manual-page .vip-section:not(.vip-price-section) .vip-card-grid article ul{gap:10px!important;line-height:1.65!important}
+html body main.vip-manual-page.vip-manual-page .vip-route-stack{gap:18px!important;margin-top:28px!important}
+html body main.vip-manual-page.vip-manual-page .vip-route-stack article{padding:24px 26px!important}
+html body main.vip-manual-page.vip-manual-page .vip-route-stack h3{margin:0 0 10px!important}
+html body main.vip-manual-page.vip-manual-page .vip-note{margin-top:28px!important;padding:20px 22px!important;line-height:1.75!important}
+html body main.vip-manual-page.vip-manual-page .vip-steps{gap:24px!important;margin:32px 0 26px!important}
+html body main.vip-manual-page.vip-manual-page .vip-steps article{min-height:232px!important;padding:26px 22px!important}
+html body main.vip-manual-page.vip-manual-page .vip-steps b{margin-bottom:16px!important}
+html body main.vip-manual-page.vip-manual-page .vip-steps h3{margin:0 0 12px!important}
+html body main.vip-manual-page.vip-manual-page .vip-steps p{line-height:1.7!important}
+html body main.vip-manual-page.vip-manual-page .vip-faq-section details{margin:12px 0!important;padding:18px 20px!important}
+html body main.vip-manual-page.vip-manual-page .vip-faq-section summary{line-height:1.45!important}
+html body main.vip-manual-page.vip-manual-page .vip-faq-section details p{margin:16px 0 2px!important;line-height:1.75!important}
+html body main.vip-manual-page.vip-manual-page .vip-enquiry-section{padding:74px 0!important}
+html body main.vip-manual-page.vip-manual-page .vip-enquiry-copy{padding:40px!important}
+html body main.vip-manual-page.vip-manual-page .vip-enquiry-copy h2{margin:0 0 16px!important}
+html body main.vip-manual-page.vip-manual-page .vip-enquiry-copy>p:not(.vip-eyebrow){margin:0 0 18px!important;line-height:1.75!important}
+html body main.vip-manual-page.vip-manual-page .vip-enquiry-copy ul{margin:0 0 22px!important}
+html body main.vip-manual-page.vip-manual-page .vip-enquiry-form{gap:16px!important;padding:34px!important}
+html body main.vip-manual-page.vip-manual-page .vip-enquiry-form input,html body main.vip-manual-page.vip-manual-page .vip-enquiry-form textarea,html body main.vip-manual-page.vip-manual-page .vip-enquiry-form select{padding:14px!important}
+html body main.vip-manual-page.vip-manual-page .vip-enquiry-form label{line-height:1.55!important}
+html body main.vip-manual-page.vip-manual-page .vip-enquiry-form button{margin-top:4px!important;padding:15px!important}
+html body main.vip-manual-page.vip-manual-page .vip-final-cta{padding:58px 0!important}
+html body main.vip-manual-page.vip-manual-page .vip-final-cta .vip-eyebrow{margin:0 0 10px!important;color:#744000!important}
+html body main.vip-manual-page.vip-manual-page .vip-final-cta h2{margin:0 0 18px!important;color:#fff!important;line-height:1.28!important}
+html body main.vip-manual-page.vip-manual-page .vip-final-cta p{max-width:980px;margin:0 auto 22px!important;line-height:1.75!important}
+html body main.vip-manual-page.vip-manual-page .vip-final-cta .vip-primary,html body main.vip-manual-page.vip-manual-page .vip-final-cta .vip-secondary{margin:0 6px 22px!important}
+html body main.vip-manual-page.vip-manual-page .vip-final-cta p:last-child{margin-bottom:0!important}
+@media(max-width:767px){html body main.vip-manual-page.vip-manual-page .vip-section{padding:52px 0!important}html body main.vip-manual-page.vip-manual-page .vip-card-grid{gap:18px!important;margin-top:24px!important;margin-bottom:20px!important}html body main.vip-manual-page.vip-manual-page .vip-steps{gap:18px!important;margin:26px 0 22px!important}html body main.vip-manual-page.vip-manual-page .vip-steps article{min-height:0!important;padding:24px 20px!important}html body main.vip-manual-page.vip-manual-page .vip-enquiry-section{padding:52px 0!important}html body main.vip-manual-page.vip-manual-page .vip-enquiry-copy,html body main.vip-manual-page.vip-manual-page .vip-enquiry-form{padding:28px 22px!important}html body main.vip-manual-page.vip-manual-page .vip-final-cta{padding:46px 0!important}html body main.vip-manual-page.vip-manual-page .vip-final-cta .vip-primary,html body main.vip-manual-page.vip-manual-page .vip-final-cta .vip-secondary{display:block!important;margin:0 0 14px!important;width:100%!important}}
+
 /* Manual VIP-package sections: use the existing Divine Balaji Travels colour and card system. */
 html body main.vip-manual-page .vip-route-stack{display:grid;gap:14px;margin-top:22px}html body main.vip-manual-page .vip-route-stack article{padding:20px 22px;border-radius:8px;background:#fff;box-shadow:0 4px 15px rgba(15,47,92,.08)}html body main.vip-manual-page .vip-route-stack h3{margin:0 0 8px;color:#173d66;font-size:18px}html body main.vip-manual-page .vip-route-stack p{margin:0;line-height:1.7}html body main.vip-manual-page .vip-itinerary-grid,html body main.vip-manual-page .vip-inclusion-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}html body main.vip-manual-page .vip-itinerary-grid article,html body main.vip-manual-page .vip-inclusion-grid article{min-height:0!important}html body main.vip-manual-page .vip-itinerary-grid ul,html body main.vip-manual-page .vip-inclusion-grid ul{margin:14px 0 0;padding-left:20px}html body main.vip-manual-page .vip-itinerary-grid li,html body main.vip-manual-page .vip-inclusion-grid li{margin:0 0 8px;font-size:14px;line-height:1.55}.vip-manual-page .vip-inclusion-grid article:first-child{border-top:3px solid #0f9d76}.vip-manual-page .vip-inclusion-grid article:last-child{border-top:3px solid #f90}.vip-manual-page .vip-terms-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}.vip-manual-page .vip-terms-grid article{min-height:0!important}@media(max-width:767px){html body main.vip-manual-page .vip-itinerary-grid,html body main.vip-manual-page .vip-inclusion-grid,.vip-manual-page .vip-terms-grid{grid-template-columns:1fr!important}}
 html body main.vip-manual-page.vip-manual-page .vip-hero-summary.vip-hero-summary--refined .vip-hero-summary-heading{display:block!important;margin-bottom:21px!important}html body main.vip-manual-page.vip-manual-page .vip-hero-summary.vip-hero-summary--refined .vip-hero-summary-heading h2{margin:0!important;color:#fff!important;font-size:22px!important;text-align:left!important}html body main.vip-manual-page.vip-manual-page .vip-hero-summary.vip-hero-summary--refined>a{display:flex!important;border:1px solid rgba(185,195,215,.45)!important;background:#29344e!important;color:#fff!important}
