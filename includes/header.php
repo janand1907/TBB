@@ -312,7 +312,7 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                             </li>
                             <li>
                                 <div class="dropdown-wrapper menu-button">
-                                    <a class="menu-button<?= $activeMenu === 'vip-packages' ? ' is-active' : '' ?>"<?= $activeMenu === 'vip-packages' ? ' aria-current="page"' : '' ?> href="/tirupati-vip-darshan-packages">Tirupati VIP Packages</a>
+                                    <a class="menu-button<?= $activeMenu === 'vip-packages' ? ' is-active' : '' ?>"<?= $activeMenu === 'vip-packages' ? ' aria-current="page"' : '' ?> href="/tirupati-vip-darshan-packages">Flight Packages</a>
                                     <div class="drop-menu">
                                         <a class="menu-button" href="/hyderabad-tirupati-flight-package-two-days">Hyderabad to Tirupati by Flight</a>
                                         <a class="menu-button" href="/mumbai-tirupati-flight-package-two-days">Mumbai to Tirupati by Flight</a>
@@ -429,7 +429,7 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li> <a<?= $activeMenu === 'vip-packages' ? ' class="is-active" aria-current="page"' : '' ?> href="/tirupati-vip-darshan-packages">Tirupati VIP Packages</a></li>
+                                            <li> <a<?= $activeMenu === 'vip-packages' ? ' class="is-active" aria-current="page"' : '' ?> href="/tirupati-vip-darshan-packages">Flight Packages</a></li>
                                             <li><a href="/hyderabad-tirupati-flight-package-two-days">Hyderabad to Tirupati by Flight</a></li>
                                             <li><a href="/mumbai-tirupati-flight-package-two-days">Mumbai to Tirupati by Flight</a></li>
                                             <li><a href="/bengaluru-tirupati-flight-package-two-days">Bengaluru to Tirupati by Flight</a></li>

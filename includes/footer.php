@@ -33,7 +33,7 @@
                     <ul>
                         <li><a href="/blog/"><i class="fa fa-long-arrow-right"></i> &nbsp; Blog</a>
                         </li>
-                        <li><a href="/tirupati-vip-darshan-packages"><i class="fa fa-long-arrow-right"></i> &nbsp; Tirupati VIP Packages</a>
+                        <li><a href="/tirupati-vip-darshan-packages"><i class="fa fa-long-arrow-right"></i> &nbsp; Flight Packages</a>
                         </li>
                         <li><a href="/tirupati-special-darshan-tickets-online.php"><i class="fa fa-long-arrow-right"></i>
                                 &nbsp; Special Darshan Tickets</a>
