@@ -4,10 +4,9 @@ require_once __DIR__ . '/includes/error-log-config.php';
 $pageTitle = 'Tirupati Package from Mumbai by Flight – 2 Days | 1N/2D';
 $pageDescription = 'Book a 1 Night 2 Days Tirupati package from Mumbai by flight with hotel, private AC cab, temple visits and Srikalahasti. Starting reference price Rs. 43,896 for 2 PAX.';
 $pageCanonical = 'https://www.divinebalajitravels.com/mumbai-tirupati-flight-package-two-days';
-$pageRobots = 'noindex, follow';
+$pageRobots = 'index, follow';
 $activeMenu = 'vip-packages';
 $loadLegacyWidgets = false;
-$extraHeadLinks = '<link rel="stylesheet" href="assets/css/modern/style.css"><link rel="stylesheet" href="assets/css/modern/vip-package-pages.css"><link rel="alternate" hreflang="en" href="https://www.divinebalajitravels.com/mumbai-tirupati-flight-package-two-days"><link rel="alternate" hreflang="x-default" href="https://www.divinebalajitravels.com/mumbai-tirupati-flight-package-two-days"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.divinebalajitravels.com/"},{"@type":"ListItem","position":2,"name":"Tirupati VIP Packages","item":"https://www.divinebalajitravels.com/tirupati-vip-darshan-packages"},{"@type":"ListItem","position":3,"name":"Mumbai to Tirupati Flight Package Two Days","item":"https://www.divinebalajitravels.com/mumbai-tirupati-flight-package-two-days"}]}</script>';
 $wa = 'https://wa.me/919994751079?text=Hi%2C%20I%20am%20interested%20in%20the%20Tirupati%20Package%20from%20Mumbai%20by%20Flight%20for%202%20days.%20Please%20share%20the%20package%20details%2C%20availability%20and%20current%20price.';
 $faqs = [
 ['How much is the Tirupati package from Mumbai by flight?', 'The current starting reference price is Rs. 43,896 for 2 PAX. Final pricing varies according to your flight departure dates from Mumbai (BOM), hotel selection, cab type, and group size.'],
@@ -21,6 +20,9 @@ $faqs = [
 ['Can international travellers book this package out of Mumbai?', 'Yes. International travellers can enquire about this package when travelling from Mumbai to Tirupati. Required travel documents and any applicable Darshan or travel requirements should be confirmed before booking.'],
 ['How do I book the Mumbai to Tirupati flight package?', 'Share your preferred travel date and passenger count through WhatsApp or our enquiry form. We will check the current applicable flight fares from Mumbai and provide a clear quotation.'],
 ];
+$faqSchema = ['@context' => 'https://schema.org', '@type' => 'FAQPage', 'mainEntity' => array_map(static fn(array $faq): array => ['@type' => 'Question', 'name' => $faq[0], 'acceptedAnswer' => ['@type' => 'Answer', 'text' => $faq[1]]], $faqs)];
+$breadcrumbSchema = ['@context' => 'https://schema.org', '@type' => 'BreadcrumbList', 'itemListElement' => [['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => 'https://www.divinebalajitravels.com/'], ['@type' => 'ListItem', 'position' => 2, 'name' => 'Flight Packages', 'item' => 'https://www.divinebalajitravels.com/tirupati-vip-darshan-packages'], ['@type' => 'ListItem', 'position' => 3, 'name' => 'Mumbai to Tirupati Flight Package Two Days', 'item' => $pageCanonical]]];
+$extraHeadLinks = '<link rel="stylesheet" href="assets/css/modern/style.css"><link rel="stylesheet" href="assets/css/modern/vip-package-pages.css"><link rel="alternate" hreflang="en" href="' . $pageCanonical . '"><link rel="alternate" hreflang="x-default" href="' . $pageCanonical . '"><script type="application/ld+json">' . json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . '</script><script type="application/ld+json">' . json_encode($breadcrumbSchema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . '</script>';
 include 'includes/header.php';
 ?>
 <main class="vip-manual-page">

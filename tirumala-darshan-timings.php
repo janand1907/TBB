@@ -17,7 +17,7 @@ include './includes/header.php';
                                         <h1 class="TTDtitle" data-animation="animated fadeInLeft">
                                             Tirumala Darshan Timings <br />
                                             <!-- <br /> -->
-                                            <span class="ttd-color">Tirumala Darshan Tour </span>Package
+                                            <span class="ttd-color">Temple Hours &amp; Seva Schedule</span>
                                         </h1>
                                         <p data-animation="animated bounceInUp" class="" style="
     color: #ff2a2d;

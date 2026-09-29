@@ -15,9 +15,9 @@ include './includes/header.php';
                             <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div class="content">
                                     <h1 class="TTDtitle" data-animation="animated fadeInLeft">
-                                        Tirumala Darshan for NRI
+                                        NRI Tirupati Darshan Booking
                                         <br />
-                                        <span class="ttd-color">TIRUPATI BALAJI DARSHAN </span>PACKAGE
+                                        <span class="ttd-color">Travel Assistance for NRI Devotees</span>
                                     </h1>
                                     <p data-animation="animated bounceInUp" class="" style="
     color: #ff2a2d;

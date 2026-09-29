@@ -1,5 +1,21 @@
 RewriteEngine On
 
+# Preferred canonical URLs for the homepage and explicitly routed VIP package pages.
+# These run before the host/HTTPS redirect to avoid redirect chains, and only
+# for direct browser requests so they do not interfere with internal rewrites.
+RewriteCond %{THE_REQUEST} \s/+index\.php[?\s] [NC]
+RewriteRule ^index\.php$ https://www.divinebalajitravels.com/ [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+tirupati-vip-darshan-packages\.php[?\s] [NC]
+RewriteRule ^tirupati-vip-darshan-packages\.php$ https://www.divinebalajitravels.com/tirupati-vip-darshan-packages [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+hyderabad-tirupati-flight-package-two-days\.php[?\s] [NC]
+RewriteRule ^hyderabad-tirupati-flight-package-two-days\.php$ https://www.divinebalajitravels.com/hyderabad-tirupati-flight-package-two-days [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+mumbai-tirupati-flight-package-two-days\.php[?\s] [NC]
+RewriteRule ^mumbai-tirupati-flight-package-two-days\.php$ https://www.divinebalajitravels.com/mumbai-tirupati-flight-package-two-days [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+bengaluru-tirupati-flight-package-two-days\.php[?\s] [NC]
+RewriteRule ^bengaluru-tirupati-flight-package-two-days\.php$ https://www.divinebalajitravels.com/bengaluru-tirupati-flight-package-two-days [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+delhi-tirupati-flight-package-two-days\.php[?\s] [NC]
+RewriteRule ^delhi-tirupati-flight-package-two-days\.php$ https://www.divinebalajitravels.com/delhi-tirupati-flight-package-two-days [R=301,L]
+
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} !^www\.divinebalajitravels\.com$ [NC]
 RewriteRule ^(.*)$ https://www.divinebalajitravels.com/$1 [L,R=301]

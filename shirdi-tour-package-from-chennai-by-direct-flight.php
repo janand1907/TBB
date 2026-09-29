@@ -146,12 +146,12 @@ include 'includes/header.php';
                 </div>
 
                 <div class="cta-buttons desktop">
-                    <a class="cta-btn call" href="javascript:void();" style="cursor: default;">
+                    <a class="cta-btn call" href="tel:+919994751079">
                         <i class="flaticon-phone-call"></i>
                         Call Now
                     </a>
                     <a class="cta-btn wa" target="_blank"
-                        href="//web.whatsapp.com/send?phone=+919994751079&text=A_A¨A«">
+                        href="https://wa.me/919994751079?text=Hi%2C%20I%20would%20like%20details%20for%20the%20Shirdi%20tour%20package%20from%20Chennai.">
                         <img loading="lazy" width="205" height="203" decoding="async" src="assets/images/whats.png" style="width: 16px;" alt="WhatsApp">
                         WhatsApp Us
                     </a>
@@ -688,9 +688,9 @@ include 'includes/header.php';
         <div class="enquiry-box desktop">
             <h3>Quick Enquiry</h3>
             <p>Have questions? Contact us for instant booking assistance.</p>
-            <a href="javascript:void();" class="enquiry-btn" style=" cursor: default;"><i
+            <a href="tel:+919994751079" class="enquiry-btn"><i
                     class="flaticon-phone-call"></i> &nbsp; Call: +91 9994751079</a>
-            <a target="_blank" href="//web.whatsapp.com/send?phone=+919994751079&text=Лил"
+            <a target="_blank" href="https://wa.me/919994751079?text=Hi%2C%20I%20would%20like%20details%20for%20the%20Shirdi%20tour%20package%20from%20Chennai."
                 class="enquiry-btn whatsapp"><i class="flaticon-whatsapp" style=" vertical-align: middle;"></i>&nbsp;
                 WhatsApp Enquiry</a>
         </div>

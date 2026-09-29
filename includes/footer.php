@@ -16,7 +16,7 @@
     </p>
 
   
-    <span><a href="/index.php">Reach us &nbsp;<i class="fa fa-angle-double-right"></i></a></span>
+    <span><a href="/">Reach us &nbsp;<i class="fa fa-angle-double-right"></i></a></span>
                     <!-- <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a>
                             </li>

@@ -47,8 +47,10 @@ The official number is duplicated as a literal string in ~15+ places rather than
 
 ## 5. Google Analytics
 
-- Property ID: **`UA-188854373-1`** (`includes/header.php`, loaded on every page)
-- This is a **Universal Analytics** property. Google stopped processing UA data in July 2023. This tag has almost certainly been sending data nowhere for roughly two years. Flagged in Phase 11 and repeated in `TECHNICAL_DEBT.md` — no GA4 measurement ID exists anywhere in the codebase.
+- Universal Analytics is no longer loaded. The shared Google tag continues to load Google Ads.
+- **GA4 manual configuration required:** set `DBT_GA4_MEASUREMENT_ID` in the production PHP environment to the owner-provided value that matches `G-` followed by uppercase letters/numbers. `includes/header.php` validates that format before outputting a GA4 `gtag('config', ...)` call.
+- No GA4 Measurement ID was present in this repository at the time of the approved fix. Do not invent one or place an unverified value in source control.
+- After configuring it, verify one page view in GA4 DebugView and confirm Google Ads conversion tracking remains active.
 
 ## 6. Microsoft Clarity
 

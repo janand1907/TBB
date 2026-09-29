@@ -15,9 +15,9 @@ include './includes/header.php';
                                 <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12 col-12">
                                     <div class="content">
                                         <h1 class="TTDtitle" data-animation="animated fadeInLeft">
-                                            Tirumala Darshan for
+                                            Tirupati Local Tour Packages
                                             <br />
-                                            <span class="ttd-color">Seva Darshan Tour </span>Package
+                                            <span class="ttd-color">Travel &amp; Sightseeing Options</span>
                                         </h1>
                                         <p data-animation="animated bounceInUp" class="" style="
     color: #ff2a2d;

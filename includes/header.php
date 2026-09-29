@@ -45,6 +45,9 @@ $extraHeadLinks = $extraHeadLinks ?? '';
 $includeDefaultSchema = $includeDefaultSchema ?? true;
 $showLeadPopup = $showLeadPopup ?? true;
 $loadLegacyWidgets = $loadLegacyWidgets ?? true;
+$ga4MeasurementId = trim((string) getenv('DBT_GA4_MEASUREMENT_ID'));
+$ga4MeasurementId = preg_match('/^G-[A-Z0-9]+$/', $ga4MeasurementId) ? $ga4MeasurementId : '';
+$gtagLoaderId = $ga4MeasurementId !== '' ? $ga4MeasurementId : 'AW-437360014';
 ?>
 <!DOCTYPE html>
 
@@ -157,10 +160,10 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
     <link rel="apple-touch-icon" href="assets/images/favicon-180.png" />
 
 
-    <!-- Global site tag (gtag.js) - Google Analytics + Google Ads (consolidated,
-         one library load covers both properties; see includes/footer.php for
-         the phone-conversion config call, which depends on this shim). -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188854373-1"></script>
+    <!-- Google Ads tag. Universal Analytics was retired and is deliberately not
+         configured here. GA4 activates only when the host provides a valid
+         DBT_GA4_MEASUREMENT_ID; the Google Ads tag remains loaded either way. -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<?= htmlspecialchars($gtagLoaderId, ENT_QUOTES, 'UTF-8') ?>"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -169,8 +172,10 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
         }
         gtag('js', new Date());
 
-        gtag('config', 'UA-188854373-1');
         gtag('config', 'AW-437360014');
+        <?php if ($ga4MeasurementId !== ''): ?>
+        gtag('config', '<?= htmlspecialchars($ga4MeasurementId, ENT_QUOTES, 'UTF-8') ?>');
+        <?php endif; ?>
     </script>
 
     <?php if ($includeDefaultSchema): ?>
