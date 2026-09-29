@@ -182,7 +182,7 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
             "image": "https://divinebalajitravels.com/assets/images/logo/logo_main.png",
             "@id": "https://divinebalajitravels.com",
             "url": "https://divinebalajitravels.com/",
-            "telephone": "+916381960647",
+            "telephone": "+919994751079",
             "priceRange": "5000",
             "address": {
                 "@type": "PostalAddress",
@@ -240,7 +240,7 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
     <div class="x_top_header_wrapper float_left">
         <div class="container">
             <div class="x_top_header_left_side_wrapper float_left">
-                <p>Call Us : <a style="color:#fff;font-weight:500;" href="tel:+916381960647">+91 63819 60647</a></p>
+                <p>Call Us : <a style="color:#fff;font-weight:500;" href="tel:+919994751079">9994751079</a></p>
             </div>
             <div class="x_top_header_right_side_wrapper float_left">
                 <div class="x_top_header_social_icon_wrapper">
@@ -260,8 +260,8 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                         <li class="login"> <a href="mailto:divinebalajitravels@gmail.com"><i class="fa fa-envelope"></i>
                                 &nbsp;&nbsp;divinebalajitravels@gmail.com</a>
                         </li>
-                        <li class="register"> <a href="https://wa.me/916381960647" target="_blank" rel="noopener"><i class="fa fa-whatsapp"></i>
-                                &nbsp;&nbsp;+91 63819 60647</a>
+                        <li class="register"> <a href="https://wa.me/919994751079" target="_blank" rel="noopener"><i class="fa fa-whatsapp"></i>
+                                &nbsp;&nbsp;9994751079</a>
                         </li>
                     </ul>
                 </div>
