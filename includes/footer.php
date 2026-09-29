@@ -86,7 +86,7 @@
                         </div>
                         <div class="x_footer_bottom_icon_cont">
                             <h4>Feel Free Call us</h4>
-                            <p><a href="tel:+919994751079">9994751079</a></p>
+                            <p><a href="tel:+919994751079">+91 9994751079</a></p>
                         </div>
                     </div>
                     <div class="x_footer_bottom_icon_section x_footer_bottom_icon_section2 float_left">
@@ -290,7 +290,7 @@ whatsapp</a>
      includes/header.php - this just registers the extra conversion label. -->
 <script>
     gtag('config', 'AW-437360014/yCZWCJDr1_QBEI6rxtAB', {
-        'phone_conversion_number': '9994751079'
+        'phone_conversion_number': '+91 9994751079'
     });
 </script>
 

@@ -240,7 +240,7 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
     <div class="x_top_header_wrapper float_left">
         <div class="container">
             <div class="x_top_header_left_side_wrapper float_left">
-                <p>Call Us : <a style="color:#fff;font-weight:500;" href="tel:+919994751079">9994751079</a></p>
+                <p>Call Us : <a style="color:#fff;font-weight:500;" href="tel:+919994751079">+91 9994751079</a></p>
             </div>
             <div class="x_top_header_right_side_wrapper float_left">
                 <div class="x_top_header_social_icon_wrapper">
@@ -261,7 +261,7 @@ $loadLegacyWidgets = $loadLegacyWidgets ?? true;
                                 &nbsp;&nbsp;divinebalajitravels@gmail.com</a>
                         </li>
                         <li class="register"> <a href="https://wa.me/919994751079" target="_blank" rel="noopener"><i class="fa fa-whatsapp"></i>
-                                &nbsp;&nbsp;9994751079</a>
+                                &nbsp;&nbsp;+91 9994751079</a>
                         </li>
                     </ul>
                 </div>
