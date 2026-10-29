@@ -296,21 +296,22 @@ include './includes/header.php';
             <div class="row">
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <h4>How It works?</h4>
-                        <h3>How to Book Private Tirupati Private Operator Booking Process ?</h3>
+                        <p style="font-size:14px;font-family:'Lato',sans-serif;color:#f90;text-transform:uppercase;margin:0">How It works?</p>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">How to Book Private Tirupati Tour Operators</h2>
                         <br />
                         <p>Booking a Tirupati tour package with a divinebalajitravels.com is private operator is a
                             popular and convenient choice, as it often provides a more personalized experience compared
                             to government-run services. The booking process is generally straightforward and can be done
                             through a few simple steps.</p>
 
-                        <p><b>Online Search:</b> Use search engines to look for "Tirupati private tour operators,"
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Online Search</h3>
+                        <p>Use search engines to look for "Tirupati private tour operators,"
                             "Tirupati
                             car packages," or "Tirupati tour from Chennai by car." This will bring up a list of many
                             operators.
                         </p>
 
-                        <p><b>1. Contact the Operator and Inquire</b></p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">1. Contact the Operator and Inquire</h3>
                         <p>Once you have a few potential operators in mind, you can contact them to get more details and
                             a quote.</p>
 
@@ -340,7 +341,7 @@ include './includes/header.php';
                             </li>
                         </ul>
 
-                        <p><b>2. Booking and Payment</b></p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">2. Booking and Payment</h3>
                         <p>After discussing the itinerary and agreeing on a price, the booking process begins.</p>
 
 
@@ -360,7 +361,7 @@ include './includes/header.php';
 
 
 
-                        <p><b>3. Before the Trip</b></p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">3. Before the Trip</h3>
                         <p class="pl-20"><b><i class="fa fa-hand-o-right"></i>&nbsp;Final Check:</b> A day or two before
                             your trip, the operator or your assigned driver will typically contact you to confirm the
                             pickup location and time.</p>

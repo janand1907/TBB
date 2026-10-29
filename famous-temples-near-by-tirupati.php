@@ -297,7 +297,7 @@ include './includes/header.php';
                 <div class="col-md-12" style=" padding-bottom: 20px;">
                     <div class="x_offer_car_heading_wrapper x_offer_car_heading_wrapper_contact float_left">
 
-                        <h3>Famous Temples near by Tirupati</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Famous Temples near by Tirupati</h2>
 
                     </div>
                 </div>
@@ -573,7 +573,7 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
                         <h4>Testimonials</h4>
-                        <h3>Top Reviews</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Top Reviews</h2>
                         <p style="text-align: center !important;">We have more than 10,000 + Happy Customers to Serve a
                             Service for all Devotees </p><br>
                     </div>

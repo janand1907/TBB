@@ -9,7 +9,7 @@ $pageTitle = 'Chennai to Tirupati Tour Package for NRI | Car & Hotel';
 $pageDescription = 'Chennai to Tirupati tour package for NRI devotees with airport pickup, private car, hotel stay, Tirupati travel planning and return drop support.';
 $pageCanonical = 'https://www.divinebalajitravels.com/srivani-vip-darshan-from-chennai-for-nri.php';
 $activeMenu = null;
-$includeDefaultSchema = false;
+$includeDefaultSchema = true;
 $extraHeadLinks = <<<'HTML'
   <!-- Performance: hero background is a CSS background-image, invisible to
        the HTML preload scanner until CSSOM is built - preload it directly
@@ -44,9 +44,9 @@ $extraHeadLinks = <<<'HTML'
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "TravelAgency",
-  "name": "Divine Balaji Travels",
-  "url": "https://www.divinebalajitravels.com/srivani-vip-darshan-from-chennai-for-nri.php",
+  "@type": "Service",
+  "@id": "https://www.divinebalajitravels.com/srivani-vip-darshan-from-chennai-for-nri.php#service",
+  "name": "Chennai to Tirupati Travel Package for NRI Devotees",
   "description": "Chennai to Tirupati travel package for NRI devotees with airport pickup, private car travel, hotel stay options, trip planning and return drop support for international travellers.",
   "areaServed": [
     {
@@ -72,10 +72,7 @@ $extraHeadLinks = <<<'HTML'
   ],
   "serviceType": "Chennai to Tirupati Travel Package",
   "provider": {
-    "@type": "Organization",
-    "name": "Divine Balaji Travels",
-    "url": "https://www.divinebalajitravels.com",
-    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
+    "@id": "https://www.divinebalajitravels.com/#travelagency"
   }
 }
 </script>
@@ -86,10 +83,7 @@ $extraHeadLinks = <<<'HTML'
   "@type":"TouristTrip",
   "name":"Srivani VIP Darshan from Chennai for NRI",
   "provider":{
-    "@type":"TravelAgency",
-    "name":"Divine Balaji Travels",
-    "url":"https://www.divinebalajitravels.com/",
-    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
+    "@id":"https://www.divinebalajitravels.com/#travelagency"
   },
   "url":"https://www.divinebalajitravels.com/srivani-vip-darshan-from-chennai-for-nri.php",
   "description":"Private Tirupati pilgrimage package for NRI travellers from Chennai with travel support and coordination."

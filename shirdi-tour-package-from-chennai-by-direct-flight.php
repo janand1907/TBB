@@ -98,6 +98,68 @@ include 'includes/header.php';
         font-weight: 700;
     }
 
+    /* Semantic headings retain the existing page-local visual treatment. */
+    .hero-banner .shirdi-overview-heading {
+        color: #ffd166;
+        font-weight: 700;
+        font-size: 1.05rem;
+        line-height: 1.2;
+        margin: 4px 0 0;
+    }
+
+    .hero-form-card .form-heading-title {
+        margin: 0;
+        color: #f59e0b;
+        font-weight: 800;
+        font-size: 1.75rem;
+        line-height: 1.2;
+        text-align: center;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+    }
+
+    .mhc-top .mhc-title {
+        font-size: 24px;
+        line-height: 1.25;
+        margin: 8px 0;
+        color: #fff;
+        font-weight: 800;
+    }
+
+    .why-choose h2.choose-title,
+    .shirdi-book-heading {
+        margin-top: 0;
+    }
+
+    .shirdi-block h2.sb-head,
+    .shirdi-block h3.sb-head,
+    .shirdi-block h4.sb-head {
+        margin: 0 0 8px;
+        font-size: 1rem;
+        line-height: 1.35;
+    }
+
+    .shirdi-book-heading {
+        text-align: center;
+        color: #0b2f55;
+        font-size: 28px;
+        font-weight: 800;
+        margin-bottom: 18px;
+    }
+
+    .enquiry-box .enquiry-heading {
+        color: #fefefe;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 4px;
+        letter-spacing: 0.3px;
+        font-size: 22px;
+        line-height: 1.2;
+    }
+
+    .card-lite__title {
+        margin: 0;
+    }
+
     
 
 </style>
@@ -116,6 +178,7 @@ include 'includes/header.php';
             </div>
             <h1>Shirdi Tour Package <br /> from Chennai by Direct Flight</h1>
             <div class="duration">(1 Night / 2 Days)</div>
+            <h2 class="shirdi-overview-heading">Shirdi Tour Package Overview</h2>
             <div class="subhead">VIP Darshan Assistance Available</div>
 
             <div class="feature-grid">
@@ -170,7 +233,7 @@ include 'includes/header.php';
         <div class="hero-form-card">
             <div class="form-heading">
                 <div>
-                    <h3>Quick Enquiry</h3>
+                    <div class="form-heading-title">Quick Enquiry</div>
                 </div>
             </div>
             <form class="hero-form" method="post" action="con_enq.php" novalidate>
@@ -242,7 +305,7 @@ include 'includes/header.php';
 <div class="mobile-hero-card" style=" padding-top: 100px;   margin-bottom: 20px;">
     <div class="mhc-top">
         <div class="mhc-pill"><i class="fa-solid fa-star"></i> 4.9/5 Based on 5,300+ Reviews</div>
-        <h3 style="  font-size: 24px;">Shirdi Tour Package From Chennai by Direct Flight</h3>
+        <div class="mhc-title">Shirdi Tour Package From Chennai by Direct Flight</div>
         <p class="mhc-subhead">VIP Darshan Assistance - AC Transport - 3-Star Stay</p>
         <div class="mhc-price" style="font-size: 24px;">Starting from <span>Rs. 21,900/-</span></div>
     </div>
@@ -327,7 +390,7 @@ include 'includes/header.php';
 </div>
 <section class="why-choose" style=" box-shadow: none; padding-bottom: 40px;">
     <div class="choose-container">
-        <div class="choose-title">Why Choose Us?</div>
+        <h2 class="choose-title">Why Choose This Shirdi Package</h2>
         <div class="choose-accent"></div>
         <div class="choose-grid">
             <div class="choose-card">
@@ -530,8 +593,7 @@ include 'includes/header.php';
 
 <div class="shirdi-block">
     <div class="sb-card" style=" margin-bottom: 10px;">
-        <div class="sb-head"><i class="fa-solid fa-route"></i> Itinerary Details - 2 Days Shirdi VIP Darshan Tour
-            Package</div>
+        <h2 class="sb-head"><i class="fa-solid fa-route"></i> Two-Day Shirdi Tour Itinerary</h2>
         <div class="sb-grid">
             <div>
                 <div class="sb-day">Day 1</div>
@@ -560,7 +622,7 @@ include 'includes/header.php';
                 </ul>
             </div>
         </div>
-        <div class="sb-head"> Places covered in Shirdi:</div>
+        <h3 class="sb-head">Places Covered in Shirdi</h3>
         <div class="sb-chips">
             <div class="sb-chip"><i class="fa-solid fa-om" style="margin-right: 6px;"></i> Sai Baba Samadhi Mandir</div>
             <div class="sb-chip"><i class="fa-solid fa-tree" style="margin-right: 6px;"></i> Gurusthan (Holy Neem Tree)
@@ -579,10 +641,10 @@ include 'includes/header.php';
         <div class="sb-note">After darshan, return to the hotel. Dinner and night halt at Shirdi.</div>
     </div>
 
+    <h2 class="sb-head">Package Inclusions and Exclusions</h2>
     <div class="sb-grid">
         <div class="sb-card">
-            <div class="sb-head" style="color:#16a34a;"><i class="fa-solid fa-circle-check"></i> Package Inclusions
-            </div>
+            <h3 class="sb-head" style="color:#16a34a;"><i class="fa-solid fa-circle-check"></i> Package Inclusions</h3>
             <ul class="sb-list">
                 <li><i class="fa-solid fa-circle-check sb-check"></i><span>Two-way Economy Class Air Tickets (Chennai /
                         Shirdi / Chennai)</span></li>
@@ -594,8 +656,7 @@ include 'includes/header.php';
             </ul>
         </div>
         <div class="sb-card">
-            <div class="sb-head" style="color:#d63a55;"><i class="fa-solid fa-circle-xmark"></i> Package Exclusions
-            </div>
+            <h3 class="sb-head" style="color:#d63a55;"><i class="fa-solid fa-circle-xmark"></i> Package Exclusions</h3>
             <ul class="sb-list">
                 <li><i class="fa-regular fa-circle-xmark sb-cross"></i><span>Lunch</span></li>
                 <li><i class="fa-regular fa-circle-xmark sb-cross"></i><span>Entrance Fees &amp; Special Darshan
@@ -609,9 +670,10 @@ include 'includes/header.php';
         </div>
     </div>
 
+    <h2 class="sb-head" style="margin-top:12px;">Payment and Cancellation Terms</h2>
     <div class="sb-grid" style="margin-top:12px;">
         <div class="sb-card">
-            <div class="sb-head" style="color:#d97706;"><i class="fa-solid fa-credit-card"></i> Payment Terms</div>
+            <h3 class="sb-head" style="color:#d97706;"><i class="fa-solid fa-credit-card"></i> Payment Terms</h3>
             <ul class="sb-list">
                 <li><i class="fa-solid fa-circle-check sb-check"></i><span>50% at the time of booking</span></li>
                 <li><i class="fa-solid fa-circle-check sb-check"></i><span>Balance amount to be paid 10 days prior to
@@ -619,40 +681,41 @@ include 'includes/header.php';
             </ul>
         </div>
         <div class="sb-card">
-            <div class="sb-head" style="color:#0f6d77;"><i class="fa-solid fa-ban"></i> Cancellation Policy</div>
+            <h3 class="sb-head" style="color:#0f6d77;"><i class="fa-solid fa-ban"></i> Cancellation Policy</h3>
+            <div class="sb-muted" style="margin-bottom:12px;">The following package policy applies before payment. Any applicable statutory consumer rights or mandatory airline obligations remain unaffected.</div>
+            <h4 class="sb-head" style="color:#0f6d77;">Flight ticket not booked</h4>
             <table class="sb-table">
                 <thead>
                     <tr>
-                        <th>Timeframe before departure</th>
-                        <th>Charges</th>
+                        <th>Cancellation timing</th>
+                        <th>Refund</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>More than 45 days</td>
-                        <td>No cancellation charges</td>
+                        <td>30 days or more before travel</td>
+                        <td>60% refund</td>
                     </tr>
                     <tr>
-                        <td>Between 45 and 30 days</td>
-                        <td>50% of total tour cost</td>
+                        <td>15–29 days before travel</td>
+                        <td>40% refund</td>
                     </tr>
                     <tr>
-                        <td>Between 30 and 15 days</td>
-                        <td>75% of total tour cost</td>
-                    </tr>
-                    <tr>
-                        <td>Less than 15 days</td>
-                        <td>90% of total tour cost</td>
+                        <td>0–14 days before travel</td>
+                        <td>No refund</td>
                     </tr>
                 </tbody>
             </table>
-            <div class="sb-muted">*Flight ticket cancellation charges will be as per airline policy.</div>
+            <p class="sb-muted"><strong>Refund calculation basis:</strong> When the flight ticket is not booked, the stated percentage applies to the total Shirdi package amount paid by the customer. Example: if ₹30,000 was paid, a cancellation 30 days or more before travel results in an ₹18,000 refund.</p>
+            <h4 class="sb-head" style="color:#0f6d77;margin-top:14px;">Flight ticket already booked</h4>
+            <p class="sb-muted">No refund is available under this Shirdi flight-package policy, regardless of the cancellation date, subject to applicable legal rights and any mandatory airline obligations.</p>
+            <p class="sb-muted">Approved refunds, where applicable, are processed within 14 working days. For Shirdi flight packages, this package-specific cancellation policy takes precedence over the general refund policy. The conditions are disclosed before booking and payment; mandatory statutory rights and legally required refunds remain unaffected.</p>
         </div>
     </div>
 
-    <div class="sb-card" style="margin-top:12px;">
-        <div class="sb-head" style="color:#b45309;"><i class="fa-solid fa-scale-balanced"></i> Terms &amp; Conditions
-        </div>
+    <h2 class="sb-head" style="margin-top:12px;">Shirdi Temple Guidelines</h2>
+    <div class="sb-card">
+        <h3 class="sb-head" style="color:#b45309;"><i class="fa-solid fa-scale-balanced"></i> Terms &amp; Conditions</h3>
         <ul class="sb-list">
             <li><i class="fa-solid fa-circle-exclamation sb-terms-icon"></i><span>Due to natural hazards, transportation
                     cancellations, accidents, breakdown of machinery or equipment, transport failure, weather
@@ -666,7 +729,7 @@ include 'includes/header.php';
                     expenses must be borne by the client.</span></li>
         </ul>
         <div class="sb-card note-highlight" style="margin-top:12px;">
-            <div class="sb-head" style="color:#b86b15;"><i class="fa-solid fa-circle-info"></i> Important Notes</div>
+            <h3 class="sb-head" style="color:#b86b15;"><i class="fa-solid fa-circle-info"></i> Important Notes</h3>
             <ul class="sb-list">
                 <li><i class="fa-solid fa-mobile-screen sb-note-icon"></i><span>Mobile phones, cameras, and electronic
                         items
@@ -684,9 +747,10 @@ include 'includes/header.php';
 
 </div>
 <div class="container-v2" style="  padding-bottom: 30px;">
+    <h2 class="shirdi-book-heading">Book Your Shirdi Tour</h2>
     <div class="sidebar sidebar-grid">
         <div class="enquiry-box desktop">
-            <h3>Quick Enquiry</h3>
+            <div class="enquiry-heading">Quick Enquiry</div>
             <p>Have questions? Contact us for instant booking assistance.</p>
             <a href="tel:+919994751079" class="enquiry-btn"><i
                     class="flaticon-phone-call"></i> &nbsp; Call: +91 9994751079</a>
@@ -697,7 +761,7 @@ include 'includes/header.php';
 
         <section class="card-lite dress-card">
             <div class="card-lite__header">
-                <div class="card-lite__title">Dress Code</div>
+                <h3 class="card-lite__title">Dress Code</h3>
                 <div class="card-lite__pill">Temple Guidelines</div>
             </div>
             <div class="card-lite__body">
@@ -711,7 +775,7 @@ include 'includes/header.php';
         </section>
 
         <section class="alert-card">
-            <h3>ID Proof (Mandatory)</h3>
+            <h3>ID Proof Requirements</h3>
             <p>Please bring original ID proof while entering the Darshan.</p>
             <ul style="margin-left: 24px;">
                 <li><i class="fa-solid fa-circle-check" aria-hidden="true"
@@ -734,7 +798,7 @@ include 'includes/header.php';
         </section>
 
         <div class="enquiry-box mobile">
-            <h3>Quick Enquiry</h3>
+            <div class="enquiry-heading">Quick Enquiry</div>
             <p>Have questions? Contact us for instant booking assistance.</p>
             <a href="tel:+919994751079" class="enquiry-btn"><i class="flaticon-phone-call"></i> &nbsp; Call: +91
                 9994751079</a>

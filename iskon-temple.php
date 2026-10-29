@@ -297,7 +297,7 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>ISKCON Temple</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">ISKCON Temple</h2>
                         <br />
                         <p>The ISKCON Temple in Tirupati is a beautiful and serene place of worship dedicated to Lord
                             Krishna and Goddess Radha. It is a major center for the International Society for Krishna
@@ -308,7 +308,7 @@ include './includes/header.php';
 
                 <div class="col-md-12 mt-4">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <h3>History and Significance</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">History and Significance</h2>
                     </div>
                 </div>
                 <div class="col-md-6 mt-4">
@@ -340,8 +340,7 @@ include './includes/header.php';
             <div class="row">
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Darshan and Timings</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Darshan and Timings</h2>
                         <p>The temple is open to visitors throughout the year, and there is no entry fee for darshan.
                             The daily schedule includes several aartis and spiritual discourses.</p>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;<b>Morning Timings: 4:15 AM to 1:00
@@ -355,8 +354,7 @@ include './includes/header.php';
                             festival days.</p>
 
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Facilities and Services</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Facilities and Services</h2>
                         <p>ISKCON Tirupati offers a variety of facilities and services for the convenience of devotees:
                         </p>
 
@@ -376,7 +374,7 @@ include './includes/header.php';
                             distributing free, blessed food (prasadam) to visitors.</p>
 
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">How to Get There</b></p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">How to Get There</h2>
                         <p>The ISKCON Temple is conveniently located at the foothills of the Tirumala hills, making it
                             easily accessible from different parts of Tirupati.</p>
 

@@ -9,7 +9,7 @@ $pageTitle = 'Tirupati Package from Malaysia via Chennai | Car & Hotel';
 $pageDescription = 'Tirupati package from Malaysia via Chennai with airport pickup, private car, hotel stay, trip planning and return support.';
 $pageCanonical = 'https://www.divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-chennai.php';
 $activeMenu = null;
-$includeDefaultSchema = false;
+$includeDefaultSchema = true;
 $extraHeadLinks = <<<'HTML'
     <!-- Performance: hero background is a CSS background-image, invisible to
          the HTML preload scanner until CSSOM is built - preload it directly
@@ -374,10 +374,7 @@ $extraHeadLinks = <<<'HTML'
   "description": "Tirupati pilgrimage travel package from Chennai by road with private vehicle travel, pickup support and itinerary assistance for devotees travelling from Malaysia.",
   "touristType": "Pilgrimage",
   "provider": {
-    "@type": "Organization",
-    "name": "Divine Balaji Travels",
-    "url": "https://www.divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-chennai.php",
-    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
+    "@id": "https://www.divinebalajitravels.com/#travelagency"
   }
   
 }
@@ -774,7 +771,7 @@ include 'includes/header.php';
   <div class="package-container">
 
     <h2>
-      Tirupati Travel Package from Malaysia via Chennai
+      Tirupati Package Details from Malaysia via Chennai
     </h2>
 
     <div class="package-content">

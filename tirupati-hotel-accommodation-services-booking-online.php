@@ -297,13 +297,13 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>Accomdation Services</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Accommodation Services</h2>
                         <br />
-                        <p>2, How to Get Accommodation in Tirupati ?</p>
-                        <p><span style="font-weight: 600;">Accommodation on Tirumala Hill (Managed by TTD)</span></p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">How to Get Accommodation in Tirupati?</h3>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Accommodation on Tirumala Hill (Managed by TTD)</h3>
                         <p>For accommodation on the hill, which is the most convenient option for darshan, the primary
                             method is through the Tirumala Tirupati Devasthanams (TTD).</p>
-                        <p><b>1. Offline Booking (Current Booking)</b></p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">1. Offline Booking (Current Booking)</h3>
                         <ul>
                             <li>
                                 <p class="pl-20">
@@ -342,9 +342,7 @@ include './includes/header.php';
 
                             </li>
                             <li>
-                                <p class="pl-20">
-                                    <b> → &nbsp; Important Notes:</b>
-                                </p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Important Notes</h3>
                                 <p class="pl-20">
                                     1. Rooms are typically allotted for one day (24 hours). An extension may be
                                     possible, but it is not guaranteed.
@@ -362,10 +360,11 @@ include './includes/header.php';
                             </li>
 
                         </ul>
-                        <h3>Accommodation in Tirupati Town (at the foothills)</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Accommodation in Tirupati Town (at the foothills)</h2>
                         <p>If you prefer to stay in the town of Tirupati, you have more flexibility with both
                             TTD-managed complexes and private hotels.</p>
-                        <p><b>1. TTD-Managed Complexes (Offline Booking)</b> TTD operates large complexes in Tirupati
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">1. TTD-Managed Complexes (Offline Booking)</h3>
+                        <p>TTD operates large complexes in Tirupati
                             that
                             offer affordable and well-maintained rooms. While some of these are moving to an online-only
                             booking model, some still offer current booking.</p>
@@ -390,7 +389,7 @@ include './includes/header.php';
                             </li>
 
                         </ul>
-                        <p><b>2. Private Hotels</b></p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">2. Private Hotels</h3>
                         <p>Tirupati has a vast number of private hotels, ranging from budget-friendly options to luxury
                             hotels. These can be booked both offline (by walking in) and online through various travel
                             websites.</p>
@@ -414,7 +413,7 @@ include './includes/header.php';
                         </ul>
 
 
-                        <h3>General Tips for Accommodation:</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">General Tips for Accommodation</h2>
 
 
                         <p><b>1. Book in Advance:</b> To avoid any hassle, especially during festivals, weekends, or

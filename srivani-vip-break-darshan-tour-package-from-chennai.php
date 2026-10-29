@@ -695,11 +695,13 @@ line-height:1.8;
         <div class="itinerary-step"><span class="itinerary-icon"><i class="fa-solid fa-circle-check"></i></span><b
                 style="width: auto;">6:30 AM</b> Breakfast at a Pure Vegetarian Hotel</div>
         <div class="itinerary-step"><span class="itinerary-icon"><i class="fa-solid fa-ticket-simple"></i></span><b
-                style="width: auto;">9:00 AM</b> ₹10,500 Srivani Break Darshan Ticket (Same Day Darshan)</div>
+                style="width: auto;">9:00 AM</b> Current TTD Srivani quota release, where applicable (check the
+            official notice and ticket instructions)</div>
         <p
             style="font-size: 13px; color: #64748b; padding: 12px; background: #fffcf0; border: 1px solid #ffeeba; border-radius: 8px; margin-top: 12px;">
-            <b>Note:</b> Only <b>800 tickets per day</b> are issued via the official TTD portal on a first-come,
-            first-served basis.
+            <b>Note:</b> A TTD notice dated 29 May 2026 described <b>1,500 online tickets per day</b>: 500 advance,
+            200 at Tirupati Airport and 800 in the current booking quota. The notice also described a 300-ticket
+            donor allocation. These are dated arrangements, subject to change and availability.
         </p>
         <div class="itinerary-step"><span class="itinerary-icon"><i class="fa-solid fa-circle-check"></i></span><b
                 style="width: auto;">10:00 AM</b> Visit Padmavathi Temple for Darshan</div>
@@ -724,34 +726,38 @@ line-height:1.8;
                 <ul class="note-card__list">
                     <li class="note-card__item">
                         <div class="note-card__item-icon"><i class="fa-solid fa-ticket-simple"></i></div>
-                        <span>📝 <b>Booking Process:</b> Tickets are issued online at 9:00 AM every day on a trial
-                            basis. ⚠️ Offline tickets are no longer available.</span>
+                        <span>📝 <b>Booking Process:</b> TTD quota release times, booking channels and eligibility are
+                            subject to current official notices. The 29 May 2026 notice described a 9:00 AM release for
+                            a specified donor quota; this is not a permanent guarantee.</span>
                     </li>
                     <li class="note-card__item">
                         <div class="note-card__item-icon"><i class="fa-solid fa-clock"></i></div>
-                        <span>⏰ <b>Darshan Timings:</b> Darshan is scheduled at 4:00 PM on the same day. The entire
-                            process usually takes about 45 minutes to 1 hour.</span>
+                        <span>⏰ <b>Darshan Timings:</b> The 29 May 2026 notice described 4:00 PM same-day darshan for
+                            eligible bookings made before 1:00 PM. Follow the time printed on the official TTD ticket;
+                            no fixed timing is guaranteed.</span>
                     </li>
                     <li class="note-card__item">
                         <div class="note-card__item-icon"><i class="fa-solid fa-circle-xmark"></i></div>
-                        <span>❌ <b>Unsuccessful Bookings:</b> If a ticket cannot be redeemed, your ₹10,000 remains in
-                            the online portal. You can choose to view the darshan on the following day.</span>
+                        <span>❌ <b>Unsuccessful Bookings:</b> If a booking fails or cannot be used, the outcome is
+                            governed by the current TTD portal status and applicable terms. No rollover or redemption
+                            right is guaranteed here.</span>
                     </li>
                     <li class="note-card__item">
                         <div class="note-card__item-icon"><i class="fa-solid fa-earth-asia"></i></div>
-                        <span><b>If you must return the same day:</b><br>🌏 NRI visitors: ₹300/- Darshan<br>👤
-                            <b>Non-NRI visitors:</b> SSD (Sarvadarshanam) early the next morning</span>
+                        <span><b>If you must return the same day:</b><br>Alternative darshan categories and availability
+                            for NRI and non-NRI visitors depend on current TTD rules, tickets and queue conditions.</span>
                     </li>
                     <li class="note-card__item">
                         <div class="note-card__item-icon"><i class="fa-solid fa-rotate-left"></i></div>
-                        <span>💰 <b>Refund Policy:</b> The ₹10,000 payment is strictly non-refundable.<br>✅ Your payment
-                            is valid for one year and can be used for darshan at any time within this period.</span>
+                        <span>💰 <b>Donation and Ticket Terms:</b> TTD donation, ticket, validity and refund treatment
+                            are governed by the applicable official TTD terms. This page does not guarantee a one-year
+                            validity period or a refund outcome.</span>
                     </li>
                     <li class="note-card__item">
                         <div class="note-card__item-icon"><i class="fa-solid fa-headset"></i></div>
-                        <span>🛎️ <b>Booking Assistance:</b> We can process the payment and book the ticket on your
-                            behalf as a service, for which service charges apply. Alternatively, you may choose to
-                            handle the booking yourself at your own risk.</span>
+                        <span>🛎️ <b>Booking Assistance:</b> Divine Balaji Travels can provide private travel coordination
+                            and assistance. Any Divine service charge, transport or hotel amount is separate from
+                            applicable official TTD payments and will be stated in the quotation.</span>
                     </li>
                 </ul>
             </div>

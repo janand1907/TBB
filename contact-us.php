@@ -316,7 +316,7 @@ include './includes/header.php';
                                         <div
                                             class="x_offer_car_heading_wrapper x_offer_car_heading_wrapper_contact float_left">
                                             <h4 style="padding-top: 20px;">get in touch</h4>
-                                            <h3>Request Form</h3>
+                                            <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Request Form</h2>
 
                                         </div>
                                     </div>
@@ -380,7 +380,7 @@ include './includes/header.php';
                                         <div
                                             class="x_offer_car_heading_wrapper x_offer_car_heading_wrapper_contact float_left">
                                             <h4 style="padding-top: 20px;">get in touch</h4>
-                                            <h3>Refund Request</h3>
+                                            <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Refund Request</h2>
 
                                         </div>
                                     </div>
@@ -449,7 +449,7 @@ include './includes/header.php';
                                         <div
                                             class="x_offer_car_heading_wrapper x_offer_car_heading_wrapper_contact float_left">
                                             <h4 style="padding-top: 20px;">get in touch</h4>
-                                            <h3>Feedback and Suggestion</h3>
+                                            <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Feedback and Suggestion</h2>
 
                                         </div>
                                     </div>
@@ -504,7 +504,7 @@ include './includes/header.php';
                                         <div
                                             class="x_offer_car_heading_wrapper x_offer_car_heading_wrapper_contact float_left">
                                             <h4 style="padding-top: 20px;">get in touch</h4>
-                                            <h3>Complaints</h3>
+                                            <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Complaints</h2>
 
                                         </div>
                                     </div>

@@ -48,11 +48,12 @@ href="https://www.divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "Tirupati Travel Assistance",
+  "@type": ["ProfessionalService", "TravelAgency"],
+  "@id": "https://www.divinebalajitravels.com/#travelagency",
+  "name": "Divine Balaji Travels",
   "description": "Travel assistance for Malaysia travellers planning Tirupati trips through Hyderabad with pickup support, itinerary guidance and package coordination.",
-  "image": "https://divinebalajitravels.com/Images/hero.png",
-  "url": "https://divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php",
+  "image": "https://www.divinebalajitravels.com/assets/srivani-image/landing-page/hero.webp",
+  "url": "https://www.divinebalajitravels.com/",
   "telephone": "+919994751079",
   "address": {
     "@type": "PostalAddress",
@@ -136,10 +137,7 @@ href="https://www.divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-
   "description": "Travel package from Hyderabad to Tirupati with flight or transfer options, itinerary support and travel coordination for Malaysia travellers.",
   "touristType": "Religious Travel",
   "provider": {
-    "@type": "Organization",
-    "name": "Divine Balaji Travels",
-    "url": "https://divinebalajitravels.com/tirupati-srivani-vip-darshan-malaysia-hyderabad.php",
-    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
+    "@id": "https://www.divinebalajitravels.com/#travelagency"
   },
   "itinerary": {
     "@type": "ItemList",

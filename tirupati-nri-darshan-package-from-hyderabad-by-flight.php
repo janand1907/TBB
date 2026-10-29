@@ -9,7 +9,7 @@ $pageTitle = 'Hyderabad to Tirupati Travel Package by Flight for NRIs';
 $pageDescription = 'Hyderabad to Tirupati NRI travel package by flight with itinerary support, travel assistance and guidance for foreign passport holders and international travellers.';
 $pageCanonical = 'https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php';
 $activeMenu = null;
-$includeDefaultSchema = false;
+$includeDefaultSchema = true;
 $extraHeadLinks = <<<'HTML'
   <!-- Performance: hero background is a CSS background-image, invisible to
        the HTML preload scanner until CSSOM is built - preload it directly
@@ -29,14 +29,13 @@ $extraHeadLinks = <<<'HTML'
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/css/intlTelInput.css"></noscript>
 
   <!-- Bootstrap Icon CSS -->
- 
+
   <!--  Style CSS  -->
   <!-- modern/style.css: critical subset already inlined in header.php -->
   <link rel="preload" href="assets/css/modern/style.css?ver=2.4" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="assets/css/modern/style.css?ver=2.4"></noscript>
   
 
- 
 
 <link rel="preload" href="assets/css/legacy/shared-enquiry-form.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="assets/css/legacy/shared-enquiry-form.css"></noscript>
@@ -48,6 +47,9 @@ $extraHeadLinks = <<<'HTML'
   "name": "Hyderabad to Tirupati Travel Assistance by Flight",
   "url": "https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php",
   "description": "Hyderabad to Tirupati travel assistance by flight with itinerary guidance, airport coordination, travel support and help for international travellers and passport holders.",
+  "provider": {
+    "@id": "https://www.divinebalajitravels.com/#travelagency"
+  },
   "areaServed": [
     {
       "@type": "City",
@@ -90,10 +92,7 @@ $extraHeadLinks = <<<'HTML'
     "International Travellers"
   ],
   "provider": {
-    "@type": "Organization",
-    "name": "Divine Balaji Travels",
-    "url": "https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-hyderabad-by-flight.php",
-    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
+    "@id": "https://www.divinebalajitravels.com/#travelagency"
   },
   "itinerary": {
     "@type": "ItemList",
@@ -1119,10 +1118,9 @@ include 'includes/header.php';
 
 
 
-  <?php 
-  include 'includes/footer.php'; 
+<?php
+  include 'includes/footer.php';
   ?>
 
 
 
- 

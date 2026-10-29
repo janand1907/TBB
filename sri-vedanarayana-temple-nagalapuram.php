@@ -297,7 +297,7 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>Sri Vedanarayana Temple – Nagalapuram</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Sri Vedanarayana Temple – Nagalapuram</h2>
                         <br />
                         <p>The Sri Vedanarayana Swamy Temple is a historically significant and ancient temple located in
                             Nagalapuram, a town in the Chittoor district of Andhra Pradesh. It is a highly revered
@@ -308,7 +308,7 @@ include './includes/header.php';
 
                 <div class="col-md-12 mt-4">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <h3>History and Legend</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">History and Legend</h2>
                     </div>
                 </div>
                 <div class="col-md-6 mt-4">
@@ -341,9 +341,7 @@ include './includes/header.php';
             <div class="row">
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">The "Surya Puja"
-                                Phenomenon</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">The "Surya Puja" Phenomenon</h2>
                         <p>A unique and miraculous feature of this temple is the annual "Surya Puja" festival. During
                             this event, the sun's rays directly fall on the main deity inside the sanctum sanctorum for
                             three consecutive days. The temple's architectural design is so precise that the sun's rays
@@ -362,8 +360,7 @@ include './includes/header.php';
                             form of worship to Lord Vishnu.</p>
 
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Temple Timings</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Temple Timings</h2>
                         <p>The temple is open for darshan and sevas throughout the day, with a short break. The general
                             timings are:</p>
 
@@ -374,8 +371,7 @@ include './includes/header.php';
                         <p>Note: Timings can be subject to change on special occasions and during festivals. It is
                             always best to confirm with the temple administration or the TTD.</p>
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Getting There</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Getting There</h2>
                         <p>The temple is located in Nagalapuram, which is about 60-70 km from Tirupati city.</p>
 
 

@@ -295,7 +295,7 @@ include './includes/header.php';
         style="padding-bottom: 60px; background: lavenderblush;">
         <div class="container">
             <div>
-                <h3 class="h3-new">How to Book Tirupati Tickets Without Online?</h3>
+                <h2 class="h3-new">How to Book Tirupati Tickets Without Online?</h2>
                 <p class="ptb-10" style="text-align: center;
     font-size: 18px; margin: 24px;">Booking tickets for Tirupati darshan without using the official online booking
                     system is
@@ -352,14 +352,12 @@ include './includes/header.php';
                         <ul class="unorder">
 
 
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; While the ₹300 Special Entry Darshan is
-                                primarily booked online, on occasion, Tirumala Tirupati Devasthanams (TTD) may release a
-                                limited number of offline tickets at designated counters in Tirupati.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; This is not a guaranteed method, and
-                                availability can be very limited.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Counters for current booking are sometimes
-                                located at the Srinivasam Complex. It's best to check with the TTD information centers
-                                for any last-minute availability.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; The ₹300 Special Entry Darshan is an official
+                                TTD category, but booking channels and current-booking counters can change.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Offline availability is not guaranteed. Check
+                                the official TTD portal and current TTD notices before travelling.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Do not rely on a particular counter location or
+                                last-minute quota unless it is confirmed by TTD for your travel date.</li>
 
 
                         </ul>
@@ -367,23 +365,20 @@ include './includes/header.php';
                     <button class="accordion mt-20"><b>4. Special Categories of Darshan:</b></button>
                     <div class="panel">
                         <ul class="unorder">
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Infant Darshan: Parents with an infant below
-                                one year of age are eligible for a free, quicker darshan. You will need to show the
-                                infant's birth certificate or hospital discharge summary, along with the parents'
-                                Aadhaar cards.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Infant Darshan: TTD may provide a separate
+                                arrangement for pilgrims travelling with an infant. Eligibility, infant age, accompanying
+                                persons, documents, reporting location and whether any charge applies are governed by the
+                                current TTD notice or ticket. Confirm the requirements directly with TTD before travelling.</li>
                             <li><i class="fa fa-hand-o-right"></i>&nbsp; Senior Citizen & Differently-Abled Darshan:
-                                Special queues are available for senior citizens (above 65 years) and differently-abled
-                                individuals. These queues have shorter waiting times, and darshan is free. You will need
-                                to provide valid ID proof.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; NRI Darshan: NRIs with a valid work visa or
-                                foreigners can get a Special Entry Darshan (₹300 ticket) on arrival at Tirumala,
-                                provided they have a valid passport and the darshan is within 30 days of their arrival.
-                            </li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; VIP Break Darshan: This is a special darshan
-                                category that is typically arranged through recommendation letters from high-ranking
-                                officials. The letters must be submitted a day in advance at the JEO Camp office in
-                                Tirumala. This is also not a guaranteed process, and a confirmation message is sent to
-                                the registered mobile number if the request is approved.</li>
+                                TTD may provide separate facilities for eligible senior citizens and differently-abled
+                                pilgrims. Age, documents, reporting time, availability and whether any charge applies are
+                                governed by the current TTD instructions; do not rely on a fixed free-darshan promise.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; NRI Darshan: Eligibility, documents, charges
+                                and reporting arrangements are determined by current TTD instructions. Verify the latest
+                                requirements directly with TTD; do not assume a fixed arrival window or walk-in ticket.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; VIP Break Darshan: Eligibility and any
+                                recommendation process are determined by TTD. It is not guaranteed and must be confirmed
+                                through current official instructions.</li>
 
                         </ul>
                     </div>
@@ -414,11 +409,11 @@ include './includes/header.php';
         </div>
         <div class="container">
             <div>
-                <h3 class="h3-new">How To Book NRI Darshan?</h3>
+                <h2 class="h3-new">How To Book NRI Darshan?</h2>
                 <p class="ptb-10" style="text-align: center;
-    font-size: 18px; margin: 24px;">Booking a darshan ticket for Non-Resident Indians (NRIs) at Tirumala is a special
-                    offline process. There is no advance online booking for this category. Here's a detailed guide on
-                    how to get your NRI Darshan ticket:</p>
+    font-size: 18px; margin: 24px;">NRI darshan eligibility, booking method, documents and reporting arrangements
+                    are category-specific and can change. Use the current official TTD instructions for the applicable
+                    process and do not rely on a guaranteed walk-in or advance-booking assumption.</p>
             </div>
             <div class="row">
 
@@ -429,62 +424,54 @@ include './includes/header.php';
                     <button class="accordion"><b>Eligibility and Requirements</b></button>
                     <div class="panel">
                         <ul class="unorder">
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Who is eligible? The NRI darshan is a special
-                                facility for Non-Resident Indians and foreign nationals. You must have a valid passport
-                                from a country other than India, a valid visa, or an Overseas Citizen of India (OCI)
-                                card.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Arrival in India: A key requirement is that
-                                your arrival in India must be within 30 days of your darshan date. TTD officials will
-                                check the immigration stamp on your passport for verification.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Accompanying family: Spouses and children who
-                                also reside abroad are generally eligible. However, Indian citizens who are not NRIs
-                                (e.g., parents, relatives, or friends living in India) are not permitted to use this
-                                special darshan facility. Children under 12 years of age can enter for free, but you
-                                should have a valid age proof.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Eligibility and required documents are decided
+                                by TTD for the applicable category. Carry the current passport, visa, OCI and other
+                                documents requested by TTD.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; If an arrival-date window applies, TTD will
+                                verify it from the immigration record. Confirm the current window before travelling.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Accompanying-family and child eligibility must be
+                                confirmed with TTD for the selected category; do not assume resident relatives or children
+                                qualify automatically.</li>
 
                         </ul>
                     </div>
 
-                    <button class="accordion mt-20"><b>Booking Process (Offline)</b></button>
+                    <button class="accordion mt-20"><b>Booking / Reporting Process</b></button>
                     <div class="panel">
-                        <p style="padding-top: 10px;">The booking process is entirely offline and must be done in person
-                            at Tirumala.</p>
+                        <p style="padding-top: 10px;">Follow the current TTD instructions for whether the applicable
+                            NRI process is online, at a designated counter, or otherwise directed by TTD.</p>
 
-                        <p><b>1. Reporting Location: You need to go to the Supatham Entry Point near the Vaikuntam Queue
-                                Complex (VQC-1) at Tirumala. This is the designated counter for NRIs and foreign
-                                nationals.
+                        <p><b>1. Reporting Location: Use the reporting point stated in the current TTD instructions or
+                                on the applicable ticket. Locations and entry arrangements can change.
                             </b></p>
-                        <p><b>2. Required Documents: You must carry the following original and photocopied documents for
-                                verification:</b></p>
+                        <p><b>2. Required Documents: Carry the original and copied documents currently requested by TTD
+                                for verification:</b></p>
                         <ul class="unorder">
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Your original passport.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; A photocopy of your passport, including the
-                                visa page and the page with the recent Indian immigration stamp (showing your arrival
-                                date).</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; For OCI cardholders, the original OCI card and
-                                a photocopy.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Original passport and any current visa or OCI
+                                documents requested by TTD.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Copies of the pages or documents requested by
+                                TTD, including any immigration record where applicable.</li>
                         </ul>
                         <p><b>3. Registration and Verification:</b></p>
                         <ul class="unorder">
                             <li><i class="fa fa-hand-o-right"></i>&nbsp; At the counter, you will need to fill out a
                                 form with your personal, passport, and visa details.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; A TTD official will verify all your
-                                documents to ensure you meet the eligibility criteria (especially the 30-day arrival
-                                rule).</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; A TTD official will verify the documents and
+                                determine eligibility under the current rules.</li>
                         </ul>
                         <p><b> 4. Ticket Purchase:</b></p>
                         <ul></ul>
-                        <li><i class="fa fa-hand-o-right"></i>&nbsp; Once your documents are verified and approved, you
-                            can purchase the special darshan ticket.</li>
-                        <li><i class="fa fa-hand-o-right"></i>&nbsp; The ticket costs ₹300 per person.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Once approved, follow the current TTD
+                                instructions for ticket purchase or entry.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Check the official TTD portal for the current
+                                applicable charge; do not rely on a fixed amount on this page.</li>
                         </ul>
                         <p><b>5. Darshan:</b></p>
 
                         <ul class="unorder">
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp;After purchasing the ticket, you will be
-                                directed to the dedicated queue for NRI darshan, which is typically merged with the
-                                Special Entry Darshan (₹300) queue. This queue is designed for a quicker darshan
-                                experience.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp;After any required approval or ticket purchase,
+                                follow the queue and entry instructions issued by TTD. Darshan timing and waiting time are
+                                not guaranteed.</li>
                         </ul>
 
 
@@ -493,10 +480,8 @@ include './includes/header.php';
                     <button class="accordion mt-20"><b>Important Notes and Guidelines</b></button>
                     <div class="panel">
                         <ul class="unorder">
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Timings: The reporting time for NRI darshan is
-                                typically from 12:00 PM to 6:00 PM daily. However, it is advisable to check for any
-                                changes in timings. It is also recommended to arrive a little early to allow for the
-                                verification process.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Timings: Follow the time printed on the official
+                                TTD ticket or stated in the current TTD notice. Arrive only as instructed by TTD.</li>
                             <li><i class="fa fa-hand-o-right"></i>&nbsp; Dress Code: A strict traditional dress code is
                                 enforced for darshan.</li>
                             <p class="pl-50">1. Men: Must wear a dhoti, pyjama, or kurta with an upper cloth.</p>
@@ -522,12 +507,12 @@ include './includes/header.php';
 
         <div class="container">
             <div>
-                <h3 class="h3-new">How To Book Infant Darshan ?</h3>
+                <h2 class="h3-new">How To Book Infant Darshan ?</h2>
                 <p class="ptb-10" style="text-align: center;
-    font-size: 18px; margin: 24px;">Booking infant darshan in Tirupati is a special provision offered by the Tirumala
-                    Tirupati Devasthanams (TTD) to ensure a smooth and quick pilgrimage for families with very young
-                    children. This facility is entirely an offline process and does not require any advance booking.
-                    <br />Here is a step-by-step guide on how to avail Infant Darshan:
+    font-size: 18px; margin: 24px;">Infant darshan arrangements are controlled by the Tirumala Tirupati Devasthanams
+                    (TTD) and may change by date, crowd conditions or official notice. Confirm the current process,
+                    eligibility, documents, reporting location and any booking requirement directly with TTD.
+                    <br />The following headings are a planning guide only and are not a guarantee of entry:
                 </p>
 
             </div>
@@ -540,28 +525,27 @@ include './includes/header.php';
                     <button class="accordion"><b>Eligibility and Rules</b></button>
                     <div class="panel">
                         <ul class="unorder">
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Age Limit: The infant must be under one year of
-                                age. This is a strict rule, and TTD officials will verify the child's age.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Accompanying Family: Only the parents of the
-                                infant are allowed to accompany the child. Siblings below 12 years of age may also be
-                                permitted. Grandparents or other relatives are generally not allowed to use this special
-                                entry.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Cost: The Infant Darshan is free of cost.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Eligibility: TTD determines the eligible infant
+                                age and accompanying persons. Check the current official notice before making travel
+                                arrangements.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Accompanying Family: The number and relationship
+                                of accompanying pilgrims are set by the current TTD process and may be restricted.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Cost: Do not assume that an infant arrangement is
+                                free; confirm any applicable terms with TTD.</li>
 
                         </ul>
                     </div>
 
                     <button class="accordion mt-20"><b>Documents Required</b></button>
                     <div class="panel">
-                        <p style="padding-top: 10px;">You must carry the following original and photocopied documents
-                            for verification:</p>
+                        <p style="padding-top: 10px;">Carry the original documents requested in the current TTD notice
+                            or ticket. Requirements can change, so confirm the list before travelling:</p>
 
                         <ul class="unorder">
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; For the Infant: The original birth certificate
-                                or a hospital discharge summary. This is the most crucial document to prove the child's
-                                age.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; For the Parents: The original Aadhaar card of
-                                both the mother and father.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Infant identity or age document: carry the
+                                document specified by the current TTD instructions.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Parent or guardian identity: carry the original
+                                photo ID documents requested by TTD for the current arrangement.</li>
 
                         </ul>
 
@@ -570,21 +554,17 @@ include './includes/header.php';
                     <button class="accordion mt-20"><b>Booking Process (Offline)</b></button>
                     <div class="panel">
                         <ul class="unorder">
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Reporting Location: You need to go to the
-                                Supatham Entry Point in Tirumala. This is the designated gate for special darshan
-                                categories, including infants. It is located near the Vaikuntam Queue Complex (VQC-1).
-                            </li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Reporting Time: The typical reporting time for
-                                Infant Darshan is from 12:00 PM to 6:00 PM. However, it is always a good idea to confirm
-                                the latest timings with TTD information centers, as they can change during festivals or
-                                on special days.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Verification: At the Supatham entrance, TTD
-                                officials will verify your documents to confirm the infant's age and the identity of the
-                                parents.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Entry and Darshan: Once your documents are
-                                verified, you will be given a free darshan ticket and directed to a special queue. This
-                                queue is significantly shorter than the general queues, allowing for a quicker darshan
-                                experience.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Reporting Location: Follow the current TTD
+                                notice or ticket for the reporting point. Do not rely on a fixed gate or queue-complex
+                                location.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Reporting Time: Follow the reporting time and
+                                entry instructions in the current TTD notice or ticket. Infant arrangements can change
+                                during festivals or special days.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Verification: TTD officials may verify the
+                                infant's eligibility and the identity documents required for that date.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Entry and Darshan: Entry, queue access, ticket
+                                issue and any applicable charge are determined by TTD after verification; no outcome is
+                                guaranteed by this guide.</li>
                         </ul>
                     </div>
                     <button class="accordion mt-20"><b>Important Notes and Tips</b></button>
@@ -618,7 +598,7 @@ include './includes/header.php';
 
         <div class="container">
             <div>
-                <h3 class="h3-new">How To Book Srivani Trust Tickets ?</h3>
+                <h2 class="h3-new">How To Book Srivani Trust Tickets ?</h2>
                 <p class="ptb-10" style="text-align: center;font-size: 18px; margin: 24px;">Booking darshan tickets
                     through the Srivani Trust Tirupati Break darshan online
                     Booking is a popular option for devotees who wish to make a donation to the TTD's temple
@@ -636,9 +616,9 @@ include './includes/header.php';
                     <div class="panel">
 
 
-                        <p style="padding-top:20px;">The most common and recommended way to book Srivani Trust darshan
-                            is through the official TTD website. This process is divided into two main steps: making the
-                            donation and then booking the darshan slot.</p>
+                        <p style="padding-top:20px;">Use the official TTD portal for current Srivani Trust donation,
+                            quota and darshan instructions. Donation and ticket steps, amounts and availability can
+                            change and should not be treated as a permanent process.</p>
 
                         <p><b>1. Visit the Official TTD Website:</b></p>
                         <ul class="unorder">
@@ -652,8 +632,9 @@ include './includes/header.php';
                                 OTP.</li>
                             <li><i class="fa fa-hand-o-right"></i>&nbsp; Navigate to the 'SRIVANI Trust Donations'
                                 section.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; You must donate a minimum of ₹10,000 per person
-                                to the trust. This donation is non-refundable.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; A TTD notice dated 29 May 2026 refers to
+                                eligible donors who have contributed ₹10,000 to Srivani Trust. Confirm the current
+                                donation requirement and applicable terms on the official TTD portal.</li>
                             <li><i class="fa fa-hand-o-right"></i>&nbsp; You will receive a donation receipt after
                                 successful payment. This receipt is crucial for the next step.</li>
                         </ul>
@@ -665,8 +646,11 @@ include './includes/header.php';
                             </li>
                             <li><i class="fa fa-hand-o-right"></i>&nbsp; Select your preferred darshan date and time
                                 slot from the available quota.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; The darshan ticket itself costs an additional
-                                ₹500 per person.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; The owner-confirmed reference breakdown is a
+                                ₹10,000 Srivani Trust donation plus a ₹500 darshan ticket (₹10,500 combined TTD
+                                reference). Confirm the current amount and eligibility on the official TTD portal; this
+                                does not include separate Divine Balaji Travels travel, transport, hotel or service
+                                charges.</li>
                             <li><i class="fa fa-hand-o-right"></i>&nbsp; Make the payment for the darshan tickets and
                                 download your confirmed ticket.</li>
 
@@ -676,62 +660,51 @@ include './includes/header.php';
                     <button class="accordion mt-20"><b>Important points for online booking:</b></button>
                     <div class="panel">
                         <ul class="unorder">
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Tickets are released in monthly quotas, often
-                                60-90 days in advance. Be sure to check the TTD website or official announcements for
-                                the exact dates and times of the quota release.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Quota release timing and advance-booking windows
+                                are announced by TTD and may change. Check the current official notice and portal.</li>
                             <li><i class="fa fa-hand-o-right"></i>&nbsp; The tickets are in high demand and sell out
                                 very quickly, so it's essential to be ready to book as soon as the quota is live.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; One donation of ₹10,000 entitles you to one
-                                darshan ticket. If you are booking for multiple people, you will need to donate ₹10,000
-                                for each person.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; The relationship between any donation and
+                                ticket entitlement is determined by the current TTD donor rules; do not assume a fixed
+                                one-donation/one-ticket entitlement.</li>
                         </ul>
 
                     </div>
 
                     <button class="accordion mt-20"><b>Offline Booking (Limited Quota)</b></button>
                     <div class="panel">
-                        <p style="padding-top: 20px;">While online booking is the primary method, TTD also provides a
-                            limited offline quota for
-                            Srivani darshan. This is typically for pilgrims who are already in Tirumala or Tirupati and
-                            want to book a ticket for the next day.</p>
+                        <p style="padding-top: 20px;">TTD may publish separate current-booking arrangements in dated
+                            notices. These are temporary and availability is not guaranteed; check the official notice
+                            applicable to your travel date.</p>
                         <p><b>1. At Tirumala:</b></p>
                         <ul class="unorder">
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; A daily quota of tickets is available at the
-                                JEO Camp office in Tirumala (often around 800 tickets).</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; The counter opens early in the morning (around
-                                8 AM), but devotees often start queuing much earlier (e.g., 6 AM) due to high demand.
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; A 29 May 2026 TTD notice described 1,500
+                                online tickets per day: 500 advance, 200 at Tirupati Airport and 800 in the current
+                                booking quota, with 300 of that current quota earmarked for eligible donors.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; The notice is temporary and states that eligible
+                                donor tickets were released at 9 AM, subject to its stated conditions and validity period.
                             </li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; You will need to be physically present with
-                                your original Aadhaar card (or other valid ID) and its photocopy.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; You will make the donation of ₹10,000 per
-                                person and pay the ₹500 darshan ticket fee at the counter.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; A darshan slot will be allotted for the next
-                                day.
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Required documents, payment amounts and the
+                                resulting darshan date must be confirmed from the current TTD portal.</li>
                         </ul>
                         <p><b>2. At Tirupati Airport:</b></p>
                         <ul class="unorder">
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; TTD has a counter at the Tirupati Airport
-                                arrivals
-                                terminal where a limited quota of tickets (around 200 per day) is available.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; This facility is exclusively for pilgrims
-                                arriving
-                                by air on the same day.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; You must present your same-day flight boarding
-                                pass
-                                and a valid ID to book the tickets.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; The 29 May 2026 notice described 200 current
+                                Srivani tickets at Tirupati Airport. Confirm whether that arrangement applies on your
+                                travel date.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; Airport eligibility, documents and any same-day
+                                travel requirement are determined by TTD and are not guaranteed.</li>
                         </ul>
                     </div>
                     <button class="accordion mt-20"><b>Darshan and Entry Process</b></button>
                     <div class="panel">
 
                         <ul class="unorder">
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; <b>Reporting Location:</b> Srivani darshan
-                                ticket holders must report at the Supatham Entry Point near the Vaikuntam Queue Complex
-                                (VQC-1) at Tirumala.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; <b>Darshan Timings:</b> Srivani darshan is
-                                often facilitated as part of the VIP Break Darshan. As per recent reports, TTD has been
-                                moving to an evening darshan slot (e.g., 4:30 PM) for Srivani donors to provide a more
-                                streamlined experience. You should always check the exact timing on your ticket.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; <b>Reporting Location:</b> Follow the current
+                                reporting point printed on the official TTD ticket or stated in the applicable notice.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; <b>Darshan Timings:</b> A 29 May 2026 TTD
+                                notice described 4:00 PM same-day darshan for eligible bookings made before 1:00 PM. This
+                                was a dated arrangement, not a permanent guarantee.</li>
 
                             <li><i class="fa fa-hand-o-right"></i>&nbsp; <b>Dress Code:</b> The strict traditional dress
                                 code is mandatory. Men must wear a dhoti, pyjama, or kurta. Women must wear a saree,
@@ -749,10 +722,9 @@ include './includes/header.php';
                                 shorter waiting time compared to the general Sarva Darshan.</li>
                             <li><i class="fa fa-hand-o-right"></i>&nbsp; <b>Contribution to a Cause:</b> Your donation
                                 supports the noble cause of building and renovating temples.</li>
-                            <li><i class="fa fa-hand-o-right"></i>&nbsp; <b>VIP Break Darshan Access:</b> Srivani donors
-                                are
-                                given privileges similar to VIP Break Darshan, including access to a special queue and a
-                                closer view of the deity.</li>
+                            <li><i class="fa fa-hand-o-right"></i>&nbsp; <b>Darshan Access:</b> Any queue, timing or
+                                privilege is determined by the current TTD ticket and operating rules; availability and
+                                waiting time are not guaranteed.</li>
                             <p>If you More Enquires For Tirupati-VVIP-Srivani-Breakdarsha-Tickets-Booking-online-Process
                                 Please Contact Via WhatsApp and Chat Our team will Assist you.</p>
                         </ul>
@@ -789,8 +761,10 @@ include './includes/header.php';
                         <p><b>3. Package Inclusions:</b> Car packages typically include:</p>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i>&nbsp;Round-trip A/C car (e.g., Etios,
                             Innova, Tempo Traveller).</p>
-                        <p class="pl-20"><i class="fa fa-hand-o-right"></i>&nbsp;A ₹300 Special Entry Darshan ticket for
-                            each person.</p>
+                        <p class="pl-20"><i class="fa fa-hand-o-right"></i>&nbsp;Darshan tickets are included only when
+                            they are explicitly listed in the selected written quotation. TTD controls the current Special
+                            Entry Darshan price, availability and eligibility; do not assume that every package includes a
+                            ₹300 ticket.</p>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i>&nbsp;Meals (breakfast and lunch).</p>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i>&nbsp;Toll, parking, and driver charges.</p>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i>&nbsp;Assistance with darshan, tonsure (if

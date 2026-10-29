@@ -9,7 +9,7 @@ $pageTitle = 'Tirupati Tour Packages | Chennai & Hyderabad Guide';
 $pageDescription = 'Private Tirupati temple tour packages with pickup, travel, hotel stay and trip planning from Chennai and Hyderabad. Independent travel company.';
 $pageCanonical = 'https://www.divinebalajitravels.com/tirupati-darshan-booking-guide.php';
 $activeMenu = null;
-$includeDefaultSchema = false;
+$includeDefaultSchema = true;
 $extraHeadLinks = <<<'HTML'
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"></noscript>
@@ -875,56 +875,6 @@ $extraHeadLinks = <<<'HTML'
 }
 </script>
 
-<!-- ORGANIZATION SCHEMA -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Divine Balaji Travels",
-  "url": "https://www.divinebalajitravels.com/",
-  "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg",
-  "telephone": "+91-9994751079",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Core 1, 2nd Floor, Pacifica Tech Park, Rajiv Gandhi Salai, Navalur",
-    "addressLocality": "Chennai",
-    "addressRegion": "Tamil Nadu",
-    "postalCode": "600130",
-    "addressCountry": "IN"
-  },
-  "sameAs": [
-    "https://wa.me/919994751079"
-  ]
-}
-</script>
-
-<!-- TRAVEL AGENCY / BUSINESS SCHEMA -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TravelAgency",
-  "name": "Divine Balaji Travels",
-  "url": "https://www.divinebalajitravels.com/",
-  "description": "Independent private travel company offering Tirupati pilgrimage tour packages with transport, pickup, drop, hotel stay arrangements and complete trip coordination.",
-  "telephone": "+91-9994751079",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Core 1, 2nd Floor, Pacifica Tech Park, Rajiv Gandhi Salai, Navalur",
-    "addressLocality": "Chennai",
-    "addressRegion": "Tamil Nadu",
-    "postalCode": "600130",
-    "addressCountry": "IN"
-  },
-  "areaServed": [
-    "Chennai",
-    "Hyderabad",
-    "Tamil Nadu",
-    "Telangana",
-    "India"
-  ]
-}
-</script>
-
 <!-- WEBPAGE SCHEMA -->
 <script type="application/ld+json">
 {
@@ -934,8 +884,7 @@ $extraHeadLinks = <<<'HTML'
   "url": "https://www.divinebalajitravels.com/",
   "description": "Private Tirupati temple tour packages with pickup, travel, hotel stay and pilgrimage trip planning from Chennai and Hyderabad.",
   "publisher": {
-    "@type": "Organization",
-    "name": "Divine Balaji Travels"
+    "@id": "https://www.divinebalajitravels.com/#travelagency"
   }
 }
 </script>
@@ -969,8 +918,7 @@ $extraHeadLinks = <<<'HTML'
   "@type": "Service",
   "name": "Tirupati Pilgrimage Travel Packages",
   "provider": {
-    "@type": "Organization",
-    "name": "Divine Balaji Travels"
+    "@id": "https://www.divinebalajitravels.com/#travelagency"
   },
   "serviceType": "Temple Tour Packages",
   "areaServed": {

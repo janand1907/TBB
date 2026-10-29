@@ -45,6 +45,7 @@ $extraHeadLinks = <<<'HTML'
 {
   "@context": "https://schema.org",
   "@type": "TravelAgency",
+  "@id": "https://www.divinebalajitravels.com/#travelagency",
   "name": "Divine Balaji Travels",
   "url": "https://www.divinebalajitravels.com/",
   "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg",
@@ -96,10 +97,7 @@ $extraHeadLinks = <<<'HTML'
     "International Travellers"
   ],
   "provider": {
-    "@type": "TravelAgency",
-    "name": "Divine Balaji Travels",
-    "url": "https://www.divinebalajitravels.com/",
-    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
+    "@id": "https://www.divinebalajitravels.com/#travelagency"
   },
   "itinerary": {
     "@type": "ItemList",
@@ -1102,5 +1100,4 @@ style="background: url('assets/srivani-image/nri-hyderabad-by-fligh/hero.webp') 
   <?php 
   include 'includes/footer.php'; 
   ?>
-
 

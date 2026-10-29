@@ -41,6 +41,7 @@ $extraHeadLinks = <<<'HTML'
 {
   "@context": "https://schema.org",
   "@type": "TravelAgency",
+  "@id": "https://www.divinebalajitravels.com/#travelagency",
   "name": "Divine Balaji Travels",
   "url": "https://www.divinebalajitravels.com/",
   "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg",
@@ -69,8 +70,7 @@ $extraHeadLinks = <<<'HTML'
   "url": "https://www.divinebalajitravels.com/about-us.php",
   "description": "Learn about Divine Balaji Travels, offering Tirupati tour packages from Chennai with private travel, hotel stay and pilgrimage support services.",
   "mainEntity": {
-    "@type": "TravelAgency",
-    "name": "Divine Balaji Travels"
+    "@id": "https://www.divinebalajitravels.com/#travelagency"
   }
 }
 </script>
@@ -79,11 +79,10 @@ $extraHeadLinks = <<<'HTML'
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Tirupati Balaji Booking",
+  "name": "Divine Balaji Travels",
   "url": "https://www.divinebalajitravels.com/",
   "publisher": {
-    "@type": "Organization",
-    "name": "Divine Balaji Travels"
+    "@id": "https://www.divinebalajitravels.com/#travelagency"
   }
 }
 </script>

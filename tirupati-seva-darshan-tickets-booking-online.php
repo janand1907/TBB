@@ -297,13 +297,14 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>Seva Darshan Tickets</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Seva Darshan Tickets</h2>
                         <br />
                         <p>Seva Darshan tickets are a specific category of paid darshan tickets that allow pilgrims to
                             participate in or witness a specific daily, weekly, or annual ritual (seva) performed for
-                            the deity. These are different from the general darshan queues like Sarva Darshan (free) or
-                            Special Entry Darshan (₹300) which are primarily for a quick glimpse of the main deity.</p>
-                        <p><span style="font-weight: 600;">Types of Sevas</span></p>
+                            the deity. These are different from general darshan queues such as Sarva Darshan or Special
+                            Entry Darshan. TTD notices checked in 2026 reference a ₹300 Special Entry Darshan ticket;
+                            confirm the current price, category and eligibility on the official TTD portal.</p>
+                        <h2 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px">Types of Sevas</h2>
                         <p>The Tirumala Tirupati Devasthanams (TTD) performs numerous sevas, each with its own
                             significance, schedule, and ticket price. Some of the most popular sevas include:</p>
                         <ul>
@@ -354,16 +355,16 @@ include './includes/header.php';
                                 </p>
                             </li>
                         </ul>
-                        <p><b>How to Book Seva Darshan Tickets</b></p>
-                        <p>Booking Seva Darshan tickets is highly competitive and is almost exclusively done online. TTD
-                            releases a limited quota of tickets for these rituals on its official website.</p>
+                        <h2 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px">How to Book Seva Darshan Tickets</h2>
+                        <p>Booking Seva Darshan tickets is highly competitive and is usually handled through the official
+                            TTD portal. TTD releases limited quotas for individual rituals, and the current channel,
+                            release date and availability must be checked for the specific seva.</p>
                         <ul>
                             <li>
                                 <p class="pl-20">
-                                    <b>1. Online Booking is the Main Method:</b> You must book through the official TTD
-                                    website
-                                    or app. The tickets are typically released as part of a monthly quota, usually 60 to
-                                    90 days in advance.
+                                    <b>1. Online Booking is the Main Method:</b> Use the official TTD portal or app:
+                                    https://ttdevasthanams.ap.gov.in/. Quota release dates and advance-booking windows vary
+                                    by seva and TTD notice; do not rely on a fixed 60–90 day window.
                                 </p>
                             </li>
                             <li>
@@ -372,9 +373,9 @@ include './includes/header.php';
                                     lottery, and a limited number of tickets are allotted to the winners.</p>
                             </li>
                             <li>
-                                <p class="pl-20"><b>3. Ticket Price:</b> The cost of Seva Darshan tickets varies widely,
-                                    ranging from ₹200 to several thousand rupees, depending on the specific ritual. The
-                                    tickets may be priced per person or per couple (for sevas like Kalyanotsavam).</p>
+                                <p class="pl-20"><b>3. Ticket Price:</b> The price, unit (per person or per booking)
+                                    and inclusions are set for the specific seva. Confirm the current amount and terms on
+                                    the official TTD portal rather than relying on a general price range.</p>
                             </li>
                             <li>
                                 <p class="pl-20"><b>4. Limited Availability:</b> The number of tickets for each seva is
@@ -382,17 +383,18 @@ include './includes/header.php';
                                     quickly.</p>
                             </li>
                         </ul>
-                        <p><b>Important Notes:</b></p>
+                        <h2 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px">Important Notes</h2>
                         <ul>
                             <li>
-                                <p class="pl-20"><b>1. No Offline Booking:</b> For most daily sevas, there are no
-                                    offline booking counters. The entire process is online.
+                                <p class="pl-20"><b>1. Booking Channels:</b> Online booking is common, but current
+                                    counters or other channels vary by seva and TTD notice. Confirm the available method
+                                    on the official portal; do not assume that every seva is online-only.
                                 </p>
                             </li>
                             <li>
-                                <p class="pl-20"><b>2. Darshan Included:</b> A key benefit of booking a Seva ticket is
-                                    that it includes a darshan of the main deity, often from a closer and more
-                                    privileged location.
+                                <p class="pl-20"><b>2. Darshan Included:</b> Whether a specific seva ticket includes
+                                    darshan, and the applicable access conditions, are stated in the current TTD booking
+                                    terms for that seva.
                                 </p>
                             </li>
                             <li>
@@ -401,8 +403,11 @@ include './includes/header.php';
                                 </p>
                             </li>
                             <li>
-                                <p class="pl-20"> <b>4. Non-Refundable:</b> Like other TTD tickets, Seva Darshan tickets
-                                    are generally non-cancellable, non-refundable, and non-transferable.
+                                <p class="pl-20"> <b>4. Cancellation and Refunds:</b> Official TTD cancellation,
+                                    refund and transfer terms are determined by TTD and the specific booking. Divine
+                                    Balaji Travels does not control or guarantee an official ticket refund. Confirm the
+                                    current TTD terms before payment; any separate Divine package or service cancellation
+                                    follows the written quotation and general refund policy.
                                 </p>
                             </li>
                         </ul>

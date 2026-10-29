@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Kalyana Venkateswara Temple Srinivasa Mangapuram";
-$pageDescription = "Plan a visit to Kalyana Venkateswara Temple in Srinivasa Mangapuram with private car travel and complete darshan package support.";
+$pageTitle = "Srinivasa Mangapuram Temple Timings & Travel Guide";
+$pageDescription = "Explore Kalyana Venkateswara Temple in Srinivasa Mangapuram with general timings, seva information, distance and route guidance. Confirm current details with TTD before travel.";
 $activeMenu = 'temples';
 include './includes/header.php';
 ?>
@@ -297,7 +297,7 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>Kalyana Venkateswara Temple - Srinivasa Mangapuram</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Kalyana Venkateswara Temple - Srinivasa Mangapuram</h2>
                         <br />
                         <p>The Sri Kalyana Venkateswara Temple is a sacred Hindu shrine located in Srinivasa Mangapuram,
                             a town near Tirupati in Andhra Pradesh. This temple is of great significance to devotees,
@@ -308,7 +308,7 @@ include './includes/header.php';
 
                 <div class="col-md-12 mt-4">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <h3>History and Legend</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">History and Legend</h2>
                     </div>
                 </div>
                 <div class="col-md-6 mt-4">
@@ -344,8 +344,7 @@ include './includes/header.php';
             <div class="row">
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Darshan and Sevas</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Darshan and Sevas</h2>
                         <p>The temple is well-known for its daily Kalyanotsavam (celestial marriage ceremony), which is
                             performed daily. This seva is a major attraction, and devotees can participate in it.</p>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;<b>Temple Timings:</b> The temple is
@@ -357,10 +356,11 @@ include './includes/header.php';
                         </p>
                         <p>Note: Timings may vary on special occasions and festivals. It is always best to confirm with
                             the official TTD sources.</p>
+                        <p>For related Tirupati planning, see the <a href="tirumala-darshan-timings.php">Tirumala darshan timings guide</a> and <a href="tirupati-tour-faq.php">Tirupati travel FAQ</a>. Confirm current Srinivasa Mangapuram timings and seva availability with the official authorities before travelling.</p>
+                        <p>For private travel planning, compare the <a href="tirupati-vip-darshan-packages">Tirupati VIP Darshan packages</a> or <a href="tirupati-tour-packages-from-tirupati.php">local Tirupati temple tours</a> and request a quotation for your dates and group size.</p>
 
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Getting There</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Getting There</h2>
                         <p>The temple is located approximately 12 kilometers from the Tirupati Central Bus Station and
                             Railway Station.</p>
 

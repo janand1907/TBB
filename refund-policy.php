@@ -298,80 +298,38 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>Payment Options</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Cancellation &amp; Refund Policy</h2>
                         <br />
-                        <p>1. How to Get Refund ?</p>
-                        <p>The refund policy for divinebalajitravels.com is authorise company name : Divine Balaji Travels, specializing in Tirupati tours and South India. Our standardized and can vary
-                            significantly from one company to another. It is absolutely essential to read and understand
-                            the specific terms and conditions provided by the operator before you make any payment.
-                        </p>
-                        <p> Here is a general overview of what you can expect from most private tour operators' refund
-                            policies:</p>
+                        <p>Divine Balaji Travels follows the cancellation and refund policy below for tour package
+                            bookings.</p>
 
-                        <p><b>1. Darshan Tickets are Non-Refundable</b></p>
-                        <p>This is the most critical and consistent point across all tour operators. The Special Entry
-                            Darshan (₹300) tickets, which are a core part of most packages, are booked through the
-                            official TTD website. Once TTD issues these tickets in the pilgrim's name, they are
-                            non-cancellable, non-transferable, and non-refundable. If you cancel your tour, the amount
-                            paid for the darshan ticket will not be returned to you.
-                        </p>
-                        <p><b>2. Tiered Cancellation Policy</b></p>
-                        <p> For the other components of the package (transportation, accommodation, guide fees, etc.),
-                            private operators typically have a tiered refund policy based on how far in advance you
-                            cancel. The closer you get to the travel date, the less of a refund you will receive.
-                        </p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Cancellation Terms</h3>
+                        <p class="pl-20">→ &nbsp;<b>30 days or more before the scheduled travel date:</b> 60% refund.</p>
+                        <p class="pl-20">→ &nbsp;<b>15 to 29 days before the scheduled travel date:</b> 40% refund.</p>
+                        <p class="pl-20">→ &nbsp;<b>0 to 14 days before the scheduled travel date:</b> No refund.</p>
+                        <p>Refund percentages are calculated on the total package amount paid by the customer. For example,
+                            if the total package amount paid is ₹20,000, a cancellation 30 days or more before travel results
+                            in a ₹12,000 refund.</p>
+                        <p>These general terms apply to all Divine Balaji Travels packages unless a separately disclosed
+                            package-specific cancellation policy applies.</p>
+                        <p>For Shirdi flight packages, the package-specific cancellation policy published on the Shirdi
+                            package page takes precedence over these general terms and is disclosed before booking and
+                            payment. Under that separately disclosed Shirdi policy, no refund applies when the flight ticket
+                            has already been booked, subject to mandatory statutory rights. Legally required refunds remain
+                            unaffected.</p>
 
-                        <p>A common example of a tiered structure is:</p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Refund Processing</h3>
+                        <p>Approved refunds will be processed within 14 working days.</p>
 
-                        <p class="pl-20">→ &nbsp;<b>30 days or more before the tour:</b> You may receive a full refund
-                            minus a small processing fee or a fixed percentage of the total cost (e.g., 10%).</p>
-                        <p class="pl-20">→ &nbsp;<b>15 to 30 days before the tour:</b> The cancellation fee increases,
-                            and you might receive a refund of 50-70% of the remaining amount after deducting the darshan
-                            ticket cost.</p>
-                        <p class="pl-20">→ &nbsp;<b>7 to 15 days before the tour:</b> The cancellation charges are much
-                            higher, and the refund may be minimal, often around 25-50% of the remaining amount.</p>
-                        <p class="pl-20">→ &nbsp;<b>Less than 7 days before the tour:</b> Many operators have a "no
-                            refund" policy for cancellations within this window.</p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Third-Party Components</h3>
+                        <p>TTD donations, official darshan tickets, flights, hotels and other third-party components may
+                            be subject to the applicable provider's rules. Their treatment is not separately defined by
+                            this page; please confirm the written quotation and applicable terms before payment.</p>
 
-
-                        <p><b>3. "No-Show" Policy</b></p>
-                        <p>If you fail to show up for your tour without any prior notice, it is considered a "no-show,"
-                            and you will not be entitled to any refund.
-                        </p>
-
-
-
-                        <p><b>4. Exceptions and Special Cases</b></p>
-                        <p class="pl-20">→ &nbsp;<b>Force Majeure:</b> In case of unforeseen circumstances beyond the
-                            control of the operator (e.g., natural calamities, government regulations, riots), the
-                            policy may change. Some operators may offer a full refund, while Our Exclusive Tour Packages
-                            may provide a voucher for a future booking. This will be outlined in their terms and
-                            conditions.</p>
-                        <p class="pl-20">→ &nbsp;<b>Operator Cancellation:</b> If the tour operator has to cancel the
-                            trip due to operational reasons or other issues (e.g., vehicle breakdown), they are
-                            generally obligated to provide a full refund Within 30 to 45 business days.</p>
-                        <p class="pl-20">→ &nbsp;<b>Booking Without Darshan:</b> If you book a package that only
-                            includes a car rental or accommodation without a darshan ticket, the refund policy for that
-                            component may be more lenient.</p>
-                        <p class="pl-20">→ &nbsp;<b>Up to 45 days before arrival:</b> 10% of tour cost</p>
-                        <p class="pl-20">→ &nbsp;<b>44 - 30 days before arrival:</b> up to 30% of tour cost</p>
-                        <p class="pl-20">→ &nbsp;<b>29 - 15 days before arrival:</b> up to 50% of tour cost</p>
-                        <p class="pl-20">→ &nbsp;<b>14 - 7 days before arrival:</b> up to 70% of tour cost</p>
-                        <p class="pl-20">→ &nbsp;<b>Less than 7 days before arrival:</b> No refund</p>
-
-
-
-                        <p><b>How to Find the Refund Policy:</b></p>
-                        <p class="pl-20">→ &nbsp;<b>Website:</b> The cancellation and refund policy is usually detailed
-                            in the "Terms and Conditions," "FAQ," or a dedicated "Cancellation Policy" section on the
-                            Our Standalone website.</p>
-                        <p class="pl-20">→ &nbsp;<b>Booking Confirmation:</b> The Invoice and Proposed Itinerary will be
-                            mentioned in the booking confirmation email or WhatsApp that the Sales Manager sends you.
-                        </p>
-                        <p>If you More Enquires For Your Refund : please mailus : mailtotourbooking@gmail.com We will
-                            Respond usually We may require more than 72 hours also few queries. Because we sincerely
-                            manually checking all aspects for each and every booking. So sometimes will get delayed
-                            reply from our ends.</p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Refund Enquiries</h3>
+                        <p>For refund questions, contact Divine Balaji Travels at
+                            <a href="mailto:divinebalajitravels@gmail.com">divinebalajitravels@gmail.com</a>. Please include
+                            your booking details so the team can review the request.</p>
 
 
 

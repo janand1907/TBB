@@ -9,7 +9,7 @@ $pageTitle = 'Tirupati Package from Hyderabad by Flight for NRI Travellers';
 $pageDescription = 'Tirupati package from Hyderabad by flight for NRI travellers with airport pickup, hotel stay, travel support and itinerary planning.';
 $pageCanonical = 'https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-hyderabad-by-flight-for-nris.php';
 $activeMenu = null;
-$includeDefaultSchema = false;
+$includeDefaultSchema = true;
 $extraHeadLinks = <<<'HTML'
   <!-- Performance: hero background is a CSS background-image, invisible to
        the HTML preload scanner until CSSOM is built - preload it directly
@@ -29,7 +29,7 @@ $extraHeadLinks = <<<'HTML'
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/css/intlTelInput.css"></noscript>
 
   <!-- Bootstrap Icon CSS -->
- 
+
   <!--  Style CSS  -->
   <!-- modern/style.css: critical subset already inlined in header.php -->
   <link rel="preload" href="assets/css/modern/style.css?ver=2.3" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -73,10 +73,7 @@ $extraHeadLinks = <<<'HTML'
   "serviceType": "Tirupati Travel Assistance",
   "telephone": "+91-9994751079",
   "provider": {
-    "@type": "Organization",
-    "name": "Divine Balaji Travels",
-    "url": "https://www.divinebalajitravels.com/",
-    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
+    "@id": "https://www.divinebalajitravels.com/#travelagency"
   }
 }
 </script>
@@ -120,10 +117,7 @@ $extraHeadLinks = <<<'HTML'
     ]
   },
   "provider": {
-    "@type": "Organization",
-    "name": "Divine Balaji Travels",
-    "url": "https://www.divinebalajitravels.com/",
-    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
+    "@id": "https://www.divinebalajitravels.com/#travelagency"
   }
 }
 </script>
@@ -306,9 +300,9 @@ include 'includes/header.php';
       </p>
 
       <!-- HIGHLIGHT TEXT -->
-      <h2 class="zxv91-highlight">
+      <p class="zxv91-highlight">
         Includes flight-based travel planning, airport pickup support, hotel stay options and itinerary assistance.
-      </h2>
+      </p>
 
       <!-- NOTE -->
       <p class="zxv91-bottom-note">
@@ -417,7 +411,7 @@ include 'includes/header.php';
 
     <!-- Heading -->
     <h2 class="aurex-srivani-title-9921">
-      Tirupati Package from Hyderabad by Flight for NRI Travellers
+      Hyderabad to Tirupati Package Overview for NRI Travellers
     </h2>
 
     <!-- Grid -->
@@ -1142,10 +1136,9 @@ include 'includes/header.php';
 
 
 
-  <?php 
-  include 'includes/footer.php'; 
-  ?>
+<?php
+  include 'includes/footer.php';
+?>
 
 
 
- 

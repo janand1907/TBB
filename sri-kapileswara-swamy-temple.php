@@ -297,7 +297,7 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>Sri Kapileswara Swamy Temple</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Sri Kapileswara Swamy Temple</h2>
                         <br />
                         <p>The Sri Kapileswara Swamy Temple is a revered Hindu temple dedicated to Lord Shiva, located
                             at the foothills of the Tirumala hills in Tirupati, Andhra Pradesh. It is a significant
@@ -308,7 +308,7 @@ include './includes/header.php';
 
                 <div class="col-md-12 mt-4">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <h3>History and Significance</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">History and Significance</h2>
                     </div>
                 </div>
                 <div class="col-md-6 mt-4">
@@ -343,8 +343,7 @@ include './includes/header.php';
             <div class="row">
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Temple Timings</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Temple Timings</h2>
                         <p>The temple is open to devotees throughout the day, with a brief closure in the afternoon. The
                             general timings are as follows:</p>
 
@@ -359,8 +358,7 @@ include './includes/header.php';
                         <p>Note: Timings can be subject to change on special occasions and festival days.</p>
 
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Getting There</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Getting There</h2>
 
                         <p>The Sri Kapileswara Swamy Temple is conveniently located just a few kilometers from the heart
                             of Tirupati city.</p>
@@ -375,7 +373,7 @@ include './includes/header.php';
 
 
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Important Festivals</b></p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Important Festivals</h2>
                         <p>The temple celebrates several festivals throughout the year, with the most important being:
                         </p>
 

@@ -297,7 +297,7 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>Sri Varasiddhi Vinayaka Temple – Kanipakam</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Sri Varasiddhi Vinayaka Temple – Kanipakam</h2>
                         <br />
                         <p>The Sri Varasiddhi Vinayaka Temple, located in the village of Kanipakam, Andhra Pradesh, is a
                             highly revered Hindu shrine dedicated to Lord Ganesha. It is one of the most famous Ganesha
@@ -308,7 +308,7 @@ include './includes/header.php';
 
                 <div class="col-md-12 mt-4">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <h3>History and Significance</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">History and Significance</h2>
                     </div>
                 </div>
                 <div class="col-md-6 mt-4">
@@ -345,14 +345,12 @@ include './includes/header.php';
             <div class="row">
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Temple Timings</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Temple Timings</h2>
                         <p>The temple is open for darshan and various sevas (rituals) throughout the day. The timings
                             can vary, but generally, the temple is open from 4:00 AM to 9:30 PM. There are specific
                             timings for various aartis and abhishekams (sacred baths) that happen throughout the day.
                         </p>
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Getting There</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Getting There</h2>
                         <p>The temple is located in the Chittoor district of Andhra Pradesh, at a distance of
                             approximately 70 km from Tirupati.</p>
 
@@ -367,8 +365,7 @@ include './includes/header.php';
                             the temple.</p>
 
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Important Festivals</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Important Festivals</h2>
 
                         <p>The most significant festival celebrated at the temple is the annual Brahmotsavam, which
                             coincides with Ganesh Chaturthi (Vinayaka Chavithi) in the months of September/October. The

@@ -29,7 +29,7 @@ $extraHeadLinks = <<<'HTML'
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.5.3/css/intlTelInput.css"></noscript>
 
   <!-- Bootstrap Icon CSS -->
- 
+
   <!--  Style CSS  -->
   <!-- modern/style.css: critical subset already inlined in header.php -->
   <link rel="preload" href="assets/css/modern/style.css?ver=2.3" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -45,8 +45,9 @@ $extraHeadLinks = <<<'HTML'
 {
   "@context": "https://schema.org",
   "@type": "TravelAgency",
+  "@id": "https://www.divinebalajitravels.com/#travelagency",
   "name": "Divine Balaji Travels",
-  "url": "https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-chennai.php",
+  "url": "https://www.divinebalajitravels.com/",
   "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg",
   "description": "Chennai to Tirupati travel package with airport pickup, private car travel, itinerary support and assistance for travellers from Malaysia, Singapore, Sri Lanka and the United Kingdom.",
   "telephone": "+919994751079",
@@ -72,10 +73,7 @@ $extraHeadLinks = <<<'HTML'
   "description": "Travel package from Chennai to Tirupati by car with airport pickup, private vehicle travel, hotel stay options and trip coordination support.",
   "touristType": "Religious Travel",
   "provider": {
-    "@type": "Organization",
-    "name": "Divine Balaji Travels",
-    "url": "https://www.divinebalajitravels.com/tirupati-nri-darshan-package-from-chennai.php",
-    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
+    "@id": "https://www.divinebalajitravels.com/#travelagency"
   },
   "itinerary": {
     "@type": "ItemList",
@@ -1001,7 +999,3 @@ include 'includes/header.php';
   <?php 
   include 'includes/footer.php'; 
   ?>
-
-
-
- 

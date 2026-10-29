@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Sri Padmavathi Amman Temple, Tiruchanur | Darshan Package";
-$pageDescription = "Visit Sri Padmavathi Amman Temple in Tiruchanur with a private darshan tour package including car travel, pickup and trip planning.";
+$pageTitle = "Padmavathi Amman Temple Timings & Tiruchanur Guide";
+$pageDescription = "Plan a visit to Sri Padmavathi Amman Temple in Tiruchanur with general timings, darshan guidance, location and route information. Confirm current details before travel.";
 $activeMenu = 'temples';
 include './includes/header.php';
 ?>
@@ -297,7 +297,7 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>Sri Padmavathi Amman Temple</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Sri Padmavathi Amman Temple</h2>
                         <br />
                         <p>The Sri Padmavathi Amman Temple, also known as Alamelu Mangapuram Temple, is a revered Hindu
                             shrine located in Tiruchanur, near Tirupati in Andhra Pradesh, India. It is dedicated to
@@ -309,7 +309,7 @@ include './includes/header.php';
 
                 <div class="col-md-12 mt-4">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <h3>History and Legend</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">History and Legend</h2>
                     </div>
                 </div>
                 <div class="col-md-6 mt-4">
@@ -342,7 +342,7 @@ include './includes/header.php';
             <div class="row">
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Temple Timings</b></p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Temple Timings</h2>
                         <p>The temple is generally open for public darshan from morning until night. The specific
                             timings for
                             different sevas and darshans can vary.</p>
@@ -359,12 +359,11 @@ include './includes/header.php';
                             Brahmotsavam.</p>
 
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Darshan and Seva Tickets</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Darshan and Seva Tickets</h2>
                         <p>You can book Special Entry Darshan tickets and specific seva tickets online. The official
                             Tirumala Tirupati Devasthanams (TTD) website is the designated platform for these bookings.
                         </p>
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Getting There</b></p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Getting There</h2>
                         <p>The Sri Padmavathi Amman Temple is located in Tiruchanur, about 5 kilometers from the main
                             Tirupati city.</p>
                         <p class="pl-20">
@@ -381,7 +380,7 @@ include './includes/header.php';
                             Renigunta, which is about 15 km away.</p>
 
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Important Festivals</b></p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Important Festivals</h2>
                         <p>The temple celebrates several major festivals, with the most prominent being the annual
                             <b>Brahmotsavam.</b> Other significant festivals include <b>Panchami Tirtham, Varalakshmi
                                 Vratam,</b> and
@@ -391,6 +390,7 @@ include './includes/header.php';
                         </p>
                         <p>For the most accurate and up-to-date information on timings, sevas, and online bookings, it
                             is recommended to visit the official TTD website.</p>
+                        <p>For private travel planning, compare the <a href="tirupati-vip-darshan-packages">Tirupati VIP Darshan packages</a> or <a href="tirupati-tour-packages-from-tirupati.php">local Tirupati temple tours</a> and request a quotation for your dates and group size.</p>
 
 
                     </div>

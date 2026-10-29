@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Kalyana Venkateshwara Temple Narayanavanam Guide";
-$pageDescription = "Plan a visit to Sri Kalyana Venkateshwara Swamy Temple in Narayanavanam with private car travel and darshan package support.";
+$pageTitle = "Narayanavanam Temple Timings & Tirupati Travel Guide";
+$pageDescription = "Plan a visit to Sri Kalyana Venkateshwara Swamy Temple in Narayanavanam with general timings, distance, route guidance and visitor information. Confirm current details before travel.";
 $activeMenu = 'temples';
 include './includes/header.php';
 ?>
@@ -297,7 +297,7 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>Sri Kalyana Venkateshwara Swamy Temple - Narayanavanam Temple</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Sri Kalyana Venkateshwara Swamy Temple - Narayanavanam Temple</h2>
                         <br />
                         <p>The Sri Kalyana Venkateswara Swamy Temple in Narayanavanam is a significant and historic
                             temple dedicated to Lord Venkateswara. It holds a special place in the lore of Tirupati, as
@@ -310,7 +310,7 @@ include './includes/header.php';
 
                 <div class="col-md-12 mt-4">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <h3>History and Significance</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">History and Significance</h2>
                     </div>
                 </div>
                 <div class="col-md-6 mt-4">
@@ -342,8 +342,7 @@ include './includes/header.php';
             <div class="row">
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Temple Timings</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Temple Timings</h2>
                         <p>The temple is open for darshan and sevas throughout the day. The timings can vary, but
                             generally follow this schedule:</p>
 
@@ -358,10 +357,11 @@ include './includes/header.php';
 
                         <p>Note: The temple closes for a break between 1:00 PM and 3:00 PM. It is always a good idea to
                             confirm the timings before your visit, especially on special occasions and festivals.</p>
+                        <p>For related Tirupati planning, see the <a href="tirumala-darshan-timings.php">Tirumala darshan timings guide</a> and <a href="tirupati-tour-faq.php">Tirupati travel FAQ</a>. Confirm current Narayanavanam timings with the official authorities before travelling.</p>
+                        <p>For private travel planning, compare the <a href="tirupati-vip-darshan-packages">Tirupati VIP Darshan packages</a> or <a href="tirupati-tour-packages-from-tirupati.php">local Tirupati temple tours</a> and request a quotation for your dates and group size.</p>
 
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Getting There</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Getting There</h2>
 
                         <p>The temple is located in Narayanavanam, a town in the Tirupati district of Andhra Pradesh. It
                             is a bit of a distance from the main city of Tirupati, but is easily accessible.</p>

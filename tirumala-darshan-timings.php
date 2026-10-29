@@ -16,7 +16,6 @@ include './includes/header.php';
                                     <div class="content">
                                         <h1 class="TTDtitle" data-animation="animated fadeInLeft">
                                             Tirumala Darshan Timings <br />
-                                            <!-- <br /> -->
                                             <span class="ttd-color">Temple Hours &amp; Seva Schedule</span>
                                         </h1>
                                         <p data-animation="animated bounceInUp" class="" style="
@@ -297,79 +296,71 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>Tirumala Darshan Timings</h3>
+                        <h2>Tirumala Darshan Timings</h2>
                         <br />
-                        <p>The darshan timings at Tirumala are dynamic and can change based on the daily rituals, weekly
-                            sevas, and special festivals. However, here is a general schedule for the main types of
-                            darshan. It's always best to check the official Tirumala Tirupati Devasthanams (TTD) website
-                            for the most accurate and up-to-date schedule.</p>
+                        <p>Darshan and seva schedules at Tirumala can change based on daily rituals, festivals, crowd
+                            conditions and TTD operational requirements. The time printed on the official ticket or the
+                            latest <a href="https://www.tirumala.org/" target="_blank" rel="noopener">TTD announcement</a>
+                            always takes priority over this general guidance.</p>
 
-                        <h3>General Temple Timings</h3>
+                        <h2>General Temple Timings</h2>
                         <br />
-                        <p><b>Temple Opening:</b> The temple generally opens around 2:30 AM with the Suprabhata Seva.
-                        </p>
-                        <p><b>Temple Closing:</b> The temple usually closes around 1:30 AM after the Ekantha Seva,
-                            except on Fridays when it may close earlier.</p>
+                        <p><b>Temple Opening:</b> Opening follows the daily TTD ritual schedule and may change.</p>
+                        <p><b>Temple Closing:</b> Closing follows the daily TTD ritual schedule and may change,
+                            including on Fridays and special occasions.</p>
 
-                        <h3>Darshan Timings by Category</h3>
+                        <h2>Darshan Timings by Category</h2>
                         <br />
                         <p><b>Sarva Darshan (Free Darshan):</b></p>
-                        <p class="pl-20">1. Timings for Sarva Darshan can vary significantly depending on the day and
-                            crowd. On a typical day, it might be open from <b>8:30 AM to 7:00 PM</b> and then again from
-                            <b>8:00 PM to 11:30 PM.</b>
-                        </p>
-                        <p class="pl-20">2. On peak days and during festivals, the darshan timings are extended to
-                            accommodate the
-                            large number of pilgrims. The waiting time can be anywhere from a few hours to over 15
-                            hours, especially for those without a time-slot token.</p>
+                        <p class="pl-20">1. Sarva Darshan availability, tokens, queue access and waiting time vary
+                            significantly with the day and crowd. Follow the current TTD token and queue instructions.</p>
+                        <p class="pl-20">2. Peak days and festivals may change queue arrangements and waiting times.
+                            No fixed waiting time is guaranteed.</p>
 
                         <p><b>Special Entry Darshan (₹300 Guidance):</b></p>
-                        <p class="pl-20">1. This darshan is for pilgrims who have booked a ticket online in advance.</p>
-                        <p class="pl-20">2. The timings are specified on your ticket. They are usually allotted in time
-                            slots throughout the day, often from 8:30 AM to 7:00 PM.</p>
-                        <p class="pl-20">3. On some days, there might be evening slots available as well, running up to
-                            10:00 PM.</p>
+                        <p class="pl-20">1. Special Entry Darshan tickets and the applicable charge are released
+                            through current TTD booking arrangements.</p>
+                        <p class="pl-20">2. The reporting and entry time printed on the official ticket controls. Do
+                            not rely on a fixed daily time range.</p>
+                        <p class="pl-20">3. Quota, slots and booking channels may change; check the current official
+                            TTD portal before travelling.</p>
                         <p><b>Infant Darshan:</b></p>
-                        <p class="pl-20">1. This special darshan for parents with an infant under one year of age is
-                            available from
-                            <b>12:00 PM to 6:00 PM</b> on all days.
-                        </p>
-                        <p class="pl-20">2. You must go to the Supatham Entry Point with the infant's birth certificate
-                            and the
-                            parents' ID proofs.</p>
+                        <p class="pl-20">1. Eligibility, reporting time and entry arrangements for parents with
+                            infants are determined by current TTD instructions.</p>
+                        <p class="pl-20">2. Carry the documents currently requested by TTD and follow the designated
+                            entry-point instructions.</p>
                         <p><b>Senior Citizen and Differently-Abled Darshan:</b></p>
-                        <p class="pl-20">1. Special slots are available for these pilgrims.</p>
-                        <p class="pl-20">2. Timings are typically at <b>10:00 AM and 3:00 PM.</b></p>
-                        <p class="pl-20">3. Advance online booking of the darshan slot is mandatory for this category.
-                        </p>
+                        <p class="pl-20">1. Special slots are released by TTD subject to the current quota and
+                            eligibility rules.</p>
+                        <p class="pl-20">2. The current TTD category page lists a 3:00 PM Monday–Saturday schedule;
+                            verify the live page and ticket before travelling.</p>
+                        <p class="pl-20">3. Use the official TTD online portal when advance booking is required.</p>
 
                         <p><b>NRI Darshan:</b></p>
-                        <p class="pl-20">1. NRIs and foreign nationals can avail of a special entry from 12:00 PM to
-                            6:00 PM at the Supatham Entry Point.</p>
-                        <p class="pl-20">2. You must present your valid passport with an Indian visa or OCI card showing
-                            your arrival date in India within the last 30 days.</p>
+                        <p class="pl-20">1. NRI and foreign-national eligibility, reporting location and timing are
+                            determined by current TTD instructions.</p>
+                        <p class="pl-20">2. Carry the passport, visa, OCI and other documents currently requested by
+                            TTD. Confirm any arrival-date condition before travelling.</p>
 
                         <p><b>Divya Darshan (for Pilgrims on Foot):</b></p>
                         <p class="pl-20">1. This darshan is for devotees who walk up the hills via the Alipiri or
                             Srivari Mettu
                             footpaths.</p>
-                        <p class="pl-20">2. Tokens are issued along the way, granting them access to a faster darshan
-                            queue.</p>
-                        <p class="pl-20">3. The darshan timings for this category are generally aligned with the Sarva
-                            Darshan
-                            timings.</p>
+                        <p class="pl-20">2. Tokens and queue access are subject to the current TTD route and token
+                            instructions.</p>
+                        <p class="pl-20">3. Follow the time and queue instructions printed on the token or stated by
+                            TTD.</p>
 
-                        <h3>Seva Timings (Specific to the Seva)</h3>
+                        <h2>Seva Timings (Specific to the Seva)</h2>
                         <br />
-                        <p><b>1. Suprabhatam:</b> This first ritual of the day is performed from <b>2:30 AM to 3:00
-                                AM.</b></p>
-                        <p><b>2. Kalyanotsavam:</b> This ritual is generally performed from <b>12:00 PM to 5:00 PM.</b>
-                        </p>
-                        <p><b>3. Sahasra Deepalankara Seva:</b> This seva is held from <b>5:30 PM to 6:30 PM.</b></p>
-                        <p><b>4. Ekantha Seva:</b> This final ritual of the day is performed around <b>12:00 AM.</b></p>
-                        <p><b>Note:</b> The timings mentioned above are a general guideline. For the most precise and
-                            current schedule, especially during festivals like Brahmotsavam or on special occasions, it
-                            is highly recommended to check the TTD official website.</p>
+                        <p><b>1. Suprabhatam:</b> The schedule is set by TTD and may change.</p>
+                        <p><b>2. Kalyanotsavam:</b> Check the current TTD seva schedule for the applicable time.</p>
+                        <p><b>3. Sahasra Deepalankara Seva:</b> Check the current TTD seva schedule for the applicable
+                            time.</p>
+                        <p><b>4. Ekantha Seva:</b> The schedule is set by TTD and may change.</p>
+                        <p><b>Note:</b> Darshan and seva schedules may change based on TTD operational requirements,
+                            festivals, crowd conditions and official announcements. The reporting time printed on the
+                            official ticket or current TTD instructions takes priority.</p>
 
                     </div>
                 </div>

@@ -298,72 +298,69 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
                         <!-- <h4>Divine Experience for NRI'S in Tirumala</h4> -->
-                        <h3>how to book tirupati senior citizens booking</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">How to Book Tirupati Senior Citizen Darshan</h2>
                         <br />
-                        <p>Booking darshan tickets for senior citizens at Tirupati is done exclusively online through
-                            the official Tirumala Tirupati Devasthanams (TTD) website. This special darshan, also known
-                            as "Privilege Darshan," is for devotees aged 65 and above and is designed to provide a more
-                            comfortable and less crowded experience.</p>
+                        <p>Booking this category of darshan is handled through the official Tirumala Tirupati
+                            Devasthanams (TTD) portal. TTD's current guidance states that a senior citizen must have
+                            completed 65 years of age. Quota, eligibility and access remain subject to TTD.</p>
                         <p>Here is a step-by-step guide to the booking process, based on the information available from
                             TTD:</p>
-                        <p><b>Step 1: Access the Official TTD Website</b></p>
-                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp; The first and most crucial step is to
-                            go to the official TTD website: https://tirupatibalaji.ap.gov.in/ or its online services
-                            portal.</p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Step 1: Access the Official TTD Website</h3>
+                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp; Use the official TTD online
+                            services portal: https://ttdevasthanams.ap.gov.in/.</p>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;<b>Important:</b> Avoid third-party
                             websites and travel agents that claim to book these tickets.
                             The official TTD website is the only authorized platform.</p>
-                        <p><b>Step 2: Register or Log In</b></p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Step 2: Register or Log In</h3>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;You will need to have a registered
                             account on the TTD website.</p>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;If you don't have one, you'll need to
                             register using a mobile number and an OTP (One-Time Password) for verification.</p>
-                        <p><b>Step 3: Check for Quota Release</b></p>
-                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;The senior citizen darshan quota is
-                            released online for a specific month on a particular date. TTD usually announces these dates
-                            in advance.</p>
-                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;The number of tickets is limited
-                            (e.g., 1000 tickets per day).</p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Step 3: Check for Quota Release</h3>
+                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;The quota is released online by TTD
+                            according to its current announcement and booking schedule.</p>
+                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;The current TTD guidance reports a
+                            quota of 1,000 per day, but availability can change.</p>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;You must book the tickets on a
                             "first-come, first-served" basis when the quota is released.</p>
-                        <p><b>Step 4: Select the Darshan Date and Time</b></p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Step 4: Select the Darshan Date and Time</h3>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;Once logged in, navigate to the
                             "Special Darshan for Physically Disabled and Aged" section under Pilgrim Services.</p>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;Select the desired date for your
                             darshan. Available dates will be highlighted.</p>
-                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;Choose a time slot. There are
-                            typically two daily slots:</p>
-                        <p class="pl-50"><b>1. Morning slot:</b> Usually around 10:00 AM</p>
-                        <p class="pl-50"><b>2. Afternoon slot:</b> Usually around 3:00 PM</p>
-                        <p><b>Step 5: Fill in Pilgrim Details and Upload Documents</b></p>
+                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;Choose the time shown in the
+                            current TTD booking interface. The current TTD category page lists 3:00 PM Monday–Saturday;
+                            verify the live schedule before travelling.</p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Step 5: Fill in Pilgrim Details and Upload Documents</h3>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;You will need to enter the details of
                             the senior citizen. The age must be 65 years or above.</p>
-                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;You must upload a scanned copy of a
-                            valid government-issued photo ID (such as an Aadhaar Card, Passport, or Voter ID) as proof
-                            of age.</p>
-                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;If the senior citizen requires an
-                            attendant, their spouse is permitted to accompany them. You will need to provide the
-                            spouse's details and ID proof as well.</p>
-                        <p><b>Step 6: Complete the Booking</b></p>
+                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;The current TTD category page lists
+                            Aadhaar as the mandatory senior-citizen document. Follow the live TTD requirements rather
+                            than assuming alternative IDs will be accepted.</p>
+                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;The current TTD guidance permits the
+                            spouse as attendant where applicable. Follow the live booking instructions for the spouse's
+                            details and documents.</p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Step 6: Complete the Booking</h3>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;After filling in all the required
                             details and uploading the documents, you can complete the booking.</p>
-                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;This darshan is free of cost.</p>
+                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;Any applicable charge or complimentary
+                            component is determined by TTD and should be confirmed in the current booking flow.</p>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;Once the booking is successful, you
                             will receive a confirmation, and you can download the darshan ticket. It's recommended to
                             print this ticket.</p>
 
-                        <p><b>Important Rules and Guidelines</b></p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Important Rules and Guidelines</h3>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;<b>Proof of Age:</b> The original ID
                             proof submitted during the online booking process must be carried on the day of darshan. It
                             will be verified at the entry point.</p>
-                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;<b>Reporting Time:</b> Devotees must
-                            report at the designated Senior Citizen Complex (near the Supatham entrance on South Mada
-                            Street) a couple of hours before their scheduled darshan time.</p>
-                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;<b>Frequency:</b> This special darshan
-                            can be availed only once every 90 days.</p>
-                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;<b>No Offline Booking:</b> There is no
-                            provision for on-the-spot, offline booking of senior citizen darshan tickets. Booking must
-                            be done online in advance.</p>
+                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;<b>Reporting Time:</b> Follow the
+                            reporting location and time printed on the official TTD ticket or stated in the current TTD
+                            notice.</p>
+                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;<b>Frequency:</b> Booking frequency
+                            and rebooking restrictions are subject to the current TTD rules; confirm before making a new
+                            booking.</p>
+                        <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;<b>Booking Channel:</b> Use the
+                            official online TTD portal when the quota is offered. Do not assume offline availability.</p>
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;<b>Special Circumstances:</b> The
                             schedule and availability of this darshan may be subject to change or cancellation during
                             special occasions, festivals, or in cases of a high rush of pilgrims.</p>

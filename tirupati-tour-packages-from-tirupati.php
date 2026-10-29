@@ -297,7 +297,7 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>11, If We Booking Other Temples Packages ?</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Other Temple Package Options from Tirupati</h2>
                         <br />
                         <p>Yes, divinebalajitravels.com offer packages that combine a visit to Tirupati with other
                             famous temples in the region. This is a great way to maximize your pilgrimage and visit
@@ -306,24 +306,24 @@ include './includes/header.php';
 
 
 
-                        <p><b>1. Tirupati and Tiruchanur (Padmavathi Ammavari Temple)</b></p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">1. Tirupati and Tiruchanur (Padmavathi Ammavari Temple)</h3>
                         <p class="pl-20">→ &nbsp;This is the most common combination, as the Sri Padmavathi Ammavari
                             Temple is a must-visit for devotees of Lord Venkateswara. The belief is that a pilgrimage to
                             Tirupati is incomplete without visiting the temple of his consort, Goddess Padmavathi.</p>
-                        <p><b>2. Tirupati and Srikalahasti</b></p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">2. Tirupati and Srikalahasti</h3>
                         <p class="pl-20">→ &nbsp;he Srikalahasti Temple is a renowned Shiva temple known as the "Kailash
                             of the South" and is famous for its Rahu-Ketu puja. It is located about a 1.5 to 2-hour
                             drive from Tirupati.</p>
-                        <p><b>3. Tirupati and Vellore Golden Temple</b></p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">3. Tirupati and Vellore Golden Temple</h3>
                         <p class="pl-20">→ &nbsp;The Sripuram Golden Temple, located in Vellore, is a spectacular temple
                             dedicated to Goddess Lakshmi and is known for its intricate golden architecture. It is about
                             a 2-hour drive from Tirupati.</p>
-                        <p><b>4. Tirupati and Kanchipuram</b></p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">4. Tirupati and Kanchipuram</h3>
                         <p class="pl-20">→ &nbsp;Kanchipuram, known as the "City of a Thousand Temples," is a historic
                             pilgrimage site famous for its ancient temples dedicated to both Lord Shiva and Lord Vishnu,
                             such as the Ekambareswarar Temple and Varadaraja Perumal Temple.</p>
 
-                        <p><b>When booking, always confirm the following:</b></p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">When booking, always confirm the following</h3>
                         <p class="pl-20">1. Included Temples: Make sure the package explicitly lists all the temples you
                             wish to visit.</p>
                        <p class="pl-20">2. Darshan Arrangements: Confirm that darshan arrangements for the temples are included in the package.</p>

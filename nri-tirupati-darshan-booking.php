@@ -1,9 +1,52 @@
 <?php
-$pageTitle = "NRI Tirupati Darshan Booking | Special Entry for NRI Devotees";
-$pageDescription = "Book Tirupati darshan for NRI devotees with special entry assistance, airport pickup, hotel stay and complete travel support.";
+$pageTitle = "NRI Tirupati Darshan Travel Support | Divine Balaji Travels";
+$pageDescription = "Plan Tirupati travel as an NRI with airport pickup, hotel options, private transfers and Darshan guidance. Eligibility and availability remain subject to applicable TTD rules.";
 $activeMenu = 'services';
 include './includes/header.php';
 ?>
+<style>
+    /* Keep the existing section-title appearance while using semantic H2s. */
+    .nri-semantic-section-heading {
+        font-size: 30px;
+        font-weight: 800;
+        text-transform: uppercase;
+        padding-top: 20px;
+        position: relative;
+        margin: 0;
+    }
+    .nri-semantic-section-heading::after {
+        content: "";
+        position: absolute;
+        width: 30px;
+        border: 2px solid #f90;
+        border-radius: 2px;
+        left: 0;
+        right: 0;
+        bottom: -8px;
+        margin: 0 auto;
+    }
+    .x_slider_bottom_box_heading {
+        display: inline-block;
+        padding-left: 20px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    .nri-form-heading {
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+        text-transform: uppercase;
+        line-height: 50px;
+    }
+    @media (max-width: 1199px) {
+        .x_slider_bottom_box_heading {
+            padding-left: 0;
+            width: 100%;
+            padding-top: 32px;
+        }
+    }
+</style>
 <!-- hs Slider Start -->
 <div class="slider-area float_left">
     <div id="carousel-example-generic" class="carousel slide" data-interval="false" data-ride="carousel">
@@ -51,7 +94,7 @@ include './includes/header.php';
                                             <div class="x_slider_form_main_wrapper float_left"
                                                 data-animation="animated fadeIn">
                                                 <div class="x_slider_form_heading_wrapper float_left">
-                                                    <h3>Enquire Balaji Darshan Package</h3>
+                                                    <div class="nri-form-heading">Enquire Balaji Darshan Package</div>
                                                 </div>
                                                 <form method="post" action="con_enq.php" novalidate>
                                                     <div class="row">
@@ -186,7 +229,7 @@ include './includes/header.php';
     <div class="container">
         <div class="x_slider_form_main_wrapper float_left">
             <div class="x_slider_form_heading_wrapper float_left">
-                <h3>Enquire Balaji Darshan Package</h3>
+                <div class="nri-form-heading">Enquire Balaji Darshan Package</div>
             </div>
             <div class="row">
                 <div class="col-md-12">
@@ -279,16 +322,16 @@ include './includes/header.php';
 <!-- xs Slider bottom title Start -->
 <div class="x_slider_bottom_title_main_wrapper">
     <div class="x_slider_bottom_box_wrapper"> <i class="flaticon-magnifying-glass"></i>
-        <h3><a href="javascript:void(0);">Plan Your Trip</a></h3>
+        <div class="x_slider_bottom_box_heading"><a href="javascript:void(0);">Plan Your Trip</a></div>
     </div>
     <div class="x_slider_bottom_box_wrapper"> <i class="flaticon-checklist"></i>
-        <h3><a href="javascript:void(0);">Choose a Package</a></h3>
+        <div class="x_slider_bottom_box_heading"><a href="javascript:void(0);">Choose a Package</a></div>
     </div>
     <div class="x_slider_bottom_box_wrapper"> <i class="flaticon-world"></i>
-        <h3><a href="javascript:void(0);">Divine Darshan</a></h3>
+        <div class="x_slider_bottom_box_heading"><a href="javascript:void(0);">Divine Darshan</a></div>
     </div>
     <div class="x_slider_bottom_box_wrapper"> <i class="fa fa-headphones"></i>
-        <h3><a href="javascript:void(0);">24/7 Customer Support</a></h3>
+        <div class="x_slider_bottom_box_heading"><a href="javascript:void(0);">24/7 Customer Support</a></div>
     </div>
 </div>
 
@@ -301,6 +344,8 @@ include './includes/header.php';
         <div class="row">
             <div class="col-md-12" style=" padding-bottom: 20px;">
                 <div class="x_offer_car_heading_wrapper x_offer_car_heading_wrapper_contact float_left">
+
+                    <h2 class="nri-semantic-section-heading">NRI Tirupati Darshan Package Options</h2>
 
                     <h3>Single Day NRI Darshan</h3>
 
@@ -834,53 +879,56 @@ include './includes/header.php';
             <div class="col-md-12">
                 <div class="x_offer_car_heading_wrapper float_left">
                     <h4>Divine Experience for NRI'S in Tirumala</h4>
-                    <h3>Tirumala NRI Darshan Packages</h3>
+                    <h2 class="nri-semantic-section-heading">Tirumala NRI Darshan Packages</h2>
                     <br />
                     <p>Discover the spiritual magnificence of Tirumala with our exclusive "NRI Special Darshan"
                         packages, thoughtfully designed to provide a seamless and soul-enriching temple visit for
                         Non-Resident Indians (NRIs). Reconnect with your spiritual roots and experience the divine
                         grace of Lord Venkateswara through our tailored services.</p>
-                    <p>Our Supadam Entry Darshan for NRIs allows privileged access to the sanctum sanctorum with a
-                        special entry ticket priced at INR 300 per person. There’s no need for advance booking;
-                        simply arrive at the designated counter with valid documents (passport, visa, and OCI card)
-                        for verification. Once cleared, NRIs can proceed for darshan via the Supadam entry gate,
-                        reserved for foreign devotees and NRIs.</p>
-                    <p>This guided, on-the-spot process ensures a smooth experience, enabling you to fully
-                        immerse yourself in the spiritual bliss of Tirumala.</p>
+                    <p>TTD's NRI and Supadam arrangements can change. Eligibility, required documents, applicable
+                        ticket charges and reporting arrangements must be confirmed against the latest official TTD
+                        instructions before travel via the <a href="https://ttdevasthanams.ap.gov.in/" target="_blank"
+                        rel="noopener">official TTD portal</a>. The ₹300 amount commonly associated with Special Entry
+                        Darshan should not be treated as a guaranteed NRI ticket price.</p>
+                    <p>Divine Balaji Travels provides private travel coordination, transport and planning assistance.
+                        We do not issue official TTD tickets and cannot guarantee ticket availability or darshan.</p>
                 </div>
             </div>
 
             <div class="col-md-12 mt-4">
                 <div class="x_offer_car_heading_wrapper float_left">
+                    <h2 class="nri-semantic-section-heading">Tirumala NRI Darshan Guidelines</h2>
                     <h3>Important Guidelines for NRI Darshan</h3>
                     <br />
                     <ul>
                         <li>
                             <p>
-                                → &nbsp; Carry valid passport and visa documents for verification.
+                                → &nbsp; Carry the passport, visa, OCI and other documents currently required by TTD,
+                                where applicable.
                             </p>
                         </li>
                         <li>
                             <p>
-                                → &nbsp; The visa entry date must be within 30 days prior to your Tirumala visit.
+                                → &nbsp; If TTD applies an arrival-date window, officials will verify it from the
+                                immigration record. Confirm the current window before travelling.
                             </p>
                         </li>
                         <li>
                             <p>
-                                → &nbsp; NRI pilgrims are required to fill a form and pay INR 300 per person at the
-                                Supadam counter.
+                                → &nbsp; Complete any form and pay any official charge required by TTD at the
+                                designated counter or portal.
                             </p>
                         </li>
                         <li>
                             <p>
-                                → &nbsp; The facility is strictly for NRIs; friends or relatives who are residents
-                                of India are not permitted.
+                                → &nbsp; Eligibility of accompanying family members is determined by TTD; resident
+                                Indian relatives may not qualify for an NRI-specific arrangement.
                             </p>
                         </li>
                         <li>
                             <p>
-                                → &nbsp; OCI cardholders must present both their OCI card and passport for
-                                verification.
+                                → &nbsp; OCI cardholders should carry the current OCI and passport documents required
+                                by TTD for verification.
                             </p>
                         </li>
                         <li>
@@ -890,7 +938,8 @@ include './includes/header.php';
                         </li>
                         <li>
                             <p>
-                                → &nbsp; Children below 12 years of age are exempt from ticket requirements.
+                                → &nbsp; Children's eligibility and ticket requirements vary by category and must be
+                                confirmed with TTD.
                             </p>
                         </li>
                         <li>
@@ -902,8 +951,9 @@ include './includes/header.php';
                         </li>
                     </ul>
                     <p>
-                        Our dedicated team at Venkateshwara Travels offers complete assistance for NRI pilgrims,
-                        <br /> including transportation, guidance, and customized Tirupati packages.
+                        Our dedicated team at Divine Balaji Travels offers private travel coordination for NRI pilgrims,
+                        <br /> including transportation, guidance and customized Tirupati packages. We do not issue
+                        official TTD tickets.
                     </p>
                 </div>
             </div>
@@ -912,9 +962,9 @@ include './includes/header.php';
                 <div class="x_offer_car_heading_wrapper float_left">
                     <h3>Tirumala NRI Darshan Timings</h3>
                     <br />
-                    <p>The Supadam Entry for NRIs is available daily from 12:00 PM to 6:00 PM. While there is no
-                        exclusive quota, NRIs can benefit from quicker access through the Supadam queue alongside
-                        other privileged categories such as:</p>
+                    <p>Supadam and NRI reporting arrangements are operationally variable. Follow the time and entry
+                        instructions printed on the official TTD ticket or stated in the current TTD notice. Availability,
+                        queue access and waiting time are not guaranteed.</p>
                     <ul>
                         <li>
                             <p>
@@ -938,17 +988,19 @@ include './includes/header.php';
             </div>
             <div class="col-md-12 mt-4">
                 <div class="x_offer_car_heading_wrapper float_left">
+                    <h2 class="nri-semantic-section-heading">NRI Darshan Process</h2>
                     <h3>Step-by-Step NRI Darshan Process</h3>
                     <br />
                     <ul>
                         <li>
                             <p>
-                                1. Report to the Special Darshan Complex at Tirumala for NRI registration.
+                                1. Follow the current TTD instructions for the designated NRI/Supadam reporting point.
                             </p>
                         </li>
                         <li>
                             <p>
-                                2. Complete the NRI darshan form with your personal, passport, and visa details.
+                                2. Complete any NRI form that TTD currently requires with your personal and travel-document
+                                details.
                             </p>
                         </li>
                         <li>
@@ -958,29 +1010,29 @@ include './includes/header.php';
                             <ul>
                                 <li>
                                     <p>
-                                        → &nbsp; Original passport
+                                        → &nbsp; Original passport and any current visa/OCI documents required by TTD
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        → &nbsp; A photocopy of your passport
+                                        → &nbsp; Copies of the documents requested by TTD
                                     </p>
                                 </li>
                             </ul>
                         </li>
                         <li>
                             <p>
-                                4. TTD officials will verify your documents and approve your darshan request.
+                                4. TTD officials will verify your documents and determine eligibility.
                             </p>
                         </li>
                         <li>
                             <p>
-                                5. Once approved, proceed to the designated counter to purchase the darshan ticket.
+                                5. If approved, follow the current TTD instructions for ticket purchase or entry.
                             </p>
                         </li>
                         <li>
                             <p>
-                                6. Complete the process and proceed to the darshan queue through Supadam Entry.
+                                6. Follow the entry and queue instructions issued by TTD for your category.
                             </p>
                         </li>
                     </ul>
@@ -988,7 +1040,7 @@ include './includes/header.php';
             </div>
             <div class="col-md-12 mt-4">
                 <div class="x_offer_car_heading_wrapper float_left">
-                    <h3>Why Choose Us?</h3>
+                    <h2 class="nri-semantic-section-heading">Why Choose Divine Balaji Travels</h2>
                     <br />
                     <p>At Divine Balaji Travels, we aim to provide a smooth and spiritually uplifting
 experience for NRIs visiting Tirumala. Our services include:</p>
@@ -1017,15 +1069,15 @@ experience for NRIs visiting Tirumala. Our services include:</p>
             </div>
             <div class="col-md-12 mt-4">
                 <div class="x_offer_car_heading_wrapper float_left">
-                    <h3>Frequently Asked Questions (FAQ's)</h3>
+                    <h2 class="nri-semantic-section-heading">Frequently Asked Questions</h2>
                     <br />
 
                     <div class="nri-faq-accordion">
                         <div class="nri-faq-item is-open">
                             <h4><button type="button" class="nri-faq-trigger" aria-expanded="true" aria-controls="nri-faq-panel-1" id="nri-faq-header-1">1. Who is eligible for NRI darshan at Tirumala?</button></h4>
                             <div id="nri-faq-panel-1" class="nri-faq-panel" role="region" aria-labelledby="nri-faq-header-1">
-                                <p>Only Non-Resident Indians (NRIs) and OCI cardholders are eligible for NRI darshan. Valid
-                                    documents like a passport, visa, and OCI card must be presented.</p>
+                                <p>Eligibility is determined by TTD. NRIs, foreign nationals and OCI cardholders should
+                                    present the current documents required by TTD for verification.</p>
                             </div>
                         </div>
 
@@ -1033,8 +1085,8 @@ experience for NRIs visiting Tirumala. Our services include:</p>
                             <h4><button type="button" class="nri-faq-trigger" aria-expanded="false" aria-controls="nri-faq-panel-2" id="nri-faq-header-2">2. Is prior booking required for NRI
                                 Darshan?</button></h4>
                             <div id="nri-faq-panel-2" class="nri-faq-panel" role="region" aria-labelledby="nri-faq-header-2" aria-hidden="true">
-                                <p>No, prior booking is not required. Tickets can be purchased on the spot at the Supadam
-                                    entry counter after verification.</p>
+                                <p>Advance booking and counter availability vary by TTD category and date. Follow the
+                                    current official TTD instructions before travelling.</p>
                             </div>
                         </div>
 
@@ -1042,7 +1094,8 @@ experience for NRIs visiting Tirumala. Our services include:</p>
                             <h4><button type="button" class="nri-faq-trigger" aria-expanded="false" aria-controls="nri-faq-panel-3" id="nri-faq-header-3">What is the cost of the NRI Darshan
                                 ticket?</button></h4>
                             <div id="nri-faq-panel-3" class="nri-faq-panel" role="region" aria-labelledby="nri-faq-header-3" aria-hidden="true">
-                                <p>The ticket costs INR 300 per person.</p>
+                                <p>Check the current official TTD portal for the applicable ticket charge. Do not rely on
+                                    a fixed amount on this page.</p>
                             </div>
                         </div>
 
@@ -1050,8 +1103,8 @@ experience for NRIs visiting Tirumala. Our services include:</p>
                             <h4><button type="button" class="nri-faq-trigger" aria-expanded="false" aria-controls="nri-faq-panel-4" id="nri-faq-header-4">4. Can friends or family accompany NRIs for
                                 the darshan?</button></h4>
                             <div id="nri-faq-panel-4" class="nri-faq-panel" role="region" aria-labelledby="nri-faq-header-4" aria-hidden="true">
-                                <p>No, the facility is strictly for NRIs. Friends or relatives residing in India are not
-                                    permitted.</p>
+                                <p>Accompanying-family eligibility is decided by TTD for the applicable category. Confirm
+                                    the current rule before travelling.</p>
                             </div>
                         </div>
 
@@ -1059,7 +1112,8 @@ experience for NRIs visiting Tirumala. Our services include:</p>
                             <h4><button type="button" class="nri-faq-trigger" aria-expanded="false" aria-controls="nri-faq-panel-5" id="nri-faq-header-5">5. What are the NRI darshan
                                 timings?</button></h4>
                             <div id="nri-faq-panel-5" class="nri-faq-panel" role="region" aria-labelledby="nri-faq-header-5" aria-hidden="true">
-                                <p>NRI Darshan via Supadam Entry is available daily from 12:00 PM to 6:00 PM.</p>
+                                <p>Follow the reporting time printed on the official TTD ticket or stated in the current
+                                    TTD notice. Timings can change.</p>
                             </div>
                         </div>
 
@@ -1067,7 +1121,8 @@ experience for NRIs visiting Tirumala. Our services include:</p>
                             <h4><button type="button" class="nri-faq-trigger" aria-expanded="false" aria-controls="nri-faq-panel-6" id="nri-faq-header-6">6. Are children allowed for NRI
                                 darshan?</button></h4>
                             <div id="nri-faq-panel-6" class="nri-faq-panel" role="region" aria-labelledby="nri-faq-header-6" aria-hidden="true">
-                                <p>Yes, children below 12 years of age are exempt from ticket requirements.</p>
+                                <p>Children's eligibility and ticket requirements vary by category. Confirm the current
+                                    rule directly with TTD.</p>
                             </div>
                         </div>
 
@@ -1075,8 +1130,8 @@ experience for NRIs visiting Tirumala. Our services include:</p>
                             <h4><button type="button" class="nri-faq-trigger" aria-expanded="false" aria-controls="nri-faq-panel-7" id="nri-faq-header-7">7. What documents are required for the
                                 darshan?</button></h4>
                             <div id="nri-faq-panel-7" class="nri-faq-panel" role="region" aria-labelledby="nri-faq-header-7" aria-hidden="true">
-                                <p>NRIs must carry a valid passport, visa, and OCI card (if applicable). Additional ID
-                                    proofs are recommended for verification.</p>
+                                <p>Carry the passport, visa, OCI and any other documents currently requested by TTD.
+                                    Requirements must be confirmed before travel.</p>
                             </div>
                         </div>
                     </div>
@@ -1117,7 +1172,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="col-md-12">
                 <div class="x_offer_car_heading_wrapper float_left">
                     <h4>Testimonials</h4>
-                    <h3>Top Reviews</h3>
+                    <h2 class="nri-semantic-section-heading">Reviews from NRI Devotees</h2>
                     <p style="text-align: center !important;">We have more than 10,000 + Happy Customers to Serve a
                         Service for all Devotees </p><br>
                 </div>

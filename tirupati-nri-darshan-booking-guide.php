@@ -9,7 +9,7 @@ $pageTitle = 'Tirupati NRI Visit Guide | Eligibility, Documents & Travel Info';
 $pageDescription = 'Tirupati NRI visit guide covering eligibility, documents, travel information, entry procedures and planning tips for foreign passport holders.';
 $pageCanonical = 'https://www.divinebalajitravels.com/tirupati-nri-darshan-booking-guide.php';
 $activeMenu = null;
-$includeDefaultSchema = false;
+$includeDefaultSchema = true;
 $extraHeadLinks = <<<'HTML'
      <!-- ✅ Google Font  -->
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -36,19 +36,6 @@ $extraHeadLinks = <<<'HTML'
 <link rel="preload" href="assets/css/legacy/shared-enquiry-form.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="assets/css/legacy/shared-enquiry-form.css"></noscript>
 
-    <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Divine Balaji Travels",
-        "url": "https://www.divinebalajitravels.com/",
-        "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg",
-        "sameAs": [
-        "https://wa.me/919994751079"
-        ]
-        }
-    </script>
-    
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -144,9 +131,7 @@ $extraHeadLinks = <<<'HTML'
     "name": "Tirupati Visit Information"
   },
   "publisher": {
-    "@type": "Organization",
-    "name": "Divine Balaji Travels",
-    "url": "https://www.divinebalajitravels.com/"
+    "@id": "https://www.divinebalajitravels.com/#travelagency"
   }
 }
 </script>

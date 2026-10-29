@@ -297,22 +297,23 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>Special Darshan Guidance</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Special Darshan Guidance</h2>
                         <br />
-                        <p style="font-weight: 600;">How To Book Special Entry Darshan?</p>
+                        <h2 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px">How To Book Special Entry Darshan?</h2>
                         <p>Special Entry Darshan, also known as Seeghra Darshan (meaning "quick darshan"), is a popular
-                            and convenient option for pilgrims visiting Tirumala. The ticket for this darshan costs ₹300
-                            per person and is primarily booked online. Here's a detailed guide on how to book it.</p>
-                        <p style="font-weight: 600; "><b>Online Booking is the Primary Method</b></p>
-                        <p>The Tirumala Tirupati Devasthanams (TTD) has moved almost entirely to an online system for
-                            booking Special Entry Darshan tickets. There are very limited to no offline counters for
-                            this category, so online booking is highly recommended.</p>
+                            option for pilgrims visiting Tirumala. TTD notices checked in 2026 reference a ₹300 ticket;
+                            current price, availability and eligibility are controlled by TTD and must be confirmed on the
+                            official portal. Here's a general guide to the current booking process.</p>
+                        <h2 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px">Online Booking is the Primary Method</h2>
+                        <p>The Tirumala Tirupati Devasthanams (TTD) commonly publishes Special Entry Darshan availability
+                            online. Booking channels and any offline counters can change by date and official notice, so
+                            use the current TTD portal and do not assume a permanent online-only process.</p>
                     </div>
                 </div>
 
                 <div class="col-md-12 mt-4">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <h3>Steps for Online Booking:</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Steps for Online Booking</h2>
                         <br />
                         <p><span style="font-weight: 600;">1. Visit the Official Website:</span> Go to the official TTD
                             website or booking portal. It's crucial to use only the official site to avoid fraudulent
@@ -349,8 +350,8 @@ include './includes/header.php';
                                     → &nbsp; You will be redirected to the availability page for Special Entry Darshan.
                                 </p>
                                 <p class="pl-20">
-                                    → &nbsp; The tickets are released in a monthly quota, usually 60 to 90 days in
-                                    advance.
+                                    → &nbsp; Quota release dates and advance-booking windows vary by TTD notice. Do not
+                                    rely on a fixed 60–90 day promise; check the official portal for your travel date.
                                 </p>
                                 <p class="pl-20">
                                     → &nbsp; Availability is limited and tickets sell out very quickly, often within
@@ -366,19 +367,21 @@ include './includes/header.php';
                         <ul>
                             <li>
                                 <p class="pl-20">
-                                    → &nbsp; You can book tickets for a maximum of 6 people in a single transaction.
+                                    → &nbsp; The booking interface and current TTD notice determine the maximum number of
+                                    pilgrims in one transaction; follow the limit shown for your booking.
                                 </p>
                                 <p class="pl-20">
                                     → &nbsp; Enter the details of each pilgrim:
 
                                 </p>
                                 <p class="pl-50 fw-600">
-                                    1.Full Name <br />2.Age<br />3.Gender<br />4.Valid Photo ID proof (Aadhaar Card,
-                                    Voter ID, or Passport for NRIs). Aadhaar is the most commonly used and preferred ID.
+                                    1.Full Name <br />2.Age<br />3.Gender<br />4.Valid photo ID proof accepted by the
+                                    current TTD booking instructions. NRIs should follow the document options shown in
+                                    the official portal.
                                 </p>
                                 <p class="pl-20">
-                                    → &nbsp; Children below 12 years of age do not require a ticket but must carry age
-                                    proof (like a birth certificate or school ID).
+                                    → &nbsp; Ticket and age requirements for children are determined by the current TTD
+                                    booking instructions; carry any age proof requested in the official notice.
                                 </p>
                             </li>
                         </ul>
@@ -389,7 +392,8 @@ include './includes/header.php';
                                     → &nbsp; Review all the details you have entered.
                                 </p>
                                 <p class="pl-20">
-                                    → &nbsp; Proceed to the payment page. The cost is ₹300 per person.
+                                    → &nbsp; Proceed to the payment page. TTD notices checked in 2026 reference ₹300 per
+                                    person, but confirm the current amount before payment.
 
                                 </p>
                                 <p class="pl-20">
@@ -415,9 +419,10 @@ include './includes/header.php';
                                 </p>
                             </li>
                         </ul>
-                        <p><span style="font-weight: 600;">Offline/Current Booking (Limited Availability) – Not
-                                Available at the Moment</span> </p>
-                        <p><span style="font-weight: 600;">Important Notes and Guidelines</span></p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Offline/Current Booking (Availability Varies)</h3>
+                        <p>Current-booking counters, if any, are announced by TTD for particular dates and quotas. Check
+                            the applicable official notice; availability is not guaranteed.</p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;text-transform:none">Important Notes and Guidelines</h3>
                         <ul>
                             <li>
                                 <p class="pl-20">
@@ -431,17 +436,16 @@ include './includes/header.php';
                                     half-saree, or chudidhar with a dupatta.
                                 </p>
                                 <p class="pl-20">
-                                    <span style="font-weight: 600;">3.Reporting Time and Location:</span> Your ticket
-                                    will specify the reporting time and location (usually the ATC parking area in
-                                    Tirumala). You must report on time, and you will not be allowed to enter the queue
-                                    more than one hour after your designated time slot.
+                                    <span style="font-weight: 600;">3.Reporting Time and Location:</span> Follow the
+                                    reporting time and location printed on your current TTD ticket or notice. Entry is
+                                    controlled at the allotted time; do not rely on a fixed location or grace period.
                                 </p>
                             </li>
                         </ul>
-                        <p style="padding-bottom: 30px;"><span style="font-weight: 600;">Laddu Prasadam:</span> Each
-                            Special Entry Darshan ticket
-                            entitles you to a specific number of free laddus, and you can purchase additional laddus if
-                            needed.</p>
+                        <h3 style="display:block;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 10px;padding-bottom:30px;text-transform:none">Laddu Prasadam</h3>
+                        <p>Any prasadam or laddu entitlement is governed by the current Special Entry Darshan ticket
+                            terms. Check the official booking confirmation for what is included and whether additional
+                            laddus may be purchased.</p>
 
                     </div>
                 </div>

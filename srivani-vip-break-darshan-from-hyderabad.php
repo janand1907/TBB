@@ -42,8 +42,9 @@ $extraHeadLinks = <<<'HTML'
 {
   "@context": "https://schema.org",
   "@type": "TravelAgency",
+  "@id": "https://www.divinebalajitravels.com/#travelagency",
   "name": "Divine Balaji Travels",
-  "url": "https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-hyderabad.php",
+  "url": "https://www.divinebalajitravels.com/",
   "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg",
   "description": "Tirupati travel package from Hyderabad with pickup support, hotel stay options, private transport and trip planning for Indian and international travellers.",
   "areaServed": [
@@ -132,10 +133,7 @@ $extraHeadLinks = <<<'HTML'
   "@type": "Service",
   "name": "Hyderabad to Tirupati Travel Package",
   "provider": {
-    "@type": "TravelAgency",
-    "name": "Divine Balaji Travels",
-    "url": "https://www.divinebalajitravels.com/srivani-vip-break-darshan-from-hyderabad.php",
-    "logo": "https://www.divinebalajitravels.com/assets/images/logo/logo.jpg"
+    "@id": "https://www.divinebalajitravels.com/#travelagency"
   },
   "areaServed": [
     {
@@ -425,9 +423,9 @@ include 'includes/header.php';
       <div class="tt-feature-icon">
         <i class="fa-solid fa-globe"></i>
       </div>
-      <h3 class="tt-feature-title">
+      <div class="tt-feature-title">
         Suitable for International Travellers
-      </h3>
+      </div>
     </div>
 
     <div class="tt-feature-item">
@@ -658,6 +656,10 @@ include 'includes/header.php';
       </p>
 
       <p class="svb-darshan-unique-text">
+        <strong>Owner-confirmed Srivani reference breakdown:</strong> ₹10,000 Srivani Trust donation + ₹500 darshan ticket = ₹10,500 combined TTD reference. These amounts are separate from any private Divine Balaji Travels travel, transport, hotel or service charges and must be checked against the current official TTD portal before payment.
+      </p>
+
+      <p class="svb-darshan-unique-text">
         Temple schedules, tickets and eligibility are managed only through official authorities.
       </p>
 
@@ -867,11 +869,11 @@ include 'includes/header.php';
 
         <div class="svb-darshan-block svb-darshan-block-2">
           <ul>
-            <li>📝 <strong>Booking Process:</strong> Tickets are issued online at 9:00 AM every day on a trial basis. ⚠️ Offline tickets are no longer available.</li>
-            <li>⏰ <strong>Darshan Timings:</strong> Darshan is scheduled at 4:00 PM on the same day. The entire process usually takes about 45 minutes to 1 hour.</li>
-            <li>❌ <strong>Unsuccessful Bookings:</strong> If a ticket cannot be redeemed, your ₹10,500 darshan fee remains in the online portal. You can choose to view the darshan on the following day.</li>
-            <li>🌏 <strong>NRI/Non-NRI Alternatives:</strong> If returning same day without VIP ticket: NRI visitors can use ₹300/- Darshan; Non-NRI visitors use SSD early next morning.</li>
-            <li>💰 <strong>Refund Policy:</strong> The ₹10,500 total darshan fee is strictly non-refundable. Your payment is valid for one year and can be used for darshan at any time within this period.</li>
+            <li>📝 <strong>Booking Process:</strong> TTD releases Srivani quota and booking instructions through its official channels. Release times, counters, eligibility and availability are subject to current dated notices.</li>
+            <li>⏰ <strong>Darshan Timings:</strong> Follow the date, time and reporting point printed on the current TTD ticket or notice; no permanent same-day timing is guaranteed.</li>
+            <li>❌ <strong>Unsuccessful Bookings:</strong> If a booking cannot be redeemed, ticket validity, rebooking and refund treatment are determined by the current TTD terms. Do not assume that the combined reference amount can be carried forward.</li>
+            <li>🌏 <strong>NRI/Non-NRI Alternatives:</strong> Alternative darshan categories, prices and eligibility vary by current TTD instructions. Confirm any ₹300 Special Entry or Sarva Darshan option directly with TTD for the travel date.</li>
+            <li>💰 <strong>Refund Policy:</strong> TTD donation and darshan-ticket refund or validity rules are controlled by the current official terms. Private travel or service charges, if any, follow the written quotation.</li>
             <li style="color:rgb(164, 33, 33)">🛎️ <strong style="color:rgb(164, 33, 33)">Booking Assistance:</strong> We can process the payment and book the ticket on your behalf as a service, for which service charges apply. Alternatively, you may choose to handle the booking yourself at your own risk.</li>
           </ul>
         </div>
@@ -1306,7 +1308,6 @@ include 'includes/header.php';
   <?php 
   include 'includes/footer.php'; 
   ?>
-
 
 
 

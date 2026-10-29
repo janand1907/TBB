@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Pallikondeswara Swamy Temple, Surutapalli | Darshan Package";
-$pageDescription = "Visit Pallikondeswara Swamy Temple in Surutapalli with a private darshan tour package including car travel and trip planning.";
+$pageTitle = "Pallikondeswara Temple Timings & Surutapalli Guide";
+$pageDescription = "Plan a visit to Pallikondeswara Swamy Temple in Surutapalli with general timings, location, route guidance and visitor information. Confirm current details before travel.";
 $activeMenu = 'temples';
 include './includes/header.php';
 ?>
@@ -297,7 +297,7 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>Pallikondeswara Swamy Temple - Surutapalli</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Pallikondeswara Swamy Temple - Surutapalli</h2>
                         <br />
                         <p>The Pallikondeswara Swamy Temple in Surutapalli is a unique and significant Hindu temple
                             dedicated to Lord Shiva. It is located in the Chittoor district of Andhra Pradesh, on the
@@ -308,7 +308,7 @@ include './includes/header.php';
 
                 <div class="col-md-12 mt-4">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <h3>History and Significance</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">History and Significance</h2>
                     </div>
                 </div>
 
@@ -353,8 +353,7 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Temple Timings</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Temple Timings</h2>
                         <p>The temple is generally open for darshan throughout the day, with a brief break in the
                             afternoon. The timings are approximately:</p>
 
@@ -364,8 +363,7 @@ include './includes/header.php';
                         </p>
                         <p>Note: The timings may vary on special occasions and during festivals.</p>
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Getting There</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Getting There</h2>
                         <p>The temple is located in Surutapalli, a village that is easily accessible from both Andhra
                             Pradesh and Tamil Nadu.</p>
 
@@ -381,6 +379,7 @@ include './includes/header.php';
                             Chennai International Airport (MAA) are the closest airports.</p>
                         <p>The temple attracts a large number of devotees, particularly on Thursdays and Pradosha days.
                         </p>
+                        <p>For private travel planning, compare the <a href="tirupati-vip-darshan-packages">Tirupati VIP Darshan packages</a> or <a href="tirupati-tour-packages-from-tirupati.php">local Tirupati temple tours</a> and request a quotation for your dates and group size.</p>
 
                     </div>
                 </div>

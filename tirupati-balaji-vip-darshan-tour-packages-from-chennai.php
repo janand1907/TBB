@@ -5,11 +5,11 @@ ob_start();
 // instead of being silently discarded or shown to visitors.
 error_reporting(E_ALL);
 require_once __DIR__ . '/includes/error-log-config.php';
-$pageTitle = 'Tirupati Balaji VIP Darshan Tour Packages from Chennai';
-$pageDescription = 'Tirupati Balaji VIP Darshan tour packages from Chennai with private car travel, pickup, hotel stay options and smooth pilgrimage trip support for devotees.';
+$pageTitle = 'Tirupati Tour Packages from Chennai | Divine Balaji Travels';
+$pageDescription = 'Explore Chennai to Tirupati tour options with private transport, pickup and itinerary support. Divine Balaji Travels is independent; TTD controls Darshan ticket pricing, eligibility, booking and availability.';
 $pageCanonical = 'https://www.divinebalajitravels.com/tirupati-balaji-vip-darshan-tour-packages-from-chennai.php';
 $activeMenu = null;
-$includeDefaultSchema = false;
+$includeDefaultSchema = true;
 $extraHeadLinks = <<<'HTML'
      <!-- ✅ Google Font  -->
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -36,40 +36,6 @@ $extraHeadLinks = <<<'HTML'
 <link rel="preload" href="assets/css/legacy/shared-enquiry-form.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="assets/css/legacy/shared-enquiry-form.css"></noscript>
 
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "TravelAgency",
-            "name": "Tirupati Balaji Travels",
-            "image": "https://divinebalajitravels.com/assets/images/logo/logo.jpg",
-            "@id": "https://divinebalajitravels.com",
-            "url": "https://divinebalajitravels.com/tirupati-balaji-vip-darshan-tour-packages-from-chennai.php",
-            "telephone": "+91-99947-51079",
-            "priceRange": "5000",
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "",
-                "addressLocality": "Chennai",
-                "postalCode": "600042",
-                "addressCountry": "IN"
-            },
-            "openingHoursSpecification": {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                ],
-                "opens": "00:00",
-                "closes": "23:59"
-            }
-        }
-    </script>
-
   
 HTML;
 include 'includes/header.php';
@@ -93,9 +59,8 @@ include 'includes/header.php';
                         <div class="row">
                             <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div class="content">
-                                    <h1 class="TTDtitle" data-animation="animated fadeInLeft">BEST TIRUPATI PACKAGE
-                                        FROM CHENNAI -
-                                        <span class="ttd-color">TIRUMALA TIRUPATI BALAJI DARSHAN </span>PACKAGE
+                                    <h1 class="TTDtitle" data-animation="animated fadeInLeft">Tirupati Tour Packages
+                                        <span class="ttd-color">from Chennai</span>
                                     </h1>
                                     <p data-animation="animated bounceInUp" class="" style="
     color: #ff2a2d;
@@ -105,7 +70,7 @@ include 'includes/header.php';
     border: 2px solid #ff9900;
     padding: 10px;
     font-size: 18px;
-">Chennai's Best Balaji Darshan Tour Packages More than 10,000 + Happy Customers <span></span>
+">Divine Balaji Travels is an independent travel operator providing trip-planning support and private travel from Chennai. TTD controls Darshan ticket pricing, booking, eligibility and availability. The ₹300 ticket references elsewhere on this page do not confirm current TTD pricing or ticket availability; verify current terms through official TTD channels. <span></span>
                                     </p>
                                     <div class="hs_effect_btn">
                                         <ul>
@@ -610,8 +575,8 @@ your desired destination</h2>
 </p>
                 <p
                     style="padding-top: 40px; padding-top: 10px;text-align: justify !important;color: #000;line-height: 2;">
-                    We Operate Daily Balaji Assured <strong> One Day Chennai To Tirupati Packages</strong>. Our
-                    Special Individual Packages are given below</p>
+                    Explore our <strong>one-day Chennai to Tirupati package</strong> options. Confirm the current
+                    itinerary, travel services and package inclusions with Divine Balaji Travels before booking.</p>
                 <ul class="listss">
                     <li><a href="https://divinebalajitravels.com"><strong>1. Early Morning Around 5.00 to 5.30 Am
                                 Door Step Boarding Point At Chennai Circle</strong></a></li>
@@ -1628,7 +1593,7 @@ Chennai To Tirupati dharshan packages">
 <!--<section class="feat">
         <div class="container-fluid">
             <div class="row">
-                <h2>Some Features that Made us Unique at Tirupati Balaji Booking</h2>
+                <h2>Features That Make Our Tirupati Package Service Unique</h2>
             </div>
             <div class="row">
                 <div class="col-md-3">

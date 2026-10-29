@@ -297,7 +297,7 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>Sri Prasanna Venkateswara Temple</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Sri Prasanna Venkateswara Temple</h2>
                         <br />
                         <p>The Sri Prasanna Venkateswara Swamy Temple is a significant and historically rich temple
                             located in the village of Appalayagunta, near Tirupati. It is managed by the Tirumala
@@ -308,7 +308,7 @@ include './includes/header.php';
 
                 <div class="col-md-12 mt-4">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <h3>History and Significance</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">History and Significance</h2>
                     </div>
                 </div>
                 <div class="col-md-6 mt-4">
@@ -344,8 +344,7 @@ include './includes/header.php';
             <div class="row">
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Temple Timings</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Temple Timings</h2>
                         <p>The temple is generally open for darshan from morning until evening, with a brief break in
                             the afternoon. The timings can vary, but a general schedule is:</p>
 
@@ -364,8 +363,7 @@ include './includes/header.php';
                         <p class="pl-20"><i class="fa fa-hand-o-right"></i> &nbsp;<b>Temple Closing: 8:00 PM</b>
                         </p>
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Getting There</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Getting There</h2>
 
                         <p>The Sri Prasanna Venkateswara Swamy Temple is located in Appalayagunta, approximately 16 to
                             18 km from Tirupati city.</p>
@@ -385,8 +383,7 @@ include './includes/header.php';
                         <p class="pl-20"><b> → &nbsp; By Air:</b> The nearest airport is Tirupati Airport (TIR).</p>
 
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Important Festivals</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Important Festivals</h2>
 
                         <p>The temple celebrates several festivals throughout the year, with the most significant being
                             the annual Brahmotsavam and Teppotsavam (Float Festival). Other important events include

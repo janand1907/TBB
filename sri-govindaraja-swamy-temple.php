@@ -297,7 +297,7 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>Sri Govindaraja Swamy Temple</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Sri Govindaraja Swamy Temple</h2>
                         <br />
                         <p>The Sri Govindaraja Swamy Temple is a prominent and historically significant temple located
                             in the heart of Tirupati, Andhra Pradesh, India. It's an essential part of a pilgrimage to
@@ -308,7 +308,7 @@ include './includes/header.php';
 
                 <div class="col-md-12 mt-4">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <h3>History and Significance</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">History and Significance</h2>
                     </div>
                 </div>
 
@@ -349,8 +349,7 @@ include './includes/header.php';
             <div class="row">
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Darshan and Seva Timings</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Darshan and Seva Timings</h2>
                         <p>The temple generally opens in the morning and closes at night. The timings for darshan and
                             various sevas can be found on the TTD's official website. While timings can be subject to
                             change on festival days, a general schedule is as follows:</p>
@@ -370,8 +369,7 @@ include './includes/header.php';
                             the day.</p>
 
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Getting There</b>
-                        </p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Getting There</h2>
                         <p>The Sri Govindaraja Swamy Temple is located very close to the Tirupati railway and bus
                             stations, making it easily accessible for pilgrims.</p>
 
@@ -387,7 +385,7 @@ include './includes/header.php';
                             Tirupati to reach the temple.</p>
 
 
-                        <p><b style="border-bottom: 2px solid #ff9900;padding-bottom: 4px;">Important Festivals</b></p>
+                        <h2 style="display:inline-block;font-size:16px;font-weight:700;line-height:32px;margin:0;border-bottom:2px solid #ff9900;padding-bottom:4px;">Important Festivals</h2>
                         <p>The temple celebrates a number of festivals with great devotion. The most significant of
                             these are:</p>
                         <p class="pl-20"><b> → &nbsp; Brahmotsavam:</b> The annual Brahmotsavam is the most important
