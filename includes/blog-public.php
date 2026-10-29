@@ -1,5 +1,6 @@
 <?php
 declare(strict_types=1);
+require_once __DIR__ . '/blog-content.php';
 
 require_once __DIR__ . '/blog-config.php';
 
@@ -13,6 +14,11 @@ function public_blog_url(string $path): string
     return '/' . ltrim($path, '/');
 }
 
+function public_blog_article_path(string $slug): string
+{
+    return rawurlencode($slug);
+}
+
 function public_blog_image(?string $path): ?string
 {
     $path = trim((string) $path);
@@ -23,6 +29,34 @@ function public_blog_image(?string $path): ?string
         return $path;
     }
     return public_blog_url($path);
+}
+
+/**
+ * Return intrinsic dimensions for a local blog image when available.
+ * External image URLs are left alone because fetching them during page
+ * rendering would add latency and cannot be relied on for layout metadata.
+ */
+function public_blog_image_dimensions(?string $path): array
+{
+    $path = trim((string) $path);
+    if ($path === '' || preg_match('#^https?://#i', $path)) {
+        return [];
+    }
+
+    $relativePath = parse_url($path, PHP_URL_PATH);
+    $relativePath = ltrim((string) ($relativePath ?: $path), '/');
+    $projectRoot = realpath(__DIR__ . '/..');
+    $filePath = realpath(__DIR__ . '/../' . $relativePath);
+    if ($projectRoot === false || $filePath === false ||
+        strpos($filePath, $projectRoot . DIRECTORY_SEPARATOR) !== 0 || !is_file($filePath)) {
+        return [];
+    }
+
+    $size = @getimagesize($filePath);
+    if (!$size || empty($size[0]) || empty($size[1])) {
+        return [];
+    }
+    return ['width' => (int) $size[0], 'height' => (int) $size[1]];
 }
 
 function public_blog_absolute_url(string $path): string
@@ -50,7 +84,17 @@ function public_blog_redirect(string $slug): ?string
         $query = blog_db()->prepare('SELECT to_path FROM redirects WHERE from_path IN (?, ?) LIMIT 1');
         $query->execute(['blog/' . $slug . '/', '/blog/' . $slug . '/']);
         $redirect = $query->fetchColumn();
-        return $redirect ? (string) $redirect : null;
+        if (!$redirect) {
+            return null;
+        }
+        $redirect = '/' . ltrim((string) $redirect, '/');
+        // Redirects created before the root-article migration may still point
+        // to /blog/{slug}/. Preserve the redirect record but send visitors to
+        // the current canonical root article URL.
+        if (preg_match('#^/blog/([a-z0-9-]+)/?$#i', $redirect, $matches)) {
+            return public_blog_url(public_blog_article_path($matches[1]));
+        }
+        return $redirect;
     } catch (Throwable $exception) {
         // Older local databases may not have the optional redirects table yet.
         return null;
@@ -79,12 +123,13 @@ function public_blog_date(?string $date): string
 function public_blog_card(array $post): void
 {
     $image = public_blog_image($post['featured_image'] ?? null);
-    $postUrl = public_blog_url('blog/' . rawurlencode((string) $post['slug']) . '/');
+    $imageDimensions = public_blog_image_dimensions($post['featured_image'] ?? null);
+    $postUrl = public_blog_url(public_blog_article_path((string) $post['slug']));
     ?>
     <article class="dbt-blog-card">
         <?php if ($image): ?>
             <a class="dbt-blog-card__image" href="<?= public_blog_escape($postUrl) ?>">
-                <img src="<?= public_blog_escape($image) ?>" alt="<?= public_blog_escape($post['featured_image_alt'] ?: $post['title']) ?>" loading="lazy">
+                <img src="<?= public_blog_escape($image) ?>" alt="<?= public_blog_escape($post['featured_image_alt'] ?: $post['title']) ?>" loading="lazy"<?php if ($imageDimensions): ?> width="<?= $imageDimensions['width'] ?>" height="<?= $imageDimensions['height'] ?>"<?php endif; ?>>
             </a>
         <?php else: ?>
             <a class="dbt-blog-card__image dbt-blog-card__image--fallback" href="<?= public_blog_escape($postUrl) ?>" aria-label="Read <?= public_blog_escape($post['title']) ?>">
@@ -115,9 +160,12 @@ function public_blog_layout_start(string $title, string $description, string $ca
     $pageRobots = str_replace(',', ', ', public_blog_robots($robots));
     $pageOgTitle = $ogTitle ?: $pageTitle;
     $pageOgDescription = $ogDescription ?: $pageDescription;
-    $includeDefaultSchema = false;
+    // Emit the single canonical TravelAgency entity from the shared header.
+    // Article and breadcrumb schemas reference it by @id, so this does not
+    // create a second business entity on blog pages.
+    $includeDefaultSchema = true;
     $loadLegacyWidgets = false;
-    $extraHeadLinks = "<base href=\"/\">\n<link rel=\"stylesheet\" href=\"/assets/css/blog.css\">";
+    $extraHeadLinks = "<base href=\"/\">\n<link rel=\"stylesheet\" href=\"/assets/css/blog.css\">\n<link rel=\"stylesheet\" href=\"/assets/css/blog-content.css\">";
     foreach ($schemas as $schema) {
         $extraHeadLinks .= public_blog_schema_script($schema);
     }

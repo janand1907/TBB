@@ -21,12 +21,20 @@ RewriteCond %{HTTP_HOST} !^www\.divinebalajitravels\.com$ [NC]
 RewriteRule ^(.*)$ https://www.divinebalajitravels.com/$1 [L,R=301]
 
 Redirect 301 /tirupati-300-darshan-package-from-chennai.php /srivani-vip-break-darshan-from-chennai.php
+Redirect 301 /blog/tirupati-travel-guide-for-nri-and-overseas-devotees /tirupati-travel-guide-nri-overseas-devotees
 
-# Public blog routes. The single-slug route is resolved in blog.php as either
-# a published post or an active category, keeping both URLs SEO-friendly.
-RewriteRule ^blog-sitemap\.xml$ blog-sitemap.php [L]
+# Public blog routes. Categories keep their /blog/{category}/ URLs. Legacy
+# article URLs are resolved by PHP so only real posts redirect to their new
+# root-level canonical URLs; category archives continue to work normally.
+# Category-wise XML sitemaps. sitemap.xml is the canonical sitemap index;
+# child URLs are internal rewrites, so crawlers always see their public XML URL.
+RewriteRule ^sitemap\.xml$ sitemap.php?sitemap=index [L,QSA]
+RewriteRule ^pages-sitemap\.xml$ sitemap.php?sitemap=pages [L,QSA]
+RewriteRule ^packages-sitemap\.xml$ sitemap.php?sitemap=packages [L,QSA]
+RewriteRule ^blog-sitemap\.xml$ sitemap.php?sitemap=blog [L,QSA]
+RewriteRule ^categories-sitemap\.xml$ sitemap.php?sitemap=categories [L,QSA]
 RewriteRule ^blog/?$ blog.php [L,QSA]
-RewriteRule ^blog/([^/]+)/?$ blog.php?slug=$1 [L,QSA]
+RewriteRule ^blog/([A-Za-z0-9][A-Za-z0-9-]*)/?$ blog.php?slug=$1&legacy_blog_article=1 [L,QSA,NC]
 
 # Public package landing pages: explicit extensionless routes only.
 RewriteRule ^tirupati-vip-darshan-packages/?$ tirupati-vip-darshan-packages.php [L,QSA]
@@ -34,6 +42,16 @@ RewriteRule ^hyderabad-tirupati-flight-package-two-days/?$ hyderabad-tirupati-fl
 RewriteRule ^mumbai-tirupati-flight-package-two-days/?$ mumbai-tirupati-flight-package-two-days.php [L,QSA]
 RewriteRule ^bengaluru-tirupati-flight-package-two-days/?$ bengaluru-tirupati-flight-package-two-days.php [L,QSA]
 RewriteRule ^delhi-tirupati-flight-package-two-days/?$ delhi-tirupati-flight-package-two-days.php [L,QSA]
+
+# Root-level blog article fallback. It runs after explicit public routes and
+# refuses to claim real files, directories, or an existing public PHP/HTML
+# page. This keeps package, service, and static pages ahead of blog slugs.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.php !-f
+RewriteCond %{DOCUMENT_ROOT}/$1.html !-f
+RewriteCond %{DOCUMENT_ROOT}/$1.htm !-f
+RewriteRule ^([A-Za-z0-9][A-Za-z0-9-]*)/?$ blog.php?slug=$1&root_blog_article=1 [L,QSA,NC]
 
 # # Remove .html extension from URL
 # RewriteCond %{THE_REQUEST} \s/([^.]+)\.html [NC]
