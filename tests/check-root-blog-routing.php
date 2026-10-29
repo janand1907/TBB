@@ -1,6 +1,34 @@
 <?php
 declare(strict_types=1);
 
+$databasePath = tempnam(sys_get_temp_dir(), 'dbt-root-blog-');
+if ($databasePath === false) {
+    throw new RuntimeException('Could not create the isolated blog-routing database.');
+}
+register_shutdown_function(static function () use ($databasePath): void {
+    if (is_file($databasePath)) {
+        unlink($databasePath);
+    }
+});
+
+$db = new PDO('sqlite:' . $databasePath, null, null, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+$schema = file_get_contents(__DIR__ . '/../database/local-schema.sql');
+if ($schema === false) {
+    throw new RuntimeException('The local blog schema could not be read.');
+}
+$db->exec($schema);
+$db->exec("INSERT INTO users(name,email,password_hash,role) VALUES('Routing Test','routing@example.test','unused','administrator')");
+$db->exec("INSERT INTO categories(name,slug,status) VALUES('Active','active','active'),('Inactive','inactive','inactive')");
+$db->exec("INSERT INTO posts(author_id,category_id,title,slug,content,status,robots,published_at) VALUES
+    (1,1,'Published test','final-local-review-post','<p>Test</p>','published','index,follow',CURRENT_TIMESTAMP),
+    (1,1,'Draft test','local-draft-seo-test','<p>Test</p>','draft','index,follow',CURRENT_TIMESTAMP),
+    (1,1,'Archived test','local-archived-seo-test','<p>Test</p>','archived','index,follow',CURRENT_TIMESTAMP),
+    (1,2,'Inactive test','inactive-published-seo-test','<p>Test</p>','published','index,follow',CURRENT_TIMESTAMP)");
+$db->exec("INSERT INTO redirects(from_path,to_path,status_code) VALUES('blog/old-local-guide/','/blog/local-tirupati-guide/',301)");
+$db = null;
+putenv('BLOG_DB_DRIVER=sqlite');
+putenv('BLOG_DB_NAME=' . $databasePath);
+
 require_once __DIR__ . '/../admin/admin-ui.php';
 require_once __DIR__ . '/../admin/blog-lib.php';
 require_once __DIR__ . '/../includes/blog-public.php';
