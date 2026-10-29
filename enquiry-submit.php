@@ -11,6 +11,10 @@ $jsonResponse = function (int $status, array $payload) {
 	exit;
 };
 
+if (!request_origin_is_trusted()) {
+	$jsonResponse(403, ['success' => false, 'message' => 'This enquiry request could not be verified. Please reopen the page and try again.']);
+}
+
 // Honeypot: the "website" field is hidden from real users via CSS on the
 // page (srivani-vip-break-darshan-from-chennai.php); only a bot filling
 // every field would populate it. con_enq.php has no equivalent field - see
@@ -26,6 +30,10 @@ $name = trim(post_string('name'));
 $mobile = trim(post_string('mobile'));
 
 $errors = [];
+
+if (($lengthError = validate_max_length($mobile, 30, 'WhatsApp number is too long.')) !== null) {
+	$errors['mobile'] = $lengthError;
+}
 
 if ($name === '') {
 	$errors['name'] = 'Full Name is required.';

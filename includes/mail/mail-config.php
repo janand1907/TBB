@@ -125,6 +125,94 @@ function validate_captcha(string $sessionAnswer, string $userAnswer): ?string
 }
 
 /**
+ * Rejects an explicitly cross-site browser request while preserving support
+ * for privacy tools and non-browser clients that omit Origin/Referer.
+ * This is a defence-in-depth CSRF check; it is intentionally not a token
+ * contract because the site has many cached public forms with no hidden token.
+ */
+function request_origin_is_trusted(): bool
+{
+    $origin = trim((string) ($_SERVER['HTTP_ORIGIN'] ?? ''));
+    $referer = trim((string) ($_SERVER['HTTP_REFERER'] ?? ''));
+
+    // Prefer Origin when a browser supplies it. A malformed explicit Origin
+    // must not be hidden by a valid-looking Referer fallback.
+    if ($origin !== '' && strtolower($origin) !== 'null') {
+        return request_origin_value_is_trusted($origin, false);
+    }
+
+    if ($referer !== '' && strtolower($referer) !== 'null') {
+        return request_origin_value_is_trusted($referer, true);
+    }
+
+    // Some privacy tools and non-browser clients omit both headers. Keeping
+    // these requests compatible is a documented limitation: this check is
+    // defence-in-depth, not a replacement for a synchroniser CSRF token.
+    return true;
+}
+
+/**
+ * Compares the scheme, host and port as an exact origin. Referers may include
+ * a path/query, while an Origin header must contain only an origin.
+ */
+function request_origin_value_is_trusted(string $value, bool $allowRefererPath): bool
+{
+    $parts = parse_url($value);
+    if (!is_array($parts) || empty($parts['scheme']) || empty($parts['host'])) {
+        return false;
+    }
+
+    // parse_url() accepts an empty explicit port (for example, "host:") as
+    // if the colon were absent. Treat that malformed authority as untrusted.
+    if (preg_match('~^[a-z][a-z0-9+.-]*://[^/?#]*:(?:/|\?|#|$)~i', $value) === 1) {
+        return false;
+    }
+
+    if (isset($parts['user']) || isset($parts['pass']) || isset($parts['fragment'])) {
+        return false;
+    }
+    if (!$allowRefererPath && (($parts['path'] ?? '') !== '' && ($parts['path'] ?? '') !== '/')) {
+        return false;
+    }
+    if (!$allowRefererPath && isset($parts['query'])) {
+        return false;
+    }
+
+    $scheme = strtolower((string) $parts['scheme']);
+    $host = strtolower((string) $parts['host']);
+    $host = trim($host, '[]');
+    $port = $parts['port'] ?? null;
+
+    if (!in_array($scheme, ['http', 'https'], true) || $host === '') {
+        return false;
+    }
+    if ($port !== null && (!is_int($port) || $port < 1 || $port > 65535)) {
+        return false;
+    }
+
+    $localHost = in_array($host, ['localhost', '127.0.0.1', '::1'], true);
+    if ($localHost) {
+        // Local development may use either protocol and an arbitrary port.
+        return true;
+    }
+
+    // Production forms are served on HTTPS. Port 443 is equivalent to the
+    // default HTTPS origin; other ports and HTTP are rejected.
+    return in_array($host, ['divinebalajitravels.com', 'www.divinebalajitravels.com'], true)
+        && $scheme === 'https'
+        && ($port === null || $port === 443);
+}
+
+/**
+ * Applies a conservative maximum length without changing the accepted
+ * content format of existing enquiry fields.
+ */
+function validate_max_length(string $value, int $max, string $message): ?string
+{
+    return strlen($value) > $max ? $message : null;
+}
+
+/**
  * Builds the shared HTML email body: a simple label/value table.
  * $rows is an ordered [label => value] array; values are inserted as-is,
  * so callers must pass already-escaped (and where needed, nl2br'd) HTML.

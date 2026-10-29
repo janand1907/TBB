@@ -6,8 +6,8 @@
 
   var LeadPopupConfig = {
     mobileBreakpoint: 768,
-    desktopDelay: 30000,
-    mobileDelay: 15000,
+    desktopDelay: 60000,
+    mobileDelay: 30000,
     animationDuration: 250,
     // Edit this single string to change the prefilled WhatsApp message.
     whatsappWelcomeMessage:
@@ -47,6 +47,8 @@
 
   var reopenTimer = null;
   var lastFocusedEl = null;
+  var consentOpen = false;
+  var popupPending = false;
 
   function isMobile() {
     return window.innerWidth < LeadPopupConfig.mobileBreakpoint;
@@ -102,7 +104,12 @@
   }
 
   function openPopup() {
+    if (consentOpen) {
+      popupPending = true;
+      return;
+    }
     clearReopenTimer();
+    popupPending = false;
     lastFocusedEl = document.activeElement;
 
     backdrop.hidden = false;
@@ -169,5 +176,25 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     openPopup();
+  });
+
+  document.addEventListener("dbt:consent-open", function () {
+    consentOpen = true;
+    popupPending = true;
+    clearReopenTimer();
+    if (popup.classList.contains("is-open")) {
+      popup.classList.remove("is-open");
+      backdrop.classList.remove("is-open");
+      popup.hidden = true;
+      backdrop.hidden = true;
+      document.removeEventListener("keydown", onKeydown);
+    }
+  });
+
+  document.addEventListener("dbt:consent-closed", function () {
+    consentOpen = false;
+    if (popupPending) {
+      scheduleReopen();
+    }
   });
 })();

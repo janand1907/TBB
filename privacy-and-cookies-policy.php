@@ -298,13 +298,13 @@ include './includes/header.php';
                 <div class="col-md-12">
                     <div class="x_offer_car_heading_wrapper float_left">
 
-                        <h3>Privacy & Cookies Policy</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Privacy &amp; Cookies Policy</h2>
                         <br />
                         <p>Privacy and Cookie Policies for tour operators, including government and private entities,
                             are designed to inform you how your personal information is collected, used, and protected.
                             While each company has its own specific policy, there are common themes that you will find
                             across most of them.</p>
-                        <h3>Privacy Policy</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Privacy Policy</h2>
                         <p>A privacy policy explains how a company handles the personal data it collects from you. Here
                             are the key aspects you should look for:</p>
 
@@ -352,7 +352,7 @@ include './includes/header.php';
                             unauthorized access, loss, or misuse. This often includes using SSL encryption for online
                             transactions, firewalls, and other security protocols.</p>
 
-                        <h3>Cookie Policy</h3>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Cookie Policy</h2>
                         <p>A cookie policy explains how a website uses cookies and similar tracking technologies.
                             Cookies are small text files placed on your device to enhance your browsing experience.</p>
                         <p><b>What are Cookies?:</b> The policy will explain that cookies are small data files that
@@ -387,6 +387,32 @@ include './includes/header.php';
                             especially
                             on the websites of private tour operators, as their policies can differ significantly from
                             government entities.</p>
+                        <h2 style="font-size:30px;font-weight:800;line-height:33px;margin:0">Our cookie choices</h2>
+                        <p>Necessary cookies support core website functions, security and enquiry forms and cannot be
+                            switched off through the cookie settings control. Optional analytics cookies may be used by
+                            Google Analytics 4, Microsoft Clarity and Statcounter only after you allow the Analytics
+                            category. Optional advertising cookies and related storage may be used by Google Ads only
+                            after you allow the Advertising category. Functional consent controls the optional third-party
+                            Artibot chat service and is separate from Analytics and Advertising consent.</p>
+                        <p>The cookie settings control lets you accept all optional categories, reject optional
+                            categories, or save a customised choice. You can reopen Cookie Settings from the shared
+                            footer to change or withdraw your choice. We record the selected categories, the consent
+                            time and the policy version in first-party browser storage; we do not place enquiry details
+                            or other personal information in this consent record. If an optional category is withdrawn
+                            after its provider has loaded, the page reloads so that the denied category is not initialised
+                            on the next page. Provider cookies already stored in the browser may require removal through
+                            the browser's own controls or the provider's privacy tools; necessary PHP session cookies
+                            are not removed.</p>
+                        <p>Google tags use Google Consent Mode signals to respect the choices you make. Microsoft Clarity,
+                            Statcounter and Google Analytics 4 are not loaded until Analytics consent is granted. Google
+                            Ads measurement is not loaded until Advertising consent is granted. Opening Chat With Us
+                            connects to Artibot only after Functional consent or an explicit chat permission. Information
+                            entered into the chat is sent to the third-party service and may be processed under its own
+                            privacy policy. Third-party providers may process data according to their own policies. Please
+                            review their current privacy information before granting optional consent.</p>
+                        <p><b>Legal review required:</b> The categories, provider descriptions, retention details and
+                            regional legal basis should be reviewed by the website operator or qualified privacy counsel
+                            before production deployment.</p>
                         <p>→ &nbsp;<b>Understand Data Sharing:</b> Be aware of who your information will be shared with,
                             as this is a
                             necessary part of the tour booking process.</p>

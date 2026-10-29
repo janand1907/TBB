@@ -52,6 +52,8 @@
                         <li><a href="/privacy-and-cookies-policy.php"><i class="fa fa-long-arrow-right"></i> &nbsp;
                                 Privacy & Cookies Policy</a>
                         </li>
+                        <li><button type="button" class="dbt-cookie-settings-link" id="dbt-cookie-settings">Cookie Settings</button></li>
+                        <li><button type="button" class="dbt-cookie-settings-link" id="dbt-artibot-launch">Chat With Us</button></li>
                     </ul>
                 </div>
             </div>
@@ -59,7 +61,7 @@
                 <div class="x_footer_bottom_box_wrapper_second float_left">
                     <h3>Customer Support</h3>
                     <ul>
-                        <li><a href="tirupati-tour-faq.php"><i class="fa fa-long-arrow-right"></i> &nbsp; FAQ</a>
+                        <li><a href="/tirupati-tour-faq.php"><i class="fa fa-long-arrow-right"></i> &nbsp; FAQ</a>
                         </li>
                         <li><a href="/refund-policy.php"><i class="fa fa-long-arrow-right"></i> &nbsp; Payment
                                 Option</a>
@@ -274,27 +276,30 @@ whatsapp</a>
         }(window, document);
     }
     if (document.readyState === "complete") {
-        __loadArtibot();
+        if (window.DBTConsent) window.DBTConsent.register('functional', __loadArtibot);
     } else {
         window.addEventListener("load", function () {
-            if ("requestIdleCallback" in window) {
-                requestIdleCallback(__loadArtibot, { timeout: 3000 });
-            } else {
-                __loadArtibot();
-            }
+            if (window.DBTConsent) window.DBTConsent.register('functional', function () {
+                if ("requestIdleCallback" in window) {
+                    requestIdleCallback(__loadArtibot, { timeout: 3000 });
+                } else {
+                    __loadArtibot();
+                }
+            });
         });
     }
 </script>
-<!-- Google Ads phone-conversion label (AW-437360014): the gtag.js library
-     itself + base 'AW-437360014' config are already loaded once in
-     includes/header.php - this just registers the extra conversion label. -->
+<!-- Google Ads phone-conversion label is registered only after Advertising
+     consent. The consent controller preserves the existing label and number. -->
 <script>
-    gtag('config', 'AW-437360014/yCZWCJDr1_QBEI6rxtAB', {
-        'phone_conversion_number': '+91 9994751079'
-    });
+    if (window.DBTConsent) {
+        window.DBTConsent.register('advertising', function () {
+            window.DBTConsent.registerAdsPhoneConversion();
+        });
+    }
 </script>
 
-<!-- Default Statcounter code for Tirupati Balaji Booking
+<!-- Default Statcounter code for Divine Balaji Travels
 http://www.divinebalajitravels.com -->
 <script type="text/javascript">
     var sc_project = 13063434;
@@ -303,29 +308,32 @@ http://www.divinebalajitravels.com -->
     // Visit-counter beacon isn't needed for the page to be usable at load
     // time, so it's deferred the same way as the chat widget above.
     function __loadStatcounter() {
+        if (window.__dbtStatcounterLoaded) return;
+        window.__dbtStatcounterLoaded = true;
         var sc = document.createElement("script");
         sc.type = "text/javascript";
         sc.src = "https://www.statcounter.com/counter/counter.js";
         sc.async = true;
         document.head.appendChild(sc);
     }
-    if (document.readyState === "complete") {
-        __loadStatcounter();
-    } else {
-        window.addEventListener("load", function () {
-            if ("requestIdleCallback" in window) {
-                requestIdleCallback(__loadStatcounter, { timeout: 3000 });
-            } else {
+    if (window.DBTConsent) {
+        window.DBTConsent.register('analytics', function () {
+            if (document.readyState === "complete") {
                 __loadStatcounter();
+            } else {
+                window.addEventListener("load", function () {
+                    if ("requestIdleCallback" in window) {
+                        requestIdleCallback(__loadStatcounter, { timeout: 3000 });
+                    } else {
+                        __loadStatcounter();
+                    }
+                }, { once: true });
             }
         });
     }
 </script>
-<noscript>
-    <div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img
-                class="statcounter" src="https://c.statcounter.com/13063434/0/6753fe53/1/" alt="Web Analytics"
-                referrerPolicy="no-referrer-when-downgrade"></a></div>
-</noscript>
+<!-- Statcounter has no noscript fallback so it cannot collect analytics before
+     an explicit Analytics consent choice. -->
 <!-- End of Statcounter Code -->
 </body>
 

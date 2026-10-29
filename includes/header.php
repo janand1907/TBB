@@ -33,7 +33,7 @@ $captcha_question = "Captcha: {$first_num} {$operator} {$second_num} = ?";
 //                                 bxSlider, magnific-popup, nice-select - skips their
 //                                 CSS/JS entirely (currently the modern hero-form pages
 //                                 that don't have the legacy widget's datepicker field).
-$pageTitle = $pageTitle ?? 'Tirupati Balaji Travels | Tirupati Darshan Package';
+$pageTitle = $pageTitle ?? 'Divine Balaji Travels | Tirupati Darshan Package';
 $pageDescription = $pageDescription ?? 'Divine Balaji Travels offers Tirupati tour packages from Chennai and Hyderabad with private car travel, hotel stay and complete trip assistance.';
 $pageCanonical = $pageCanonical ?? ('https://www.divinebalajitravels.com/' . basename($_SERVER['PHP_SELF']));
 $pageOgImage = $pageOgImage ?? 'https://www.divinebalajitravels.com/assets/images/logo/logo_main.png';
@@ -45,9 +45,42 @@ $extraHeadLinks = $extraHeadLinks ?? '';
 $includeDefaultSchema = $includeDefaultSchema ?? true;
 $showLeadPopup = $showLeadPopup ?? true;
 $loadLegacyWidgets = $loadLegacyWidgets ?? true;
+$legacySliderPages = [
+    'best-tirupati-tour-operators.php',
+    'contact-us.php',
+    'famous-temples-near-by-tirupati.php',
+    'iskon-temple.php',
+    'kalyana-venkateswara-temple-srinivasa-mangapuram.php',
+    'nri-tirupati-darshan-booking.php',
+    'pallikondeswara-swamy-temple-surutapalli.php',
+    'privacy-and-cookies-policy.php',
+    'refund-policy.php',
+    'sri-govindaraja-swamy-temple.php',
+    'sri-kalyana-venkateshwara-swamy-temple-narayanavanam-temple.php',
+    'sri-kapileswara-swamy-temple.php',
+    'sri-padmavathi-amman-temple.php',
+    'sri-prasanna-venkateswara-temple.php',
+    'sri-varasiddhi-vinayaka-temple-kanipakam.php',
+    'sri-vedanarayana-temple-nagalapuram.php',
+    'tirumala-darshan-timings.php',
+    'tirupati-balaji-vip-darshan-tour-packages-from-chennai.php',
+    'tirupati-hotel-accommodation-services-booking-online.php',
+    'tirupati-senior-citizens-booking.php',
+    'tirupati-seva-darshan-tickets-booking-online.php',
+    'tirupati-special-darshan-tickets-online.php',
+    'tirupati-tour-faq.php',
+    'tirupati-tour-packages-from-tirupati.php',
+    'vakula-matha-temple.php',
+];
+$preloadLegacySliderHero = $loadLegacyWidgets
+    && in_array(basename((string) ($_SERVER['PHP_SELF'] ?? '')), $legacySliderPages, true);
 $ga4MeasurementId = trim((string) getenv('DBT_GA4_MEASUREMENT_ID'));
-$ga4MeasurementId = preg_match('/^G-[A-Z0-9]+$/', $ga4MeasurementId) ? $ga4MeasurementId : '';
-$gtagLoaderId = $ga4MeasurementId !== '' ? $ga4MeasurementId : 'AW-437360014';
+// Hostinger's PHP Options interface does not expose a custom environment
+// variable field. Keep the public property ID configurable when available,
+// while retaining a safe application fallback for production.
+$ga4MeasurementId = preg_match('/^G-[A-Z0-9]+$/', $ga4MeasurementId)
+    ? $ga4MeasurementId
+    : 'G-GPV56JDC2K';
 ?>
 <!DOCTYPE html>
 
@@ -87,6 +120,12 @@ $gtagLoaderId = $ga4MeasurementId !== '' ? $ga4MeasurementId : 'AW-437360014';
     <link rel="preconnect" href="https://googleads.g.doubleclick.net" crossorigin>
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
     <link rel="dns-prefetch" href="https://stats.g.doubleclick.net">
+    <?php if ($preloadLegacySliderHero): ?>
+    <!-- The active legacy hero uses this CSS background image. Preloading it
+         avoids waiting for style.css discovery on pages where it is the first
+         large visual resource. -->
+    <link rel="preload" as="image" href="/assets/images/slider1.webp" fetchpriority="high">
+    <?php endif; ?>
     <title><?= htmlspecialchars($pageTitle, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?= htmlspecialchars($pageDescription, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>" />
@@ -160,55 +199,32 @@ $gtagLoaderId = $ga4MeasurementId !== '' ? $ga4MeasurementId : 'AW-437360014';
     <link rel="apple-touch-icon" href="assets/images/favicon-180.png" />
 
 
-    <!-- Google Ads tag. Universal Analytics was retired and is deliberately not
-         configured here. GA4 activates only when the host provides a valid
-         DBT_GA4_MEASUREMENT_ID; the Google Ads tag remains loaded either way. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=<?= htmlspecialchars($gtagLoaderId, ENT_QUOTES, 'UTF-8') ?>"></script>
+    <!-- Google Consent Mode V2 and tracking activation are managed by the
+         shared cookie-consent controller. Optional Google tags are not loaded
+         until the visitor grants Analytics or Advertising consent. -->
+    <link rel="stylesheet" href="/assets/css/cookie-consent.css">
     <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-437360014');
-        <?php if ($ga4MeasurementId !== ''): ?>
-        gtag('config', '<?= htmlspecialchars($ga4MeasurementId, ENT_QUOTES, 'UTF-8') ?>');
-        <?php endif; ?>
+        window.DBT_GA4_MEASUREMENT_ID = <?= json_encode($ga4MeasurementId, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?>;
+        window.DBT_ADS_ID = 'AW-437360014';
     </script>
+    <?php $cookieConsentJsVersion = @hash_file('sha256', __DIR__ . '/../assets/js/cookie-consent.js') ?: '2026-02'; ?>
+    <script src="/assets/js/cookie-consent.js?v=<?= htmlspecialchars($cookieConsentJsVersion, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>"></script>
 
     <?php if ($includeDefaultSchema): ?>
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "TravelAgency",
-            "name": "Tirupati Balaji Travels",
-            "image": "https://divinebalajitravels.com/assets/images/logo/logo_main.png",
-            "@id": "https://divinebalajitravels.com",
-            "url": "https://divinebalajitravels.com/",
+            "name": "Divine Balaji Travels",
+            "image": "https://www.divinebalajitravels.com/assets/images/logo/logo_main.png",
+            "@id": "https://www.divinebalajitravels.com/#travelagency",
+            "url": "https://www.divinebalajitravels.com/",
             "telephone": "+919994751079",
-            "priceRange": "5000",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "",
                 "addressLocality": "Chennai",
                 "postalCode": "600042",
                 "addressCountry": "IN"
-            },
-            "openingHoursSpecification": {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                ],
-                "opens": "00:00",
-                "closes": "23:59"
             }
         }
     </script>
@@ -283,7 +299,7 @@ $gtagLoaderId = $ga4MeasurementId !== '' ? $ga4MeasurementId : 'AW-437360014';
                         <a href="./">
                             <picture>
                                 <source srcset="assets/images/logo/logo_main.webp" type="image/webp">
-                                <img src="assets/images/logo/logo_main.png" class="img-responsive" alt="Tirupati Balaji Booking Logo" title="Tirupati Balaji Booking" width="2137" height="384" decoding="async" />
+                                <img src="assets/images/logo/logo_main.png" class="img-responsive" alt="Divine Balaji Travels" title="Divine Balaji Travels" width="2137" height="384" decoding="async" />
                             </picture>
                         </a>
                     </div>
@@ -360,7 +376,7 @@ $gtagLoaderId = $ga4MeasurementId !== '' ? $ga4MeasurementId : 'AW-437360014';
                                         <a href="./">
                                             <picture>
                                                 <source srcset="assets/images/logo/logo_main.webp" type="image/webp">
-                                                <img src="assets/images/logo/logo_main.png" alt="Tirupati Balaji Booking Logo" title="Tirupati Balaji Booking" width="2137" height="384" decoding="async">
+                                                <img src="assets/images/logo/logo_main.png" alt="Divine Balaji Travels" title="Divine Balaji Travels" width="2137" height="384" decoding="async">
                                             </picture>
                                         </a>
                                     </div>

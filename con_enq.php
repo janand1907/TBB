@@ -48,6 +48,28 @@ $respond = function (int $status, array $payload) use ($isAjaxRequest) {
 
 $errors = [];
 
+if (!request_origin_is_trusted()) {
+	$respond(403, ['success' => false, 'message' => 'This enquiry request could not be verified. Please reopen the page and try again.']);
+}
+
+$lengthRules = [
+	'name' => [120, 'Full Name is too long.'],
+	'mobile' => [30, 'WhatsApp number is too long.'],
+	'email' => [254, 'Email address is too long.'],
+	'date' => [64, 'Travel date is too long.'],
+	'peoples' => [128, 'Travellers value is too long.'],
+	'message' => [5000, 'Message is too long.'],
+	'form_source' => [50, 'Form source is invalid.'],
+	'departure_city' => [128, 'Departure city is too long.'],
+	'travel_mode' => [64, 'Travel mode is too long.'],
+];
+foreach ($lengthRules as $field => [$maxLength, $errorMessage]) {
+	$value = trim(post_string($field));
+	if (($lengthError = validate_max_length($value, $maxLength, $errorMessage)) !== null) {
+		$errors[$field] = $lengthError;
+	}
+}
+
 if ($name === '') {
 	$errors['name'] = 'Full Name is required.';
 }
@@ -94,7 +116,7 @@ $emailHtml = build_enquiry_email_html('Document', [
 	'Message' => nl2br(escape_html($messageText)),
 ]);
 
-if (!send_enquiry_mail('New Enquiry from TTD Travels', $emailHtml, $email)) {
+if (!send_enquiry_mail('New Enquiry from Divine Balaji Travels', $emailHtml, $email)) {
 	$respond(500, ['success' => false, 'message' => 'Sorry, we could not send your enquiry right now. Please try again in a few minutes.']);
 }
 

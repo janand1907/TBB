@@ -47,10 +47,11 @@ The official number is duplicated as a literal string in ~15+ places rather than
 
 ## 5. Google Analytics
 
-- Universal Analytics is no longer loaded. The shared Google tag continues to load Google Ads.
-- **GA4 manual configuration required:** set `DBT_GA4_MEASUREMENT_ID` in the production PHP environment to the owner-provided value that matches `G-` followed by uppercase letters/numbers. `includes/header.php` validates that format before outputting a GA4 `gtag('config', ...)` call.
-- No GA4 Measurement ID was present in this repository at the time of the approved fix. Do not invent one or place an unverified value in source control.
-- After configuring it, verify one page view in GA4 DebugView and confirm Google Ads conversion tracking remains active.
+- Universal Analytics is no longer loaded. The shared Google tag continues to load Google Ads after the relevant consent choice.
+- `includes/header.php` first reads `DBT_GA4_MEASUREMENT_ID` from the PHP environment and accepts only values matching `G-` followed by uppercase letters/numbers.
+- Because Hostinger's PHP Options interface does not expose a custom environment-variable field, the public property ID fallback is `G-GPV56JDC2K` when that environment value is absent or invalid. A valid environment value always takes precedence.
+- The measurement ID is a public identifier, not a credential. Do not place secrets in this configuration or commit private account data.
+- After deployment, verify one consented page view in GA4 DebugView and confirm Google Ads conversion tracking remains active.
 
 ## 6. Microsoft Clarity
 
